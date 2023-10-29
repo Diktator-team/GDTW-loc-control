@@ -136,6 +136,66 @@ game_concept_the_rift_desc:0 "The Rift is a massive tear in [aeras|E] and what s
 
 ##MAGIC
 
+
+game_concept_aspect:0 "Aspect"
+game_concept_aspects:0 "Aspects"
+game_concept_aspect_desc:0 "The elemental building blocks of [aeras|E], and indeed the cosmos itself. All magic comes about through the manipulation of various aspects, pulling the bas"
+
+game_concept_aspect_fire:0 "$fire_coloring$ $fire_name$#!"
+game_concept_aspect_fire_desc:0 "$fire_coloring$ $fire_name$#! is one of the eight foundational [aspects|E], representing life, self-volition, disorder and flame, it brings light which casts shadow. Holding both danger and opportunity in equal measure, its spells are common practice for both war-[magi|E] and those whose arcane practices are directed towards more peaceful aims. Its martial potential has resulted in it becoming heavily associated with kingship and authority in many cultures on [aeras|E]. Its child, when mixed with its sibling [aspect_water], is [aspect_blood]."
+
+game_concept_aspect_water:0 "$water_coloring$ $water_name$#!"
+game_concept_aspect_water_desc:0 "$water_coloring$ $water_name$#! is one of the eight foundational [aspects|E], representing movement, transition, change, and beginnings. It flows endlessly and without definitive form, never reaching nor seeking its conclusion. It is antithesis to the stasis of [aspect_ice]. Its child, when mixed with its sibling [aspect_fire], is [aspect_blood]."
+
+game_concept_aspect_light:0 "$light_coloring$ $light_name$#!"
+game_concept_aspect_light_desc:0 "$light_coloring$ $light_name$#! is one of the eight foundational [aspects|E] representing purity, perfection, divinity, order, and hierarchy. It is the light which casts no shadow. While some cultures have associated $light_coloring$ $light_name$#! with a moral order, in truth it holds no inherent morality. It is one of the two absolute aspects, and stands in direct opposition to [aspect_dark]."
+
+game_concept_aspect_air:0 "$air_coloring$ $air_name$#!"
+game_concept_aspect_air_desc:0 "$air_coloring$ $air_name$#! is one of the eight foundational [aspects|E], it is that medium of emptiness which permeates creation, and exists without form and irrespective of thought or human imagination. It stands in opposition to [aspect_dream] which represents form without existence, whereas $air_coloring$ $air_name$#! is existence without form."
+
+game_concept_aspect_stone:0 "$stone_coloring$ $stone_name$#!"
+game_concept_aspect_stone_desc:0 "$stone_coloring$ $stone_name$#! is one of the eight foundational [aspects|E], it represents consistency and durability, changing in ways governed by set rules. $stone_coloring$ $stone_name$#! cannot act without being acted upon first, and because of this it stands in opposition to the unbridled chaos and volition of [aspect_fire]."
+
+game_concept_aspect_ice:0 "$ice_coloring$ $ice_name$#!"
+game_concept_aspect_ice_desc:0 "$ice_coloring$ $ice_name$#! is one of the eight foundational [aspects|E], it represents unchanging stasis, never seeking or accepting change or alteration. $ice_coloring$ $ice_name$#! represents endings, and thus stands in opposition to ever-changing [aspect_water|E]."
+
+game_concept_aspect_dark:0 "$dark_coloring$ $dark_name$#!"
+game_concept_aspect_dark_desc:0 "$dark_coloring$ $dark_name$#!, also known as Void is one of the eight foundational [aspects|E], it represents nonexistence beyond creation, and lacks both beginning and end. While some cultures have come to associate this aspect with evil, in truth it holds no inherent morality, for morality itself requires some form of existence. It is one of the two absolute aspects, and stands in direct opposition to [aspect_light]."
+
+game_concept_aspect_dream:0 "$dream_coloring$ $dream_name$#!"
+game_concept_aspect_dreams:0 "$dream_coloring$ $dream_name$#!"
+game_concept_aspect_dream_desc:0 "$dream_coloring$ $dream_name$#! is one of the eight foundational [aspects|E], it represents form without existence, creation within nothingness, and thing which exist in spite of their own impossibility. All creatures on [aeras|E] interact with $dream_coloring$ $dream_name$#! in some way when they pass into slumber. It stands in opposition to [aspect_air], which represents existence without form."
+
+game_concept_aspect_celestial:0 "$celestial_coloring$ $celestial_name$#!"
+game_concept_aspect_celestial_desc:0 "Not one of the eight foundational [aspects|E] but in itself representative of each, the $celestial_coloring$ $celestial_name$#! aspect is in essence the totality of the cosmos. It represents both opposition and harmony, that which exists within the cosmos and that which resides outside of it, and the totality of creation itself."
+
+game_concept_aspect_blood:0 "$blood_coloring$ $blood_name$#!"
+game_concept_aspect_blood_desc:0 "Traditionally understood as the admixture of volatile [aspect_fire] and ever-flowing [aspect_water], [continental|E] philosophy holds that $blood_coloring$ $blood_name$#! is the imposition of the self-volition inherent in [aspect_fire] upon the eternal and ever-changing nature of [aspect_water], thus creating the energies necessary for animal and human life. It is associated both with the healing arts and the vile trade of the poisoner. More infamously, $blood_coloring$ $blood_name$#! magic can unspool the potential energy held within all living things, lending great and terrible power to the rituals of sacrifice commonly practiced by [magi|E]."
+
+game_concept_aspect_nature:0 "$nature_coloring$ $nature_name$#!"
+game_concept_aspect_nature_desc:0 "Vigorous, resilient — yet ephemeral at the same time. The power of [aspect_nature] is [aspect_stone] given purpose and the impetus to live by the inexorable force of [aspect_fire]. [aspect_nature] represents growth, the emergence of life from that which is lifeless."
+
+game_concept_aspect_death:0 "$death_coloring$ $death_name$#!"
+game_concept_aspect_death_desc:0 "All things must come to an end. When even the constant meandering flow of [aspect_water] is finally halted by the unyielding rigidity of [aspect_ice], [aspect_death] emerges at the moment of cessation. This aspect represents entropy — the slow degradation of the eternal into nothingness."
+
+game_concept_aspect_ethereal:0 "$ethereal_coloring$ $ethereal_name$#!"
+game_concept_aspect_ethereal_desc:0 "$ethereal_coloring$ $ethereal_name$#! is the refuge of things once real but long since consigned to the realm of [aspect_dream], turned into an everlasting memory by the preserving power of [aspect_ice]. It is the [aspect|E] of that which no longer is; of the afterlife, of ghosts both literal and figurative, and of their lingering effects upon the present. As the final dwelling place of countless souls accrued since the dawn of time, the [fog|E] is strongly associated with this aspect."
+
+game_concept_aspect_metal:0 "$metal_coloring$ $metal_name$#!"
+game_concept_aspect_metal_desc:0 "$metal_coloring$ $metal_name$#! is said to stem from the admixture of ever-evolving [aspect_water] and the stoic [aspect_stone]. To a layman these contradictions may seem a weakness, but in truth the aspect is more than the sum of its parts. $metal_coloring$ $metal_name$#! represents flexibility, ingenuity, and the secret arts of creation passed down from master to apprentice."
+
+game_concept_aspect_sand:0 "$sand_coloring$ $sand_name$#!"
+game_concept_aspect_sand_desc:0 "Ever-shifting and innumerous, [aspect_sand] is formed when the stalwart aspect of [aspect_stone] is forced through the destabilizing formlessness of [aspect_air]. The resulting aspect represents dispersion — the breaking down of matter into smaller forms. Yet disperal does not imply nothingness, merely the change into a looser form."
+
+game_concept_aspect_dawn:0 "$dawn_coloring$ $dawn_name$#!"
+game_concept_aspect_dawn_desc:0 ""
+
+game_concept_aspect_time:0 "$time_coloring$ $time_name$#!"
+game_concept_aspect_time_desc:0 ""
+
+game_concept_aspect_hymns:0 "$hymns_coloring$ $hymns_name$#!"
+game_concept_aspect_hymns_desc:0 ""
+
 #SCHOOLS
 
 game_concept_living_magic:0 "Living Magic"
@@ -192,6 +252,47 @@ game_concept_exposure_sickness_desc:0 "Exposure Sickness is a catchall term for 
 game_concept_overwhelmation:0 "Overwhelmation"
 game_concept_overwhelmation_desc:0 "Overwhelmation is the result of [magi|E] attempting to cast spells in excess of what their bodies are physically capable of. Normally the result of rookie Magi unsure of their own limits, or Magi in moments of life or death desperation, Overwhelmation normally results in painful death. Combustion, disintegration or explosion are the most common results, other times the spell they are attempting to cast may backfire upon them or those around them. A blast of fire may simply ignite the Magi, attempting to crush an enemy's blood may lead to an explosion of the arms, or attempting to heal a grievous wound to the melting of the Magi's nervous system.\n\n[aversarian|E] researchers in the [mayikprolollans|E] predicted that approximately up to a third or more of Magi not from a magically gifted family or of unknown birth will die of Overwhelmation after casting a spell by accident or in trying to discover their powers."
 
+game_concept_magic_baseline:0 "Magic Baseline"
+game_concept_magic_baseline_desc:0 "A character's Magic Baseline represents their inner arcane energies' natural equilibrium point. Their stored [magic|E] will passively regenerate towards it if currently understrength, while going above will cause increasing amounts of [exposure_sickness|E]."
+
+game_concept_extended_magic_baseline:0 "Extended Magic Baseline"
+game_concept_extended_magic_baseline_desc:0 "A character's Extended Magic Baseline represents the amount of excess arcane energy they can reliably reach without resorting to using active measures such as [magic|E]-generating #E Rituals#!. If uncapped, their magic generation will passively regenerate towards it, however the practitioner will still receive the normal [exposure_sickness|E] penalties of going above their natural [magic_baseline|E]."
+
+game_concept_magic_resistance:0 "Magic Resistance"
+game_concept_magic_resistance_desc:0 "[hostile_rituals|E], even when casted successfully, can be resisted by their target. Magic Resistance represents a character's ability to do so, and is modified by factors such as [arcana|E] and residing in certain geographic locations, such as those with [antimagic_terrain|E]."
+
+game_concept_mana:0 "Mana"
+game_concept_mana_desc:0 "Mana represents the amount of usable [magic|E] power within a character's body. It is the main fuel for casting performing #E Rituals#!."
+
+game_concept_cantrip:0 "Cantrip"
+game_concept_cantrips:0 "Cantrips"
+game_concept_cantrip_desc:0 "A cantrip refers to any kind of [magical|E] act that does not require elaborate preparation to cast and can therefore be performed on the fly. Unlike [rituals|E], which need to be actively casted and usually impart powerful but temporary effects, cantrips instead provide a permanent passive bonus (usually scaling with the character's [magic_baseline|E] and relevant [aspect|E] skill) as soon as they are learned, most often as part of a Lifestyle Perk."
+
+game_concept_ritual:0 "Ritual"
+game_concept_rituals:0 "Rituals"
+game_concept_ritual_desc:0 "A ritual is a [magical|E] act that requires significant planning and preparation. Unlike [cantrips|E], which can be casted on the fly and therefore provide passive bonuses as soon as they are learned, rituals need to be actively casted by a character for their (usually powerful but temporary) effects to occur. [mana|E] is used as their fuel, and [gold|E] is often also needed to provide for the necessary ingredients, equipment and hired help required for a proper casting. Furthermore, this process is not without risk, as rituals can fail and inflict completely unpredictable effects on the caster and those in the vicinity."
+
+game_concept_hostile_ritual:0 "Hostile Ritual"
+game_concept_hostile_ritual_desc:0 "Any [ritual|E] whose target is not consenting to its casting will consider it to be hostile; they will attempt to resist its effects using their [magic_resistance|E] and will gain a valid [imprisonment|E] reason against the initiator of the [ritual|E]."
+
+game_concept_mana_regeneration:0 "Mana Regeneration"
+game_concept_mana_regeneration_desc:0 "[mana|E] will normally gravitate towards the character's [magic_baseline|E] if understrength; this is a natural process and does not normally require any active effort. This will happen at a rate of #V 5%#! of the value of the [magic_baseline|E] every month."
+
+game_concept_magic_exposure:0 "Magic Exposure"
+game_concept_magic_exposure_desc:0 "Exposure represents the amount of arcane energies a character's body is exposed to; usually from [mana|E] or as a residue of a recent casting. When it exceeds the [magic_baseline|E], it will begin to cause increasingly deleterious effects on the character's physical and mental well-being with each new [exposure_level|E]."
+
+game_concept_exposure_level:0 "Exposure Level"
+game_concept_exposure_level_desc:0 "The negative effects of [magic_exposure|E] grow in discreete intervals known as exposure levels. The first exposure level begins immediately after the [magic_baseline|E] is exceeded, with the next starting at twice the value of the baseline, the one after that at three times the value of the baseline, and so on."
+
+game_concept_court_magi:0 "Court Magi"
+game_concept_court_magi_desc:0 "The $game_concept_court_magi$ is the [councillor|E] in charge of the [magical|E] affairs of a realm, such as casting [rituals|E] for their [liege|E] and protecting them from threats of an arcane nature."
+
+game_concept_ambient_magic:0 "Ambient Magic"
+game_concept_ambient_magic_desc:0 "Ambient [magic|E] represents the amount of arcane energies flowing through an area, either due to natural factors such as [waylines|E] or artificial ones such as fallout from rituals. High levels of ambient magic are highly harmful to mundane life."
+
+game_concept_aftoenischi_effect:0 "Aftoenischi Effect"
+game_concept_aftoenischi_effect_desc:0 "The Aristonicus Effect is a principle in [arcana|E] wherein the natural decay of [ambient_magic|E], once it passes a certain threshold, rapidly slows down and ultimately becomes completely negligible. In effect, this means that levels of ambient magic that would've normally taken a few decades to wear off instead take centuries or even milennia.\n\nIn gameplay terms, the Aftoenischi Effect will begin to slow down natural arcane fallout decay after it surpasses [GuiScope.ScriptValue('aftoenischi_effect_threshold_value')|V0] at a quadratic rate."
+
 game_concept_bloodblight:0 "Bloodblight"
 game_concept_the_bloodblight:0 "The Bloodblight"
 game_concept_bloodblight_desc:0 "The Bloodblight was a disease that rocked most of [the_continent|E] and [sarradon|E] during a period known as the [chaos_of_the_seventh_century|E], though the disease has had smaller outbreaks since. The disease is generally agreed to be magical in nature, though its origins are unknown. Victims normally show traits similar to [exposure_sickness|E], most likely due to the disease itself rapidly increasing the levels of magic within the victim. Victims normally show glowing, pulsing red veins, bleed from the nose, eyes and ears, and will normally expire from blood loss after rapid skin loss. If they survive this, then they normally die from the lining of the lungs collapsing, and their chests filling with blood. Bloodblight spreads most rapidly to Magi, though mundane humans are still prone to it.\n\nThe effects of the Bloodblight outbreak of the Seventh Century were massive and longreaching. In [chevalie|E], the first High King in a generation along with his entire extended family were wiped out and the Chevaliens forced to withdraw from their last colonies in the Black Mountains. In Aversaria, an entire generation of the nobility were destroyed, leading to mass societal collapse and a near dissolution of the Aautokrata. In Sarradon, the structured and elite magic class, the Sirhad, were almost entirely destroyed. Without the Sirhad to direct and control magic on the continent, the following generation would throw out most established norms and standards from their predecessors, and begin a rapid arms race to discover new horrifying and powerful spells for war. This would eventually lead to the discovery of [selfreplicating_blood_magic|E], and by extension, [frodbrokna|E]."
@@ -219,7 +320,6 @@ game_concept_tower_wayline:0 "Tower Wayline"
 game_concept_imperial_wayline:0 "Imperial Wayline"
 game_concept_tower_wayline_desc:0 "The Tower Wayline is one of two [waylines|E] criss-crossing [aeras|E] in existence. Coming from the greatest of the [towers|E], the [sea_tower|E]; the Tower Wayline crosses across most of the 'civilized' world more consistently than the [northern_wayline|E], and is generally the historical source for [aversarian|E] power.\n\nWhile most [magi|E] agree it is generally indestinguishable from the Northern Wayline, tales say that the Tower Wayline is the source of light while the Northern one is the source of darkness. Many Magi, while agreeing that the two are identical, often speak of the Northern line being 'cold' while the Southern is 'warm'.\n\nIn Aversaria, the Tower Wayline is sometimes called the 'Imperial Wayline' or the 'Wayline of Aversaria'."
 
-game_concept_magical:0 "Magical"
 game_concept_magic:0 "Magic"
 game_concept_magics:0 "Magics"
 game_concept_the_gift:0 "the Gift"
@@ -227,7 +327,9 @@ game_concept_magic_desc:0 "Magic is generally agreed to be the power of creation
 
 game_concept_magic_type:0 "School of Magic"
 game_concept_magic_types:0 "Schools of Magic"
-game_concept_magic_type_desc:0 "A School of Magic is a unified class in which [magi|E] generally identify themselves. While they are not truly formal and it is possible for Magi to experiment with other forms of [magic|E], most generally stick to one due to the difficulty in learning a single art.\n\nThe three accepted Schools are [living_magic|E], [dead_magic|E], and [mixed_magic|E]. Living Magic primarily deals with living things, Dead Magic unliving, and Mixed Magic both or those things that truly can't be considered either.\n\nAll forms of Magic have their own forms of [necromancy|E]: [blood_necromancy|E], [dark_necromancy|E], and [ethereal_necromancy|E] respectively; though only [dead_magi|E] can achieve [lichdom|E]."
+game_concept_magic_school:0 "$game_concept_magic_type$"
+game_concept_magic_schools:0 "$game_concept_magic_types$"
+game_concept_magic_type_desc:0 "A School of Magic is a unified class in which [magi|E] generally identify themselves. While they are not truly formal and it is possible for Magi to experiment with other forms of [magic|E], most generally stick to one specific school due to the difficulty in learning a single art.\n\nIn gameplay terms each school has between one and three [aspects|E] associated with it, and any number of spells of those aspects. Every school is unique and associated with one or more cultural heritages."
 
 game_concept_magic_power_i:0 "@magic_icon!"
 game_concept_magic_power:0 "Magic Power"
@@ -255,6 +357,9 @@ game_concept_ethereal_necromancy_desc:0 "Ethereal Necromancy is a type of [necro
 
 game_concept_gedeora:0 "Gederða"
 game_concept_gedeora_desc:0 "Gederða are a strange metaphysical anomaly that strikes the world seemingly random at random times. Wide ranging magical waves of unknown origin, Gederða have done everything from altering human mental states to tearing down mountains to sinking entire continents depending on their severity. The most important one to modern history was [odrstund|E] which struck [aversaria|E] in 1168 IS and greatly heightened the vice's of the realm's [magi|E]. This matches a trend of most Gederða effecting Magi more than mundane humans.\n\nWhile their cause is unknown, several scholars have noted they seem to be getting more severe and more frequent as history has continued, their rate growing rapidly since [frodbrokna|E]."
+
+game_concept_shimmerstone:0 "Shimmerstone"
+game_concept_shimmerstone_desc:0 "A translucent crystal that glows with multicolored light, Shimmerstone is a rare mineral found solely within the northern Iron Spines. The crystal is said to grant various benefits to its users, such as granting increased vitality and strength, making it highly sought after by tribal warriors. Shimmerstone's magical properties have made it a coveted material to the [magi|E] of the [mayikrata|E], who have launched [Concept('nexios_folly','several raids')|E] against the northern tribes in order to obtain the precious crystal."
 
 ###GAMEPLAY
 
@@ -300,27 +405,6 @@ game_concept_pirate_desc:0 "Pirate realms rely on raiding their surroundings for
 
  game_concept_peasant_republic_desc:0 "$game_concept_peasant_republic_concept$ is a [government_form|E] where the peasantry rule themselves — the $game_concept_government_form$ of rebellions possibly gone too far."
 
-##MEN AT ARMS
-
-#MAGICAL / MONSTERS
-
-game_concept_monsters:0 "Monsters"
-game_concept_monster:0 "Monster"
-game_concept_monsters_desc:0 "Monsters are ferocious beasts found in the wilds.\n\nThis includes not only benign [creatures|E] like [griffons|E], but also rare and powerful monsters like [dragons|E]."
-
-game_concept_gh_general_undead:0 "Undead"
-game_concept_gh_general_undead_desc:0 "The bones of countless men that died in ages past, risen to carry out the nefarious will of their lords."
-
-#CULTURAL
-
-#MUNDANE
-
-game_concept_magi:0 "Magi"
-game_concept_magi_desc:0 "[magi|E] are individuals with the blessing—and curse—of [magic|E]. Employed as [men_at_arms|E] within armies of all types across [aeras|E], their spells can wreak havoc on battlefields and bring down even the mightiest walls."
-
-game_concept_flying:0 "Flying"
-game_concept_flying_desc:0 "Flying beasts and creatures of all sorts. These aerial combatants can easily harrass enemy troops."
-
 ##HUNTING
 
 #GENERAL
@@ -355,7 +439,7 @@ game_concept_savannah_formatted:0 "#difficulty_medium SAVANNAH#!"
 game_concept_savannah_biozone_desc:0 "Savannah zones are tropical grasslands characterised by long dry winters and long wet summers. Often there are remnant forests, isolated trees, or fields of shrubbery that permeate throughout the region. While not heavily forested, it is not uncommon to find savannahs with dense [woodland|E] further in, though by no means comparable."
 
 game_concept_mountainous_biozone:0 "Mountain Biozone"
-game_concept_mountainous:0 "Mountain"
+#game_concept_mountainous:0 "Mountain"
 game_concept_mountainous:0 "Mountains"
 game_concept_mountainous_formatted:0 "#color_light_blue #BOL MOUNTAINOUS#!#!"
 game_concept_mountainous_biozone_desc:0 "Mountains are universally characterised by [challenging_terrain|E] and are very often [barren|E] and [cold|E] as well. Their wildlife tends to be sparse and weighted toward higher levels, making them a poor choice for casual hunters, but a point of interest to more experienced [monster_hunters|E]."
@@ -433,7 +517,7 @@ game_concept_abyssal_sea_biozone_desc:0 "Biomes with an Abyssal Sea support a va
 
 
 game_concept_mutants_biozone:0 "Mutated Biozone"
-game_concept_mutants:0 "Mutated"
+#game_concept_mutants:0 "Mutated"
 game_concept_mutants_formatted:0 "#difficulty_hard MUTATED#!"
 game_concept_mutants_biozone_desc:0 "Mutated Biozones are known to hold horrifying mutations. While some are benign, others are far reaching, as are the tales of their horrors."
 
@@ -546,9 +630,9 @@ game_concept_legitimacy_desc:0 ""
 
 ##MISC FEATURES
 
-game_concept_magic_tutor_desc:0 "A learned [magi|E] of supposed great talent, the Court Magi is responsible for answering all of the arcane needs of the Court they are in.\n\nThey will educate those with innate [magical|E] ability, training them in the ways of their respective [magic_type|E]. They can also be summoned to assist a ruler with their own magical spells, or cast them at their master's command.\n\nEach Ruler can employ only one Court Magi."
-game_concept_magic_tutor:0 "Court Magi"
-game_concept_magic_tutors:0 "Court Magi"
+game_concept_magic_tutor_desc:0 "A learned [magi|E] of supposed great talent, the [court_magi|E] is responsible for answering all of the arcane needs of the Court they are in.\n\nThey will educate those with innate [magical|E] ability, training them in the ways of their respective [magic_type|E]. They can also be summoned to assist a ruler with their own magical spells, or cast them at their master's command.\n\nEach Ruler can employ only one [court_magi|E]."
+game_concept_magic_tutor:0 "[court_magi|E]"
+game_concept_magic_tutors:0 "[court_magi|E]"
 
 #ACTIVITIES
 
@@ -654,6 +738,12 @@ game_concept_ruined_workshop_districts:0 "Ruined Workshop Districts"
 game_concept_ruined_workshop_district_holdings:0 "Ruined Workshop District Holdings"
 game_concept_ruined_workshop_district_holding_desc:0 "What was once an industrial hub to a previous regime has been reduced to wreck and ruin by some calamity, the furnaces cold and the tools rusted. What little life still exists in these Districts is merely scavengers seeking whatever scrap they can find."
 
+game_concept_necropolis_holding:0 "Necropolis Holding"
+game_concept_necropolis:0 "Necropolis"
+game_concept_necropoleis:0 "Necropoleis"
+game_concept_necropolis_holdings:0 "Necropolis Holdings"
+game_concept_necropolis_holding_desc:0 "Necropoleis are [holding_type|E] associated with [lichdoms|E]. While [liches|E] are capable of ruling over these barren lands and  fortified fortresses of undead, there is nothing left for anyone else to rule over."
+
 # Encyclopedia Entries as GCs
 game_concept_kalath_old_growth_biozone:0 "The Heartwood"
 game_concept_kalath_old_growth_biozone_desc:0 "A dense, ancient forest permeated by significant arcane influences. Many of its deeper reaches have remained essentially untouched by human hands."
@@ -720,21 +810,21 @@ game_concept_krehejad_biozone_desc:0 "One of the most volcanically active areas 
 game_concept_continental_interior_biozone:0 "Continental Interior"
 game_concept_continental_interior_biozone_desc:0 "The Continental Interior is a term used to describe the vast swathes of land that have been swallowed whole by the [fog|E]. Once, beautiful forests, rolling valleys, and sweeping vistas were easily findable across the Continent, but all has been lost to the [fog|E] and can never be reclaimed."
 game_concept_kharadamat_biozone:0 "Kharadamat"
-game_concept_kharadamat_biozone_desc:0 "Apart from being the location of [GetBuilding('sophocos_01').GetName] and the birthplace of Ritualism, the Kharadamat peninsula is perhaps most famous for its vast, thick cedar forests."
+game_concept_kharadamat_biozone_desc:0 "Apart from being the location of [GetBuilding('01_sophocos').GetName] and the birthplace of Ritualism, the Kharadamat peninsula is perhaps most famous for its vast, thick cedar forests."
 game_concept_sinhamiyah_biozone:0 "Sihnamiyah"
-game_concept_sinhamiyah_biozone_desc:0 "The site of urban civilization since the beginning of recorded history, Sinhamiyahis also sometimes dubbed "the garden of [sarradon|E]" due to its fertility and easy access to fresh water."
+game_concept_sinhamiyah_biozone_desc:0 "The site of urban civilization since the beginning of recorded history, Sinhamiyahis also sometimes dubbed 'the garden of [sarradon|E]' due to its fertility and easy access to fresh water."
 game_concept_sirwali_coast_biozone:0 "Sirwali Coast"
 game_concept_sirwali_coast_biozone_desc:0 "A stretch of coast where the otherwise desolate Sarradonian Desert meets the Imperial Sea, iconic for its pearl-white beaches and extraordinarily rich marine life." 
 game_concept_al_ghazir_biozone:0 "Al-Ghazir"
-game_concept_al_ghazir_biozone_desc:0 "Al-Ghazir—or simply, "the Island" in Sarradonian (or sometimes the "Eastern Island") is one of the largest islands of the Sea of Empires, and holds religious significance to both [ritualists|E] and [wardenites|E] alike." 
+game_concept_al_ghazir_biozone_desc:0 "Al-Ghazir—or simply, 'the Island' in Sarradonian (or sometimes the 'Eastern Island') is one of the largest islands of the Sea of Empires, and holds religious significance to both [ritualists|E] and [wardenites|E] alike." 
 game_concept_khenemhat_biozone:0 "Khenemhat"
 game_concept_khenemhat_biozone_desc:0 "Khenemhat is a parched and rocky region that straddles the Gonan Road, connecting northern [sarradon|E] to the lands of [damota_biozone|E]." 
 game_concept_sarradonian_desert_biozone:0 "Sarradonian Desert"
 game_concept_sarradonian_desert_biozone_desc:0 "The vast sea of sand covering the north of Sarradon's interior is one of the most inhospitable areas of the world. Very few mundane [creatures|E] call this place home, but the lack of virtually any human habitation means that spirits and other [magical|E] creatures are present in unusually high numbers."
 game_concept_sarradonian_mountains_biozone:0 "Sarradonian Mountains"
-game_concept_sarradonian_mountains_biozone_desc:0 "The Sarradonian Mountains are  vast, interconnected series of mountain ranges across northern [sarradon|E] that support similar flora and fauna."
+game_concept_sarradonian_mountains_biozone_desc:0 "The Sarradonian Mountains are vast, interconnected series of mountain ranges across northern [sarradon|E] that support similar flora and fauna."
 game_concept_boneyard_biozone:0 "Boneyard"
-game_concept_boneyard_biozone_desc:0 "The Boneyard is best known for being the rest place of the [the_worldeater|E]."
+game_concept_boneyard_biozone_desc:0 "The Boneyard is best known for being the resting place of [the_worldeater|E], though it is filled with the remains of untold numbers of beasts that have journeyed here to die. A surprisingly peaceful place, the remains of its many visitors have fed verdant greenery across the region."
 game_concept_ayyar_coast_biozone:0 "Ayyar Coast"
 game_concept_ayyar_coast_biozone_desc:0 "The Ayyar Coast describes the scrublands and subtropical, broadleaf forests stretching from the Lahkorini River to the western faces of the Tarsanides."
 game_concept_damota_biozone:0 "Damota"
@@ -788,19 +878,19 @@ game_concept_kalath_redwoods:0 "Laodantine Forests"
 game_concept_southern_kalath:0 "Dreaming Hills"
 game_concept_knokidbes:0 "Knokidbes Valley"
 game_concept_migraddar:0 "Psychrassan Highlands"
-game_concept_mayikprolollan:0 "Mayikrata"
+#game_concept_mayikprolollan:0 "Mayikrata"
 game_concept_etepezea:0 "Etepezea"
 game_concept_imperial_isle:0 "Imperial Isle"
 game_concept_the_isles:0 "The Western Isles"
 game_concept_tower_isles:0 "The Tower Isles"
 game_concept_central_isles:0 "The Central Isles"
 game_concept_guillate_rocks:0 "Rocks of Guillate"
-game_concept_chevalie:0 "Chevalie"
+#game_concept_chevalie:0 "Chevalie"
 game_concept_konijkmener:0 "Granmaar Moor"
 game_concept_black_mountains:0 "Black Mountains"
 game_concept_redlands:0 "Redlands"
 game_concept_vyshtanka:0 "Vyshtanka"
-game_concept_foglands:0 "Foglands"
+#game_concept_foglands:0 "Foglands"
 game_concept_malcois:0 "Malcois"
 game_concept_northern_opakhasia:0 "Northern Opakhasia"
 game_concept_western_opakhasia:0 "Western Opakhasia"
@@ -843,7 +933,7 @@ game_concept_katuppilan:0 "Katuppilan"
 game_concept_rovarska:0 "Rovarska"
 game_concept_nightcoast:0 "Night Coast"
 game_concept_eripomvuno:0 "Eripomvuno"
-game_concept_lichdoms:0 "The Lichdoms"
+#game_concept_lichdoms:0 "The Lichdoms"
 game_concept_whisperveil:0 "Whisperveil"
 game_concept_red_waste:0 "The Red Waste"
 
@@ -879,3 +969,12 @@ game_concept_xaxbaxakanax_esotericism:0 "Xaxbaxakanax Esotericism"
 game_concept_xaxbaxakanax_esotericism_desc:0 "Due to their exceptionally simple set of beliefs compared to other contemporaries, many find their faith extremely esoteric. As such, it is believed(by the Aversarians at least) to be most likely caused by them having been exceptionally primitive and disparate when their few historical realms were consumed by their neighbors. Very few realms have held power over them.\n\nAnd so, when their homelands were conquered by the Aversarians, they saw it as just yet another in a series of petty despots that would always come and always go, and as such, the faithful largely avoided harsh treatment by being too minor to achieve notice"
 game_concept_evil_lore:0 "Evil Lore"
 game_concept_evil_lore_desc:0 "Askevaryaans describe 'Evil Lore' as the knowledge that entered the world against Sarvat's wishes thanks to the efforts of evil demons and gods. To please Sarvat's wishes and ensure that the world is as they wished, 'Evil Lore' is to be destroyed and wiped out. This has naturally led to Askevaryaans regularly burning down libraries across Kashirya in an attempt to erase remnants of ancient and dark rituals."
+
+## ARCANA
+game_concept_arcana:0 "Arcana"
+game_concept_arcana_i:0 "@skill_arcana_icon!"
+game_concept_arcana_skill:0 "Arcana Skill"
+game_concept_arcana_skill_desc:0 "Arcana is a [skill|E] that represents a character's training in the mystic arts. It benefits spellcasting ability as well as their magical potency in duels.\n\nThe corresponding [lifestyle|E] is the [arcana_lifestyle|E]."
+game_concept_arcana_lifestyle:0 "Arcana Lifestyle"
+game_concept_arcana_lifestyle_desc:0 "The $game_concept_arcana_lifestyle$ is suitable for Characters who want to improve their knowledge of [magic|E] and the innerworkings of [aeras|E] through [artifacts|E] and [travel|E]."
+game_concept_arcane:0 "arcane"

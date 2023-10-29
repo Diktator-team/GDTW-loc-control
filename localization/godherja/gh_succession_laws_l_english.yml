@@ -61,6 +61,4 @@
  NOT_has_pirate_authority_cooldown:0 "You have not recently changed Pirate Authority."
  succession_laws_must_have_innovation_or_marcher_tooltip:0 "I do not have a [magocracy|E], [feudal|E] or [clan|E] [government|E]"
  chevalie_allows_heir_designation:0 "Your culture does not have the Chevalien Legacy Tradition"
- scandinavian_elective_succession_law:1 "Katraddian Elective"
- scandinavian_elective_succession_law_subname:0 "Tribes Meet"
  

@@ -172,10 +172,10 @@
  calm_judge_modifier_4:0 "Code of Calm (Maximal)"
  
  wrathful_judge_modifier_0:0 "Code of Wrath (Minimal)"
- wrathful_judge_modifier_0:0 "Code of Wrath (Minor)"
- wrathful_judge_modifier_0:0 "Code of Wrath (Medium)"
- wrathful_judge_modifier_0:0 "Code of Wrath (Major)"
- wrathful_judge_modifier_0:0 "Code of Wrath (Maximal)"
+ wrathful_judge_modifier_1:0 "Code of Wrath (Minor)"
+ wrathful_judge_modifier_2:0 "Code of Wrath (Medium)"
+ wrathful_judge_modifier_3:0 "Code of Wrath (Major)"
+ wrathful_judge_modifier_4:0 "Code of Wrath (Maximal)"
  
  just_judge_modifier_0:0 "Code of Justice (Minimal)"
  just_judge_modifier_1:0 "Code of Justice (Minor)"
@@ -226,10 +226,10 @@
  ambitious_judge_modifier_4:0 "Code of Ambition (Maximal)"
  
  fickle_judge_modifier_0:0 "Code of Flexibility (Minimal)"
- fickle_judge_modifier_0:0 "Code of Flexibility (Minor)"
- fickle_judge_modifier_0:0 "Code of Flexibility (Medium)"
- fickle_judge_modifier_0:0 "Code of Flexibility (Major)"
- fickle_judge_modifier_0:0 "Code of Flexibility (Maximal)"
+ fickle_judge_modifier_1:0 "Code of Flexibility (Minor)"
+ fickle_judge_modifier_2:0 "Code of Flexibility (Medium)"
+ fickle_judge_modifier_3:0 "Code of Flexibility (Major)"
+ fickle_judge_modifier_4:0 "Code of Flexibility (Maximal)"
  
  stubborn_judge_modifier_0:0 "Code of Conviction (Minimal)"
  stubborn_judge_modifier_1:0 "Code of Conviction (Minor)"

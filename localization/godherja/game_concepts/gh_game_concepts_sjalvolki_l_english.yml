@@ -5,6 +5,10 @@
 
 ##LORE
 
+game_concept_daukeni_saga:0 "Daukeni Epics and Sagas"
+game_concept_daukeni_saga_desc:0 "Most noteworthy among Daukeni cultural traditions is their rich repertoire of epics and sagas, with each clan sporting their own set of ancestral heroes. Some of these men and women lived so long ago as to be nearly mythical, but many are recent enough to be solidly historical characters. Delmex 'Two-Eyes', Menwir 'Woodwolf' and Arnold 'Toadface' are the names of but a few of those legendary enough to achieve immortality in the hearts and minds of Daukeni everywhere.\n\nOne of these most widely retold sagas explains the origin of the Daukeni themselves, tracing that legacy to the first man to ever use a bow. With a single arrow he felled a great and monstrous bear the size of an entire hill, the beast having terrorized his people for years. Upon butchering the mountainous carcass he found a beautiful woman curled within its stomach - none other than Prozeka, the daughter of [velos|E] the Hunter who had been swallowed whole by the villainous [prohen|E] as an infant. The two were soon wed and from their union sprung the brave and undefeatable Daukeni."
+
+
 #EVENTS
 
 game_concept_migrations:0 "Migrations"

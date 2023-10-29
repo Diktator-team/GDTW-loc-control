@@ -18,3 +18,7 @@
  
  #Clique Voting Strength
  tooltip_clique_political_power_elector_strength:0 "Political Influence: $VALUE|=+0$"
+
+#Imperial Elective, Voting Strength
+ tooltip_imperial_vote_strength_quartermaster_stewardship:0 "[ROOT.Char.GetSheHe|U] is a shrewd [ROOT.Char.GetCouncilTitle]: $VALUE|=+0$"
+ tooltip_imperial_vote_strength_court_magi_learning:0 "[ROOT.Char.GetSheHe|U] is a powerful [ROOT.Char.GetCouncilTitle]: $VALUE|=+0$"

@@ -1,6 +1,4 @@
 ﻿l_english:
- cn_orispolj:0 "Orispolj" # Oraispol
- cn_orispolj_adj:0 "Orispoljski"
  cn_kistrenjon:0 "Kistrenjon" # Cythenion (Barony)
  cn_kistrenjon_adj:0 "Kistrenski"
  cn_pecenija:0 "Pečenija" # Petsesia (Barony)
@@ -43,8 +41,6 @@
  cn_knid_adj:0 "Knjiški"
  cn_kormakos:0 "Kormakos" # Coramahos (Barony)
  cn_kormakos_adj:0 "Kormejžanski"
- cn_bus:0 "Malij Buš" # Besus (Barony)
- cn_bus_adj:0 "Malobuški"
  cn_nadvin:0 "Nadvin" # Hemetta (Barony)
  cn_nadvin_adj:0 "Nadvenski"
  cn_zirinsel:0 "Zirinsel" # Laregion (Barony)
@@ -264,7 +260,6 @@
  cn_tamarnica_adj:0 "Tamarnički"
  cn_bobinje:0 "Bobinje" # Kigeneia (Barony)
  cn_bobinje_adj:0 "Bobinjski"
- 
  cn_odorispolje:0 "Odorispolje" # Patropolis (County) 'by Oraispol'
  cn_odorispolje_adj:0 "Odorispoljski" 
  cn_heraklip:0 "Heraklip" # Heraclypes (County)
@@ -359,12 +354,10 @@
  cn_milikij_adj:0 "Miličijanski"
  cn_isan:0 "Išan" # Ithanais (County)
  cn_isan_adj:0 "Išanski"
- 
  cn_drokongrov_county:0 "Drokongrov" # Hemererna (County) 'Drakesgrave'
  cn_drokongrov_county_adj:0 "Drokongrovski"
  cn_oraklija:0 "Oraklija" # Oraclea (County)
  cn_oraklija_adj:0 "Oraklijski"
- 
  cn_modriva:0 "Modriva" # Erosia (Duchy)
  cn_modriva_adj:0 "Modrinjski" 
  cn_almektinj:0 "Almektinj" # Aytissos (Duchy)
@@ -393,10 +386,8 @@
  cn_uz_adj:0 "Uški"
  cn_kalkis:0 "Kalkiš" # Chalcioh (Duchy)
  cn_kalkis_adj:0 "Kalkiški"
- 
  cn_drokongrov_duchy:0 "Drokongrov" # Metatrea (Duchy) 'Drakesgrave'
  cn_drokongrov_duchy_adj:0 "Drokongrovski"
- 
  cn_amukutlan:0 "Amukutlan"
  cn_stahualtlan:0 "Stahualtlan"
  cn_tupan:0 "Tupan"

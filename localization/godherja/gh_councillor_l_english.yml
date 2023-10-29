@@ -1,10 +1,8 @@
 ﻿l_english:
- councillor_court_magi:0 "Court Magi"
- councillor_court_magi_possessive:0 "Court Magi's"
- councillor_court_magi_desc:0 "Court Magi"
- game_concept_court_magi:0 "Court Magi"
- game_concept_court_magi_desc:0 "Court Magi"
-
+ councillor_court_magi:0 "Court [magi|E]"
+ councillor_court_magi_possessive:0 "Court [magi|E]'s"
+ councillor_court_magi_desc:0 "[court_magi|E]"
+ 
  councillor_quartermaster:0 "Quartermaster"
  councillor_quartermaster_possessive:0 "Quartermaster's"
  councillor_quartermaster_desc:0 "The Quartermaster is in charge of managing all logistical parts of your fleet, such as organizing raids, keeping crew in line, and selling your stolen goods."
@@ -12,22 +10,25 @@
  game_concept_quartermaster_desc:0 "The Quartermaster is in charge of managing all logistical parts of your fleet, such as organizing raids, keeping crew in line, and selling your stolen goods."
 
  task_court_magi_boost_magic_power:0 "Boost Magic Power"
- task_court_magi_boost_magic_power_desc:0 ""
- task_court_magi_boost_magic_power_effect_desc:0 "Will transfer #positive_value [SCOPE.ScriptValue('court_magi_transfer_value')|1]#!@magic_icon!from their monthly #E Magic#! to your own pool."
- task_court_magi_boost_magic_power_modifier:0 "Magic Power from Court Magi"
+ task_court_magi_boost_magic_power_desc:0 "Will transfer #positive_value [SCOPE.ScriptValue('task_court_magi_boost_power_value')|1]#!@magic_icon!from their monthly #E Magic#! to your own pool."
+ task_court_magi_boost_magic_power_effect_desc:0 "Will transfer #positive_value [SCOPE.ScriptValue('task_court_magi_boost_power_value')|1]#!@magic_icon!from their monthly #E Magic#! to your own pool."
+ task_court_magi_boost_magic_power_modifier:0 "Magic Power from [court_magi|E]"
  
  task_court_magi_tutor_magic:0 "Tutor Child"
- task_court_magi_tutor_magic_desc:0 ""
+ task_court_magi_tutor_magic_desc:0 "Will tutor children in the arcane arts, gradually increasing their magic education level."
  task_court_magi_tutor_magic_effect_desc:0 "Will tutor children in the arcane arts, gradually increasing their magic education level."
  
- task_court_magi_cast_spells:0 "Cast Spells"
- task_court_magi_cast_spells_desc:0 "Will be able to cast spells through them, limited by their own magic pool and skill."
- task_court_magi_cast_spells_effect_desc:0 "Will be able to cast spells through them, limited by their own magic pool and skill."
+ task_court_magi_defend_against_hostile_magic:0 "Disrupt Hostile Magic"
+ task_court_magi_defend_against_hostile_magic_desc:0 "Will decrease the success chance of hostile spells, depending on #E Spellcasting Ability # and [intrigue|E].\n #E Magic Resistance:# #positive_value  +[SCOPE.ScriptValue('task_court_magi_defend_against_hostile_magic_resistance_value')|1]"
+ task_court_magi_defend_against_hostile_magic_effect_desc:0 "Magic Resistance: + #positive_value [SCOPE.ScriptValue('task_court_magi_defend_against_hostile_magic_resistance_value')|1]"
+ task_court_magi_defend_against_hostile_magic_resistance_bonus_value_desc:0 "Disrupt Hostile Magic"
  
- I_MUST_BE_A_MAGI:0 "Is a [magi|E]"
- I_AM_NOT_A_MAGI:0 "Is a [magi|E]"
- THEY_MUST_BE_A_MAGI:0 "Is a [magi|E]"
- THEY_ARE_NOT_A_MAGI:0 "Is a [magi|E]"
+ IS_A_MAGI:0 "Is a [magi|E]"
+ IS_NOT_A_MAGI:0 "Is not a [magi]"
+ I_MUST_BE_A_MAGI:0 "I must be a [magi|E]"
+ I_AM_NOT_A_MAGI:0 "I am not a [magi]"
+ THEY_MUST_BE_A_MAGI:0 "They must be a [magi|E]"
+ THEY_ARE_NOT_A_MAGI:0 "They are not a [magi]"
 
  
  #######################
@@ -51,6 +52,7 @@
  commerce_raiding_strait_income_intro_tt:0 "Extra income from major [straits|E]:"
  commerce_raiding_strait_income_tt:0 "[THIS.Var('strait_name').GetFlagName]: @gold_icon!#P [THIS.ScriptValue('total_income_from_strait_value')]#!"
  no_owned_straits:0 "You do not control any trade confluences"
+ task_commerce_raid_tooltip:0 "From $task_commerce_raid$"
 
  testing_tooltip:0 "[THIS.ScriptValue('fingers_crossed')]"
 

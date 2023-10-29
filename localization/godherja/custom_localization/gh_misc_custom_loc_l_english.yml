@@ -1,9 +1,9 @@
 ﻿l_english:
- corridor:0 "corridor"
  cellar:0 "cellar"
- courtyard:0 "courtyard"
  alleyway:0 "alleyway"
  bedroom:0 "bedroom"
+ legion_veteran:0 "veterans from the old legions"
+ legion_trained:0 "warriors trained in legion warfare"
 
  #Error Prevention
  success:0 "success"

@@ -1,10 +1,9 @@
 ﻿l_english:
- motto_pekielo_wisdom:0 "Pekielo's Wisdom"
  motto_pekielo_brilliance:0 "Pekielo's Brilliance"
  motto_pekielo_frenzy:0 "Pekielo's Frenzy"
  motto_pekielo_sorcery:0 "Pekielo's Sorcery"
  motto_pekielo_eye:0 "Pekielo's Eye"
- motto_pekielo_ravens:0 "Pekieo's Raven"
+ motto_pekielo_ravens:0 "Pekielo's Raven"
  motto_pekielo_wisdom:0 "Pekielo's Wisdom"
  motto_varpalis_loins:0 "Varpalis' Bounteous Loins"
  motto_velos_strength:0 "Velos' Strength"
@@ -38,3 +37,6 @@
  motto_pekielo_knowledge:0 "Pekielo's Knowledge"
  motto_varpalis_trustiness:0 "Varpalis' Trustiness"
  motto_pekwon_blade:0 "Pekwon's Blade"
+
+ motto_the_universe:0 "the Universe"
+ motto_the_heroes:0 "the Heroes"

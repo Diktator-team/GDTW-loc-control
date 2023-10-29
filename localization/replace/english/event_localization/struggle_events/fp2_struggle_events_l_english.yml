@@ -80,7 +80,7 @@
  fp2_struggle.0051.c.refuses_to_engage:0 "fp2_struggle.0051.c.refuses_to_engage"
 
 ##### Intro #####
- fp2_struggle.0501.t:1 "The $iberian_struggle$"
+ fp2_struggle.0501.t:1 "The $ritewars_struggle$"
  fp2_struggle.0501.desc:1 "The Sjalvolki world is torn asunder. Across the [shattered_coast|E], the [GetTitleByKey('c_oraispol').GetNameNoTier] Rite faces schism and strife, with the Veloscoup and Krona Rites having each claimed the mantle of leadership over its faithful. The armies of a people so recently settled atop a dead empire are once more on the march, this time turned against each other in the names of their gods. And it is even considered likely by some that this is only the beginning, and that yet further fragmentation lies in the future for the Sjalvolki.\n\n"
  fp2_struggle.0501.desc.involved:0 "I will not let slip my vision for our new homeland. By [ROOT.Char.GetFaith.HighGodName], House [ROOT.Char.GetHouse.GetNameNoTooltip] will weather the storm and see my will fulfilled.\n\n"
  fp2_struggle.0501.desc.interloper:0 "The time has come for me to take hold of the situation and my destiny. I see all the pieces laid out on the board. I know the way forward, and there will be no stopping House [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"

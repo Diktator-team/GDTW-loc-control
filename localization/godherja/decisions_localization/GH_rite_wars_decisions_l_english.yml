@@ -29,7 +29,7 @@
  gh_rws_struggle_secure_rite_wars_south_foothold_religion_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_rite_wars_south_foothold_religion_target_percent_value')|0]%#! of [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E] [counties|E] in the [GetGeographicalRegion('struggle_rite_wars_south').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_rite_wars_south_foothold_religion_percent_value')|1]%)\n"
  gh_rws_struggle_secure_rite_wars_south_foothold_outsider_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_rite_wars_south_foothold_outsider_target_percent_value')|0]%#! of [counties|E] in the [GetGeographicalRegion('struggle_rite_wars_south').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_rite_wars_south_foothold_outsider_percent_value')|0]%)\n"
  gh_rws_struggle_secure_rite_wars_south_foothold_kingdom_faith_tt:0 "At least #Z [SCOPE.ScriptValue('fp2_struggle_secure_rite_wars_south_foothold_faith_target_percent_value')|0]%#! of this [titlepossessive|E] [de_jure|E] [counties|E] are [THIS.Char.GetFaith.GetAdjective]"
- form_mountain_concordat_kingdom_border_tt:0 "This [title|E] borders held [de_jure|E] land of an [empire|E] you [hold|E] which is in [GetGeographicalRegion('opakhasia_biozone').GetName]"
+ form_mountain_concordat_kingdom_border_tt:0 "This [title|E] is [de_jure|E] within [GetGeographicalRegion('opakhasia_biozone').GetName]"
  form_mountain_concordat_effect_tt:0 "Every [de_jure|E] [kingdom|E] in [GetGeographicalRegion('opakhasia_biozone').GetName] which satisfies the below conditions will become [de_jure|E] part of [GetTitleByKey('e_mountain_sun_concordat').GetNameNoTier]"
  form_mountain_concordat_ends_the_struggle_tt:0 "The [rite_wars_south_struggle|E] ends"
 
@@ -108,8 +108,7 @@
  gh_rws_struggle_conciliation_house_reward_modifier:0 "Conciliation"
  gh_rws_struggle_conciliation_house_reward_modifier_desc:0 "This house accepted that the way to a lasting peace in Opakasija lies in peace and tolerance."
  ### Common
- gh_rws_struggle_can_create_empire_of_hispania_tt:0 "Unlocks creation of the [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier]"
- gh_rws_struggle_compromise_destroy_hispania_tt:1 "The [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier] is permanently #negative_value destroyed#!"
+
  CB_COST_gh_rws_struggle_HOSTILITY_CULTURE_DISCOUNT:0 "Rite Hostility"
  CB_COST_gh_rws_struggle_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_gh_rws_struggle_HOSTILITY_CULTURE_DISCOUNT$"
  struggle_rite_wars_south_ending_hostility_decision_correct_phase_tt:1 "The current [struggle_phase|E] is the [struggle_phase_rite_wars_south_hostility|E] and you are Involved"
@@ -118,9 +117,7 @@
  gh_rws_struggle_house_tt:1 "All [house|E] members:"
  gh_rws_struggle_compromise_war_cost_tt:0 "$HOLY_WAR_DUCHY_NAME$ and $CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] against other [struggle_involved|E] [cultures|E] [faiths|E]: #negative_value +50%#!"
  CB_COST_gh_rws_struggle_COMPROMISE_MULTIPLIER:0 "Compromise"
- struggle_compromise_duchy_transfer_tt:0 "Connected and [completely_controlled|E] [duchies|E] transfer [de_jure|E] to the primary [kingdom|E] of their [top_liege|E]"
  gh_rws_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest|E] remains available"
- struggle_ending_decision_correct_involvement_tt:0 "You are [struggle_involved|E]"
 
 
  opakasjian_reclamation_cb_victory_desc_attacker_vassalize:0 "You vassalize [defender.GetShortUIName|U]"
@@ -129,7 +126,7 @@
  opakasjian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$You gain contested [struggle_uninvolved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
  opakasjian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] becomes [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]"
  opakasjian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
- fp2_expel_interloper:0 "Opakasijan Reclamation"
+ ritewars_expel_interloper:0 "Opakasijan Reclamation"
 
 
  opakasjian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] will remain [independent|E]"

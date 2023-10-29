@@ -1,6 +1,5 @@
 ﻿l_english:
  adopt_heir_interaction:0 "Adopt as [heir|E]"
- adopt_interaction_desc:0 "Make [recipient.GetShortUINameNoTooltip] my legal child and [heir|E]"
  
  designate_presumed_heir_interaction:0 "Designate Presumed [heir|E]"
  designate_presumed_heir_interaction_desc:0 "Make [recipient.GetShortUINameNoTooltip] the successor of [actor.GetPrimaryTitle.GetName]"

@@ -1,47 +1,58 @@
 ﻿l_english:
   # No tooltip versions
- knight_aversarian_no_tooltip:0 "Hēprasitos"
- knight_aversarian_no_tooltip_plural:0 "Hēprasitoí"
+ knight_heprasitos_no_tooltip:0 "Hēprasitos"
+ knight_heprasitos_no_tooltip_plural:0 "Hēprasitoí"
 
- knight_marcher_no_tooltip:0 "Chevalier"
- knight_marcher_no_tooltip_plural:0 "Chevaliers"
+ knight_chevalier_no_tooltip:0 "Chevalier"
+ knight_chevalier_no_tooltip_plural:0 "Chevaliers"
 
  knight_mubaaizun_no_tooltip:0 "Mubaaizun"
  knight_mubaaizun_no_tooltip_plural:0 "Mubaaizun"
 
- knight_sjalvolki_no_tooltip:0 "Huscarl"
- knight_sjalvolki_no_tooltip_plural:0 "Huscarls"
+ knight_huscarl_no_tooltip:0 "Huscarl"
+ knight_huscarl_no_tooltip_plural:0 "Huscarls"
+
+ knight_companion_no_tooltip:0 "Companion"
+ knight_companion_no_tooltip_plural:0 "Companions"
   
   # Lowercase versions
- knight_aversarian_no_tooltip_lowercase:0 "hēprasitos"
- knight_aversarian_no_tooltip_lowercase_plural:0 "hēprasitoí"
- knight_aversarian_no_tooltip_lowercase_plural_possessive:0 "hēprasiton"
- knight_aversarian_no_tooltip_lowercase_adjective:0 "hēprasitikós"
+ knight_heprasitos_no_tooltip_lowercase:0 "hēprasitos"
+ knight_heprasitos_no_tooltip_lowercase_plural:0 "hēprasitoí"
+ knight_heprasitos_no_tooltip_lowercase_plural_possessive:0 "hēprasiton"
+ knight_heprasitos_no_tooltip_lowercase_adjective:0 "hēprasitikós"
 
- knight_marcher_no_tooltip_lowercase:0 "chevalier"
- knight_marcher_no_tooltip_lowercase_plural:0 "chevaliers"
- knight_marcher_no_tooltip_lowercase_plural_possessive:0 "chevalier's"
- knight_marcher_no_tooltip_lowercase_adjective:0 "chevaleresque"
+ knight_chevalier_no_tooltip_lowercase:0 "chevalier"
+ knight_chevalier_no_tooltip_lowercase_plural:0 "chevaliers"
+ knight_chevalier_no_tooltip_lowercase_plural_possessive:0 "chevalier's"
+ knight_chevalier_no_tooltip_lowercase_adjective:0 "chevaleresque"
 
  knight_mubaaizun_no_tooltip_lowercase:0 "mubaaizun"
  knight_mubaaizun_no_tooltip_lowercase_plural:0 "mubaaizun"
  knight_mubaaizun_no_tooltip_lowercase_plural_possessive:0 "mubaaizun'"
  knight_mubaaizun_no_tooltip_lowercase_adjective:0 "mubaaizun"
 
- knight_sjalvolki_no_tooltip_lowercase:0 "huscarl"
- knight_sjalvolki_no_tooltip_lowercase_plural:0 "huscarls"
- knight_sjalvolki_no_tooltip_lowercase_plural_possessive:0 "huscarl's"
- knight_sjalvolki_no_tooltip_lowercase_adjective:0 "huscarlish"
+ knight_huscarl_no_tooltip_lowercase:0 "huscarl"
+ knight_huscarl_no_tooltip_lowercase_plural:0 "huscarls"
+ knight_huscarl_no_tooltip_lowercase_plural_possessive:0 "huscarl's"
+ knight_huscarl_no_tooltip_lowercase_adjective:0 "huscarlish"
+
+ knight_companion_no_tooltip_lowercase:0 "companion"
+ knight_companion_no_tooltip_lowercase_plural:0 "companions"
+ knight_companion_no_tooltip_lowercase_plural_possessive:0 "companions'"
+ knight_companion_no_tooltip_lowercase_adjective:0 "companionable"
 
   #Game Concept versions
- knight_aversarian:0 "[Concept( 'knight', '$knight_aversarian_no_tooltip$' )|E]"
- knight_aversarian_plural:0 "[Concept( 'knight', '$knight_aversarian_no_tooltip_plural$' )|E]"
+ knight_heprasitos:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"
+ knight_heprasitos_plural:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]"
 
- knight_marcher:0 "[Concept( 'knight', '$knight_marcher_no_tooltip$' )|E]"
- knight_marcher_plural:0 "[Concept( 'knight', '$knight_marcher_no_tooltip_plural$' )|E]"
+ knight_chevalier:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"
+ knight_chevalier_plural:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"
 
  knight_mubaaizun:0 "[Concept( 'knight', '$knight_mubaaizun_no_tooltip$' )|E]"
  knight_mubaaizun_plural:0 "[Concept( 'knight', '$knight_mubaaizun_no_tooltip_plural$' )|E]"
 
- knight_sjalvolki:0 "[Concept( 'knight', '$knight_sjalvolki_no_tooltip$' )|E]"
- knight_sjalvolki_plural:0 "[Concept( 'knight', '$knight_sjalvolki_no_tooltip_plural$' )|E]"
+ knight_huscarl:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"
+ knight_huscarl_plural:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"
+
+ knight_companion:0 "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"
+ knight_companion_plural:0 "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]"

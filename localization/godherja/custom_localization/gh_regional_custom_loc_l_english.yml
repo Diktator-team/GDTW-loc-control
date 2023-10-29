@@ -42,6 +42,15 @@
  random_entertainment_text_grande_gisredde_a_city:0 "[grande_gisredde|E], a City"
  random_entertainment_text_travels_to_the_hellworld:0 "Travels to the Hellworld"
  random_entertainment_text_travels_to_the_darkest_realm:0 "Travels to the Darkest Realm"
- terrain_deadland:0 "deadlands"
+ terrain_deadlands:0 "deadlands"
  terrain_underground:0 "underground"
  rubble:0 "rubble"
+ tower:0 "tower"
+ towers:0 "towers"
+
+ #Regional drink
+ imperial_mytosic:0 "Imperial mytosic" # Lonely Note: Move out
+ acolytes_eye:0 "Acolyte's eye"
+ expensive_drink_salisian_claret:0 "Salisian clarets"
+ #GetExpensiveDrink_Singular
+ expensive_drink_singular_salisian_claret:0 "Salisian claret"

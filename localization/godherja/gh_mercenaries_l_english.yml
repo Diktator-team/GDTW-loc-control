@@ -4,15 +4,15 @@
  #mercenary_company_baltic_band_article:0 "the "
  
  #Imperials
- mercenary_company_legio_xv:0 "Legio XV"
+ mercenary_company_legio_xv:0 "Legio XV 'Loyal'"
  mercenary_company_legio_xv_article:0 "the "
  mercenary_company_firestar_company:0 "Firestar Company"
  mercenary_company_firestar_company_article:0 "the "
  mercenary_company_emperors_wroth:0 "Emperor's Wroth"
  mercenary_company_emperors_wroth_article:0 "the "
- mercenary_company_legio_ix:0 "Legio IX"
+ mercenary_company_legio_ix:0 "Legio IX 'Purety'"
  mercenary_company_legio_ix_article:0 "the "
- mercenary_company_legio_vii:0 "Legio VII"
+ mercenary_company_legio_vii:0 "Legio VII 'Iskros'"
  mercenary_company_legio_vii_article:0 "the "
  mercenary_company_lost_sons:0 "Lost Sons"
  mercenary_company_lost_sons_article:0 "the "
@@ -22,7 +22,7 @@
  mercenary_company_bearskin_company_article:0 "the "
  mercenary_company_redstone_bandits:0 "Redstone Bandits"
  mercenary_company_redstone_bandits_article:0 "the "
- mercenary_company_legio_xxiv:0 "Legio XXIV"
+ mercenary_company_legio_xxiv:0 "Legio XXIV 'Resilience'"
  mercenary_company_legio_xxiv_article:0 "the "
  mercenary_company_bloodspiller_company:0 "Bloodspiller Company"
  mercenary_company_bloodspiller_company_article:0 "the "
@@ -82,8 +82,6 @@
  mercenary_company_elk_chargers_article:0 "the "
  mercenary_company_burned_men:0 "Burned Men"
  mercenary_company_burned_men_article:0 "the "
- mercenary_company_twiceborn:0 "Twiceborn"
- mercenary_company_twiceborn_article:0 "the "
  mercenary_company_six_eyes:0 "Six Eyes"
  mercenary_company_six_eyes_article:0 "the "
  mercenary_company_roundhill_bandits:0 "Roundhill Bandits"
@@ -110,6 +108,10 @@
  mercenary_company_shadows_article:0 "the "
  mercenary_company_mind_breakers:0 "Mind Breakers"
  mercenary_company_mind_breakers_article:0 "the "
+ mercenary_company_forlorn:0 "Forlorn"
+ mercenary_company_forlorn_article:0 "the "
+ mercenary_company_forsaken:0 "Forsaken"
+ mercenary_company_forsaken_article:0 "the "
  
  #Marcher
  mercenary_company_company_of_the_way:0 "Company of the Way"
@@ -239,11 +241,11 @@
  mercenary_company_whispers_in_the_woods:0 "Whispers in the Woods"
  mercenary_company_whispers_in_the_woods_article:0 "the"
  mercenary_company_headtakers:0 "Head Takers"
- mercenary_company_the_shades:0 "Shades" 
+ mercenary_company_the_shades:0 "Shades"
  mercenary_company_the_shades_article:0 "the"
  mercenary_company_fleet_foxes:0 "Fleet Foxes"
- mercenary_company_the_won't_stop_until_we've_got_you_gang:0 "Won't stop until we've got you gang" 
- mercenary_company_the_won't_stop_until_we've_got_you_gang:0 "the"
+ mercenary_company_the_won't_stop_until_we've_got_you_gang:0 "Won't Stop Until We've Got You Gang"
+ mercenary_company_the_won't_stop_until_we've_got_you_gang_article:0 "the"
  mercenary_company_the_wind_in_the_willows:0 "Wind in the Willows"
  mercenary_company_the_wind_in_the_willows_article:0 "the"
  mercenary_company_ghouls:0 "Ghouls"
@@ -420,6 +422,14 @@
  mercenary_company_shrewd_sailors:0 "Shrewd Sailors"
  mercenary_company_shrewd_sailors_article:0 "the"
 
+#Aupagn
+ mercenary_company_northern_raiders:0 "Northern Raiders"
+ mercenary_company_northern_raiders_article:0 "the"
+ mercenary_company_snowborne:0 "Snowborne"
+ mercenary_company_snowborne_article:0 "the"
+ mercenary_company_heavenscalers:0 "Heaven-Scalers"
+ mercenary_company_heavenscalers_article:0 "the"
+
 #canian
  mercenary_company_order_golden_mask:0 "Order of the Golden Mask"
  mercenary_company_order_golden_mask_article:0 "the"
@@ -457,6 +467,8 @@
  mercenary_company_brotherhood_sitar_article:0 "the"
  mercenary_company_brotherhood_tabla:0 "Brotherhood of the Tabla"
  mercenary_company_brotherhood_tabla_article:0 "the"
+ mercenary_company_legio_xlviii:0 "Legio XLVIII 'The Three-Sun's Fury'"
+ mercenary_company_legio_xlviii_article:0 "the "
 
 #daidenos
  mercenary_company_seadrakes:0 "Seadrakes"
@@ -493,8 +505,6 @@
  mercenary_company_order_black_bubalus_article:0 "the"
 
 #dezhunic
- mercenary_company_sunspeakers:0 "Sunspeakers"
- mercenary_company_sunspeakers_article:0 "the"
  mercenary_company_labarqans_lawkeepers:0 "Labarqan's Lawkeepers"
  mercenary_company_labarqans_lawkeepers_article:0 "the"
  mercenary_company_hattassilas_hunters:0 "Hattaššila's Hunters"
@@ -529,7 +539,7 @@
  mercenary_company_skyseekers_article:0 "the"
  mercenary_company_mountsearchers:0 "Mount-Searchers"
  mercenary_company_mountsearchers_article:0 "the"
- mercenary_company_angbos_avengers:0 "Angbo's Avengers"
+ mercenary_company_angbos_avengers:0 "Anjung's Avengers"
  mercenary_company_angbos_avengers_article:0 "the"
 
 #hadiyan
@@ -543,8 +553,6 @@
 #haraja
  mercenary_company_smiling_blades:0 "Smiling Blades"
  mercenary_company_smiling_blades_article:0 "the"
- mercenary_company_katuppilan_corsairs:0 "Katuppilan Corsairs"
- mercenary_company_katuppilan_corsairs_article:0 "the"
  mercenary_company_bansuri_troupe:0 "Bansuri Troupe"
  mercenary_company_bansuri_troupe_article:0 "the"
  mercenary_company_gajara_raiders:0 "Gajara Raiders"
@@ -691,8 +699,6 @@
  mercenary_company_broadleaf_brotherhood_article:0 "the"
  mercenary_company_frogriders:0 "Frogriders"
  mercenary_company_frogriders_article:0 "the"
- mercenary_company_katuppilan_corsairs:0 "Katuppilan Corsairs"
- mercenary_company_katuppilan_corsairs_article:0 "the"
 
 #marmaladid
  mercenary_company_gilded_guild:0 "Gilded Guild"
@@ -745,8 +751,8 @@
 #sarminian
  mercenary_company_stormclouds:0 "Stormclouds"
  mercenary_company_stormclouds_article:0 "the"
- mercenary_company_samadithys_raiders:0 "Samadithys Raiders"
- mercenary_company_samadithys_raiders_article:0 "the"
+ mercenary_company_czarmaditis_raiders:0 "Czarmáditis Raiders"
+ mercenary_company_czarmaditis_raiders_article:0 "the"
  mercenary_company_sisterhood_falcon:0 "Sisterhood of the Falcon"
  mercenary_company_sisterhood_falcon_article:0 "the"
 
@@ -791,8 +797,6 @@
 #theugombrian
  mercenary_company_gilded_horde:0 "Gilded Horde"
  mercenary_company_gilded_horde_article:0 "the"
- mercenary_company_sunspeakers:0 "Sunspeakers"
- mercenary_company_sunspeakers_article:0 "the"
  mercenary_company_golden_spears:0 "Golden Spears"
  mercenary_company_golden_spears_article:0 "the"
 

@@ -1,8 +1,3 @@
 ﻿l_english:
  #LocalAnimal
  animal_dragon:0 "[dragon|E]"
- #LocalAnimalMultiple
- animal_dragons:0 "[dragons|E]"
-
- #Regional drink
- byzantine_cypriot:0 "Imperial Mytosic"

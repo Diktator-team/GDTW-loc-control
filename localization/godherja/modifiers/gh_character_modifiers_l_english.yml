@@ -12,3 +12,8 @@ kotserion_exiles_desc:0 "This Ordermaster is harboring fellow Agionists, exiled 
 
 sianna_exiles:0 "Sianna Exiles"
 sianna_exiles_desc:0 "This Ordermaster is harboring fellow Agionists, exiled from fallen Sianna."
+attempted_belittling:0 "Attempted to Belittle"
+attempted_belittling_desc:0 ""
+
+fraternal_connections_anti_magic_access:0 "Fraternal Connections"
+fraternal_connections_anti_magic_access_desc:0 "Allows recruitment of Anti-magi forces from home."

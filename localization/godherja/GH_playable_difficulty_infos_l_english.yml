@@ -6,6 +6,7 @@
  pdi_malcoisiac_anarchy:0 "[modifier|E]: [GetModifier('malcoisiac_anarchy').GetNameWithTooltip] until a [kingdom|E] or [empire|E] is formed"
  pdi_reliant_on_vampirism:0 "[trait|E]: At risk of $action_dying$ without the [GetTrait('gh_vampiric').GetName( GetNullCharacter )] trait"
  pdi_killed_the_world:0 "[modifier|E]: [GetModifier('aeschraes_pissed_on_my_wife').GetNameWithTooltip]"
- pdi_puppet:0 "[trait|E]: [GetTrait('gh_puppet').GetName( GetNullCharacter )]"
+ #pdi_puppet:0 "[trait|E]: [GetTrait('gh_puppet').GetName( GetNullCharacter )]"
  pdi_magic_is_shunned:0 "Faith Shuns [magic|E]"
  pdi_magic_is_criminal:0 "Faith Criminalizes [magic|E]"
+ pdi_aftermath_of_the_ash_war:0 "[modifier|E]: [GetModifier('aftermath_of_the_ash_war').GetNameWithTooltip] until 1264 IS"

@@ -24,6 +24,8 @@
  
  wasteland_empty_holding:0 "Wasteland"
  wasteland_empty_holding_concept_key:0 "Wasteland"
+
+necropolis_holding:0 "Necropolis"
  
  ################
  # CONCEPT KEYS #
@@ -37,6 +39,7 @@
  urban_district_holding_concept_key:0 "[urban_district|E]"
  workshop_district_holding_concept_key:0 "[workshop_district|E]" 
  ruined_district_holding_concept_key:0 "[ruined_district|E]"
+ necropolis_holding_concept_key:0 "[necropolis|E]"
  
  ruined_military_district_holding_concept_key:0 "[ruined_military_district|E]"
  ruined_palatial_district_holding_concept_key:0 "[ruined_palatial_district|E]"

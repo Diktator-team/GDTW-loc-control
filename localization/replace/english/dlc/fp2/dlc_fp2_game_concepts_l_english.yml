@@ -3,8 +3,8 @@
  game_concept_struggle_struggles:0 "Struggles"
  game_concept_struggle_desc:2 "$game_concept_struggle_struggles$ are long-term conflicts involving large [struggle_region_regions|E] with many [faiths|E] and [cultures|E]. Within the boundaries of a $game_concept_struggle$, peculiar special rules and [modifiers|E] may take effect, changing over time. Since they last decades to centuries, not all [characters|E] in a $game_concept_struggle$ are at [war|E] with each other all of the time.\n\nEach $game_concept_struggle$ consists of multiple [struggle_phase_phases|E]. As $game_concept_characters$ within the [struggle_region|E] act (e.g., declaring $game_concept_war$, or [marrying|E]), they may activate [struggle_catalyst_catalysts|E] that progress them between the different $game_concept_struggle_phase_phases$.\n\nDepending on the degree to which they're seen to be a part of the $game_concept_struggle$ by other participants, $game_concept_characters$ with [land|E] in the area may be seen as [struggle_involved|E], [struggle_interloper_interlopers|E], or [struggle_uninvolved|E]."
 
- game_concept_iberian_struggle:1 "Northern Rite Wars"
- game_concept_iberian_struggle_desc:0 "The $game_concept_iberian_struggle$ depicts the conflicts and schisms of the Sjalvolki world following Cenware Witch-Breaker's death. Born from the great migration into the Shattered Coast, the [struggle|E] shifts between [struggle_phase_phases|E] of violence, wary truces, and pragmatic cooperation. There are few permanent allies and [rulers|E] should be wary of relying purely on a shared [faith|E] or [culture|E]."
+ game_concept_ritewars_struggle:1 "Northern Rite Wars"
+ game_concept_ritewars_struggle_desc:0 "The $game_concept_ritewars_struggle$ depicts the conflicts and schisms of the Sjalvolki world following Cenware Witch-Breaker's death. Born from the great migration into the Shattered Coast, the [struggle|E] shifts between [struggle_phase_phases|E] of violence, wary truces, and pragmatic cooperation. There are few permanent allies and [rulers|E] should be wary of relying purely on a shared [faith|E] or [culture|E]."
 
  game_concept_struggle_phase:1 "Struggle Phase"
  game_concept_struggle_phase_phase:1 "Phase"
@@ -14,7 +14,7 @@
  game_concept_struggle_catalyst:1 "Struggle Catalyst"
  game_concept_struggle_catalyst_catalyst:1 "Catalyst"
  game_concept_struggle_catalyst_catalysts:0 "Catalysts"
- game_concept_struggle_catalyst_desc:2 "[struggle_struggles|E] transition between [struggle_phase_phases|E] when certain notable actions are taken, building their [struggle_region|E]'s consensus towards a particular mood. A list of which actions are important in which $game_concept_struggle_phase_phase$ can be found in the $game_concept_struggle$ window.\n\n#weak Example: the [struggle_phase_iberia_opportunity|E] of the [iberian_struggle|E] can transition into either the [struggle_phase_iberia_hostility|E] or the [struggle_phase_iberia_conciliation|E]. Murdering an important [character|E] might work towards the former, whilst forming a [marriage|E] [alliance|E] with someone of a different [faith|E] would build towards the latter."
+ game_concept_struggle_catalyst_desc:2 "[struggle_struggles|E] transition between [struggle_phase_phases|E] when certain notable actions are taken, building their [struggle_region|E]'s consensus towards a particular mood. A list of which actions are important in which $game_concept_struggle_phase_phase$ can be found in the $game_concept_struggle$ window.\n\n#weak Example: the [struggle_phase_iberia_opportunity|E] of the [ritewars_struggle|E] can transition into either the [struggle_phase_iberia_hostility|E] or the [struggle_phase_iberia_conciliation|E]. Murdering an important [character|E] might work towards the former, whilst forming a [marriage|E] [alliance|E] with someone of a different [faith|E] would build towards the latter."
 
  game_concept_struggle_involved:1 "Involved"
  game_concept_struggle_involved_desc:1 "When a [character|E] or a [county|E] is $game_concept_struggle_involved$, it means they're considered a natural and integral part of a [struggle|E] by the people of a particular [struggle_region|E]. They benefit fully from the fluid advantages of [struggle_phase_phases|E], and are the primary activators of [struggle_catalyst_catalysts|E].\n\n[cultures|E] and [faiths|E] that are considered $game_concept_struggle_involved$ are those that have or had significant presence in the $game_concept_struggle_region_region$.\n\n#weak To be $game_concept_struggle_involved$, a $game_concept_character$ must have both their $game_concept_culture$ and $game_concept_faith$ be $game_concept_struggle_involved$ #EMP and#! be either [unlanded|E] within the $game_concept_struggle_region$ or else have their [capital|E] there.#!"
@@ -49,7 +49,7 @@
  game_concept_struggle_phase_iberia_compromise_desc:2 "Whether through sickness with the strife of the [struggle_phase_iberia_hostility|E] or deft escalation during the [struggle_phase_iberia_conciliation|E], the $game_concept_struggle_phase_iberia_compromise$ represents a growing accommodation between the Rites. Differences fall by the wayside and shared history and heritage binds former foes together.\n\nThe peninsula stands at a cross-roads: if conflicts reappear, then the [struggle_phase_iberia_opportunity|E] awaits."
 
  game_concept_struggle_phase_iberia_conciliation:1 "Conciliation Phase"
- game_concept_struggle_phase_iberia_conciliation_desc:1 "The product of a notable [struggle_phase_iberia_compromise|E], during this $game_concept_struggle_phase_phase$, relations between the peoples of the Rites grow so cordial that outsiders find their permissiveness difficult to parse. Inter-[faith|E] [marriages|E] are particularly common.\n\nThis can't last forever, though, and abuses of trust will eventually bring the [iberian_struggle|E] back around to the [struggle_phase_iberia_compromise|E]."
+ game_concept_struggle_phase_iberia_conciliation_desc:1 "The product of a notable [struggle_phase_iberia_compromise|E], during this $game_concept_struggle_phase_phase$, relations between the peoples of the Rites grow so cordial that outsiders find their permissiveness difficult to parse. Inter-[faith|E] [marriages|E] are particularly common.\n\nThis can't last forever, though, and abuses of trust will eventually bring the [ritewars_struggle|E] back around to the [struggle_phase_iberia_compromise|E]."
 
  game_concept_struggle_involved_faith:0 "Involved Faith"
  game_concept_struggle_involved_faiths:0 "Involved Faiths"
@@ -84,7 +84,7 @@
  game_concept_iberian_reclamation:0 "Iberian Reclamation"
  game_concept_iberian_reclaiming:0 "Iberian Reclaiming"
  game_concept_iberian_reclamations:0 "Iberian Reclamations"
- game_concept_iberian_reclamation_desc:2 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [iberian_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
+ game_concept_iberian_reclamation_desc:2 "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [ritewars_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
 
  game_concept_enforce_truce:0 "Enforce Truce"
  game_concept_enforced_truce:0 "Enforced Truce"
@@ -93,8 +93,8 @@
  game_concept_incite_revolts_interaction:1 "Foment Revolt"
  game_concept_incite_revolts_interaction_desc:1 "Allows to invest [gold_i][gold|E] in order to motivate the [peasant_faction|E] in another [realm|E], if they have [counties|E] with negative [county_opinion|E]."
 
- game_concept_secure_iberian_foothold_decision:0 "$secure_iberian_foothold_decision_title$"
- game_concept_secure_iberian_foothold_decision_desc:1 "A [decision|E] that allows a non-[struggle_involved|E] [ruler|E] to end the [iberian_struggle|E]."
+ game_concept_secure_ritewars_foothold_decision:0 "$secure_ritewars_foothold_decision_title$" # GH TODO: Move out of this file
+ game_concept_secure_ritewars_foothold_decision_desc:1 "A [decision|E] that allows a non-[struggle_involved|E] [ruler|E] to end the [ritewars_struggle|E]."
 
  game_concept_golden_age_jewish_science_in_iberia_decision:0 "$golden_age_jewish_science_in_iberia_decision$"
  game_concept_golden_age_jewish_science_in_iberia_decision_desc:1 "A [decision|E] where you sponsor local Jewish scholars and reap the benefits."

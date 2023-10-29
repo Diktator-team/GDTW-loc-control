@@ -37,8 +37,8 @@
 
  #Khalid ibn al-Walid
  historical_commander_trait.0005.t:0 "The Tower's Blade"
- historical_commander_trait.0005.desc:0 "While studying the tactics of historical generals I became contemplative upon learning about Aband ibn Khaldiyya's campaign against the Wardenites.\n\n#F With [GetBuilding('sophocos_01').GetName] defenseless due to the betrayal of Ali Mahand and his cabal of fallen Magi and his army too battered to defeat both Mahand and his new Wardenite allies, Aband rallied his forces for a defiant last stand at Dowrabeh where it is said his army defeated six times their number that day. With the Wardenites forced to retreat, Aband withdrew to the east and rebuilt his forces, then would return to end the siege of [GetBuilding('sophocos_01').GetName] by finally destroying the Wardenite army and bringing Mahand to justice!#!"
- historical_commander_trait.0005.a:0 "Those who fight in the name of [GetBuilding('sophocos_01').GetName] will be victorious!"
+ historical_commander_trait.0005.desc:0 "While studying the tactics of historical generals I became contemplative upon learning about Aband ibn Khaldiyya's campaign against the Wardenites.\n\n#F With [GetBuilding('01_sophocos').GetName] defenseless due to the betrayal of Ali Mahand and his cabal of fallen Magi and his army too battered to defeat both Mahand and his new Wardenite allies, Aband rallied his forces for a defiant last stand at Dowrabeh where it is said his army defeated six times their number that day. With the Wardenites forced to retreat, Aband withdrew to the east and rebuilt his forces, then would return to end the siege of [GetBuilding('01_sophocos').GetName] by finally destroying the Wardenite army and bringing Mahand to justice!#!"
+ historical_commander_trait.0005.a:0 "Those who fight in the name of [GetBuilding('01_sophocos').GetName] will be victorious!"
  historical_commander_trait.0005.b:0 "Devotion keeps us strong when outnumbered."
  historical_commander_trait.0005.c:0 "Knowing #EMP when#! to fight is as important as knowing #EMP how#!."
  historical_commander_trait.0005.d:0 "Why celebrate an embarrassing defeat?"

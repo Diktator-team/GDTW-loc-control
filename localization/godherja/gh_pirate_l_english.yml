@@ -10,8 +10,11 @@
  ANTIPIRACY_CB_SPECIFIC_NAME:0 "Combat the piracy in [TITLE.GetBaseName]"
  ANTIPIRACY_WAR_NAME_FALLBACK:0 "Combat Piracy"
 
- ducal_conquest_cb:0 "Ducal Conquest"
- DUCAL_CONQUEST_CB_NAME:1 "[ducal_conquest|E] of [county|E]"
- DUCAL_CONQUEST_CB_SPECIFIC_NAME:1 "Ducal Conquest of the [TITLE.GetBaseName]"
- DUCAL_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
- DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ ISLES_CLAIM_CONQUEST_WAR_NAME:0  "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Isles Conquest in [TITLE.GetBaseNameNoTooltip]"
+ ISLES_CLAIM_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ ISLES_CLAIM_CONQUEST_CB_NAME:0 "Isles Conquest"
+ isles_retribution_cb:0 "Islander Supremacy"
+ isles_claimant_conquest_cb:0 "Isles Claimant"
+
+ isles_claimant_war.involved_notif:0 "[isles_claimant.GetPrimaryTitle.GetBaseName] Isles Supremacy"
+ isles_claimant_war.involved_notif_desc:0 "[isles_claimant.GetPrimaryTitle.GetBaseName] has laid claim to the Isles and all the seas between."

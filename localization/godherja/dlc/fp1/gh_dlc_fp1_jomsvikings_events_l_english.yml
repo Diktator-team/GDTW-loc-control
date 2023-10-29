@@ -24,7 +24,7 @@
  waymakers_events.0021.t:0 "Parleying with Waymakers"
  waymakers_events.0021.desc:0 "It's with some suspicion that I receive a delegation of disorderly thugs from the [founder.GetPrimaryTitle.GetNameNoTier], presenting a letter from [founder.GetTitledFirstName].\n\nFierce warriors both at sea and on land, these religious fundamentalists are some of the most ferocious across the Shattered Coast.\n\nLike any good [ROOT.Char.GetFaith.GetAdherentName], I've listened to the stories of their piety and prowess with a mixture of awe and fear. Now it seems their [founder.GetTitleAsNameNoTooltip] is offering me command of this gaggle of volunteers, provided I use them to raid and plunder for [ROOT.Char.GetFaith.PantheonTerm]."
  waymakers_events.0021.a:0 "Pirates that take orders? Intriguing..."
- waymakers_events.0021.a.tt:0 "The [army|E] will include special hard-to-kill $jomsviking_pirates$ [men_at_arms|E]"
+ waymakers_events.0021.a.tt:0 "The [army|E] will include special hard-to-kill $sjalvolki_waymakers$ [men_at_arms|E]"
  waymakers_events.0021.b:0 "Just the reputable sailors, I think."
  waymakers_events.0021.b.tt:0 "The [army|E] will include recruitable $sjalvolki_berserker$ [men_at_arms|E]"
  waymakers_events.0021.c:0 "I prefer my soldiers a bit more... disciplined."

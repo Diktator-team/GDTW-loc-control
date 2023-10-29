@@ -9,7 +9,7 @@
 
 ## Our Nobles are attacking Sarradonian Caravans by Isabella Welch, edited by Lonely Knight
 
- court.4355.t:0 "Who Dares Battle the [sarradonian|E]?"
+ court.4355.t:0 "Who Dares Battle the Sarradonian?"
  court.4355.desc:0 ""My liege," my [reporting_marshal.GetCouncilTitle] calls, "I overheard [caravan_attacker.GetTitledFirstName] bragging that [caravan_attacker.GetSheHe] and a gaggle of nobles have been going out like common brigands and raiding caravans bearing sugar from [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]. These dogs drool for holy war, and are trying to provoke [attacked_liege.GetTitledFirstName]. However, I suggest we need the trade far more than any battle—"\n\n"We need no food, only to drink the blood of those who defy the Eight!" bellows [caravan_attacker.GetTitledFirstNameNoTooltip] from across the throne room."
  court.4355.a:0 "Fine work! Looting unbelievers is an Eosian measure!"
  court.4355.a.tt:0 "You arrange further trade raids"

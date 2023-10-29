@@ -37,37 +37,6 @@
  #reading_hippocrates_toast.failure:0 "Why is Greek so hard?"
  #rolling_in_filth_toast:0 "Your court is a health hazard."
 
- fp2_struggle.1002.t:0 "[xenophilic_culture.GetNameNoTooltip] Advancements"
-
- fp2_struggle.1002.desc:0 "[xenophilic_culture.GetNameNoTooltip] [magi|E] have long devoted themselves to the study of [magic|E] and are well renowned for their skill in the same. Now the [mixed_magi|E] [great_physician.GetFirstName] is seeking to join my court, but [great_physician.GetSheHe] has recently been exiled from my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler'))] [neighboring_ruler.GetTitledFirstNamePossessive] court for an undisclosed transgression. \n\n"
-
- fp2_struggle.1002.desc_albucasis:0 ""Though my skills are modest", he says, "I once saved the life of my liege, using naught but the power of dreams. I could aid you by foiling the plots of enemies within and without..." \n\n"
-
- fp2_struggle.1002.desc_avenzoar:0 ""I have peered beyond the mists", he says, "and wrote a book on my visions of what is to come. But I am a sworn enemy of superstition and the false promises peddled by witches and astrologers, so I would ask you to ban such things..." \n\n"
-
- fp2_struggle.1002.desc_tufail:0 ""I study the [fog|E], as well as the creatures that come from within it", [great_physician.GetSheHe] says. "I believe that further study is needed, to even have the slightest chance of stopping its spread... Might you provide me with opportunities to pursue this?" \n\n"
-
- fp2_struggle.1002.desc_no_historical_physician_early:0 ""I have learned much", [great_physician.GetSheHe] says, "from the works of the Ancients. Yet I have rescued their knowledge from the abyss of prolixity, and can use it for your benefit." \n\n"
-
- fp2_struggle.1002.desc_no_historical_physician_late:0 ""I have learned much", [great_physician.GetSheHe] says, "from the works of Dragos "Serpent-Speaker" and Jarogg "Crow-Eye". Yet I have improved upon their techniques. I can command the mists at will, and perform magics unlike any you have ever seen." \n\n"
-
- fp2_struggle.1002.desc_has_physician_and_is_christian:0 "My current court Magi, [scoped_physician.GetTitledFirstName], urges me not to replace [scoped_physician.GetHerHim] with this heathen."
-
- fp2_struggle.1002.desc_has_physician_but_not_christian:0 "My current court Magi, [scoped_physician.GetTitledFirstName], urges me not to replace [scoped_physician.GetHerHim] with this eccentric."
-
- fp2_struggle.1002.desc_has_no_physician_but_is_christian:0 "Some courtiers urge me not to associate with this heathen."
-
- fp2_struggle.1002.desc_has_no_physician:0 "Should I offer this [great_physician.GetWomanMan] a place at my court?"
-
- fp2_struggle.1002.a:0 "I could use a new Magi..."
- #fp2_struggle.1002.b:1 "I can buy books and learn medicine myself."
- #fp2_struggle.1002.b.tt:0 "You attempt to learn from great works of medicine."
- #fp2_struggle.1002.c:0 "What do I need you for? I can read Greek myself."
- #fp2_struggle.1002.c.tt:1 "You buy the works of Galen and try to read them."
- fp2_struggle.1002.d:0 "I will send you back to [neighboring_ruler.GetTitledFirstNameNoTooltip]...in chains."
- #fp2_struggle.1002.e:0 "My health is fine as it is, thank you."
- #fp2_struggle.1002.f:0 "Begone, innovation should only come from God."
- fp2_struggle.1002.physicianleaves:0 "[great_physician.GetFirstName] seeks employment elsewhere"
  fp2_struggle.1001.physician_imprisoned:0 "[great_physician.GetFirstName] is imprisoned by [neighboring_ruler.GetName], for certain reasons"
 
  fp2_struggle.1010.t:0 "Soul of Iron"
@@ -151,7 +120,6 @@
  fp2_struggle.1050.b:0 "Pull yourself together, [ROOT.GetCharacter.GetFaith.HighGodName] is testing your faith."
  fp2_struggle.1050.c:0 "Come, tell me more of your visions."
  fp2_struggle.1050.d:0 "Leave me be, I am planning my next conquest."
- fp2_struggle.1050.spouse_imprisoned:0 "You imprison [visionary_spouse.GetTitledFirstNameNoTooltip] on suspicions of witchcraft"
  fp2_struggle.1050.condition_might_improve:0 "[visionary_spouse.GetTitledFirstNamePossessiveNoTooltip] condition might improve"
  fp2_struggle.1050.condition_might_get_worse:0 "[visionary_spouse.GetTitledFirstNamePossessiveNoTooltip] condition might get worse"
  fp2_struggle.1050.condition_might_get_very_worse:0 "[visionary_spouse.GetTitledFirstNamePossessiveNoTooltip] condition might get much worse"

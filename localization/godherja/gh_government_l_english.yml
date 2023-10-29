@@ -47,6 +47,11 @@
  migratory_government_realm:0 "Migratory"
  migratory_government_desc:0 "Migratory realms either have no home or migrate between several. Nomads of [aeras|E] range from desert clans to wandering adventuring companies to [Concept('fogeaters','maddened once-men')|E]. Migratory realms should not be confused with large groups performing [Concept('migrations','great migrations')|E] after the cataclysmic events of [frodbrokna|E].\n\n#N Playable Migratory realms coming soon!#!"
 
+ lichdom_government:0 "Lichdom"
+ lichdom_government_realm:0 "Lichdom"
+ lichdom_government_desc:0 "Ruled by a lich, this realm consists of naught but undead thralls mindlessly marching to their master's tune, and lesser liches waiting for their chance to slay their temporary oppressor."
+ lichdom_government_adjective:0 "Thanatocratic"
+
  wasteland_government:0 "Wasteland"
  wasteland_government_realm:0 "Wasteland"
  #wasteland_government_desc:0 "Blasted remains and empty wilderness, this wasteland is untouched by the mark of civilization, whether from terrible danger or a simple lack of exploration."
@@ -61,6 +66,8 @@
  NOT_GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY:0 "$GAME_OVER_CANNOT_PLAY_ADMINISTRATIVE_BUREAUCRACY$"
  GAME_OVER_CANNOT_PLAY_MIGRATORY:0 "Cannot play as a Migratory realm"
  NOT_GAME_OVER_CANNOT_PLAY_MIGRATORY:0 "$GAME_OVER_CANNOT_PLAY_MIGRATORY$"
+ GAME_OVER_CANNOT_PLAY_LICHDOM:0 "Cannot play as a Lichdom"
+ NOT_GAME_OVER_CANNOT_PLAY_LICHDOM:0 "$GAME_OVER_CANNOT_PLAY_LICHDOM$"
 
  ## Contribs
  vassal_contribution_group:0 "Vassal Contributions"

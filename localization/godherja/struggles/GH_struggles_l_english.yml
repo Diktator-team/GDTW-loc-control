@@ -33,3 +33,21 @@
  controls_rite_wars_holy_sites_all:0 "You control at least 5 [holy_sites|E]"
  controls_rite_wars_holy_sites_one:0 "You control at least 1 [holy_site|E]"
  controls_rite_wars_holy_sites_some:0 "You control at least 3 [holy_sites|E]"
+
+ shatteredcoast_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
+
+ gh_other_decisions.1000.t:0 "$secure_ritewars_foothold_decision_title$: [ritewars_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Consolidation"
+ gh_other_decisions.1000.involved_religion:0 "The wars of the fractious princedoms of the Shattered Coast almost brought the [ROOT.Char.GetFaith.GetReligion.GetAdjective] realms of the region to their knees.\n\nWithout our intervention, [ROOT.Char.GetFaith.HighGodNamePossessive] faithful would have eventually been driven from the coast by the imperious infidels.\n\n"
+ gh_other_decisions.1000.desc:0 "The divided faiths and peoples of the Shattered Coast have given us a grand opportunity, too busy fighting each other to oppose the [ROOT.Char.GetFaith.GetReligion.GetAdjective] invasion of the coast."
+ gh_other_decisions.1000.involved_faith:0 "We are the legitimate defenders of the [ROOT.Char.GetFaith.GetAdherentNamePlural] of the west, now safe under the protection of [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
+ gh_other_decisions.1000.uninvolved_faith:0 "It fell to us to bring the light of [ROOT.Char.GetFaith.GetName]; as part of [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] these lands will once more be prosperous and peaceful."
+ gh_other_decisions.1000.closing:0 "\n\nIn time they will see that the time of their false gods has ended, and rejoice that [ROOT.Char.GetFaith.HighGodName] led [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] to the region's salvation."
+ gh_other_decisions.1000.a:0 "New blood was needed in the Shattered Coast."
+
+ gh_other_decisions.1001.involved_religion:0 "After centuries of war between the Rites, our struggle has now been exploited by the imperious [ritewars_footholder.GetPrimaryTitle.GetAdjective] interlopers.\n\n"
+ gh_other_decisions.1001.desc:0 "Through distraction, envy, and negligence, we Sjalvolki have allowed the [ritewars_footholder.GetPrimaryTitle.GetAdjective] interlopers to exploit the division of our homeland and invade the historic kingdoms of the coast."
+ gh_other_decisions.1001.involved_faith:0 "[ritewars_footholder.GetTitledFirstName] has declared [ritewars_footholder.GetHerselfHimself] the legitimate [ritewars_footholder.GetFaith.GetAdjectiveNoTooltip] leader of the coast, using [ritewars_footholder.GetHerHis] victories as proof of [ritewars_footholder.GetHerHis] legitimacy over the ailing [ritewars_footholder.GetFaith.GetReligion.GetAdjective] realms of the Shattered Coast."
+ gh_other_decisions.1001.same_uninvolved_faith:0 "They claim our failures were [ROOT.Char.GetFaith.HighGodNamePossessive] punishment for straying from the righteous path of [ritewars_footholder.GetFaith.GetName], and that [ritewars_footholder.GetTitledFirstName] is the legitimate leader of [ROOT.Char.GetFaith.GetReligion.GetAdjective] the Shattered Coast..."
+ gh_other_decisions.1001.uninvolved_faith:0 "With [ritewars_footholder.GetHerHis] victories as evidence, [ritewars_footholder.GetTitledFirstName] has declared [ritewars_footholder.GetHerHis] [ritewars_footholder.GetFaith.GetAdjective] faith to be the true [ritewars_footholder.GetFaith.GetReligion.GetAdjective] path; one that will unite the entire coast under [ritewars_footholder.GetFaith.HighGodName]."
+ gh_other_decisions.1001.closing:0 "\n\nAs [ritewars_footholder.GetTitledFirstName] consolidates [ritewars_footholder.GetHerHis] holdings, the past differences of the Sjalvolki and Aversarians seem to pale in comparison to this [ritewars_footholder.GetFaith.GetAdjective] occupation..."
+ gh_other_decisions.1001.a:0 "Damned interlopers."

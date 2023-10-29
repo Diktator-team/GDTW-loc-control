@@ -1,5 +1,4 @@
 ﻿l_english:
- l_english:
  refound_east_mamur_decision:0 "Refound the Eastern Mamuramat"
  refound_east_mamur_decision_desc:0 "Vacant since the violent death of al-Hudi in 802 IS, the Eastern [mamuramat|E] was at one time a second, competing hub for [wardenite|E] civilization. Its court at al-Qais was home to a vibrant cultural and legal tradition. Now, with our dominant position in the east we can restore the dignity of this once great land. Of course, doing so will certainly provoke conflict with the Central Mamur who illegally holds the title, but we can deal with him in time."
  refound_east_mamur_decision_tooltip:0 "Proclaim the restoration of the [GetTitleByKey('e_eastern_mamuramat').GetNameNoTier], equivalent in dignity and authority to the line of [tathtali|E]."
@@ -65,7 +64,7 @@
  wardenite_mamur_reclaim_almubid_decision_desc:0 "Never since the days of the Great Uprising has the Wardenite faith seen so great a triumph. Naught but a generation or two ago many [wardenites|E] questioned the sacred rights of the [mamur|E]. But now? From the distant borders of the Amsari in the west to the Crater in the east the faithful sing our praises. Though some Agionists may lurk in various holdouts, their power has been broken forever. Now begins a new golden age for [sarradon|E]. An age of law. An age of Wardenism. An age of the Mamur."
  wardenite_mamur_reclaim_almubid_decision_tt:0 "Is our struggle finally at an end?"
  wardenite_mamur_reclaim_almubid_decision_confirm:0 "The Mamur is Triumphant!"
- wardenite_mamur_reclaim_chegea_decision_is_valid:0 "You must own the Kingdom of Almubid, and ensure no independant Agionists survive in its territory."
+ wardenite_mamur_reclaim_almubid_decision_is_valid:0 "You must own the Kingdom of Almubid, and ensure no independant Agionists survive in its territory."
  wardenite_mamur_reclaim_almubid_decision_reward_3:0 "Will allow us to demand fealty from the Ayyar."
  
  wardenite_mamur_reassert_authority_kathsiti:0 "Reassert Authority Over the Kathsiti"

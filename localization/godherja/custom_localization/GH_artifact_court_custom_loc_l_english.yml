@@ -1,6 +1,6 @@
 ﻿l_english:
  waysaint_champion_of_chevalie:0 "the [champion_of_chevalie|E]"
- waysaint_champion_of_chevalie_possessive:0 "the [Concept('champion_of_chevalie','Champion of Chevalie's')|E]"
+ waysaint_champion_of_chevalie_possessive:0 "the [Concept('champion_of_chevalie','Champion of Chevalie`s')|E]"
  waysaint_aoth:0 "Waysaint Aoth"
  waysaint_aoth_possessive:0 "Waysaint Aoth's"
  waysaint_ane:0 "Waysaint Âne"
