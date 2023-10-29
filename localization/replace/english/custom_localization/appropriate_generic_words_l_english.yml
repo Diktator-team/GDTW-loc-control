@@ -1,0 +1,5 @@
+﻿l_english:
+ #GetExpensiveDrink
+ expensive_drink_bordeaux_claret:0 "Salisian clarets"
+ #GetExpensiveDrink_Singular
+ expensive_drink_singular_bordeaux_claret:0 "Salisian claret"

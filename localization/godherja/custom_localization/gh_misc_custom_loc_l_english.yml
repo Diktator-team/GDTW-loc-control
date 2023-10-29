@@ -1,0 +1,10 @@
+﻿l_english:
+ corridor:0 "corridor"
+ cellar:0 "cellar"
+ courtyard:0 "courtyard"
+ alleyway:0 "alleyway"
+ bedroom:0 "bedroom"
+
+ #Error Prevention
+ success:0 "success"
+ failure:0 "failure"

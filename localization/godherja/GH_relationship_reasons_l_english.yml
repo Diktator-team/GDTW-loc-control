@@ -1,0 +1,3 @@
+﻿l_english:
+ nemesis_killed_mother:0 "[TARGET_CHARACTER.GetShortUIName|U] viciously slayed [CHARACTER.GetShortUINamePossessive] mother, [TARGET_CHARACTER_2.GetShortUIName]."
+ nemesis_killed_mother_corresponding:0 "[CHARACTER.GetShortUIName|U] viciously slayed [TARGET_CHARACTER.GetShortUINamePossessive] mother, [TARGET_CHARACTER_2.GetShortUIName]."

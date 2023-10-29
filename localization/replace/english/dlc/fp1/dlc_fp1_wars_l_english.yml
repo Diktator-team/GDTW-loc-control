@@ -1,0 +1,13 @@
+﻿l_english:
+ VIKING_ARMY_MEN_NAME:0 "Northmen Army"
+ VIKING_ARMY_WOMEN_NAME:0 "Northwomen Army"
+ VIKING_ARMY_NEUTRAL_NAME:0 "Northerner Army"
+ scandi_adventurer_event_troops:0 "Viking Adventurers"
+ fp1_scandi_adventurer_conquest:0 "Viking Adventurer"
+ fp1_jomsvikings_event_troops:0 "Waymaker Volunteers"
+ fp1_mann_event_troops:0 "Pirate Hordes"
+
+ fp1_varangian_adventurer_conquest:0 "Varangian Adventurer"
+ FP1_VARANGIAN_ADVENTURER_CB_NAME:0 "[varangian_adventure|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ FP1_VARANGIAN_ADVENTURER_CB_SPECIFIC_NAME:0 "[varangian_adventure|E] against the [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
+ FP1_VARANGIAN_ADVENTURER_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] [varangian_adventure|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"

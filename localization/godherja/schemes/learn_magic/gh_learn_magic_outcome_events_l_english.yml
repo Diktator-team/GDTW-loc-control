@@ -1,0 +1,27 @@
+﻿l_english:
+ learn_magic_outcome.0001.t:1 "$learn_living_magic_scheme$: Success!"
+ learn_magic_outcome.0001.desc:3 "After months upon months of diligently studying the art of Living Magic under the tutelage of [target.GetTitledFirstNamePossessive], I can finally feel my hard work paying off. Several spells and theories that used to be beyond my grasp are now easily executed and comprehended, and many of my courtiers (as well as [target.GetTitledFirstNamePossessive]) have taken note of my improved ability in Living Magic."
+ learn_magic_outcome.0001.a:0 "My new skill cannot be denied!"
+ 
+ 
+ learn_magic_outcome.0002.t:1 "$learn_living_magic_scheme$: Failure!"
+ learn_magic_outcome.0002.desc:3 "Though I have studied the art of Living Magic for over a year, I feel no more skilled in Living Magic than when I began my tutelage under [target.GetTitledFirstNamePossessive]. No matter how hard I practice, the secrets of Living Magic are still beyond my reach."
+ learn_magic_outcome.0002.a:0 "Perhaps I just need to study more..?"
+
+ learn_magic_outcome.0101.t:1 "$learn_dead_magic_scheme$: Success!"
+ learn_magic_outcome.0101.desc:3 "After months upon months of diligently studying the art of Dead Magic under the tutelage of [target.GetTitledFirstNamePossessive], I can finally feel my hard work paying off. Several spells and theories that used to be beyond my grasp are now easily executed and comprehended, and many of my courtiers (as well as [target.GetTitledFirstNamePossessive]) have taken note of my improved ability in Dead Magic."
+ learn_magic_outcome.0101.a:0 "My new skill cannot be denied!"
+ 
+ 
+ learn_magic_outcome.0102.t:1 "$learn_dead_magic_scheme$: Failure!"
+ learn_magic_outcome.0102.desc:3 "Though I have studied the art of Dead Magic for over a year, my attempts to improve my skills appear to be fruitlesss. I feel no more skilled in Living Magic than when I began my tutelage under [target.GetTitledFirstNamePossessive], and no matter how hard I practice, the secrets of Dead Magic are still beyond my reach."
+ learn_magic_outcome.0102.a:0 "Perhaps I just need to study more..?"
+ 
+ learn_magic_outcome.0201.t:1 "$learn_mixed_magic_scheme$: Success!"
+ learn_magic_outcome.0201.desc:3 "After months upon months of diligently studying the art of Dead Magic under the tutelage of [target.GetTitledFirstNamePossessive], I can finally feel my hard work paying off. Several spells and theories that used to be beyond my grasp are now easily executed and comprehended, and many of my courtiers (as well as [target.GetTitledFirstNamePossessive]) have taken note of my improved ability in Dead Magic."
+ learn_magic_outcome.0201.a:0 "My new skill cannot be denied!"
+ 
+ 
+ learn_magic_outcome.0202.t:1 "$learn_mixed_magic_scheme$: Failure!"
+ learn_magic_outcome.0202.desc:3 "Though I have studied the art of Mixed Magic for over a year, I feel no more skilled in Living Magic than when I began my tutelage under [target.GetTitledFirstNamePossessive]. No matter how hard I practice, the secrets of Mixed Magic are still beyond my reach."
+ learn_magic_outcome.0202.a:0 "Perhaps I just need to study more..?"
