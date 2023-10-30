@@ -1064,14 +1064,14 @@
  holy_site_mendvo_name:0 "Peaceful Shores"
 
  #Holy Sites: Oulaupi
- holy_site_snow_king_mtn_name:0 "Nauvreg"
- holy_site_red_prince_mtn_name:0 "Cosnfregl"
- holy_site_black_home_mtn_name:0 "Nortoln"
- holy_site_fire_hair_mtn_name:0 "Furngovl"
- holy_site_rainbow_rock_mtn_name:0 "Ortgaup"
- holy_site_bear_eyrie_mtn_name:0 "Olursnog"
- holy_site_green_crown_mtn_name:0 "Vrudkron"
- holy_site_friendly_stone_mtn_name:0 "Comkrun"
+ holy_site_snow_king_mtn_name:0 "The Snow King"
+ holy_site_red_prince_mtn_name:0 "The Red Prince
+ holy_site_black_home_mtn_name:0 "The Black One"
+ holy_site_fire_hair_mtn_name:0 "The Fire-Haired"
+ holy_site_rainbow_rock_mtn_name:0 "The Shimmerpeak"
+ holy_site_bear_eyrie_mtn_name:0 "The Ursine Roost"
+ holy_site_green_crown_mtn_name:0 "The Green Crown"
+ holy_site_friendly_stone_mtn_name:0 "The Friendly Stone"
 
  #Holy Sites: Orndaehz
  holy_site_snow_king_orn_name:0 "The Highest Tower"
