@@ -794,11 +794,11 @@ trait_necromancy_undead_lich:0 "Lich"
  trait_fools_curse_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been afflicted by the [fools_curse|E], alloying [ROOT.GetCharacter.GetHerHis] flesh and tearing [ROOT.GetCharacter.GetHerHis] insides apart."
 
  trait_magic_court_1:0 "Arcane Courtier"
- trait_magic_court_1_desc:0 "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] ears living in a knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
+ trait_magic_court_1_desc:0 "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
  trait_magic_court_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
 
  trait_magic_court_2:0 "Valued Arcane Courtier"
- trait_magic_court_2_desc:0 "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] ears living in a knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
+ trait_magic_court_2_desc:0 "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
  trait_magic_court_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an knowledgable [GetCourtType('court_magic').GetName] full of shrewd [magi|E] and scholars."
 
  trait_gh_magic_debug:0 "Cheetah Magi"

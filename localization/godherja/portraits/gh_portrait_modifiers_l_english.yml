@@ -632,8 +632,10 @@ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:0 "Medium Mustache"
  
   ### Neck Accessories ###
  PORTRAIT_MODIFIER_custom_gh_neck_accessories:0 "Godherja Neck"
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty:0 "No Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_boy_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_girl_empty:0 "No Accessory"
  
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_bare:0 "Magi Half Mask Bare"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_01:0 "Magi Half Mask Commoner 1"
