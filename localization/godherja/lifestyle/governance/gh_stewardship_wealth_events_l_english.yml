@@ -1,9 +1,0 @@
-﻿l_english:
- 
- ###################
- # Standard Events #
- ###################
-
- # Pick a new thing to obtain, by Sean Hughes
- stewardship_wealth.1061.a.success.good:0 "You gain a very good book [artifact|E]"
- stewardship_wealth.1061.a.success.bad:0 "You gain an uninteresting old book [artifact|E]"
