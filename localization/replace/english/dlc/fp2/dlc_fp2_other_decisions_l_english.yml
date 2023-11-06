@@ -1,0 +1,34 @@
+﻿l_english:
+ improve_city_province_decision:1 "$improve_city_province_decision_name$"
+ improve_city_province_decision_name:0 "Expand Cities"
+ improve_city_province_decision_desc:1 "Pay for extravagant new quarters to be built in your city"
+ improve_city_province_decision_confirm:0 "Start the expansion"
+ improve_city_province_decision_tooltip:0 "Invest money in order to obtain new [building|E] slots in your [cities|E]"
+ improve_city_province_decision_decision_no_effect:1 "No [city|E] is eligible"
+ improve_city_province_decision_at_least_one_city_tt:0 "At least one city has less than 5 building slots"
+
+ fp2_secure_mediterranean.t:0 "Secure the Mediterranean"
+ fp2_secure_mediterranean.desc:0 "With key islands across the Mediterranean secured and acting as watchtowers of the sea, it is time for us to claim ownership over the waves."
+ fp2_secure_mediterranean.tip:0 "Claim ownership over the Mediterranean"
+
+ secure_ritewars_foothold_decision_title:0 "Rite Foothold" # GH TODO: Move to own file
+ secure_ritewars_foothold_decision_desc:0 "The weakened warring states of the Shattered Coast opened the coast's doors to outsider invaders. If one could declare themselves the new [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] leader of the region, or simply a glorious invader, much could be gained."
+ secure_ritewars_foothold_decision_tooltip:0 "Integrate part of the Shattered Coast"
+ secure_ritewars_foothold_decision_confirm:0 "To the strongest."
+ fp2_struggle_uninvolved_or_external_tt:0 "Your [capital|E] is outside the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E]"
+ fp2_struggle_secure_ritewars_foothold_empire_tt:0 "You [hold|E] an [empire|E] [title|E] that is not [de_jure|E] in the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E]"
+
+ fp2_struggle_phase_hostility_or_opportunity_tt:1 "The Rite Wars [struggle_phase|E] is [struggle_phase_iberia_hostility|E] or [struggle_phase_iberia_opportunity|E] (Current: [GetStruggle('ritewars_struggle').GetCurrentPhase.GetName])"
+ fp2_struggle_secure_ritewars_foothold_kingdom_iberian_tt:0 "You [hold|E] and [completely_control|E] a [de_jure|E] [kingdom|E] in the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E]"
+
+ fp2_struggle_secure_ritewars_foothold_kingdom_faith_tt:0 "At least #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_faith_target_percent_value')|0]%#! of this [titlepossessive|E] [de_jure|E] [counties|E] are [THIS.Char.GetFaith.GetAdjective]"
+ fp2_struggle_secure_ritewars_foothold_kingdom_border_tt:0 "This [title|E] borders held [de_jure|E] land of an [empire|E] you [hold|E] which is not [de_jure|E] in the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E]"
+ fp2_struggle_secure_ritewars_foothold_kingdom_held_tt:0 "You have held this [title|E] for at least [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_years_value')|0Z] years"
+
+ fp2_struggle_secure_ritewars_foothold_religion_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_religion_target_percent_value')|0]%#! of [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E] [counties|E] in the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_religion_percent_value')|1]%)\n"
+ fp2_struggle_secure_ritewars_foothold_outsider_tt:0 "You [hold|E] at least #Z [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_outsider_target_percent_value')|0]%#! of [counties|E] in the [GetGeographicalRegion('struggle_rite_wars_north').GetName] [region|E] (Current: [SCOPE.ScriptValue('fp2_struggle_secure_ritewars_foothold_outsider_percent_value')|0]%)\n"
+
+ fp2_struggle_secure_ritewars_foothold_empire_held_effect_tt:0 "Every [de_jure|E] [kingdom|E] which which satisfies the below conditions will become [de_jure|E] part of [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
+ fp2_struggle_secure_ritewars_foothold_empire_dejure_effect_tt:0 "Every [de_jure|E] [kingdom|E] which satisfies the below conditions will become [de_jure|E] part of the [empire|E] of [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
+
+ fp2_struggle_secure_ritewars_foothold_ends_the_struggle_tt:0 "The [ritewars_struggle|E] ends"

@@ -1,0 +1,6 @@
+﻿l_english:
+ visvasavrak_court_position:0 "Viśvāsavrak"
+ visvasavrak_employer_custom_effect_description:0 "Reduces your risk to die or be captured in battles you're both fighting in"
+ visvasavrak_court_position_desc:0 "This knight has sworn to fulfill the will of his liege or die trying. Just as Viśvāsavra held fast against the ghastly spirits and the undead, the $visvasavrak_court_position$ guardians defend the sovereignty of the monarch."
+
+ court_position_lifestyle_gh_steppe_queen_trait:0 "[GetTrait('lifestyle_gh_steppe_queen').GetName( ROOT.Char )]"
