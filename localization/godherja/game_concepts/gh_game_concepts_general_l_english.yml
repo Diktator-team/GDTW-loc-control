@@ -631,8 +631,8 @@ game_concept_legitimacy_desc:0 ""
 ##MISC FEATURES
 
 game_concept_magic_tutor_desc:0 "A learned [magi|E] of supposed great talent, the [court_magi|E] is responsible for answering all of the arcane needs of the Court they are in.\n\nThey will educate those with innate [magical|E] ability, training them in the ways of their respective [magic_type|E]. They can also be summoned to assist a ruler with their own magical spells, or cast them at their master's command.\n\nEach Ruler can employ only one [court_magi|E]."
-game_concept_magic_tutor:0 "[court_magi|E]"
-game_concept_magic_tutors:0 "[court_magi|E]"
+game_concept_magic_tutor:0 "Magic Tutor"
+game_concept_magic_tutors:0 "Magic Tutors"
 
 #ACTIVITIES
 

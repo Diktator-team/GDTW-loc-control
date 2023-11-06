@@ -75,9 +75,12 @@
  night_court_desc:0 "The native Clanlanders of Kalathipsomi traditionally derive most of their [magic|E] from pacts with various kinds of nature spirits. According to folklore, these entities fall under the domains of either the 'Day' or 'Night' courts - so named both for the times of day they are thought to be at their most powerful and their general demeanor. The Night Court has historically been the far more maligned and shunned of the two. Considering the kinds of spirits that fall within its domain — shadowfae, boogeymen, venderja and dark beings even more ancient — this is perhaps understandable. Bargains with these entities are never a safe nor sane affair, but the often nightmarish powers of [aspect_dark|E], [aspect_dream|E] and [aspect_nature|E] that they can lend are a force to be reckoned with."
 
 
- #oltenics
+ #aironoi
  spirit_voice_name:0 "Spiritvoice"
  spirit_voice_desc:0 "It is said that when the winds blow across the vast steppes, it carries with them the voices of those that have passed beyond. To the Öltenic tribes, the veil between life and death is often thin, and their shamans are well-versed in harnessing the spirits around them to aid in their spellcasting. \n\nThis ritualistic way of magic has been named the Spiritvoice, as practitioners are heard to speak incantations with voices not of their own. The Speakers, as they are called, oft use spirits to aid in divination or calling upon them to strengthen the winds, making them adept in the aspects of [aspect_dream|E] and [aspect_air|E]."
+
+ adio_kasir_name:0 "Adio Kasir"
+ adio_kasir_desc:0 "To the Cuthanagi river tribes, the great Kasiryat river is the font of all magic. As the current of the Kasiryat flows, so too does the energies inside one's body. The thousands of forms, dances and spells developed from observing the sacred river altogether comprise the Adio Kasir, or 'Indomitable Kasir'. Practitioners specialize in [aspect_water]-based spells and are famed for their versatility in wielding it. Despite this, the Adio Kasir maintains a strict taboo: the act of raising or lowering the Kasiryat itself, which they believe to be the supreme act of hubris and tantamount to assuming divinity."
 
  #Kashirya
  empiricists_name:0 "Empiricists"
