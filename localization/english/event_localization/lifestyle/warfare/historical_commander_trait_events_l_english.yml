@@ -11,9 +11,9 @@
  historical_commander_trait.0001.d:0 "Bah! He was a fool, fighting his hopeless war."
  historical_commander_trait.0001.d.good:0 "Brutality is not a trait to be envied, even in war."
 
- #Caesar - Lethigianex
- historical_commander_trait.0002.t:0 "The Cruel Lethigianex"
- historical_commander_trait.0002.desc:0 "While studying the tactics of ancient generals I was amused to learn about Lethigianex's exploits during his the War of the Thousand Dragons.\n\n#F After Dhacixen came to meet him to discuss a possible treaty, Lethigianex imprisoned him, his [dragon|E], and retainers and swiftly brought them to Dhacixen's capital in [GetTitleByKey('c_oraispol').GetNameNoTier]. Lethigianex had them all tortured in front of the walls of [GetTitleByKey('c_oraispol').GetNameNoTier] for almost two weeks before the gates were opened, at which point Lethigianex had his enemies throat slit and the city torched.#!"
+ #Caesar - Aexionarax
+ historical_commander_trait.0002.t:0 "The Cruel Aexionarax"
+ historical_commander_trait.0002.desc:0 "While studying the tactics of ancient generals I was amused to learn about Aexionarax's exploits during his the War of the Thousand Dragons.\n\n#F After Dhacï'xen came to meet him to discuss a possible treaty, Aexionarax imprisoned him, his [dragon|E], and retainers and swiftly brought them to Dhacï'xen's capital in [GetTitleByKey('c_oraispol').GetNameNoTier]. Aexionarax had them all tortured in front of the walls of Oraispol for almost two weeks before the gates were opened, at which point Aexionarax had his enemies throat slit and the city torched.#!"
  historical_commander_trait.0002.a:0 "There's more than one way to end a siege..."
  historical_commander_trait.0002.b:0 "Make the enemy come to you! I like it!"
  historical_commander_trait.0002.c:0 "The plan was dangerous, but it surely paid off."

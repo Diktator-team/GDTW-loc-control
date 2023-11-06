@@ -632,8 +632,11 @@ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:0 "Medium Mustache"
  
   ### Neck Accessories ###
  PORTRAIT_MODIFIER_custom_gh_neck_accessories:0 "Godherja Neck"
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:0 "no Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_boy_empty:0 "No Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_girl_empty:0 "No Accessory"
  
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_bare:0 "Magi Half Mask Bare"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_magi_half_mask_common_01:0 "Magi Half Mask Commoner 1"
@@ -749,3 +752,14 @@ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:0 "Medium Mustache"
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_noble_icon_01: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_noble_icon_01$"
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_regular_01: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_01$"
  PORTRAIT_MODIFIER_custom_gh_headgear_female_rus_helm_regular_02: "$PORTRAIT_MODIFIER_custom_gh_headgear_rus_helm_regular_02$"
+
+ ### Cyrati Clothes ###
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_03_low:0 "Cyrat Noble Cloth 3"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_02_low:0 "Cyrat Noble Cloth 2"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_01_low:0 "Cyrat Noble Cloth 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_03_common:0 "Cyrat Common Cloth 3"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_02_common:0 "Cyrat Common Cloth 2"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_cemanahuac_nobility_01_common:0 "Cyrat Common Cloth 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_common:0 "Cyrat Robes 1"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_low:0 "Cyrat Robes Low"
+ PORTRAIT_MODIFIER_gh_clothes_male_maxlatl_high:0 "Cyrat Robes High"

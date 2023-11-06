@@ -560,6 +560,6 @@
  
  ## ARCANA
 
- TRAIT_FLAG_DESC_arcana_add:0 "[arcana|E]: @arcana_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value ')][GuiScope.ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]"
+ TRAIT_FLAG_DESC_arcana_add:0 "[arcana|E]: @skill_arcana_icon![SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]#!"
  arcana_base_value_desc:0 "Base"
  

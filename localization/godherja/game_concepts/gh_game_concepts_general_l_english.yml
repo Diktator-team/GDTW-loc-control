@@ -185,7 +185,7 @@ game_concept_aspect_metal:0 "$metal_coloring$ $metal_name$#!"
 game_concept_aspect_metal_desc:0 "$metal_coloring$ $metal_name$#! is said to stem from the admixture of ever-evolving [aspect_water] and the stoic [aspect_stone]. To a layman these contradictions may seem a weakness, but in truth the aspect is more than the sum of its parts. $metal_coloring$ $metal_name$#! represents flexibility, ingenuity, and the secret arts of creation passed down from master to apprentice."
 
 game_concept_aspect_sand:0 "$sand_coloring$ $sand_name$#!"
-game_concept_aspect_sand_desc:0 "Ever-shifting and innumerous, [aspect_sand] is formed when the stalwart aspect of [aspect_stone] is forced through the destabilizing formlessness of [aspect_air]. The resulting aspect represents dispersion — the breaking down of matter into smaller forms. Yet disperal does not imply nothingness, merely the change into a looser form."
+game_concept_aspect_sand_desc:0 "Ever-shifting and innumerous, [aspect_sand] is formed when the stalwart aspect of [aspect_stone] is forced through the destabilizing formlessness of [aspect_air]. The resulting aspect represents dispersion — the breaking down of matter into smaller forms. Yet disperal does not imply nothingness, merely the change into a looser structure."
 
 game_concept_aspect_dawn:0 "$dawn_coloring$ $dawn_name$#!"
 game_concept_aspect_dawn_desc:0 ""
@@ -631,8 +631,8 @@ game_concept_legitimacy_desc:0 ""
 ##MISC FEATURES
 
 game_concept_magic_tutor_desc:0 "A learned [magi|E] of supposed great talent, the [court_magi|E] is responsible for answering all of the arcane needs of the Court they are in.\n\nThey will educate those with innate [magical|E] ability, training them in the ways of their respective [magic_type|E]. They can also be summoned to assist a ruler with their own magical spells, or cast them at their master's command.\n\nEach Ruler can employ only one [court_magi|E]."
-game_concept_magic_tutor:0 "[court_magi|E]"
-game_concept_magic_tutors:0 "[court_magi|E]"
+game_concept_magic_tutor:0 "Magic Tutor"
+game_concept_magic_tutors:0 "Magic Tutors"
 
 #ACTIVITIES
 
@@ -880,7 +880,7 @@ game_concept_knokidbes:0 "Knokidbes Valley"
 game_concept_migraddar:0 "Psychrassan Highlands"
 #game_concept_mayikprolollan:0 "Mayikrata"
 game_concept_etepezea:0 "Etepezea"
-game_concept_imperial_isle:0 "Imperial Isle"
+#game_concept_imperial_isle:0 "Imperial Isle"
 game_concept_the_isles:0 "The Western Isles"
 game_concept_tower_isles:0 "The Tower Isles"
 game_concept_central_isles:0 "The Central Isles"

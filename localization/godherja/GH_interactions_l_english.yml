@@ -6,3 +6,5 @@
  IS_ALLOWED_TO_EXECUTE_ANY_CRIMINAL_DESC:0 "#weak As you are able to punish criminals however you wish, none will view you as a [tyrant|E]#!"
  IS_ALLOWED_TO_REVOKE_VASSAL_ANY_CRIMINAL_DESC:0 "#weak As you are able to punish criminals however you wish, none will view you as a [tyrant|E]#!"
  IS_ALLOWED_TO_REVOKE_TITLE_ANY_CRIMINAL_DESC:0 "#weak As [Select_CString( recipient.IsLocalPlayer, 'I', recipient.GetShortUIName )] [Select_CString( recipient.IsLocalPlayer, 'am', 'is' )] able to punish criminals however [Select_CString( recipient.IsLocalPlayer, 'I', 'they' )] wish, no one will think [Select_CString( recipient.IsLocalPlayer, 'me', 'them' )] a [tyrant|E]#!"
+ EXECUTION_TOWER:0 "Tower Exposure"
+ execution_tower_tt:0 "Gains the [trait|E] [GetTrait('gh_magicsickness_5').GetName( GetNullCharacter )]"
