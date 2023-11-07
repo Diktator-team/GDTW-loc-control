@@ -211,6 +211,8 @@ sjalvolki_decisions.3014.b:0 "I shall give it to a vassal"
  migrate_to_kingdom_faegift_tooltip:0 "Rewrite the Maps"
  migrate_to_kingdom_heartwood:0 "Redraw Heartwood's Borders"
  migrate_to_kingdom_heartwood_tooltip:0 "Rewrite the Maps"
+ migrate_to_kingdom_skycrown:0 "Redraw Skycrown's Borders"
+ migrate_to_kingdom_skycrown_tooltip:0 "Rewrite the Maps"
 
  migrate_heartwood_percent_region_tt:0 "You control more than [SCOPE.ScriptValue('sjalvolki_conquest_controlled_regions_percent_value')|0]% of the [GetGeographicalRegion('migration_heartwood_controlled_region').GetName] [region|E]"
  migrate_everrain_percent_region_tt:0 "You control more than [SCOPE.ScriptValue('sjalvolki_conquest_controlled_regions_percent_value')|0]% of the [GetGeographicalRegion('migration_everrain_controlled_region').GetName] [region|E]"

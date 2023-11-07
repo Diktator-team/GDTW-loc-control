@@ -433,6 +433,8 @@
  divination_effect_tooltip:0 "Will receive a random beneficial or, more rarely, negative modifier depending on the vision received."
  spawn_metal_golem_army_name:0 "Metal Golems"
  spawn_metal_golem_army_desc:0 "Summons Metal Golems"
+ spawn_ice_golem_army_name:0 "Ice Golems."
+ spawn_ice_golem_army_desc:0 "Summons Ice Golems"
  birth_boon_name:0 "Newborn Stat Gain"
  birth_boon_desc:0 "Upon giving birth, the target's newborn will be given extra base stats permanently. Newborns will also have chance to gain positive stats."
  add_character_modifier_magic_significantly_drained_single_stack_name:0 "Permanent Skill Loss"

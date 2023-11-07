@@ -53,6 +53,9 @@ game_concept_aelfir_alien:0 "Alien"
 game_concept_first_men:0 "First Men"
 game_concept_aelfir_desc:0 "The Aelfir were the second project of [aersanon|E], created in Aersanon's continued quest to make a being They could consider Themselves equal to.\n\nThe Aelfir were considered an improvement over humans. They were far superior at [magic|E], bred less, lived longer, and were generally considered far smarter and stronger. While looking similar to humans, they possessed long pointed ears, alien yet exceptionally striking facial features, and shades of skin going from ivory to black to blue.\n\nThe Aelfir's greatest flaw was in their cruelty. Obsessing over their own image and power, the Aelfir regularly brutalized one another and especially humans in attempts to further their own power. Aersanon saw this as a weakness and strove to fix it with a third project, but was stopped by the Godherja and Their apparent death.\n\nThe Aelfir formed multiple empires across the planet before their destruction in the Godherja, from which they reigned for several thousand years with humanity toiling as a brutalized slave caste. After humanity stole their magic and wiped out the race, they have been almost completely forgotten from history. The closest to memory of the Aelfir is from the [aversarians|E] who worship a pantheon of 'First Men', and the Sjalvolki whose tales of [creatures|E] from the 'Gods Above' contain mentions to Aelfir, though they are considred minor demons and little more than monsters."
 
+game_concept_kathanouxaic_empire:0 "Kathanouxaic Empire"
+game_concept_kathanouxaic_empire_desc:0 "Named after its founder, the Kathanouxaic Empire ruled over much of Kalathipsomi in the centuries before the birth of [aversaria|E], and one of the first in recorded history to do so. The Empire was governed by a council of [magi|E] called the Regents, all of whom answering to the Wizard King Kathanouxa himself. Predominantly agrarian, and with few large cities to its credit, the Empire was nonetheless tightly organized and possessed a sophisticated culture renowned for its architectural prowess. Though most lie in ruins, a few of the civilizations' greatest wonders still stand, such as the infamous Tower of the Wizard King. According to archaeological records, the fall of the Kathanouxaic civilization was sudden and devastating, almost apocalyptic in nature, as attested by the few remaining cultural evidence left to tell of its very existence."
+
 #LOCATIONS
 
 game_concept_the_continent:0 "The Continent"
@@ -415,7 +418,7 @@ game_concept_monster_hunt:0 "Monster Hunt"
 game_concept_monster_hunts:0 "Monster Hunts"
 game_concept_monster_hunter:0 "Monster Slayer"
 game_concept_monster_hunters:0 "Monster Slayers"
-game_concept_monster_hunt_desc:0 "A Monster Hunt is any [hunt|E] against game not considered #E Mundane#!. Unlike normal hunts, they are not considered a regular pastime, and are hence unavailable by default without the correct cultural, religious or lifestyle prerequisites. They almost invariably carry significant dangers, but also yield far more [prestige|E] and more mighty trophies."
+game_concept_monster_hunt_desc:0 "A Monster Hunt is any [GetActivityType('activity_hunt').GetName] against game not considered #E Mundane#!. Unlike normal hunts, they are not considered a regular pastime, and are hence unavailable by default without the correct cultural, religious or lifestyle prerequisites. They almost invariably carry significant dangers, but also yield far more [prestige|E] and more mighty trophies."
 
 #BIOZONES
 

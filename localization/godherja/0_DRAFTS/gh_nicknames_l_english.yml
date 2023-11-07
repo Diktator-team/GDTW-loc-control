@@ -524,6 +524,9 @@
 
  nick_the_opulent_odel:0 "the Opulent"
 
+ nick_iron_eye_gavan:0 "Iron Eye"
+ nick_iron_eye_gavan:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is well known for having an eye made of iron that stares as harshly as the real one."
+
  # MISC #
  nick_the_rebuker:0 "the Rebuker"
 

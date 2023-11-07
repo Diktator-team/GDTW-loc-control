@@ -287,7 +287,7 @@
  glimpse_reality.tooltip_3:0 "[Localize(THIS.Var('glimpse_reality_choice_3').GetFlagName)]"
  glimpse_reality.tooltip_4:0 "[Localize(THIS.Var('glimpse_reality_choice_4').GetFlagName)]"
  glimpse_reality.tooltip_5:0 "[Localize(THIS.Var('glimpse_reality_choice_5').GetFlagName)]"
- glimpse_reality_limited_tt:0 "Your mind is not yet ready to handle this spell again."
+ glimpse_reality_limited_tt:0 "Your mind is not yet ready to handle this spell again, attempting to do so will only stress you out."
 
  glimpse_reality.9501.t:0 "Failed Vision: Adrift"
  glimpse_reality.9501.desc:0 "I attempt to follow the thread, but the vision that begins crystallizing quickly fizzles out. Quickly trying to grasp another, I only manage to drag myself deeper into the surrounding empyrean, and soon enough I am completely adrift and unable to even cut the ritual short.\n\nLuckily, my predicament will pass on its own soon enough, but this place is not one a sane soul wants to spend much time in. The disembodied whispers and occasional distant screams are easy enough to get used to, so long as one simply does not listen to them too closely. The silent watchers that can only be sensed, but not seen, are much harder to ignore. The inescapable dread at the thought of the thing down below, the one that #BOL must not#! be looked at, never goes away.\n\nFortunately, the mist around me eventually dissipates, and I am back at my chamber - but for the next few days my dreams are troubled, I encounter unfamiliar residents of the castle that seemingly vanish the moment they turn a corner, and I cannot escape the feeling of being watched."

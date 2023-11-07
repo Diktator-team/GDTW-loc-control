@@ -182,3 +182,5 @@
  death_volcanic_eruption:0 "died due to a volcanic eruption"
  death_consopite_effigy:0 "was found dead in a pool of blood"
  death_reclaimed_by_the_fog:0 "was reclaimed by the [fog|E]"
+ death_eyes_gouged:0 "had their eyes brutally gouged out"
+ death_siege_of_ufaliracci:0 "died during the [siege_of_ufaliracci|E]"

@@ -159,7 +159,7 @@ game_concept_grande_gisreddeans:0 "Grande Gisreddeans"
 game_concept_grande_gisreddean:0 "Grande Gisreddean"
 game_concept_barrotgeis:0 "Barrotgeis"
 game_concept_grande_gisredde:0 "Grande Gisredde"
-game_concept_peti_gisredde_possessive:0 "$peti_gisredde_possessive$"
+game_concept_peti_gisredde_possessive:0 "Peti Gisredde's"
 
 
 
@@ -173,8 +173,7 @@ game_concept_svergirssred:0 "Svergirssred"
 game_concept_girssred:0 "Girssred"
 game_concept_inianvilla:0 "Inianvilla"
 game_concept_peti_gisredde:0 "Peti Gisredde"
-peti_gisredde_possessive:0 "Peti Gisredde's"
-#peti_gisredde_possessive:0 "Peti Gisredde's"
+
 game_concept_peti_gisreddean_possessive:0 "$peti_gisreddean_possessive$"
 peti_gisreddean_possessive:0 "Peti Gisreddean's"
 game_concept_peti_gisredde_desc:0 "Peti Gisredde is both the name of the city in western [chevalie|E] and its ruling polity, which controls both city and countryside. Originally the Gallicader holy site [sweverg_irssraedl|E], its conquest by [inian_wisestar|E] led to its founding as Inianvilla. Over time, it would become Chevalie's staple port, and possibly the most successful city in all of [the_continent|E]. Built upon ruins predating known civilization, the massive black-stone docks would help to establish Peti Gisredde as a maritime trade power.\n\nGisreddean history is traditionally split into three distinct eras. The first settlement by the Gallicaders, Inian Wisestar's conquest, the failures of [mical_wisestar|E], the annexation of [barrotgeis|E], and the [shoemaker_rebellion|E] and the establishment of the [gisreddepact|E] in 239 IS all fall under [prepact_gisredde|E].\n\nThe following [precollapse_gisredde|E] would begin the rivalry between Peti Gisredde and [grande_gisredde|E] and the [fraternity_of_gisredde|E]. The [anarchy_of_the_five_crowns|E] would bring [champion_era_gisredde|E], which would last until the [champion_of_chevalie|E]'s sacrifice on the roof of the Palace of Gisredde. Most notable in the era besides the war against [silas_stavro|E] was the [coup_of_the_wayfathers|E] and the independence of Grande Gisredde.\n\nStill ongoing is [glorious_gisredde|E], an era which has seen the city flourishing, cementing Peti Gisredde as a world power and Grande Gisredde as a city with a somewhat stable government. Despite difficulties in the [war_of_the_heretic_princes|E], the city continued to grow, especially with the growth of the [gisreddean_banking_system|E]."
@@ -193,3 +192,6 @@ game_concept_fraternity_of_gisredde_desc:0 "The Fraternity of Gisredde, similar 
 
 game_concept_oejeynican_royal_charter:0 "Oejeynican Royal Charter of 764"
 game_concept_oejeynican_royal_charter_desc:0 "After the [sorrowing_of_oejeynica|E], most of the former inhabitants of the lands now called the [lichdoms|E] have taken to eking out a meager existence in cramped [chevalien|E] slums. Rejected and scapegoated by their new neighbors, they were frequently victimized further with massacres and forced exiles, particularly during the many [lich|E] invasions of the Marches. This dismal state of affairs would last until the reign of High Queen Arelli, who in 764 IS, signed the Oejeynican Royal Charter.\n\nUnder the Charter, a Grand Duke shall be chosen by the High Queen, who shall rule and represent the Oejeynicans under her authority. High Queen Arelli also granted the Oejeynicans a large tract of land in northern Rohr to serve as her new homeland, in return for protecting part of the northern border in her name. Since then, the Oejeynicans have earned the dubious honor of being the first to kneel at the coronation of each new High King, which is both a mark of prestige and submission. Still, they have earned the grudging respect of the [marchers|E], as they are commonly the first victims of any assault from the north — leading them to being seen as just as Chevalien as most [grande_gisreddeans|E]."
+
+game_concept_conclave_of_gisredde_concept:0 "Conclave of Gisredde"
+game_concept_conclave_of_gisredde_concept_desc:0 "The Conclave of Gisredde can be best described as an 'anti-Conclave' to the Conclave of Raocourt. With [peti_gisredde|E] historically chafing under any sort of outside interference, it should have been expected that they would inevitability dispute (often violently) the influence of 'foreign' churches, even those of the same faith within the same realm that practice the same culture.\n\nFirst declared in 389 IS with the Pontgonez Dispute, the Conclave would fade out of relevance and then suddenly return every few decades. Normally, this would coincide with the Conclave of Raocourt's attempts to enforce any amount of orthodoxy on the always individualistic Gisreddeans, with the 'schism' only ended once they gave the local wayfathers a significant tax decrease."

@@ -4,4 +4,6 @@
  activity_hunt_province_desc_falcon_roost_medium:1 "#P ++ $building_type_falcon_roost_01$#! ([building|E])\n"
  activity_hunt_province_desc_falcon_roost_major:1 "#P +++ $building_type_falcon_roost_01$#! ([building|E])\n"
 
+ activity_hunt_province_desc_monster_sighting:0 "#P +++ Monster Sighting#!\n"
+
  activity_hunt_outside_realm_valid_tt:0 "Must have [GetFaithDoctrine('tenet_sjalvolki_hunt').GetBaseName] or [GetPerk('adept_tracker_perk').GetName(GetPlayer)] to hunt outside your [realm|E]."
