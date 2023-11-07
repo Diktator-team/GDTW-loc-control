@@ -1,8 +1,0 @@
-﻿l_english:
-
- BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY:0 "[PROVINCE.GetCounty.GetTitle.GetName] has a [tribal|E] holding"
-
-#Lonely Note: We need a GC for Metros
- BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED:0 "[PROVINCE.GetName] must be a [castle|E], [city|E], Metropolis, or [temple|E]"
- NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED:0 "[PROVINCE.GetName] is not a [castle|E], [city|E], Metropolis,  or [temple|E]"
- NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED:0 "Hall of Heroes can only be used by Apti, Gallienie, Gestanwoder, Gethian, Kakarataki, Kardawai, Salacad, Samojitian or Sjalvolki Pagans"
