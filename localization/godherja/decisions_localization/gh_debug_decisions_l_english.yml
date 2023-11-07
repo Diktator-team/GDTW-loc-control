@@ -1,5 +1,0 @@
-﻿l_english:
- instant_colonization_debug_toggle:0 "Rapid Colonization Toggle (DEBUG)"
- instant_colonization_debug_desc:0 "Toggles Rapid Colonization On/Off. Only works on newly-founded colonies. You must wait 30 days for the colonization to be complete."
- instant_colonization_debug_toggle_tooltip:0 "DEBUG DECISION"
- instant_colonization_debug_toggle_confirm:0 "It's Map Paintin' Time"
