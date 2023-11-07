@@ -134,6 +134,24 @@
  lucent_reconstruction_name:0 "Lucent Reconstruction"
  lucent_reconstruction_desc:0 "Rays of light surround the target, forcing their body to re-order itself — causing both wounds and sickness to heal."
 
+ calming_waters_name:0 "Calming Waters"
+ calming_waters_desc:0 "The caster's palms are surrounded by a film of clear water, which when placed on one's forehead, causes calm and relaxation."
+
+ water_veil_name:0 "Water Veil"
+ water_veil_desc:0 "Creates a protective barrier of water that blocks both physical and magical projectiles."
+
+ riverine_rush_name:0 "Riverine Rush"
+ riverine_rush_desc:0 "Travel with the speed of a Kasiryat torrent."
+
+ fluvial_restoration_name:0 "Fluvial Restoration"
+ fluvial_restoration_desc:0 "Use the sacred waters of the Kasiryat to heal both wounds of the body and of the mind."
+
+ rejuvenation_name:0 "Rejuvenation"
+ rejuvenation_desc:0 "Refreshes the character's countenance with magically-infused water."
+
+ blessing_of_the_kasiryat_name:0 "Blessing of the Kasiryat"
+ blessing_of_the_kasiryat_desc:0 "Imbue the target with the pristine beauty of the Kasiryat."
+
  water_healing_name:0 "Water Healing"
  water_healing_desc:0 "A magi with learning in water magic can use the aspect to heal the subject for a price"
  fire_healing_name:0 "Fire Refurbishment"
@@ -372,6 +390,15 @@
  
  add_character_modifier_stress_gain_mult_negative_name:0 "Weaken Psyche"
  add_character_modifier_stress_gain_mult_negative_desc:0 "Renders the target more susceptible to [stress|E]."
+
+ add_character_modifier_stress_loss_mult_positive_name:0 "Calm Psyche"
+ add_character_modifier_stress_loss_mult_positive_desc:0 "Increases the target's rate of losing [stress|E]."
+
+ add_character_modifier_magic_stress_positive_name:0 "Serene Mind"
+ add_character_modifier_magic_stress_positive_desc:0 "Decreases the target's rate of gaining [stress|E]."
+
+ character_stress_loss_positive_name:0 "Decrease Stress"
+ character_stress_loss_positive_desc:0 "Decreases the target's [stress|E]."
  
  add_character_modifier_magic_life_corruption_single_stack_name:0 "Occult Enervation"
  add_character_modifier_magic_life_corruption_single_stack_desc:0 "Gives a permanent decrease to [health|E], effectively decreasing lifespan."
@@ -406,6 +433,8 @@
  divination_effect_tooltip:0 "Will receive a random beneficial or, more rarely, negative modifier depending on the vision received."
  spawn_metal_golem_army_name:0 "Metal Golems"
  spawn_metal_golem_army_desc:0 "Summons Metal Golems"
+ spawn_ice_golem_army_name:0 "Ice Golems."
+ spawn_ice_golem_army_desc:0 "Summons Ice Golems"
  birth_boon_name:0 "Newborn Stat Gain"
  birth_boon_desc:0 "Upon giving birth, the target's newborn will be given extra base stats permanently. Newborns will also have chance to gain positive stats."
  add_character_modifier_magic_significantly_drained_single_stack_name:0 "Permanent Skill Loss"
@@ -434,6 +463,15 @@
 
  add_character_modifier_travel_disadvantage_name:0 "Slowed"
  add_character_modifier_travel_disadvantage_desc:0 "Decreases the target character's travel speed."
+
+ add_character_modifier_magic_general_opinion_name:0 "Refreshing Presence"
+ add_character_modifier_magic_general_opinion_desc:0 "This character's countenance has been improved through magical means."
+
+ add_character_modifier_magic_attraction_opinion_name:0 "Alluring Presence"
+ add_character_modifier_magic_attraction_opinion_desc:0 "This character has been made more attractive to others through magical means."
+
+ add_character_modifier_magic_realm_opinion_name:0 "Inspiring Presence"
+ add_character_modifier_magic_realm_opinion_desc:0 "Magic has resulted in this character being held as a paragon by those around them."
 
  # Effect Tags (County Modifiers)
  add_county_modifier_magic_fallout_modifier_name:0 "Magical Fallout"
@@ -488,6 +526,11 @@
  county_lower_control_modifier_desc:0 "The region has begun to lose control as a result of the spell."
  county_lower_control_modifier_livestock:0 "Rampaging Creatures"
  county_lower_control_modifier_livestock_desc:0 "[magic|E] has inflamed the passions of this area's livestock, increasing their energy and boosting fertility."
+
+ add_county_modifier_cease_growth:0 "Cease Growth"
+ add_county_modifier_cease_growth_desc:0 "Large amounts of [aspect_light] magic has made it harder to develop the province."
+ reduce_growth_magic_modifier:0 "Cease Growth"
+ reduce_growth_magic_modifier_desc:0 "Development of the province is slowed by magic."
 
  # Effect Tags (County Effects)
  gain_arcane_fallout_name:0 "Arcane Fallout"
@@ -861,6 +904,13 @@
  
  magic_stress_gain_mult_modifier:0 "Weakened Psyche"
  magic_stress_gain_mult_modifier_desc:0 "This character is rendered more susceptible to stress through arcane means."
+
+ magic_stress_loss_mult_modifier:0 "Calmed Psyche"
+ magic_stress_loss_mult_modifier_desc:0 "This character's capacity to lose stress has been enhanced through arcane means."
+
+ magic_stress_positive:0 "Strengthened Psyche"
+ magic_stress_positive_desc:0 "This character is rendered less susceptible to stress through arcane means."
+
  diplomacy_magic_modifier_seduction_negative:0 "Seductive Ineptitude"
  diplomacy_magic_modifier_seduction_negative_desc:0 "Gives a temporary decrease to seduction [scheme_success_chance|E] and [attraction|E] [opinion|E]."
  
@@ -978,6 +1028,12 @@
  casted_unwanted_magic_someone_close_to_me_crime:0 "Casted Hostile Magic on Someone Close to Me"
  scheme_arcana_theory_modifier:0 "[GetPerk('arcana_erudition_perk1_tree3').GetName(GetPlayer)] [perk|E]"
  scheme_arcana_erudition_perk8:0 "[GetPerk('arcana_erudition_perk5_tree3').GetName(GetPlayer)] [perk|E]"
+ magic_general_opinion_modifier:0 "Improved General Opinion"
+ magic_general_opinion_modifier_desc:0 "Improves the general opinion others have of this character."
+ magic_attraction_opinion_modifier:0 "Improved Attraction"
+ magic_attraction_opinion_modifier_desc:0 "Improves this character's attractiveness to others."
+ magic_realm_opinion_modifier:0 "Improved Realm Opinion"
+ magic_realm_opinion_modifier_desc:0 "Improves the opinion the realm has of this character."
 
  ####################
  # TERRAIN OVERRIDE #

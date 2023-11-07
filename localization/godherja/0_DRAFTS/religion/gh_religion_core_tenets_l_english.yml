@@ -847,6 +847,8 @@ tenet_great_steward_desc:0 "Being a diligent and hardworking worshiper brings us
  tenet_unreformed_religion_syncretism_name:0 "Unreformed"
  tenet_unreformed_religion_syncretism_desc:0 ""
 
+ tenet_holy_river_value_desc:0 "Holy River Tenet"
+
  # Debug Tenets
  #These are just here to clear out errors related to missing paramaters, if we reach a point where all paramaters are triggered correctly, the debug tradition + this loc entry should be removed
  tenet_dummy_tenet_name:0 "DUMMY TENET"

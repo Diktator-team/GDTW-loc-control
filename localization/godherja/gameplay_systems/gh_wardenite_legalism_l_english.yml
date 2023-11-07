@@ -73,10 +73,10 @@
  wrathful_gives_judicial_power_tooltip:0 "The [GetTrait('wrathful').GetName( GetNullCharacter )] [trait|E] gives #E Judicial Power#!"
  scholar_gives_judicial_power_tooltip:0 "The [GetTrait('scholar').GetName( GetNullCharacter )] [trait|E] gives #E Judicial Power#!"
  theologian_gives_judicial_power_tooltip:0 "The [GetTrait('theologian').GetName( GetNullCharacter )] [trait|E] gives #E Judicial Power#!"
- mystic_gives_judicial_power_tooltip:0 "Each level of the [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] gives increasing amounts of #E Judicial Power#! per the tradition's #E Mysticism#! level"
+ mystic_gives_judicial_power_tooltip:0 "Each level of the [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] [trait|E] gives increasing amounts of #E Judicial Power#! per the tradition's #E Mysticism#! level"
  
- mystic_increases_piety_reward_tooltip:0 "Each level of the [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] proportionally increases the [piety|E] rewards of a good ruling"
- may_gain_mystic_from_trials_tooltip:0 "Chance of levelling up the [GetTrait('mystic_1').GetName( GetNullCharacter )] [trait|E] upon the conclusion of each good ruling"
+ mystic_increases_piety_reward_tooltip:0 "Each level of the [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] [trait|E] proportionally increases the [piety|E] rewards of a good ruling"
+ may_gain_mystic_from_trials_tooltip:0 "Chance of levelling up the [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] [trait|E] upon the conclusion of each good ruling"
  learning_gives_double_judicial_power_tooltip:0 "@skill_learning_icon![learning|E] counts twice as much for #E Judicial Power#!"
  diplomacy_gives_judicial_power_tooltip:0 "@skill_diplomacy_icon![diplomacy|E] counts towards #E Judicial Power#!"
  stewardship_gives_judicial_power_tooltip:0 "@skill_stewardship_icon![stewardship|E] counts towards #E Judicial Power#!"

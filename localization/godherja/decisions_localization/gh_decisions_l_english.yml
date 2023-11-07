@@ -798,3 +798,10 @@
  hire_protoshliti_legon_decision_effect_tooltip:0 "You will look for a Protoshliti-trained Legon to join your Court"
  hire_protoshliti_legon_decision_confirm:0 "Pay a visit to the Protoshliti"
  hire_protoshliti_legon_decision_desc_tooltip:0 "You will attempt to hire a Protoshliti-trained Legon"
+
+ hire_aironoiakaan_magi_decision:0 "Hire a [magi|E] from the Aironoiakaan"
+ hire_aironoiakaan_magi_decision_desc:0 "With the restoration of the Mayikprollolan Aironoiakaan, the east once again has a center of magical learning. Graduates from the prestigious academy are sure to be among the greatest [magi|E] of their generation — and for a price, you can have one of them serving in your court."
+ hire_aironoiakaan_magi_decision_tooltip:0 "You will be presented with a group of Aironoiakaan-trained [magi|E] and may hire one of them for a fee"
+ hire_aironoiakaan_magi_decision_effect_tooltip:0 "You will look for a Aironoiakaan-trained [magi|E] to join your Court"
+ hire_aironoiakaan_magi_decision_confirm:0 "Pay a visit to the Aironoiakaan"
+ hire_aironoiakaan_magi_decision_desc_tooltip:0 "You will attempt to hire a Aironoiakaan-trained [magi|E]"

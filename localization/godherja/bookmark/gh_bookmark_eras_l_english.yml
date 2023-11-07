@@ -69,7 +69,7 @@
 
  bm_group_723_title:0 "Rage of the Desert"
  bm_group_723:0 "723"
- bm_group_tooltip_723:0 "#T $bm_group_723_title$ #!\n$bm_not_released$\n\n#help "You, my brother, will surrender your arms and citadels. The lives of your soldiers, wives, and sons are forfeit. You may take one horse, one cloak, and one sword. These are the terms of my mercy."\n~Rouzbeh, 725 IS.#!\n\nTwo dozen princes take up arms in the Amsari Hiklahn, turning the Prophet's dream of a unified Amsar into a nightmare as kin turns against kin. With weakness in the Hiklahn comes strength from their old enemies, as the Kemsari unite under the warlord Henutaht. Meanwhile, in the lands formerly held by the [mamur|E] of the West the Ayyar's triumphant arrival seems poised to finally reunite the region, bringing an end to a half century of anarchy."
+ bm_group_tooltip_723:0 "#T $bm_group_723_title$ #!\n$bm_not_released$\n\n#help "You, my brother, will surrender your arms and citadels. The lives of your soldiers, wives, and sons are forfeit. You may take one horse, one cloak, and one sword. These are the terms of my mercy."\n~Rouzbeh, 725 IS#!\n\nTwo dozen princes take up arms in the Amsari Hiklahn, turning the Prophet's dream of a unified Amsar into a nightmare as kin turns against kin. With weakness in the Hiklahn comes strength from their old enemies, as the Kemsari unite under the warlord Henutaht. Meanwhile, in the lands formerly held by the [mamur|E] of the West the Ayyar's triumphant arrival seems poised to finally reunite the region, bringing an end to a half century of anarchy."
 
  bm_group_764_title:0 "Respite from the Chaos"
  bm_group_764:0 "764"
@@ -89,15 +89,15 @@
  
  bm_group_899_title:0 "The Humbling of Aversaria"
  bm_group_899:0 "899"
- bm_group_tooltip_899:0 "#T $bm_group_899_title$ #!\n$bm_not_released$\n#help "We will not yield to their empire, just as we have not yielded to the northerners."\n~Gurard, 897 IS#!\n\nAautokratir Mythix stands humiliated by the Balaren dispute, and the vultures begin to swirl around the throne. [chevalie|E] continues to burn in the [red_river_war|E], and rumors mount of a new [arch_lich|E] preparing to strike south, one of unprecedented cruelty and power. Meanwhile, in the south, the [war_in_heaven|E] rages yet onwards, while Damota continues to feud over the scraps of the [boqqarut|E]."
+ bm_group_tooltip_899:0 "#T $bm_group_899_title$ #!\n$bm_not_released$\n\n#help "We will not yield to their empire, just as we have not yielded to the northerners."\n~Gurard, 897 IS#!\n\nAautokratir Mythix stands humiliated by the Balaren dispute, and the vultures begin to swirl around the throne. [chevalie|E] continues to burn in the [red_river_war|E], and rumors mount of a new [arch_lich|E] preparing to strike south, one of unprecedented cruelty and power. Meanwhile, in the south, the [war_in_heaven|E] rages yet onwards, while Damota continues to feud over the scraps of the [boqqarut|E]."
  
  bm_group_939_title:0 "Legacy of the Champion"
  bm_group_939:0 "939"
- bm_group_tooltip_939:0 "#T $bm_group_939_title$ #!\n$bm_not_released$\n#help "YOU WILL DIE, AND YOU WILL SERVE ME!"\n~Silas, 930 IS#!\n\nWith [silas_stavro|E] surely destroyed forever at the hands of [the_champion|E], [chevalie|E] is caught in a standoff, with the competing claimants either dead or discredited, with all seeing the need for reunification in the face of such devastation. [aversaria|E] proceeds onwards under the reign of Nothyx, and the empire looks forward to a new era of prosperity. In [sarradon|E], however, the Amsari Hikhlan is rent apart by fraternal strife, and [wardenites|E] launch a great campaign in the far east."
+ bm_group_tooltip_939:0 "#T $bm_group_939_title$ #!\n$bm_not_released$\n\n#help "YOU WILL DIE, AND YOU WILL SERVE ME!"\n~Silas, 930 IS#!\n\nWith [silas_stavro|E] surely destroyed forever at the hands of [the_champion|E], [chevalie|E] is caught in a standoff, with the competing claimants either dead or discredited, with all seeing the need for reunification in the face of such devastation. [aversaria|E] proceeds onwards under the reign of Nothyx, and the empire looks forward to a new era of prosperity. In [sarradon|E], however, the Amsari Hikhlan is rent apart by fraternal strife, and [wardenites|E] launch a great campaign in the far east."
  
  bm_group_999_title:0 "The Heretic Princes"
  bm_group_999:0 "999"
- bm_group_tooltip_999:0 "#T $bm_group_999_title$ #!\n$bm_not_released$\n#help "They will understand. Eventually."\n~Thiscul, 864 IS#!\n\n[chevalie|E] is torn asunder, as the heretical proclamations of Urso Becledievre launch the realm into a brutal religious struggle. The Conclave of Raocourt has promised to eradicate all the heretics, but even the nobility, long chafing under clerical control, are beginning to turn heretic. The Marches seem poised for an new age of bloodshed, and this schism seems to be only the beginning."
+ bm_group_tooltip_999:0 "#T $bm_group_999_title$ #!\n$bm_not_released$\n\n#help "They will understand. Eventually."\n~Thiscul, 864 IS#!\n\n[chevalie|E] is torn asunder, as the heretical proclamations of Urso Becledievre launch the realm into a brutal religious struggle. The Conclave of Raocourt has promised to eradicate all the heretics, but even the nobility, long chafing under clerical control, are beginning to turn heretic. The Marches seem poised for an new age of bloodshed, and this schism seems to be only the beginning."
  
  bm_group_1094_title:0 "Hymns of Rebellion"
  bm_group_1094:0 "1094"
@@ -137,7 +137,7 @@
  
  bm_group_1254_title:0 "The Broken World"
  bm_group_1254:0 "1254"
- bm_group_tooltip_1254:0 "#T $bm_group_1254_title$ #!\n#help "They say the empire burns? That Aversaria is lost? That no aautokratir sits upon the throne!? As long as I reign from Oraispol, Aversaria lives! I am Aversaria, and to any who doubt this, let them all burn! Do they think that I shall show them any less pain, than I did to those who stood against me who I once loved!?"\n~Aeschraes, 1228 IS#!\n\n[aversaria|E] breaths its last gasps as the Sjalvolki Imperrech marches to the sea. The Elysian Pass has ended with the destruction of the last organized coalition against Cenware, and now all that all remains between the barbarians and dominion of the world is the march to its heart."
+ bm_group_tooltip_1254:0 "#T $bm_group_1254_title$ #!\n\n#help "They say the empire burns? That Aversaria is lost? That no aautokratir sits upon the throne!? As long as I reign from Oraispol, Aversaria lives! I am Aversaria, and to any who doubt this, let them all burn! Do they think that I shall show them any less pain, than I did to those who stood against me who I once loved!?"\n~Aeschraes, 1228 IS#!\n\n[aversaria|E] breaths its last gasps as the Sjalvolki Imperrech marches to the sea. The Elysian Pass has ended with the destruction of the last organized coalition against Cenware, and now all that all remains between the barbarians and dominion of the world is the march to its heart."
  
  bm_group_1298_title:0 "A New World"
  bm_group_1298:0 "1298"

@@ -1996,6 +1996,7 @@
  fogged_artifact_name:0 "Fogged [newly_created_artifact.GetNameNoTooltip]"
  
  fund_inspiration.5011.f:0 "A magnificent staff that can further my magic."
+ fund_inspiration.5011.g:0 "A pristine bone, thrumming with magic, to craft with."
  gain_griffon_familiar.tt:0 "A [GetTrait('gh_griffon_trait').GetName(GetNullCharacter)] joins your [court|E] as #E Familiar#!"
  gave_artifacts_opinion:0 "Gave Artifacts"
  GET_ARTIFACT_EQUIPPED:0 "[Concatenate(Scope.GetFlagName,'_equipped')]"

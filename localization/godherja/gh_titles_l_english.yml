@@ -2410,7 +2410,16 @@
 		e_mayikprolollan:0 "Mayikrata"
 
 		## k_lefkanada ##
-			k_lefkanada:0 "the Scriptoriums"
+			k_lefkanada:0 "the Pathosixyic Chambers"
+
+		## k_the_portalage ##
+			k_the_portalage:0 "the Portalage" 
+
+	##################
+	# e_scriptoriums #
+	##################
+
+		e_scriptoriums:0 "Scriptoriums"
 
 		## k_the_atrium ##
 			k_the_atrium:0 "the Atrium"
@@ -2420,10 +2429,7 @@
 					d_the_grotto:0 "the Grotto"
 
 		## k_gristilikiid ##
-			k_gristilikiid:0 "Gristilikiid" 
-
-		## k_the_portalage ##
-			k_the_portalage:0 "the Portalage" 
+			k_gristilikiid:0 "Gristilikiid"
 
 		## k_the_solitarium ##
 			k_the_solitarium:0 "the Solitarium"
@@ -2449,6 +2455,17 @@
 		## k_mitikiird ##
 			k_mitikiird:0 "Mitikiird"
 
+	#################
+	# e_iron_spines #
+	#################
+
+		e_iron_spines:0 "Iron Spines"
+
+		## k_western_iron_spines ##
+			k_western_iron_spines:0 "the Western Iron Spines"
+
+		## k_eastern_iron_spines ##
+			k_eastern_iron_spines:0 "the Eastern Iron Spines" 
 
 	###############
 	# e_red_chasm #
@@ -20501,7 +20518,7 @@
 		d_artesmos_isles:0 "Artesmos Isles"
 		d_artifacts_common:0 "Common Artifacts"
 		d_artifacts_unique:0 "Unique Artifacts"        
-		d_arth:0 "the Huge Hole" 
+		d_arth:0 "the Spellbound Chasms" 
 		d_artyros:0 "Artyros"
 		d_arvor:0 "Arvor"
 		d_as_subwa:0 "As Subwa"
@@ -20898,6 +20915,7 @@
 		d_feinde:0 "Feinde"
 		d_feldingbjerg:0 "Feldingbjerg"
 		d_ferrond:0 "Ferrond"
+		d_ferrous_foothills:0 "Ferrous Foothills"
 		d_fill_1000:0 "Khourkaaj"
 		d_finaca:0 "Finaca"
 		d_fourveh:0 "Fourveh"
@@ -21230,9 +21248,9 @@
 		d_mayik_duchy_8:0 "Sorcerous Moathouse of Cormacan the Unbleeding" 
 		d_mayik_duchy_9:0 "Abzu of the Deathless Armsmen" 
 		d_mayik_forest_1:0 "Thunderlance Escape" 
-		d_mayik_mountain_1:0 "the Shipwrecks" 
+		d_mayik_mountain_1:0 "Southern Spines" 
 		d_mayik_mountain_2:0 "the Gothic Duskhalls" 
-		d_mayik_mountain_3:0 "Sparry Heaven" 
+		d_mayik_mountain_3:0 "Spellwind Valley" 
 		d_mayik_mountain_4:0 "Shimmerpeaks" 
 		d_mayik_mountain_5:0 "Hallowed Caverns" 
 		d_megalarina:0 "Megalarina"
@@ -21344,6 +21362,7 @@
 		d_nysakros:0 "Nysakros"
 		d_oberneufahrn:0 "Oberneufahrn"
 		d_oberpaindorf:0 "Oberpaindorf"
+		d_obsidian_alleys:0 "Obsidian Alleys"
 		d_oekevrokanne:0 "Oekevrokanne"
 		d_olafos:0 "Olafos"
 		d_olendos:0 "Olendos"
@@ -21565,6 +21584,7 @@
 		d_south_bedouins_9:0 "Hālatabiad"
 		d_south_kashirya_1:0 "Ganori"
 		d_south_kashirya_2:0 "Wadakahadeniya"
+		d_southern_vistas:0 "Southern Vistas"
 		d_southkatraddia_10:0 "Songrki"
 		d_southkatraddia_11:0 "Vashin"
 		d_southkatraddia_12:0 "Malrozny"
@@ -22221,6 +22241,7 @@
 		k_tribocicai_adj:0 "Tribocicai"
 		k_trym:0 "Trym"
 		k_ufaliracci:0 "Ufaliracci"
+		k_gavan_coalition:0 "Gavan Coalition"
 		k_uraghad:0 "Uraghad" 
 		k_uvusk:0 "Uvusk"
 		k_varrdevet:0 "Varrdevet"
