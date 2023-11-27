@@ -466,11 +466,12 @@ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:0 "Medium Mustache"
  
  ### Oltenic Masks ###
  
- PORTRAIT_MODIFIER_custom_gh_masks_Baldwins_Mask:0 "Öltenic Mask 1"
- PORTRAIT_MODIFIER_custom_gh_masks_Baldwins_Mask_female:0 "Öltenic Mask 1"
+ PORTRAIT_MODIFIER_custom_gh_masks_baldwins_mask:0 "Öltenic Mask 1"
+ PORTRAIT_MODIFIER_custom_gh_masks_baldwins_mask_female:0 "Öltenic Mask 1"
  PORTRAIT_MODIFIER_custom_gh_masks_vanilla_face_mask_hoodless:0 "Öltenic Mask 2"
  PORTRAIT_MODIFIER_custom_gh_masks_vanilla_face_mask_hoodless_female:0 "Öltenic Mask 2"
- PORTRAIT_MODIFIER_custom_gh_masks_kipchak_mask:0 "Öltenic Mask 3"
+ PORTRAIT_MODIFIER_custom_gh_masks_kipchak_mask:0 "Öltenic High Nobility Mask 1"
+ PORTRAIT_MODIFIER_custom_gh_masks_m_headgear_fp3_iranian_face_mask_01_hoodless:0 "Öltenic High Nobility Mask 2"
  
  PORTRAIT_MODIFIER_custom_gh_masks_male_empty:0 "No Mask"
  PORTRAIT_MODIFIER_custom_gh_masks_female_empty:0 "No Mask"
@@ -633,7 +634,7 @@ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:0 "Medium Mustache"
   ### Neck Accessories ###
  PORTRAIT_MODIFIER_custom_gh_neck_accessories:0 "Godherja Neck"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty:0 "No Accessory"
- PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:0 "no Accessory"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:0 "No Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty:0 "No Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_boy_empty:0 "No Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_girl_empty:0 "No Accessory"

@@ -31,7 +31,7 @@
  fp2_struggle_secure_iberian_foothold_empire_held_effect_tt:0 "Every [de_jure|E] [kingdom|E] of [GetTitleByKey('e_spain').GetNameNoTier] which which satisfies the below conditions will become [de_jure|E] part of [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
  fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt:0 "Every [de_jure|E] [kingdom|E] of [GetTitleByKey('e_spain').GetNameNoTier] which satisfies the below conditions will become [de_jure|E] part of the [empire|E] of [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
 
- fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt:0 "The [iberian_struggle|E] ends"
+ fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt:0 "The [ritewars_struggle|E] ends"
   
  iberian_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
 

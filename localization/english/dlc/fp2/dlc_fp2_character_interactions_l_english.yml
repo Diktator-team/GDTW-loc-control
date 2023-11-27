@@ -47,7 +47,7 @@
  TRUCE_ENFORCE_TRUCE:0 "Enforced Truce"
  enforce_truce_interaction_actor_toast:0 "Truce Enforced"
  enforce_truce_interaction_toast:0 "Truce Enforced by [actor.GetTitledFirstName]"
- fp2_enforce_truce_war_with_not_involved_tt:0 "The other [war_leader|E] is not [struggle_involved|E] in the [iberian_struggle|E]"
+ fp2_enforce_truce_war_with_not_involved_tt:0 "The other [war_leader|E] is not [struggle_involved|E] in the [ritewars_struggle|E]"
  fp2_enforce_truce_liege_or_independent_tt:0 "[recipient.GetTitledFirstName] or [recipient.GetHerHis] enemy must be an [independent_ruler|E] or of equal or lower [rank|E] in the same [realm|E]"
  fp2_enforce_truce_tier_difference_tt:0 "Both [war_leaders|E] must be of an equal or lower [rank|E] than you"
  fp2_enforce_truce_other_tt:0 "[truce_1.GetTitledFirstName|Z] and [truce_2.GetTitledFirstName|Z] get a [truce|E] for #Z [SCOPE.ScriptValue('fp2_enforce_truce_duration_value')|0] years#!"

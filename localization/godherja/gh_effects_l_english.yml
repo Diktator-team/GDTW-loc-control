@@ -228,8 +228,8 @@
  GAINED_A_ARCANA_LIFESTYLE_PERKPOINT:0 "Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
  I_GAIN_A_ARCANA_LIFESTYLE_PERKPOINT:0 "I Gain $VALUE|V0$ [arcana_lifestyle|E] Unlock"
  I_GAINED_A_ARCANA_LIFESTYLE_PERKPOINT:0 "I Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
- TARGET_GAINS_A_LEARNING_LIFESTYLE_PERKPOINT:0 "They Gain $VALUE|V0$ [arcana_lifestyle|E] Unlock"
- TARGET_GAINS_A_ARCANA_LIFESTYLE_PERKPOINT:0 "They Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ TARGET_GAINS_A_ARCANA_LIFESTYLE_PERKPOINT:0 "They Gain $VALUE|V0$ [arcana_lifestyle|E] Unlock"
+ TARGET_GAINED_A_ARCANA_LIFESTYLE_PERKPOINT:0 "They Gained $VALUE|V0$ [arcana_lifestyle|E] Unlock"
 
  add_arcana_skill_tooltip:0 "Gain [arcana|E]"
  

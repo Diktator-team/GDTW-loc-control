@@ -59,6 +59,7 @@
  # Lonely Note: Make a pirate authority cooldown so we can use the better version of the below loc (and remove NOT_ from the trigger loc)
  has_pirate_authority_cooldown:0 "You recently changed Pirate Authority. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_authority_cooldown') )]"
  NOT_has_pirate_authority_cooldown:0 "You have not recently changed Pirate Authority."
- succession_laws_must_have_innovation_or_marcher_tooltip:0 "I do not have a [magocracy|E], [feudal|E] or [clan|E] [government|E]"
+ succession_laws_must_have_innovation_or_marcher_tooltip:0 "Your culture is neither of $gh_marcher_group$ [heritage|E] nor does it possess the $innovation_primogeniture$ [innovation|E]."
+ gh_succession_laws_must_have_organised_government_tooltip:0 "I do not have a [magocracy|E], [feudal|E] or [clan|E] [government|E]"
  chevalie_allows_heir_designation:0 "Your culture does not have the Chevalien Legacy Tradition"
  

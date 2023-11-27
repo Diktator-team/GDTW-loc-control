@@ -112,15 +112,22 @@
  mayik_caverns_advantage:0 "[command_modifier_i|E][advantage|E] in Subterranean Caverns"
  mayik_caverns_levy_size:0 "$MOD_LEVY_SIZE$ in Subterranean Caverns"
  mayik_caverns_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Subterranean Caverns"
+ mayik_caverns_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Subterranean Caverns"
+ 
  mayik_chamber:0 "Subterranean Chamber"
  mayik_chamber_advantage:0 "[command_modifier_i|E][advantage|E] in Subterranean Chambers"
  mayik_chamber_levy_size:0 "$MOD_LEVY_SIZE$ in Subterranean Chambers"
  mayik_chamber_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Subterranean Chambers"
+ mayik_chamber_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Subterranean Chambers"
+
  mayik_corridors:0 "Subterranean Corridor"
  mayik_corridors_advantage:0 "[command_modifier_i|E][advantage|E] in Subterranean Corridors"
  mayik_corridors_levy_size:0 "$MOD_LEVY_SIZE$ in Subterranean Corridors"
  mayik_corridors_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Subterranean Corridors"
+ mayik_corridors_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Subterranean Corridors"
+
  mayik_tunnels:0 "Subterranean Tunnels"
  mayik_tunnels_advantage:0 "[command_modifier_i|E][advantage|E] in Subterranean Tunnels"
  mayik_tunnels_levy_size:0 "$MOD_LEVY_SIZE$ in Subterranean Tunnels"
  mayik_tunnels_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Subterranean Tunnels"
+ mayik_tunnels_attrition_mult:0 "[command_modifier_i|E][attrition|E] Taken in Subterranean Tunnels"

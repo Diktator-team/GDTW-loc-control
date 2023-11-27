@@ -236,6 +236,8 @@
 
  nick_bane_star:0 "Bane-Star"
 
+ nick_the_woe_of_the_dragonkin:0 "the Woe of the Dragonkin"
+
  # SARRADON #
  nick_ironheart:0 "Ironheart"
  nick_ironheart_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lead[_s(CHARACTER)] [CharYourHerHis(CHARACTER)] order with brutal efficiency, with friend and foe alike fearing [CharYourHerHis(CHARACTER)] wanton cruelty."
@@ -525,7 +527,7 @@
  nick_the_opulent_odel:0 "the Opulent"
 
  nick_iron_eye_gavan:0 "Iron Eye"
- nick_iron_eye_gavan:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is well known for having an eye made of iron that stares as harshly as the real one."
+ nick_iron_eye_gavan_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is well known for having an eye made of iron that stares as harshly as the real one."
 
  # MISC #
  nick_the_rebuker:0 "the Rebuker"

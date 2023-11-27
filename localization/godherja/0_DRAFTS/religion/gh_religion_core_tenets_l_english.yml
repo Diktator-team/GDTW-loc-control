@@ -139,6 +139,15 @@
  tenet_waharai_desc:0 "While others might vainly struggle for His corpse, we know the truth. The Most High ascended from [aeras|E], and awaits us all in a heavenly paradise. This world is ours, to do what we want, for no restraints will bar us from His welcoming embrace."
  tenet_waharai_name:0 "Faith in Ascension"
  tenet_wardenite_legalism_desc:0 "The need to uphold the First Warden's laws and keep the Dead God imprisoned is well recognized within our faith, though interpretations of how to do so can vary quite a bit. As a result, a rich judicial tradition has sprung up around our creed."
+
+ tenet_one_with_caverns_name:0 "One with Caverns"
+ tenet_one_with_caverns_desc:0 "Followers of this know the depths of the mountain unlike any outsider."
+ tenet_war_in_caverns_name:0 "Danger in the Caverns"
+ tenet_war_in_caverns_desc:0 "Adherents prowl the [mayikrata|E] underground, a persistent danger to outsider."
+
+
+
+ ####wardenite
  tenet_wardenite_legalism_name:0 "Wardenite Legalism"
  tenet_way_of_the_skulltaker_desc:0 "Killing is such a beautiful thing. Each death is unique in its own little ways. Sacrificing a sheep or a chicken is all well and good, but to end a human life is to deliver unto the gods something truly irreplaceable and unique. Can there be any better way to worship the Purest?"
  tenet_way_of_the_skulltaker_name:0 "Way of the the Skull-Taker"

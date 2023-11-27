@@ -77,6 +77,9 @@
  fervor_gain_persecuted:0 "Galvanized by persecution"
  fervor_gain_theravada:0 "[theravada_faith.GetName] religious reforms"
  fervor_gain_holy_order_expelled_by_force:0 "[holy_order|E]expelled by another [faith|E]"
+ fervor_gain_strengthen_caliphate: "Strengthened the Caliphate"
+ fervor_gain_shia_caliphate: "Birth of the Caliphate"
+ fervor_gain_persian_fervor: "Embraced in Persia"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 
@@ -650,6 +653,7 @@
  doctrine_no_head_name:0 "None"
  doctrine_no_head_desc:0 "It is utter folly to assume that any one person can truly comprehend the will of [ROOT.Faith.HighGodName]. We must follow our own hearts to discover what [ROOT.Faith.HighGodHerHis] plan for us is."
  doctrine_parameter_no_head_of_faith:0 "Does not have a [head_of_faith|E]"
+ no_head_of_faith_name: "No [head_of_faith|E] [doctrine|E]"
  doctrine_parameter_minimum_fervor:0 "Fervor cannot go below #V $VALUE|0$%#!"
  doctrine_spiritual_head_name:0 "Spiritual"
  doctrine_spiritual_head_desc:0 "The physical world and the spiritual world are not alike. We must ensure the spiritual world has it's own leader, to guide us and to protect our faith from being profaned by physical desires."
@@ -912,6 +916,10 @@
  special_doctrine_is_gnostic_faith_name:0 "$tenet_gnosticism_name$"
  is_gnostic_faith_name:0 "$special_doctrine_is_gnostic_faith_name$"
  special_doctrine_is_gnostic_faith_desc:0 "$tenet_gnosticism_desc$"
+
+ special_doctrine_fire_worship_name: "Sacred Fire"
+ fire_worship_name: "$special_doctrine_fire_worship_name$"
+ special_doctrine_fire_worship_desc: "We are all united by our veneration of fire, the purest element and agent of divine glory. It is our sacred duty to keep the eternal fires burning in the world, to dispel falsehood and evil." 
 
  doctrine_parameter_same_hof_hostility_override:0 "Considers other [faiths|E] that share their [head_of_faith|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
 

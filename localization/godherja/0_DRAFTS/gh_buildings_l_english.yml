@@ -2323,8 +2323,8 @@
  building_type_01_magi_quarters:0 "[magi|E] Quarters"
  building_type_01_magi_quarters_desc:0 "A plot of land leased to the [magi|E]'s in your court where they can practise and hone their craft."
 
- building_type_01_magi_tower:0 "[magi|E] Tower"
- building_type_01_magi_tower_desc:0 "A plot of land leased to the [magi|E]'s in your court where they can practise and hone their craft."
+ building_type_magi_tower_01:0 "[magi|E] Tower"
+ building_type_magi_tower_01_desc:0 "A plot of land leased to the [magi|E]'s in your court where they can practise and hone their craft."
 
  building_type_01_magic_hole:0 "Magic Abyss"
  building_type_01_magic_hole_desc:0 "This curious hole in the ground is the intersection point between the [tower_wayline|E] and the [northern_wayline|E]. The only place the [aversarians|E] conquered in which the [magical|E] power of this place can be seen from miles away, the pure magical aura being extra visible at night. The raw power however, is too much for the average [magi|E] to contain, even approaching the edge is extremely dangerous. A permanent station of Magi from the [mayikprolollans|E] live in a nearby outpost to study the significance of this site. Before [frodbrokna|E] the Magi had figured out that material imported from [sarradon|E] (when made into full body armor) could protect the Magi as they got closer to the edge. Any expedition sent to the lip of the hole report that the glow of magic is so bright that it feels as if the sun is burning their eyes."

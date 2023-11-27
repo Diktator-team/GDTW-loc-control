@@ -77,7 +77,7 @@ game_concept_sea_tower_desc:0 "The Sea Tower (or the Imperial Tower) is one of s
 
 game_concept_dragons:0 "Dragons"
 game_concept_dragon:0 "Dragon"
-game_concept_dragons_desc:0 "Dragons were [godtouched_creatures|E] that primarily resides in [aversaria|E] and parts of northeastern [sarradon|E] from an unknown period until roughly the the mid 200s. Ferocious and massive reptilian beasts, dragons could breath fire, ice, or poison upon their foes, fly with massive wings, and showed an intelligence at or above a human level. They were capable of complex speech, though only the one(s) they spoke to could seemingly hear their voice. Dragons would come in a variety of colors based on the contents of their breath, and would normally travel in packs of up to six-a mother and father couple and their children, normally splitting once the children either found mates or created their own packs.\n\nDragons were rare but not entirely uncommon in their homelands along the [shattered_coast|E] and it was considered a high honor in Aversarian society to be declared a Dragon Rider upon taming one of the creatures, normally through forming something akin to a friendship with it. The rise of Aversaria coincided—partially due to Aversarian breeding programs—with a marked increase in the dragon population, and by the War of the Thousand Dragons there would be over 800 recorded Dragon Riders belonging to various cliques and fraternities across Aversaria.\n\nDragons were seemingly wiped out during and after the war, first from battle and then later after Aautokratir Aexionarax deemed the remaining dragons too dangerous and had them slaughtered.\n\nThe most famous dragon in history was [arthenax|E], commonly believed to be the last living dragon."
+game_concept_dragons_desc:0 "Dragons were [godtouched_creatures|E] that primarily resided in [aversaria|E] and parts of northeastern [sarradon|E] from a time before the historical record until roughly the middle of the 3rd Century IS. Ferocious and massive reptilian beasts, dragons could breathe fire, ice, or poison upon their foes, fly with massive wings, and showed an intelligence at or above a human level. They were capable of complex speech, though only the ones they spoke to could seemingly hear their voice. Dragons would come in a variety of colors based on the contents of their breath, and would normally travel in packs of up to six-a mother and father couple and their children, normally splitting once the children either found mates or created their own packs.\n\nDragons were rare but not entirely uncommon in their homelands along the [shattered_coast|E] and it was considered a high honor in Aversarian society to be declared a Dragon Rider upon taming one of the creatures, normally through forming something akin to a friendship with it. The rise of Aversaria coincided—partially due to Aversarian breeding programs—with a marked increase in the dragon population, and by the [war_of_the_thousand_dragons|E] there would be over 800 recorded Dragon Riders belonging to various cliques and fraternities across Aversaria.\n\nDragons were seemingly wiped out during and after the war, first from battle and then later after Aautokratir Aexionarax deemed the remaining dragons too dangerous and had them slaughtered.\n\nThe most famous dragon in history was [arthenax|E], commonly believed to be the last living dragon."
 
 game_concept_griffons:0 "Griffons"
 game_concept_griffon:0 "Griffon"
@@ -138,7 +138,23 @@ game_concept_rift:0 "Rift"
 game_concept_the_rift_desc:0 "The Rift is a massive tear in [aeras|E] and what seems like the very fabric of reality itself, deep within the [foglands|E] of the [greater_aversaria|E]. It is from the Rift that the [fog|E] seems to pour from, though none have lived to see it since the very beginning of the Fog shortly after [frodbrokna|E]. [mixed_magi|E] are said to draw power from the Rift and the Fog, and those few who practice it publically claim that they feel an eternal draw towards the Rift. Many of them claim that the 'other side' they interact with can be crossed into physically through it.\n\nSome of the more obscure and doubtless insane cults of the world claim the Rift to actually be a hole in the mind of an [ancient_god|E]."
 
 ##MAGIC
+game_concept_water_i:0 "@water_icon!"
+game_concept_fire_i:0 "@fire_icon!"
+game_concept_light_i:0 "@light_icon!"
+game_concept_air_i:0 "@air_icon!"
+game_concept_ice_i:0 "ice_icon!"
+game_concept_stone_i:0 "stone_icon!"
+game_concept_dark_i:0 "dark_icon!"
+game_concept_dream_i:0 "dream_icon!"
+game_concept_celestial_i:0 "celestial_icon!"
+game_concept_blood_i:0 "blood_icon!"
+game_concept_nature_i:0 "nature_icon!"
+game_concept_metal_i:0 "metal_icon!"
+game_concept_sand_i:0 "sand_icon!"
+game_concept_death_i:0 "death_icon!"
+game_concept_ethereal_i:0 "ethereal_icon!"
 
+game_concept_aspect_blood_i:0 "blood_icon!"
 
 game_concept_aspect:0 "Aspect"
 game_concept_aspects:0 "Aspects"
@@ -390,10 +406,10 @@ game_concept_shadow_trade_desc:0 "Shadow Trade represents a pirate's network of 
 
 #DESCRIPTIONS
 
-game_concept_magocracy_concept:0 "Magocracy"
-game_concept_magocracy_concept_desc:0 "$game_concept_magocracy_concept$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy_concept$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."
-game_concept_peasant_republic_concept:0 "Peasant Republic"
-game_concept_peasant_republic_concept_desc:0 "$game_concept_peasant_republic_concept$ is a [government_form|E] where the peasantry rule themselves — the $game_concept_government_form$ of rebellions possibly gone too far."
+game_concept_magocracy:0 "Magocracy"
+game_concept_magocracy_desc:0 "$game_concept_magocracy$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."
+game_concept_peasant_republic:0 "Peasant Republic"
+game_concept_peasant_republic_concept_desc:0 "$game_concept_peasant_republic$ is a [government_form|E] where the peasantry rule themselves — the $game_concept_government_form$ of rebellions possibly gone too far."
 
 game_concept_pirate:0 "Pirate"
 game_concept_pirates:0 "Pirates"
@@ -402,11 +418,7 @@ game_concept_pirate_desc:0 "Pirate realms rely on raiding their surroundings for
 
 #MISC
 
- game_concept_magocracy_desc:0 "$game_concept_magocracy_concept$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy_concept$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."
-
- game_concept_magocratic_republic_desc:0 "$game_concept_magocracy_concept$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy_concept$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."
-
- game_concept_peasant_republic_desc:0 "$game_concept_peasant_republic_concept$ is a [government_form|E] where the peasantry rule themselves — the $game_concept_government_form$ of rebellions possibly gone too far."
+ game_concept_magocratic_republic_desc:0 "$game_concept_magocracy$ is a [government_form|E] where an elite class of [magi|E] rule — the $game_concept_government_form$ of realms cycling around the [magic|E] arts.\n\n$game_concept_magocracy_concept$ can come in two forms, autocratic and republican, deciding whether Magi are chosen from a bloodline or elected by their peers."
 
 ##HUNTING
 

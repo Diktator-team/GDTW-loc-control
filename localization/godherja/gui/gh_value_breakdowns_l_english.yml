@@ -112,6 +112,10 @@
  bubonic_plague_value_desc:0 "[GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
  smallpox_value_desc:0 "[GetTrait('smallpox').GetName( GetNullCharacter )]"
  fools_curse_value_desc:0 "[GetTrait('fools_curse').GetName( GetNullCharacter )]"
+ gh_dragon_red_value_desc:0 "[GetTrait('gh_dragon_red').GetName( GetNullCharacter )]"
+ gh_dragon_blue_value_desc:0 "[GetTrait('gh_dragon_blue').GetName( GetNullCharacter )]"
+ gh_dragon_black_value_desc:0 "[GetTrait('gh_dragon_black').GetName( GetNullCharacter )]"
+ gh_dragon_green_value_desc:0 "[GetTrait('gh_dragon_green').GetName( GetNullCharacter )]"
 
 
  gh_beset_by_visions_value_desc:0 "[GetTrait('gh_beset_by_visions').GetName( GetNullCharacter )]"

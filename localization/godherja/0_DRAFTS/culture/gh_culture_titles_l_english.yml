@@ -548,6 +548,8 @@
  prince_female_gallieni_empire:1 "Brenailon"
  
  ## Karzarad ## 
+ emperor_male_karzarads_cenwarized:0 "Knivoyar"
+ emperor_female_karzarads_cenwarized:0 "Kniyarix"
  emperor_male_karzarads:0 "Praviator"
  emperor_female_karzarads:0 "Praviatrix"
  king_male_karzarads:0 "Siyanol"

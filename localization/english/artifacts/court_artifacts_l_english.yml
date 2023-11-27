@@ -692,14 +692,14 @@
 
 
  # Reliquary
- artifact_pedestal_reliquary_christian_name:0 "[SCOPE.Custom('ChristianRelicName')|U]"
- artifact_pedestal_reliquary_christian_description:1 "An elegant reliquary containing a holy relic: [SCOPE.Custom('ChristianRelic')|l]."
- artifact_pedestal_reliquary_islam_name:0 "[SCOPE.Custom('IslamRelic')|U]"
- artifact_pedestal_reliquary_islam_description:1 "An elegant reliquary containing a holy relic: [SCOPE.Custom('IslamRelic')|l]."
- artifact_pedestal_reliquary_buddhism_name:0 "[SCOPE.Custom('BuddhismRelicName')|U]"
- artifact_pedestal_reliquary_buddhism_description:1 "An elegant reliquary containing a holy relic: [SCOPE.Custom('BuddhismRelic')|l]."
- artifact_pedestal_reliquary_judaism_name:0 "[SCOPE.Custom('JudaismRelicName')|U]"
- artifact_pedestal_reliquary_judaism_description:1 "An elegant reliquary containing a holy relic: [SCOPE.Custom('JudaismRelic')|l]."
+ artifact_pedestal_reliquary_christian_name:0 ""
+ artifact_pedestal_reliquary_christian_description:1 ""
+ artifact_pedestal_reliquary_islam_name:0 ""
+ artifact_pedestal_reliquary_islam_description:1 ""
+ artifact_pedestal_reliquary_buddhism_name:0 ""
+ artifact_pedestal_reliquary_buddhism_description:1 ""
+ artifact_pedestal_reliquary_judaism_name:0 ""
+ artifact_pedestal_reliquary_judaism_description:1 ""
  artifact_pedestal_reliquary_christian_nail:2 "one of the nails from Jesus' cross"
  artifact_pedestal_reliquary_christian_nail_name:0 "Holy Nail"
  artifact_pedestal_reliquary_christian_cross:1 "a wooden fragment of the True Cross, on which Jesus was crucified"

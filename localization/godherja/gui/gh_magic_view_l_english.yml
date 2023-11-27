@@ -116,6 +116,9 @@
  pox_magic_name:0 "Pox Magic"
  pox_magic_desc:0 "This spell has a chance to cause Pox on the recipient"
 
+ resist_disease_name:0 "Resist Disease"
+ resist_disease_desc:0 "This spell guards against diseases."
+
  light_fortress_name:0 "Reinforced Fortress"
  light_fortress_desc:0 "Using [aspect_light] the fortresses internals are ordered and strengthened to more and more perfection."
 
@@ -418,6 +421,9 @@
  add_pox_magic_name:0 "Pox Magic"
  add_pox_magic_desc:0 "This spell has a chance to cause Pox on the recipient"
  
+ add_character_modifier_resist_disease_name:0 "Strengthened Constitution"
+ add_character_modifier_resist_disease_desc:0 "This person is more able to resist disease"
+
  spawn_undead_skirmishers_name:0 "Raise Undead Horde"
  spawn_undead_skirmishers_desc:0 "Raises an army of [gh_general_undead|E] [skirmishers|E]."
  spawn_elite_undead_name:0 "Raise Elite Undead"

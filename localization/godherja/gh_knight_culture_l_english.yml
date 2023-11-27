@@ -3,6 +3,9 @@
  knight_heprasitos_no_tooltip:0 "Hēprasitos"
  knight_heprasitos_no_tooltip_plural:0 "Hēprasitoí"
 
+ knight_drakarstatarox_no_tooltip:0 "Drakarstatarox"
+ knight_drakarstatarox_no_tooltip_plural:0 "Drakarstataroxians"
+
  knight_chevalier_no_tooltip:0 "Chevalier"
  knight_chevalier_no_tooltip_plural:0 "Chevaliers"
 
@@ -14,12 +17,24 @@
 
  knight_companion_no_tooltip:0 "Companion"
  knight_companion_no_tooltip_plural:0 "Companions"
+
+ knight_dihaskas_no_tooltip:0 "Dihaskas"
+ knight_dihaskas_no_tooltip_plural:0 "Dihaskasians"
+
+ knight_almata_no_tooltip:0 "Almata"
+ knight_almata_no_tooltip_plural:0 "Almatans"
+ 
   
   # Lowercase versions
  knight_heprasitos_no_tooltip_lowercase:0 "hēprasitos"
  knight_heprasitos_no_tooltip_lowercase_plural:0 "hēprasitoí"
  knight_heprasitos_no_tooltip_lowercase_plural_possessive:0 "hēprasiton"
  knight_heprasitos_no_tooltip_lowercase_adjective:0 "hēprasitikós"
+
+ knight_drakarstatarox_no_tooltip_lowercase:0 "drakarstatarox"
+ knight_drakarstatarox_no_tooltip_lowercase_plural:0 "drakarstataroxians"
+ knight_drakarstatarox_no_tooltip_lowercase_plural_possessive:0 "drakarstataroxes"
+ knight_drakarstatarox_no_tooltip_lowercase_adjective:0 "drakarstatarox"
 
  knight_chevalier_no_tooltip_lowercase:0 "chevalier"
  knight_chevalier_no_tooltip_lowercase_plural:0 "chevaliers"
@@ -41,9 +56,22 @@
  knight_companion_no_tooltip_lowercase_plural_possessive:0 "companions'"
  knight_companion_no_tooltip_lowercase_adjective:0 "companionable"
 
+ knight_dihaskas_no_tooltip_lowercase:0 "dihaskas"
+ knight_dihaskas_no_tooltip_lowercase_plural:0 "dihaskasians"
+ knight_dihaskas_no_tooltip_lowercase_plural_possessive:0 "dihaskases"
+ knight_dihaskas_no_tooltip_lowercase_adjective:0 "dihaskas"
+
+ knight_almata_no_tooltip_lowercase:0 "almata"
+ knight_almata_no_tooltip_lowercase_plural:0 "almatans"
+ knight_almata_no_tooltip_lowercase_plural_possessive:0 "almatas"
+ knight_almata_no_tooltip_lowercase_adjective:0 "almatan"
+
   #Game Concept versions
  knight_heprasitos:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip$' )|E]"
  knight_heprasitos_plural:0 "[Concept( 'knight', '$knight_heprasitos_no_tooltip_plural$' )|E]"
+
+ knight_drakarstatarox:0 "[Concept( 'knight', '$knight_drakarstatarox_no_tooltip$' )|E]"
+ knight_drakarstatarox_plural:0 "[Concept( 'knight', '$knight_drakarstatarox_no_tooltip_plural$' )|E]"
 
  knight_chevalier:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip$' )|E]"
  knight_chevalier_plural:0 "[Concept( 'knight', '$knight_chevalier_no_tooltip_plural$' )|E]"
@@ -56,3 +84,9 @@
 
  knight_companion:0 "[Concept( 'knight', '$knight_companion_no_tooltip$' )|E]"
  knight_companion_plural:0 "[Concept( 'knight', '$knight_companion_no_tooltip_plural$' )|E]"
+
+ knight_dihaskas:0 "[Concept( 'knight', '$knight_dihaskas_no_tooltip$' )|E]"
+ knight_dihaskas_plural:0 "[Concept( 'knight', '$knight_dihaskas_no_tooltip_plural$' )|E]"
+
+ knight_almata:0 "[Concept( 'knight', '$knight_almata_no_tooltip$' )|E]"
+ knight_almata_plural:0 "[Concept( 'knight', '$knight_almata_no_tooltip_plural$' )|E]"

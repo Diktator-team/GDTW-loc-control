@@ -23,6 +23,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVERSARIAN_1:0 "[ROOT.Char.GetFullNameNoTooltip] now sups with the Purest at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVERSARIAN_2:0 "[ROOT.Char.GetFullNameNoTooltip] rests in the arms of the Purest at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_AVERSARIAN_3:0 "[ROOT.Char.GetFullNameNoTooltip] has steadfastly joined the First Men at [ROOT.Char.GetAge] years of age."
+ SUCCESSION_EVENT_WINDOW_DEAD_INTRO_BEAST_1:0 "[ROOT.Char.GetFullNameNoTooltip] returns to the soil of [aeras|E] at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MARCHER_1:0 "[ROOT.Char.GetFullNameNoTooltip] has joined the Waysaints at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MARCHER_2:0 "[ROOT.Char.GetFullNameNoTooltip] has passed to the stars above at [ROOT.Char.GetFaith.PositiveAfterLife] at [ROOT.Char.GetAge] years of age."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_MARCHER_3:0 "[ROOT.Char.GetFullNameNoTooltip] now guides [ROOT.Char.GetHerHis] Pathfellows from afar at [ROOT.Char.GetAge] years of age."

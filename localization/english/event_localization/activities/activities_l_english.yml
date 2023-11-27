@@ -9,6 +9,8 @@
  ACTIVITY_TYPE_DESC:0 "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
 
  ACTIVITY_OPTION_TOOLTIP:2 "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
+ # Ugly hack, ActivityPlanner needs to be used before ActivityOption for the contexts to work properly, for some reason.
+ ACTIVITY_OPTION_DESC: "[ActivityPlanner.NoOp][ActivityOption.GetDescription]"
 
  activity_special_type:0 "[Activity.Custom('GetActivitySpecialType')]"
  activity_special_type_desc:0 "[Activity.Custom('GetActivitySpecialTypeDesc')]"
@@ -244,7 +246,8 @@
  activity_pilgrimage.is_valid.islam.mandatory_or_impatient:0 "At least one of these:\n$EFFECT_LIST_BULLET$ Your [faith|E] has the [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] pilgrimage [doctrine|E]\n$EFFECT_LIST_BULLET$ You are [GetTrait('impatient').GetName(GetNullCharacter)]"
  activity_pilgrimage.is_valid.other.mandatory_or_impatient:0 "At least one of these:\n$EFFECT_LIST_BULLET$ Your [faith|E] has the [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName] pilgrimage [doctrine|E]\n$EFFECT_LIST_BULLET$ You are [GetTrait('impatient').GetName(GetNullCharacter)]"
  
- activity_pilgrimage.is_valid.pilgrim_or_patient:0 "At least one of these:\n$EFFECT_LIST_BULLET$ You are [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ You have the [GetTrait('pilgrim').GetName(GetNullCharacter)] [trait|E]"
+ activity_pilgrimage.is_valid.pilgrim_or_patient:0 "At least one of these:\n$EFFECT_LIST_BULLET$ You are [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ You have the [GetTrait('pilgrim').GetName(GetNullCharacter)] [trait|E]\n$EFFECT_LIST_BULLET$ You have the [GetTrait('hajjaj').GetName(GetNullCharacter)] [trait|E]"
+
 
  ACTIVITY_TYPE_ON_COOLDOWN:0 "@warning_icon! #X This activity cannot be hosted for [DATE.GetTimeToDate()]#!"
 
