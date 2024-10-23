@@ -1,0 +1,270 @@
+﻿l_english:
+ SCHEME_KNOWLEDGE_ENTRY_DIFFICULTY:0 "Knowledge Entry Difficulty: $VALUE|+0=$"
+ study_knowledge_entry_start_tt:0 "Starts studying #underline [Localize(Concatenate(knowledge_entry_scope.MakeScope.Var('knowledge_entry_name').GetFlagName, '_name'))]#!"
+ already_studying_knowledge_tt:0 "Already studying a different Knowledge Entry"
+ relevant_skill_too_low_tt:0 "Relevant skill too low to make progress"
+ do_not_own_this_artifact_tt:0 "I do not own this [artifact]"
+
+ Study:0 "Study"
+ learn_spell_knowledge_entry_desc:0 ""
+
+ knowledge_entry_name_unique:0 "[Localize(Concatenate(ROOT.Story.MakeScope.Var('knowledge_entry_name').GetFlagName, '_name'))]"
+ knowledge_entry_name_learn_spell:0 "[ROOT.Var('knowledge_entry_spell').Story.Custom('SpellName')]"
+ knowledge_entry_name_formula:0 "Formula [Localize(Concatenate(ROOT.Story.MakeScope.Var('spell_name_term_0').GetFlagName, ' '))][Localize(Concatenate(ROOT.Story.MakeScope.Var('spell_name_term_1').GetFlagName, ' '))][Localize(Concatenate(ROOT.Story.MakeScope.Var('spell_name_term_2').GetFlagName, ' '))][Localize(Concatenate(ROOT.Story.MakeScope.Var('spell_name_term_3').GetFlagName, ' '))][Localize(ROOT.Story.MakeScope.Var('spell_name_term_4').GetFlagName)]"
+ 
+ basics_of_human_anatomy_name:0 "Basics of Human Anatomy"
+ basics_of_human_anatomy_desc:0 "A surface-level overview of the functioning of the human body."
+ 
+ wound_dressing_methods_name:0 "Wound Dressing"
+ wound_dressing_methods_desc:0 ""
+ bone_setting_techniques_name:0 "Bone Setting Techniques"
+ bone_setting_techniques_desc:0 ""
+ advanced_surgical_tools_name:0 "Advanced Surgical Tools"
+ advanced_surgical_tools_desc:0 ""
+ anasthetics_shattered_coast_name:0 "Anasthetical Substances of the Shattered Coast"
+ anasthetics_shattered_coast_desc:0 ""
+ methods_of_vivisection_name:0 "Methods Of Vivisection"
+ methods_of_vivisection_desc:0 "Grotesque guidelines on studying living subjects - and keeping them alive throughout the process."
+ the_cardiovascular_system_name:0 "The Cardiovascular System"
+ the_cardiovascular_system_desc:0 ""
+ cardiology_2_name:0 "Cardiology #weak (Intermediate)#!"
+ cardiology_2_desc:0 ""
+ cardiology_3_name:0 "Cardiology #weak (Advanced)#!"
+ cardiology_3_desc:0 ""
+ osteology_1_name:0 "Osteology #weak (Basic)#!"
+ osteology_1_desc:0 ""
+ osteology_2_name:0 "Osteology #weak (Intermediate)#!"
+ osteology_2_desc:0 ""
+ osteology_3_name:0 "Osteology #weak (Advanced)#!"
+ osteology_3_desc:0 ""
+ bone_marrow_hematology_name:0 "Osteo-Hematology"
+ bone_marrow_hematology_desc:0 ""
+ 
+ mechanics_of_the_heart_name:0 "Mechanics of the Heart"
+ mechanics_of_the_heart_desc:0 "An in-depth medical look into the workings of the heart."
+
+ vitae_extraction_and_storage_name:0 "Vitae Extraction & Storage"
+ vitae_extraction_and_storage_desc:0 "Techniques for the proper extraction, purification and long-term storage of the arcane essences of blood."
+ the_five_torments_procedure_name:0 "The Five-Torments Procedure"
+ the_five_torments_procedure_desc:0 "A harrowing sacrificial ritual that was considered the most efficient and powerful of its kind known to [living_magic|E], it was nonethless only rarely performed in practice due to its difficulty and associated costs."
+ applied_mutations_and_flesh_grafting_name:0 "Applied Mutations & Flesh-Grafting"
+ applied_mutations_and_flesh_grafting_desc:0 "Through a mixture of surgery and controlled mutations it is possible to contort a subject's physique beyond recognition, without necessarily killing them outright. Herein are documented methods on how to do so, as well as some 'creative' ideas on how to utilize this knowledge."
+ 
+ wisrutu_name:0 "Wisrutu 'River Song'"
+ wisrutu_desc:0 "A fun and humorous song about the migrations of fish in what is now the Pathos River."
+ iltyds_lament_name:0 "Iltyd's Lament"
+ iltyds_lament_desc:0 "A lament chronicling a couple's forbidden love, it ends with Iltyd falling in battle against star-gazers and his love doomed to forever haunt the wood."
+ choir_of_laughing_shadows_name:0 "Choir of Laughing Shadows"
+ choir_of_laughing_shadows_desc:0 "A small collection of semi-historical songs chronicling a handful of legendary figures and their descendants' conflicts with rootborn monsters of old."
+ spring_blessing_name:0 "Spring Blessing"
+ spring_blessing_desc:0 "This song was meant to be performed on the first day of spring to bring good fortune to the village for the season. Some are able to bring forth more than just luck."
+ the_fell_one_name:0 "The Fell One"
+ the_fell_one_desc:0 "An epic of considerable length that weeps for the tragic violence of the Wood as an ancient darkness scours the forests."
+  
+ #####################
+ # MARTIAL - GENERAL #
+ #####################
+ 
+ on_prudent_leadership_name:0 "On Prudent Leadership"
+ on_prudent_leadership_desc:0 "A soldier is only as good as their commander, as the author puts it. The largest army in the world can still lose every battle with a fool at its head, but an army of peasants led with wisdom can conquer an empire."
+ on_battlefield_survival_name:0 "On Battlefield Survival"
+ on_battlefield_survival_desc:0 "Some battles cannot be won, for even the greatest commander can be outmaneuvered or outnumbered. In the case of a loss, there are still measures to be taken to preserve your forces and live to fight another day."
+ on_personal_valour_name:0 "On Personal Valour"
+ on_personal_valour_desc:0 "A commander is not just there to bark orders to their soldiers, but to bravely fight alongside them. Therefore, swordsmanship is a vital skill not only for the common warrior, but for rulers as well."
+ 
+ ###########
+ # PROWESS #
+ ###########
+ duelist_adventurer_name:0 "Valdoric, Duelist and Adventurer"
+ duelist_adventurer_desc:0 "A great Guillater duelist and adventurer, Valdoric was ever-looking for the next mighty beast to slay. Despite his strength, however, the warrior found himself unable to best the adversary named Time, and fell into despair as he aged. It is said that in this moment of weakness, the Sea Queen called to him, offering a song of strengthening in exchange for his eternal service after death. Valdoric allegedly took her up on the offer, and at his moment of death, a sudden wave of seawater appeared and pulled his corpse into the deep."
+ 
+ ###########
+ # GEOLOGY #
+ ###########
+ 
+ quartz_mineralogy_name:0 "Quartz: Identification & Basic Mineralogy"
+ quartz_mineralogy_desc_name:0 "Among the more commonly available gemstones, quartz has dozens of varieties, some with only subtle differences. Being able to properly identify each is key to practical applications of this mineral."
+ quartz_arcanomineralogy_name:0 "Quartzites: Arcanology"
+ quartz_arcanomineralogy_desc:0 ""
+ opal_mineralogy_name:0 "Opal: Identification & Basic Mineralogy"
+ opal_mineralogy_desc_name:0 ""
+ opal_pyromantics_name:0 "Opal Pyromantics"
+ opal_pyromantics_desc_name:0 ""
+ 
+ ##########
+ # BOTANY #
+ ##########
+
+ botany_agrimony_name:0 "Botany: Agrimony"
+ botany_agrimony_desc:0 "Commonly used for medicinal purposes, the vapors of this yellow wildflower are also known to induce sleep when large amounts are burned." 
+ botany_berries_name:0 "Botany: Berries"
+ botany_berries_desc:0 "" 
+ botany_carnation_name:0 "Botany: Carnation"
+ botany_carnation_desc:0 "A vibrantly-colored flower native to the Shattered Coast, carnation is nowadays found in gardens far more commonly than it is in the wild. Associated with lust and obsessive love, it is often found as an ingredient in inexpensive love potions." 
+ botany_celeries_name:0 "Botany: Celeries"
+ botany_celeries_desc:0 "" 
+ botany_cinnamon_name:0 "Botany: Cinnamon"
+ botany_cinnamon_desc:0 ""
+ botany_dandelions_name:0 "Botany: Dandelion"
+ botany_dandelions_desc:0 "It has sometimes been posited that the flight of the humble dandelion's seed is not truly random; that those with the appropriate knowledge can use its patterns to find places of power and detect the flow of ambient [magic|E]."
+ botany_goldwool_name:0 "Botany: Goldwool"
+ botany_goldwool_desc:0 ""
+ botany_grapes_name:0 "Botany: Grapes"
+ botany_grapes_desc:0 ""
+ botany_wildgrass_name:0 "Botany: Wildgrass"
+ botany_wildgrass_desc:0 ""
+ botany_hawthorn_name:0 "Botany: Hawthorn"
+ botany_hawthorn_desc:0 ""
+ botany_hemlocks_name:0 "Botany: Hemlock"
+ botany_hemlocks_desc:0 ""
+ botany_horsetails_name:0 "Botany: Horsetails"
+ botany_horsetails_desc:0 "Thriving in damp conditions, horsetail growth patterns are an excellent indicator of potent casting sites for [aspect_water] [magic|E]."
+ botany_lightbane_name:0 "Botany: Lightbane"
+ botany_lightbane_desc:0 ""
+ botany_lilies_name:0 "Botany: Lilies"
+ botany_lilies_desc:0 ""
+ botany_monkshoods_name:0 "Botany: Monkshoods"
+ botany_monkshoods_desc:0 ""
+ botany_passionflower_name:0 "Botany: Passionflower"
+ botany_passionflower_desc:0 "" 
+ botany_pepper_name:0 "Botany: Pepper"
+ botany_pepper_desc:0 "Beyond their use as a spice, peppervines are also an excellent ingredient in [aspect_fire] [magic|E]; not all varieties are equally strong, however, and even the particular method of grinding them down may affect their potency." 
+ botany_prunes_name:0 "Botany: Prunes"
+ botany_prunes_desc:0 "" 
+ botany_roses_name:0 "Botany: Roses"
+ botany_roses_desc:0 ""
+ botany_shallots_name:0 "Botany: Shallots"
+ botany_shallots_desc:0 ""
+ botany_snowdrop_name:0 "Botany: Snowdrop"
+ botany_snowdrop_desc:0 ""
+ botany_stargazers_name:0 "Botany: Stargazers"
+ botany_stargazers_desc:0 ""
+ botany_thistle_name:0 "Botany: Thistle"
+ botany_thistle_desc:0 ""
+ botany_willow_name:0 "Botany: Willow"
+ botany_willow_desc:0 ""
+ botany_yarrow_name:0 "Botany: Yarrow"
+ botany_yarrow_desc:0 ""
+
+ ##################
+ # ARCANA - TOOLS #
+ ##################
+
+ sacrificial_dagger_cleaning_and_maintenance_name:0 "Sacrificial Dagger Cleaning & Maintenance"
+ sacrificial_dagger_cleaning_and_maintenance_desc:0 "The intense amounts of arcane energies that sacrificial daggers are exposed to can physically damage them and render them unusable. By following these guidelines, the risk of this happening is greatly lessened."
+ astrolabe_operation_name:0 "Astrolabe Operation"
+ astrolabe_operation_desc:0 "Though a highly useful instrument in both navigation and certain kinds of [magic|E], the astrolabe can be tricky to learn to operate. This text serves as a guide to help with the process."
+ brazier_construction_name:0 "Brazier Construction"
+ brazier_construction_desc:0 "Most practitioners put little thought into the kind of braziers that they use for their art, though when made of certain metallic alloys they can serve as ritual-enhancers in and of themselves, rather than mere vessels."
+
+ ##################
+ # ARCANA - LIGHT #
+ ##################
+ 
+ warding_mirrors_name:0 "Specifications of Warding Mirrors"
+ warding_mirrors_desc:0 ""Warding Mirrors are created by coating a reflective metal, preferably Silver, with starlight through a ritual conducted under a moonless sky. While other metals, such as Bronze or Tin, can also be used as a base material, Silver possesses the unique property to resist being tarnished by the darker magicks.""
+ mirror_spirit_interaction_name:0 "Observations on Tangible Manifestations"
+ mirror_spirit_interaction_desc:0 ""Spirits, ghouls and other ethereal monstrosities all bear a peculiar aversion against viewing their own reflections. While their uncouth visages will normally not be reflected, the starlight within a warding mirror touches upon the souls of those that view it, creating an imprint that coalesces into the mirror's surface...""
+ mirror_lich_interaction_name:0 "Addendum XVI: On Lyches"
+ mirror_lich_interaction_desc:0 ""While some of their undead kin do possess a vulnerability to their reflections, Lyches (sic) possess no such revulsion. Instead, they even seem to delight in their visages, with particularly vain specimens being known to spend hours, if not days in their admiration — a peculiarity that savvy antimagi have used to their advantage.""
+ laser_beam_spell_ke_name:0 "A Reflection on the Lessons Herein"
+ laser_beam_spell_ke_desc:0 "A blank page that is seemingly made entirely out of silver. Exposing the page to starlight untainted by [aervalr|E] reveals a singular ornate rune in the manner of old Shewigad engraved upon its center."
+
+ #################
+ # ARCANA - Dark #
+ #################
+ ship_quarreling_lover_name:0 "Testimony from the Trading Ship Quarreling Lover"
+ ship_quarreling_lover_desc:0 "A record of the testimony of the Light Magi Drioris, the sole survivor of the Quarreling LoverShe was found rambling incoherently in a puddle of inky substance with runes of unknown origin etched into her flesh"
+ empty_island_corvanor_name:0 "The Empty Island of Corvanor"
+ empty_island_corvanor_desc:0 "Corvanor was a haven of thieves, until it was suddenly and inexplicably found barren. After enough investigations went missing, the island was thoroughly bombarded over a series of days. The next expedition successfully returned with notes in a vault on the maddening silence and disappearances. "
+ nature_of_shade_infestation_name:0 "The Nature of Shade Infestation"
+ nature_of_shade_infestation_desc:0 "This document details the works of the Magi Ater---- in documenting shades. Vanishing people, arcane light failure, and unusual silence were common survivor tales.  Eventually their thirst for knowledge became to great and the magi vanished into ancient ruins. Their name has since then been slowly 'eaten' away from all documentation, with their very visage and description being a bygone memory."
+ fall_of_relar_outpost_name:0 "The Fall of the Relar Outpost"
+ fall_of_relar_outpost_desc:0 "The account of the sole survivor of the Relar Outpost, a Vidvaookeyatran research station dedicated to examining a small group of inactive shades in a nearby ruin. Its researchers were on the brink of a breakthrough when it was attacked by shades that had been alerted to their presence. The author was able to escape by turning into the wind, but not before being inflicted with a rune-shaped wound that slowly ate away both at their limb and their magic."
+ tales_of_extinction_name:0 "Tales of Extinction"
+ tales_of_extinction_desc:0 "Surviving fragments of a chapter discussing the fall of various cities and communities to shades throughout history. This particular volume tells of the fall of the city of Viayl and the extinction of the Frendir. Curiously, the rest of the chapter is not exactly lost but rather transliterated into gibberish through unknown means."
+ on_embalming_name:0 "On Embalming"
+ on_embalming_desc:0 "The Ojyczanz developed elaborate embalming practices to preserve bodies from many centuries of trial and error. As such, their understanding of the human body was nearly unmatched in their time."
+ burial_rituals_name:0 "Burial Rituals"
+ burial_rituals_desc:0 "The period of time from death to burial was a long and complex affair in Ojyczaynz society. Many rites were performed as the body was embalmed to both aid the soul and show respect to the honored dead."
+ funeral_dirges_name:0 "Funeral Dirges"
+ funeral_dirges_desc:0 "Ojyczanz funerals were accompanied by long chanted hymns honoring the deceased and giving protection to their spirit. While many of these songs have been lost, what few survive in records have been translated here."
+
+ ##################
+ # ARCANA - BLOOD #
+ ##################
+
+ kassidius_diagrams_name:0 "Pneumatical Diagrams"
+ kassidius_diagrams_desc:0 "Countless diagrams illustrate the ways souls break apart when put under immense magical pressure. It's impossible to avoid being awestruck by the terrible futility of it all. So many deaths, and Kassidius never did find any conclusive evidence for the quantifiable difference he was so determined to uncover."
+ 
+ ##################
+ # ARCANA - STONE #
+ ##################
+
+ preliminary_results_name:0 "Preliminary investigation"
+ preliminary_results_desc:0 "One of the first great deeds that the Magi Pryalis performed in Chevalie was determining how the despised court Magi of Viridivie was turned to stone. She suspected a simple petrification spell often used by Aversarian Magi and ordered a section of stone be cut away, as the spell only transmuted skin to stone, leaving the flesh underneath untouched."
+ agata_rebirth_ke_name:0 "Possibly Kashyrian spell"
+ agata_rebirth_ke_desc:0 "After a chisel failed, a hammer was swung at the Magi’s hand, revealing the hand was fully stone, even the bones! Pryalis verified the day of the wedding since a spell of this power would require a noticeable ritual etched underneath the target. She ordered the statue moved and the floor torn up around it, since she speculated it could have been the  Kashyrian spell, "Agata rebirth" which caused the subject to be turned to rock from the bone outward."
+ anti_magi_cockatrice_name:0 "A new Lead"
+ anti_magi_cockatrice_desc:0 "There were no signs of a ritual under the floor, on the Magi, or in the surrounding rooms. Pryalis then proposed examining the Court Magi's quarters. Inside were the Court Magi's correspondence with the Anti-Magi tasked with hunting down a Cockatrice. The Magi asked for a charged Cockatrice eye noting it was going to be a full moon on the day of the wedding, and the duke wanted a special ring made using the eye's magic. Pryalis was startled since she had been told that the wedding had been two weeks later, when the moon would not be as powerful. The Duke needed to be questioned. "
+ killer_discovered_name:0 "The Killer discovered"
+ killer_discovered_desc:0 "Before questioning the Duke, Pryalis contacted the Anti-Magi order in question and learned that two charged cockatrice eyes were delivered to the castle and were received by the Duke's brother the day before the wedding. Pryalis recruited Anti-Magi and a Wayfather and confronted the Duke. The Duke would confess that his brother used the cockatrice eyes to kill the Court Magi under the full moons light. The Duke’s brother was detained for trial and Pryalis would continue on to her next adventure. "
+
+ ######################
+ # ARCANA - CELESTIAL #
+ ###################### 
+ 
+ detecting_malice_meditation_name:0 "On Tracking the Witch"
+ detecting_malice_meditation_desc:0 "A winding anecdote on how attuning one's soul to the essence of the cosmos can allow one to detect sources of malicious magic."
+ spirit_interaction_rules_name:0 "Spirits and Spirits"
+ spirit_interaction_rules_desc:0 "A list of rules one must follow when communing with the dead, ending with a list of ales that spirits find delicious."
+ aervalr_reading_name:0 "How Aelvalr Guides Us"
+ aervalr_reading_desc:0 "Verdane claims the path of [aervalr|E] divines the path of one's life. He lists how different phases of Aelvalr during one's life stages can lead to auspicious outcomes."
+ star_cards_name:0 "Star Cards"
+ star_cards_desc:0 "This section lists the 51 most common 'Star Cards', including how a reader can interpret each one. These interpretations can wildly differ based on the conditions in which the cards are drawn."
+
+ ##################
+ # ARCANA - DREAM #
+ ##################
+
+ dream_maps_empyrean_tower_name:0 "Dream-Maps Of The Empyrean Tower"
+ dream_maps_empyrean_tower_desc:0 "Scholars of [aspect_dream] have occasionally posited that there is a particular [tower|E] only accessible to the sleeping mind. This section of the work seems to chart out its supposed structure, though the text might as well just be complete gibberish."
+ key_of_the_obsidian_gate_ke_name:0 "Key Of The Obsidian Gate"
+ key_of_the_obsidian_gate_ke_desc:0 "If dreams were a shadow play, then this ritual allows one to peek behind the scrim - but only briefly."
+ wakeless_glass_name:0 "Part 1: Mundanities"
+ wakeless_glass_desc:0 "Pebble sized sea-glass is known to condense in the bedsheets of the Wakeless. Wet to the touch, it glows faintly as if backlit from every angle by an unseen sun, occasionally interrupted by the movement of indistinct shadows. Few known applications."
+ wakeless_rubies_name:0 "Part 2: Beauties"
+ wakeless_rubies_desc:0 "Rubies, which condense in the oral and nasal cavities of the Wakeless, must not be gazed upon directly. Though beautiful, they are known to inject intrusive and poisonous thoughts. A few are said to be beneficial, but there is no safe way to distinguish between the two."
+ wakeless_fire_name:0 "Part 3: Impossibilities"
+ wakeless_fire_desc:0 "Though uncommon, precautions against the manifestation of cold embers necessitate that a Wakeless be carefully stored in a wooden building. They burn stone, but leave conventionally flammable materials unharmed."
+ wakeless_incomprehensibilities_name:0 "Part 4: Incomprehensibilities"
+ wakeless_incomprehensibilities_desc:0 "It is known that entities can slip through the holes in the Wakeless' soul. When Faceless Men and Faceless Dogs begin to appear lurking in corridors and behind open doors, the [magi|E] must endeavor to shore up wards around the Wakeless. The intruders seek to spirit the Wakeless away, though none know where."
+ neverending_dream_appendices_name:0 "Anonymous Appendices"
+ neverending_dream_appendices_desc:0 "A collection of encyclopedic information on the nature of the mind as told by [GetReligionByKey('apti_religion').GetAdjective] Dreamers, with marginalia and attached notes from the Aversarian scholar that composed them. They are fragmentary at best, and incoherent at worst, yet enough remains to gleam something of the hidden world."
+ neverending_dream_geese_questions_name:0 "Geese Questions"
+ neverending_dream_geese_questions_desc:0 "#weak "The Boy found himself amongst the chirping willows and peaceful currents of a deep, dark pond. He stands in its middle at waist height,the water warm and comforting. A wise Goose sits across, her goslings in tow. She strides without trail across the blackened water to ask a question of the boy, and him of her. He would not say of what."#!"
+ neverending_dream_roar_of_the_king_name:0 "Roar Of The King"
+ neverending_dream_roar_of_the_king_desc:0 "#weak "The Boy was called to stand before the King. He was meek and timid, his guards matching each weak step with weight on his march to the King. On the highest throne lay the King in idle ease, yet once the boy presented himself, the King roared thunder across the clear night, and sent him away. The King would call upon the Boy again, and again, until he could withstand the storm."#!"
+ neverending_dream_spider_queen_name:0 "The Spider Queen"
+ neverending_dream_spider_queen_desc:0 "#weak "The Boy would journey cross painted landscapes and water color streams in search of a way home. The shifting starlights provided no help to the boy. The jumping sheep did not either. Each refused the boy until at last he turned to the Spider Queen. She would grant his wish, with the condition that he carry her web with him, so that when she wished to, she could leave too."#!"
+
+ ################
+ # ARCANA - AIR #
+ ################
+ 
+ wingspan_pinion_name:0 "Wingspan, Pinion"
+ wingspan_pinion_desc:0 "The owl's wing is taken apart, each layer of muscle laid bare. Observe the graceful swing of the pinions. Observe the spots, see where their patterns begin to form shapeless runes."
+ digits_talons_name:0 "Digits, Talons"
+ digits_talons_desc:0 "Powerful talons laid bare before me, viscera splay across the page, an ink gyre. Observe that the length and bow of the third digit matches Halleman's theorem. Observe the strange claw marks you find on your windowsill come the morning light."
+ lenses_oracle_name:0 "Lenses, Oracle"
+ lenses_oracle_desc:0 "The eyes are delicately carved, their lenses and striations laid bare. Observe that no falsehood may escape their penetrating gaze. Observe that your own sense of self is a falsehood. Observe yourself in your dreams, through flashing lenses that are not your own."
+ 
+ #################
+ # ARCANA - WATER#
+ #################
+ sea_queens_domain_name:0 "Sea Queen's Domain"
+ sea_queens_domain_desc:0 "Stories and shanties of heroes are prevalent among the peoples of the Western Isles, yet equally numerous are tales of the lords of the deep, strange and mysterious as their enigmatic domain. \n\n Famed among these is the Sea Queen, a mythical figure that ruled over a kingdom beneath the waves. Legend tells that she was once a spell-singer that calmed the seas with songs of salt, yet spurned by her own tribe. She was then said to have walked into the sea in sorrow, being venerated thereafter by a repentant populace as the guardian and protector of the souls of drowned sailors."
+ admiral_of_the_deep_name:0 "Ricobert, Admiral of the Deep "
+ admiral_of_the_deep_desc:0 "A dread pirate lord of the Western Isles, Ricobert was known for leading his armada deep into Aversaria to gain riches aplenty and was infamous for even raiding fellow pirates. His downfall came, however, when he pillaged a local shrine to the Sea Queen, invoking her anger. \n\n A few nights later, the embattled defenders of another island being raided heard a shrill dark song carried over the water, followed by titanic waves that held the great armada in place. Ricobert and his fleet were then dragged to the bottom of the sea, where it is said that they serve the Sea Queen as her undying thralls to this day."
+ minstrel_of_the_reef_name:0 "Heliod, Minstrel of the Reef"
+ minstrel_of_the_reef_desc:0 "A famed Neophretitan minstrel,  Heliod traveled across Aeras seeking new songs and stories to inspire others. During a voyage to Chevalie, the minstrel was beset by a serpentine beast (allegedly due to his singing) and was shipwrecked on an island that worshipped the Sea Queen. \n\n Intrigued by the songs of his rescuers, he began to make his own odes to the Sea Queen in gratitude, which were said to have pleased her. According to legend, she then taught Heliod her own craft in exchange for his service, and the minstrel thereafter traveled the Isles, bringing joy and calm seas with his songs — some say even after his death."

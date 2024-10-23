@@ -1,0 +1,112 @@
+﻿l_english:
+ cn_monsatres:0 "Monsátres"
+ cn_veunsaxtres:0 "Veunsaxtrés"
+ cn_oudemarches:0 "Oudemarches"
+ cn_prepathe:0 "Prépathe"
+ cn_prepathon:0 "Prépathon"
+ cn_meties:0 "Meties"
+ cn_metios:0 "Metios"
+ cn_adoiriex:0 "Adoiriex"
+ cn_vourcentier:0 "Vourcentier"
+ cn_androime:0 "Androimé"
+ cn_erencourt:0 "Erencourt"
+ cn_chameurt:0 "Chameurs"
+ cn_malebruge:0 "Malebruge"
+ cn_sillacin:0 "Sillecin"
+ cn_oualdisse:0 "Oualdisse"
+ cn_lampre:0 "Lampre"
+ cn_lampasse:0 "Lampasse"
+ cn_l_monesse:0 "l'Monesse"
+ cn_evillet:0 "Evillet"
+ cn_eusprentes:0 "Eusprantes"
+ cn_bourues:0 "Bourues"
+ cn_ousurain:0 "Ousurain"
+ cn_prephilisse:0 "Préphilisse"
+ cn_jespere:0 "Jespère"
+ cn_aubriest:0 "Aubriest"
+ cn_gravin:0 "Gravin"
+ cn_hauraitte:0 "Hauraitte"
+ cn_peti_sauraitte:0 "Peti Sauraitte"
+ cn_pieuthois:0 "Pieuthois"
+ cn_parangerie:0 "Parangerie"
+ cn_gelige:0 "Gélige"
+ cn_quldraux:0 "Quoldraux"
+ cn_neregue:0 "Nerégue"
+ cn_salanquin:0 "Sallanquin"
+ cn_cemisie:0 "Cémise"
+ cn_cymise:0 "Cymise"
+ cn_cadence:0 "Cadence"
+ cn_piroise:0 "Piroise"
+ cn_riaucourais:0 "Courais Riaux"
+ cn_phalente:0 "Phalente"
+ cn_thibaulx:0 "Thibaulx"
+ cn_pillaux:0 "Pillaux"
+ cn_sacadon:0 "Sacadon"
+ cn_illegenere:0 "Illegenere"
+ cn_dioice:0 "Dioice"
+ cn_trebille:0 "Trébille"
+ cn_pylidres:0 "Pylledrés"
+ cn_seouillite:0 "Seouillite"
+ cn_millenare:0 "Millenaxre"
+ cn_rouhar:0 "Rouhar"
+ cn_platapeze_2:0 "Plait en Pais"
+ cn_chalerie:0 "Chalerie"
+ cn_chalerie_article:0 "de "
+ 
+ 
+    #########################
+	# e_the_reach #
+	#########################
+    cn_peti_cadencie:0 "Peti Cadencie"
+        ## k_everrain ##
+            # Baronies
+            # Counties
+            # Duchies
+        ## k_faegift ##
+            # Baronies
+            # Counties
+            # Duchies
+        ## k_aldergreen ##
+        ## k_heartwood ##
+            # Baronies
+            cn_rivierfort_en_audbrue:0 "Rivierfort en Audbrue"
+            cn_listikraxos_in_audbrue:0 "Listikraxos in Audbrue"
+            cn_veideur:0 "Veideur"
+            cn_nortekruis:0 "Nortekruis"
+            cn_vadous:0 "Vadous"
+            cn_goudiste:0 "Goudiste"
+            cn_audmoule:0 "Audmole"
+            cn_pracquertour:0 "Pracquertour"
+            cn_amredonne:0 "Amredonne"
+            cn_apelbrue:0 "Apelbrue"
+            cn_quilleau:0 "Quilleau"
+            cn_roxejart:0 "Roxejart"
+            cn_broumefort:0 "Broumefort"
+            cn_magamre:0 "Magamre"
+            cn_paerisset:0 "Paerisset"
+            cn_sousseaux:0 "Sousseuax"
+            cn_amruppal_risset:0 "Amruppal Risset"
+            cn_amre_d_pattions:0 "Amre d'Pattions"
+            # Counties
+            cn_audbrue:0 "Audbrue"
+            cn_taroux:0 "Taroux"   # From 'taru', archaic form for 'wheat'
+            cn_cidrevele:0 "Cidrevele"
+            cn_soussens:0 "Soussens"    # Direct translation would be 'Soussejart', but suffix was lost over time
+            cn_melecrois:0 "Melecrois"  # From Clanlander 'Mealcroi'
+            cn_sebonne:0 "Sebonne"  # From Clanlander 'Sióbeas'
+            cn_gran_haistrie:0 "Gran Haistrie"
+            cn_anthelie:0 "Anthelie" # From Clanlander 'Artantelech', origin unknown
+            cn_quillesplat:0 "Quillesplat"
+            # Duchies
+            cn_honrivier:0 "Honrivier"
+            cn_chevalie_aude:0 "Chevalie Aude"
+        ## k_skycrown ##
+        
+    ########################
+    # e_cornucopia #
+    ########################
+    cn_grande_cadencie:0 "Grande Cadencie"
+        ## k_redwald ##
+        ## k_cornucopia ##
+            ## Counties
+            cn_bastonport:0 "Bastonport"

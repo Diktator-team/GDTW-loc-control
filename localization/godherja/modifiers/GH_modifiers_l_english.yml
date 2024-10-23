@@ -1,0 +1,9 @@
+﻿l_english:
+  metro_holding_build_speed:0 "Metropolis [buildings|E] Construction Time"
+  metro_holding_build_gold_cost:0 "Metropolis [buildings|E] Construction Cost"
+  metro_holding_holding_build_speed:0 "Metropolis [holding|E] Construction Time"
+  metro_holding_holding_build_gold_cost:0 "Metropolis [holding|E] Construction Cost"
+  
+ jerniems_protection_modifier:0 "Jerniems Protection" 
+ jerniems_protection_modifier_desc:0 "Wandering magi of the Nattanan guard these jungles, living as Jerniem ordained, protecting the jungle from outsiders."
+ # MOD_MAGI_OPINION:0 "[magi|E] Opinion"

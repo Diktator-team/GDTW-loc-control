@@ -1,0 +1,42 @@
+﻿l_english:
+
+game_concept_county_capital_possessive:90 "County Capital's"
+
+game_concept_uncolonized_wasteland:90 "Wasteland"
+game_concept_uncolonized_wasteland_no_waste:90 "Uncolonized"
+game_concept_uncolonized_wastelands:90 "Wastelands"
+game_concept_uncolonized_wasteland_desc:90 "$game_concept_wastelands$ are [counties|E] that are not ruled by any Character due to either harsh conditions or lack of organized governance, and often feature [ruin|E] [holdings|E] in some of their [baronies|E].\n\nNon-[tribal|E] [rulers|E] can [colonize|E] $game_concept_wastelands$ if the [habitability|E] of the target County is above the [habitability_threshold|E] of their [culture|E]."
+
+game_concept_colonization:90 "Colonization"
+game_concept_colonize:90 "Colonize"
+game_concept_colonized:90 "Colonized"
+game_concept_colonizing:90 "Colonizing"
+game_concept_colonization_desc:90 "Should a [ruler|E] wish to add a [uncolonized_wasteland|E] to their [realm|E], they must first $game_concept_colonize$ it. $game_concept_colonization$ requires a large investment of [Concept('gold','@gold_icon!')|E][gold|E], increasing the lower the [habitability|E] of the target [county|E] is.\n\nCounties undergoing colonization gain a [colony|E] [holding|E] in their [county_capital|E], and need to fill the [colonization_progress|E] bar to become fully settled."
+
+game_concept_colonization_progress:90 "Colonization Progress"
+game_concept_colonization_progress_desc:90 "A [uncolonized_wasteland|E] can only be [colonized|E] once its $game_concept_colonization_progress$ reaches #V 100%#!. $game_concept_colonization_progress$ is gained every month based on the Colonizing [character_possessive|E] [stewardship|E], [arcana|E], as well as various [county|E] [modifiers|E]."
+
+game_concept_habitability:90 "Habitability"
+game_concept_habitability_desc:90 "Antediluvian forests, scorching deserts, and magically blasted [uncolonized_wastelands|E]; Habitability represents how suitable a particular region is for sustained human habitation. It is affected primarily by the type of [terrain|E] in the [county_capital|E], [ambient_magic|E], various [modifiers|E], and whether the [county|E] is coastal.\n\nCharacters can only [colonize|E] Counties that are above the [habitability_threshold|E] of their [culture|E]."
+
+game_concept_habitability_threshold:90 "Habitability Threshold"
+game_concept_habitability_threshold_desc:90 "Habitability Threshold represents the minimum possible level of [county|E] [habitability|E] a particular [culture|E] can tolerate in order to [colonize|E] the County. It can be decreased through the adoption of various [terrain|E]-adapting [Concept('traditions','Cultural Traditions')|E], and the discovery of certain [innovations|E]."
+
+game_concept_colony_holding:90 "Colony Holding"
+game_concept_colony:90 "Colony"
+game_concept_colonies:90 "Colonies"
+game_concept_colony_holdings:90 "Colony Holdings"
+game_concept_colony_holding_desc:90 "Colonies are a [holding_type|E] that is unique to [counties|E] undergoing [colonization|E]. They do not produce any [taxes|E] and [levies|E], but turn into regular [castle|E] [holdings|E] once colonization is complete."
+
+game_concept_ruin_holding:90 "Ruin Holding"
+game_concept_ruin:90 "Ruin"
+game_concept_ruins:90 "Ruins"
+game_concept_ruin_holdings:90 "Ruins Holdings"
+game_concept_ruin_holding_desc:90 "Ruins are a special [holding_type|E] that represents derelict unclaimed structures in a particular [county|E]. Ruins do not provide any [taxes|E] or [levies|E], but can be settled at a reduced cost compared to normal [holding|E] Construction."
+
+#game_concept_opening_events:90 "Opening Events"
+#game_concept_opening_event:90 "Opening Event"
+#game_concept_opening_events_desc:90 "[opening_events|E] are introductory events blah blah blah fuck it im cutting this one who cares"
+
+game_concept_story_content:90 "Story Content"
+game_concept_story_content_desc:90 "Many Characters in Godherja have unique content ranging from flavor events to entirely custom mechanics and paths.\n\nLike the vanilla game, Godherja is designed around being a sandbox and Story Content is supplementary to the rest of a Character's content and is thus not mandatory for a 'proper' Godherja experience."

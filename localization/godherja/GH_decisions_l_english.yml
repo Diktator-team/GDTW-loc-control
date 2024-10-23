@@ -1,0 +1,12 @@
+﻿l_english:
+ amsari_vassals_will_convert:0 "As I am Amsari, my [tribal|E] vassals will change to [clan|E] government"
+
+ commission_artifact_decision_option_thumb_ring_desc:0 "[AddTextIf(ROOT.Char.GetInventory.HasEquippedArtifactsInSlotType('miscellaneous'), Concatenate('Currently Equipped:\n', ROOT.Char.GetInventory.GetEquippedArtifactsInSlotTypeString('miscellaneous', 'NEWLINE', 'NEWLINE', 'NEWLINE')))]"
+ commission_artifact_decision_option_thumb_ring:0 "Thumb Ring\n#low Owned: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString('miscellaneous')]#!"
+ commission_thumb_ring_tooltip:0 "#T Thumb Ring#! \n$DESC$"
+ commission_artifact_decision_option_oltenic_mask_desc:0 "[AddTextIf(Not(ROOT.Char.GetInventory.GetSlot('helmet').IsEmpty ), Concatenate('Currently Equipped:\n', ROOT.Char.GetInventory.GetEquippedArtifactsInSlotTypeString('helmet', 'NEWLINE', 'NEWLINE', 'NEWLINE')))]"
+ commission_artifact_decision_option_oltenic_mask:0 "Mask\n#low Owned: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString('helmet')]#!"
+ commission_oltenic_mask_tooltip:0 "#T Mask#! \n$DESC$"
+ 
+ at_least_7_rivarisians_counties_of_your_faith_tt:90 "You must hold at least 7 Rivarisians [counties|E] of your [faith|E]"
+ the_new_capital_must_be_controlled_and_developed_tt:90 "Your [capital|E] [county|E] is in [GetGeographicalRegion('world_ga_riverlands_formable').GetName] and must have at least 22 [development|E] and 100 [control|E]"

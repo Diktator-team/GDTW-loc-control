@@ -1,0 +1,25 @@
+﻿l_english:
+
+ pirate_authority:0 "#E Cohesion#!"
+ pirate_authority_0:0 "Lawless Commune"
+ pirate_authority_0_effects_not_in_prev:1 "$EFFECT_LIST_BULLET$Rulers can relocate to new regions\n$EFFECT_LIST_BULLET$Rulers can designate their [heir|E]\n$EFFECT_LIST_BULLET$[vassals|E] and [courtiers|E] can challenge leadership\n$EFFECT_LIST_BULLET$The [realm|E] may #N break apart#! on [succession|E]"
+ pirate_authority_1:0 "Low Cohesion"
+ pirate_authority_1_effects_not_in_prev:1 "$EFFECT_LIST_BULLET$Rulers can relocate to new regions\n$EFFECT_LIST_BULLET$Rulers can designate their [heir|E]\n$EFFECT_LIST_BULLET$[vassals|E] and [courtiers|E] can challenge leadership"
+ pirate_authority_2:0 "Medium Cohesion"
+ pirate_authority_3:0 "High Cohesion"
+
+ monasteries_must_not_be_on_cooldown_trigger:0 "Monasteries must not be on cooldown"
+
+
+ clique_authority:0 "Clique Authority"
+ clique_authority_0:0 "Clique Dominance"
+ clique_authority_0_effects_not_in_prev:0 "#weak More power rests with the ruling [clique|E]'s membership' than its leader.#!"
+ clique_authority_0_effects:0 "$EFFECT_LIST_BULLET$Vassals' [titles|E] cannot be inherited by Characters outside the [realm|E]"
+ clique_authority_1:0 "Clique Empowerment"
+ clique_authority_1_effects_not_in_rev:0 "#weak A balance is maintained between the [clique|E] and the [liege|E].#!"
+ clique_authority_2:0 "Liege Empowerment"
+ clique_authority_2_effects:0 "$EFFECT_LIST_BULLET$[vassals|E] can be retracted"
+ clique_authority_3:0 "Liege Dominance"
+ clique_authority_3_effects:0 "$EFFECT_LIST_BULLET$[vassals|E] cannot wage any [war|E] unless they use a [hook|E] on their [liege|E]\n$EFFECT_LIST_BULLET$[titles|E] can be revoked"
+
+ 

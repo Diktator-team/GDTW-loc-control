@@ -1,0 +1,28 @@
+﻿l_english:
+
+ activity_hunt_province_desc_falcon_roost_minor:89 "#P + $building_type_falcon_roost_01$#! ([building|E])\n"
+ activity_hunt_province_desc_falcon_roost_medium:89 "#P ++ $building_type_falcon_roost_01$#! ([building|E])\n"
+ activity_hunt_province_desc_falcon_roost_major:89 "#P +++ $building_type_falcon_roost_01$#! ([building|E])\n"
+
+ activity_hunt_province_desc_monster_sighting:89 "#P +++ Monster Sighting#!\n"
+
+ activity_hunt_outside_realm_valid_tt:89 "Must have [GetFaithDoctrine('tenet_sjalvolki_hunt').GetBaseName] or [GetPerk('adept_tracker_perk').GetName(GetPlayer)] to hunt outside your [realm|E]."
+ 
+ gh_hunt_animal_safety_safest:89 "@death_icon![hunt_danger_no_prefix|E]: #P Harmless#! #weak (1/5)#!"
+ gh_hunt_animal_safety_safer:89 "@death_icon![hunt_danger_no_prefix|E]: #P Mild#! #weak (2/5)#!"
+ gh_hunt_animal_safety_middling:89 "@death_icon![hunt_danger_no_prefix|E]: Middling #weak (3/5)#!"
+ gh_hunt_animal_safety_dangerous:89 "@death_icon![hunt_danger_no_prefix|E]: #N Dangerous#! #weak (4/5)#!"
+ gh_hunt_animal_safety_treacherous:89 "@death_icon![hunt_danger_no_prefix|E]: #N Treacherous#! #weak (5/5)#!"
+ gh_hunt_animal_prestige_lowest:89 "[prestige_i|E][prestige|E]: #N Trivial#! #weak (1/5)#!"
+ gh_hunt_animal_prestige_lower:89 "[prestige_i|E][prestige|E]: #N Mediocre#! #weak (2/5)#!"
+ gh_hunt_animal_prestige_middling:89 "[prestige_i|E][prestige|E]: Middling #weak (3/5)#!"
+ gh_hunt_animal_prestige_high:89 "[prestige_i|E][prestige|E]: #P Impressive#! #weak (4/5)#!"
+ gh_hunt_animal_prestige_highest:89 "[prestige_i|E][prestige|E]: #P Glorious#! #weak (5/5)#!"  
+
+ monster_commission_intent:89 "Commission Hunting"
+ monster_commission_intent_desc:89 "You want to see what contracts are out there to make a few coin slaying monsters."
+
+ hunt_sighting_monster_modifier:89 "Monster Sighting"
+ hunt_sighting_monster_desc:89 "[ROOT.Title.Custom('GetAnimalPlural')|VU] hunting in [ROOT.Title.GetNameNoTier]"
+ hunt_sighting_monster_modifier_desc:89 "A dangerous monster has been rumored to be terrorizing this county.\n#weak [hunt_success_chance|E] is increased in this [county|E]#!"
+ hunt_sighting_monster_modifier_custom_desc:89 "A dangerous [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] has been rumored to be terrorizing this county.\n#weak [hunt_success_chance|E] is increased in this [county|E]#!"

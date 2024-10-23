@@ -1,4 +1,0 @@
-﻿l_russian:
-  
- hoodwink_interaction: "обман"
- hoodwink_interaction_desc: "Попытка выкрасть [recipient.GetShortUINameNoTooltip] из части [recipient.GetHerHis] [gold|E]"

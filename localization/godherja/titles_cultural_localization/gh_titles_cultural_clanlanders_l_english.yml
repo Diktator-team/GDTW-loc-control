@@ -1,0 +1,61 @@
+﻿l_english:
+ cn_vyddrioch:0 "Vyddrioch"
+ 
+    #########################
+	# e_the_reach #
+	#########################
+    
+        ## k_everrain ##
+            cn_melchrychau:0 "Melchrychau"
+            # Baronies
+            # Counties
+            # Duchies
+        ## k_faegift ##
+            cn_illyn_auncydd:0 "Illyn Auncydd"
+            # Baronies
+            # Counties
+            # Duchies
+        ## k_aldergreen ##
+            cn_beulloeth:0 "Beulloeth"
+        ## k_heartwood ##
+            cn_croiddin:0 "Croiddin"
+            # Baronies
+            cn_abhainndun_i_droudrochet:0 "Abhainndún i Droudrochet"
+            cn_muineargeat:0 "Múinéargeat"
+            cn_thaidhbrach:0 "Thaidbrach"
+            cn_trafhath:0 "Trafháth"
+            cn_orgas:0 "Órgas"
+            cn_seanmileann:0 "Seanmileann"
+            cn_arano:0 "Aráno"
+            cn_nechtpol:0 "Nechtpol"
+            cn_clochbisal:0 "Clochbisal"
+            cn_abaldrochet:0 "Abaldrochet"
+            cn_rugaird:0 "Rugaird"
+            cn_oruden:0 "Óruden"
+            cn_plumgeat:0 "Plumgeat"
+            cn_callach_cloch:0 "Callach Cloch"
+            cn_caorabroc:0 "Caorabroc"
+            cn_cruithenacht:0 "Cruithenacht"
+            cn_mailinn:0 "Mailinn"
+            cn_scathainne_sruthom:0 "Scáthainne Sruthom"
+            cn_carraig_etelachan:0 "Carraig Eteláchan"
+            # Counties
+            cn_droudrochet:0 "Droudrochet"
+            cn_nechtalamh:0 "Nechtalamh"
+            cn_abaltopur:0 "Abaltópur"
+            cn_sinnichcaill:0 "Sinnichcoell"
+            cn_mealgaird:0 "Mealgaird"
+            cn_siobeas:0 "Sióbeas"
+            cn_clyttancoell:0 "Clyttancoell"
+            cn_artantelech:0 "Artantelech"
+            # Duchies
+        ## k_skycrown ##
+        
+    ########################
+    # e_cornucopia #
+    ########################
+    
+        ## k_redwald ##
+            cn_caurrych:0 "Caurrych"
+            cn_crachlog:0 "Crachlog"
+

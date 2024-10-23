@@ -1,0 +1,237 @@
+﻿l_english:
+ 
+ COUNCIL_SAME_CHARACTER:0 "[CHARACTER.GetShortUIName|U] cannot be Councillor and Council owner at the same time."
+ COUNCIL_NOT_LIEGE:0 "[CHARACTER.GetShortUIName|U] must be the liege of [TARGET_CHARACTER.GetShortUIName] to assign it as Councillor."
+ COUNCIL_NOT_VALID_POSITION:0 "[CHARACTER.GetShortUIName|U] cannot have a $NAME$ councillor in the council."
+ COUNCIL_NOT_VALID_CHARACTER:1 "The $NAME$ position is not valid for [CHARACTER.GetShortUIName]."
+ COUNCIL_NOT_VALID_TASK:0 "Trying to assign an invalid task"
+ COUNCIL_POSITION_FILLED:1 "[CHARACTER.GetShortUINamePossessive] Council already has a $NAME$"
+ COUNCIL_CANT_TAKE_NO_POSITION:1 "[CHARACTER.GetShortUIName|U] cannot take [TARGET_CHARACTER.GetShortUINamePossessive] Council position because [TARGET_CHARACTER.GetSheHe] is not on the Council."
+ COUNCIL_CANT_SWAP_NO_POSITION:1 "[CHARACTER.GetShortUIName|U] cannot swap Council positions with [TARGET_CHARACTER.GetShortUIName] because [TARGET_CHARACTER_2.GetShortUIName] is not on the Council."
+ COUNCIL_CANT_SWAP_EQUAL:0 "[TARGET_CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER_2.GetShortUIName] cannot swap Council positions because they have the same position already."
+ COUNCIL_CANT_FIRE_NO_COUNCILLOR:1 "[CHARACTER.GetShortUIName|U] cannot fire [TARGET_CHARACTER.GetShortUIName] from the Council because [TARGET_CHARACTER.GetSheHe] does not have this Council position."
+ COUNCIL_NOT_LIEGE_TASK:1 "[CHARACTER.GetShortUIName|U] must be the liege of [TARGET_CHARACTER.GetShortUIName] to be able to assign [TARGET_CHARACTER.GetHerHim] a task."
+ COUNCIL_CANT_TASK_COUNCILLOR:1 "[CHARACTER.GetShortUIName|U] cannot give a task to [TARGET_CHARACTER.GetShortUIName] because [TARGET_CHARACTER.GetSheHe] does not have a Council position."
+ COUNCIL_CANT_TAKE_TASK_COUNCIL_TYPE:0 "[CHARACTER.GetShortUINamePossessive] current $ACTUAL_POS$ council position is not the $REQUIRED_POS$ required for the $TASK_NAME$ task."
+ COUNCIL_CANT_TAKE_TASK_CHARACTER:0 "[CHARACTER.GetShortUIName|U] does not fit the requirements to perform the $TASK_NAME$ task."
+ COUNCIL_CANT_CANCEL_TASK_COUNCILLOR:0 "[CHARACTER.GetShortUIName|U] cannot cancel a task of [TARGET_CHARACTER.GetShortUIName] because does not have a Council position."
+ COUNCIL_CANT_CANCEL_NO_RUNING:0 "[CHARACTER.GetShortUIName|U] is not running any task."
+ START_COUNCIL_TASK_TITLE:0 "#T $TASK$#!"
+ COUNCILLOR_NO_CHARACTER_IN_POSITION:0 "No $POSITION$"
+ START_COUNCIL_TASK_SEND_COUNTY:1 "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [COUNTY.GetTitle.GetName]"
+ START_COUNCIL_TASK_SEND_COURT:1 "Send your [COUNCIL_TASK.GetPositionName] to [COUNCIL_TASK_TYPE.GetName] on [TARGET.GetShortUINamePossessive] court"
+ START_COUNCIL_TASK_ABORTED:1 "\n@warning_icon! #X Your [COUNCIL_TASK.GetPositionNamePossesive] current Task ('[COUNCIL_TASK.GetTaskType.GetName]') will be aborted.#!"
+ COUNCILLOR_TASK_ALREADY_IN_PROCESS:0 "The task is already being executed"
+ COUNCILLOR_TIMEOUT_FIRE:1 "@warning_icon! #X The [councillor|E] cannot be fired until [DATE.GetString]#!"
+ COUNCILLOR_TIMEOUT_REASSIGN:0 "@warning_icon! #X The [councillor|E] cannot be reassigned until [DATE.GetString]#!"
+ COUNCILLOR_ALREADY_CHANGED:1 "@warning_icon! #X The [councillor|E] has already been fired or assigned once#!"
+ COUNCILLOR_CAN_CHANGE_ONCE:0 "@warning_icon! #X Once appointed as [COUNCIL_POSITION_TYPE.GetName|V], [CHARACTER.GetShortUIName] cannot be fired or assigned another position#!"
+ COUNCILLOR_CLICK_TO_HIRE:1 "Click to appoint a [ActiveCouncilTask.GetPositionName|E]"
+ COUNCILLOR_BLANK_LIEGE:0 "Your [liege|E] has no [ActiveCouncilTask.GetPositionName|E]"
+ COUNCILLOR_MISSING_SPOUSE:0 "You have no [available_spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_SPOUSE:2 "[CouncilWindow.GetCharacter.GetShortUIName] has no [available_spouse|E]"
+ COUNCILLOR_WILL_BE_ASSIGNED:0 "The [councillor|E] is about to be assigned"
+ COUNCILLOR_MISSING_VIZIER: "You have no [vizier|E] or [spouse|E]"
+ COUNCILLOR_LIEGE_MISSING_VIZIER: "[CouncilWindow.GetCharacter.GetShortUIName] has no [vizier|E] or [spouse|E]"
+ COUNCILLOR_MISSING_CHANCELLOR: "You have no [chancellor|E]"
+ COUNCILLOR_MISSING_MARSHAL: "You have no [marshal|E]"
+ COUNCILLOR_MISSING_STEWARD: "You have no [steward|E]"
+ COUNCILLOR_MISSING_SPYMASTER: "You have no [spymaster|E]"
+ COUNCILLOR_MISSING_COURT_CHAPLAIN: "You have no [court_chaplain|E]"
+
+ learn_on_the_job_modifier:0 "$learn_on_the_job_perk_name$"
+
+ councillor_coregent:0 "Coregent"
+ councillor_coregent_possessive:0 "Coregent's"
+ councillor_chancellor:0 "[ROOT.Char.Custom('GetActualChancellorTitle')]"
+ councillor_chancellor_possessive:0 "[ROOT.Char.Custom('GetActualChancellorTitlePossessive')]"
+ councillor_steward:0 "[ROOT.Char.Custom('GetActualStewardTitle')]"
+ councillor_steward_possessive:0 "[ROOT.Char.Custom('GetActualStewardTitlePossessive')]"
+ councillor_marshal:0 "[ROOT.Char.Custom('GetActualMarshalTitle')]"
+ councillor_marshal_possessive:0 "[ROOT.Char.Custom('GetActualMarshalTitlePossessive')]"
+ councillor_spymaster:0 "[ROOT.Char.Custom('GetActualSpymasterTitle')]"
+ councillor_spymaster_possessive:0 "[ROOT.Char.Custom('GetActualSpymasterTitlePossessive')]"
+ councillor_court_chaplain:0 "Court Chaplain"
+ councillor_court_chaplain_possessive:0 "Court Chaplain's"
+ councillor_vizier: "Confidant"
+ councillor_vizier_desc: "As a [clan_government|E] Ruler you can decide to assign either your [vizier|E] or any of your [spouses|E] as your Confidant. Whoever you choose will support you in your daily tasks."
+ councillor_vizier_possessive: "Confidant's"
+
+#Flavor localization for Court Magi.
+#Fallback
+ councillor_court_magi_fallback:90 "Court Magi"
+ councillor_court_magi_fallback_possessive:90 "Court Magi's"
+
+#Tribal
+ councillor_court_magi_tribal_county_male:90 "Spellman"
+ councillor_court_magi_tribal_county_male_possessive:90 "Spellman's"
+ councillor_court_magi_tribal_county_female:90 "Spellman"
+ councillor_court_magi_tribal_county_female_possessive:90 "Spellman's"
+ councillor_court_magi_tribal_duchy:90 "Spellweaver"
+ councillor_court_magi_tribal_duchy_possessive:90 "Spellweaver's"
+ councillor_court_magi_tribal_kingdom:90 "Clan Spellweaver"
+ councillor_court_magi_tribal_kingdom_possessive:90 "Clan Spellweaver's"
+ councillor_court_magi_tribal_empire:90 "High Spellweaver"
+ councillor_court_magi_tribal_empire_possessive:90 "High Spellweaver's"
+
+#Redlander
+ councillor_court_magi_redlander:90 "Ritual Master"
+ councillor_court_magi_redlander_possessive:90 "Ritual Master's"
+
+#Fogeater
+ councillor_court_magi_fogeater:90 "Dream Whisperer"
+ councillor_court_magi_fogeater_possessive:90 "Dream Whisperer's"
+
+#Flavor localization for Chancellors.
+#Fallback
+ councillor_chancellor_fallback:90 "Chancellor"
+ councillor_chancellor_fallback_possessive:90 "Chancellor's"
+
+#Tribal
+ councillor_chancellor_tribal:90 "Speaker"
+ councillor_chancellor_tribal_possessive:90 "Speaker's"
+
+#Redlander
+ councillor_chancellor_redlander:90 "Cult Speaker"
+ councillor_chancellor_redlander_possessive:90 "Cult Speaker's"
+
+#Fogeater
+ councillor_chancellor_fogeater:90 "Saccthatwroootn"
+ councillor_chancellor_fogeater_possessive:90 "Saccthatwroootn's"
+
+#Flavor localization for Spymasters.
+#Fallback
+ councillor_spymaster_fallback:90 "Spymaster"
+ councillor_spymaster_fallback_possessive:90 "Spymaster's"
+
+#Tribal
+ councillor_spymaster_tribal:90 "Secret Teller"
+ councillor_spymaster_tribal_possessive:90 "Secret Teller's"
+
+#Redlander
+ councillor_spymaster_redlander:90 "Shadowthrall"
+ councillor_spymaster_redlander_possessive:90 "Shadowthrall's"
+
+#Fogeater
+ councillor_spymaster_fogeater:90 "Spthythythythy Hahaha"
+ councillor_spymaster_fogeater_possessive:90 "Spthythythythy Hahaha's"
+
+#Flavor localization for Stewards.
+#Fallback
+ councillor_steward_fallback:90 "Steward"
+ councillor_steward_fallback_possessive:90 "Steward's"
+
+#Tribal
+ councillor_steward_tribal:90 "Law Speaker"
+ councillor_steward_tribal_possessive:90 "Law Speaker's"
+
+#Redlander
+ councillor_steward_redlander:90 "Slave Master"
+ councillor_steward_redlander_possessive:90 "Slave Master's"
+
+#Fogeater
+ councillor_steward_fogeater:90 "Yrotosoomagg"
+ councillor_steward_fogeater_possessive:90 "Yrotosoomagg's"
+
+#Flavor localization for Marshal.
+#Fallback
+ councillor_marshal_fallback:90 "Marshal"
+ councillor_marshal_fallback_possessive:90 "Marshal's"
+
+#Tribal
+ councillor_marshal_tribal:90 "Warmaster"
+ councillor_marshal_tribal_possessive:90 "Warmaster's"
+
+#Redlander
+ councillor_marshal_redlander:90 "Keeper"
+ councillor_marshal_redlander_possessive:90 "Keeper's"
+
+#Fogeater
+ councillor_marshal_fogeater:90 "Murrrrrrrrrr"
+ councillor_marshal_fogeater_possessive:90 "Murrrrrrrrrr's"
+
+#Flavor localization for Court Chaplains, sorted by Religion.
+
+#Fallback
+ councillor_court_chaplain_theocrat_county:1 "Suffragan Bishop"
+ councillor_court_chaplain_theocrat_county_possessive:1 "Suffragan Bishop's"
+ councillor_court_chaplain_theocrat_duchy:1 "Bishop"
+ councillor_court_chaplain_theocrat_duchy_possessive:1 "Bishop's"
+ councillor_court_chaplain_theocrat_kingdom:1 "Archbishop"
+ councillor_court_chaplain_theocrat_kingdom_possessive:1 "Archbishop's"
+ councillor_court_chaplain_theocrat_empire:0 "Patriarch"
+ councillor_court_chaplain_theocrat_empire_female:0 "Matriarch"
+ councillor_court_chaplain_theocrat_empire_possessive:0 "Patriarch's"
+ councillor_court_chaplain_theocrat_empire_female_possessive:0 "Matriarch's"
+
+#Christian
+ councillor_court_chaplain_christian_county:1 "Suffragan Bishop"
+ councillor_court_chaplain_christian_county_possessive:1 "Suffragan Bishop's"
+ councillor_court_chaplain_christian_duchy:1 "Bishop"
+ councillor_court_chaplain_christian_duchy_possessive:1 "Bishop's"
+ councillor_court_chaplain_christian_kingdom:1 "Archbishop"
+ councillor_court_chaplain_christian_kingdom_possessive:1 "Archbishop's"
+ councillor_court_chaplain_christian_empire:0 "Patriarch"
+ councillor_court_chaplain_christian_empire_female:0 "Matriarch"
+ councillor_court_chaplain_christian_empire_possessive:0 "Patriarch's"
+ councillor_court_chaplain_christian_empire_female_possessive:0 "Matriarch's"
+
+ #Orthodox
+ councillor_court_chaplain_orthodox_county:1 "Suffragan Bishop"
+ councillor_court_chaplain_orthodox_county_possessive:1 "Suffragan Bishop's"
+ councillor_court_chaplain_orthodox_duchy:1 "Bishop"
+ councillor_court_chaplain_orthodox_duchy_possessive:1 "Bishop's"
+ councillor_court_chaplain_orthodox_kingdom:0 "Patriarch"
+ councillor_court_chaplain_orthodox_kingdom_female:0 "Matriarch"
+ councillor_court_chaplain_orthodox_kingdom_possessive:0 "Patriarch's"
+ councillor_court_chaplain_orthodox_kingdom_female_possessive:0 "Matriarch's"
+ councillor_court_chaplain_orthodox_empire:0 "Patriarch"
+ councillor_court_chaplain_orthodox_empire_female:0 "Matriarch"
+ councillor_court_chaplain_orthodox_empire_possessive:0 "Patriarch's"
+ councillor_court_chaplain_orthodox_empire_female_possessive:0 "Matriarch's"
+
+# Paganism (Court Shaman) (Shaman) (High Shaman)
+ councillor_court_chaplain_paganism_religion_county:0 "Court Shaman"
+ councillor_court_chaplain_paganism_religion_county_possessive:0 "Court Shaman's"
+ councillor_court_chaplain_paganism_religion_duchy:1 "Shaman"
+ councillor_court_chaplain_paganism_religion_duchy_possessive:1 "Shaman's"
+ councillor_court_chaplain_paganism_religion_kingdom:1 "High Shaman"
+ councillor_court_chaplain_paganism_religion_kingdom_female:1 "$councillor_court_chaplain_paganism_religion_kingdom$"
+ councillor_court_chaplain_paganism_religion_kingdom_possessive:1 "High Shaman's"
+ councillor_court_chaplain_paganism_religion_kingdom_female_possessive:1 "$councillor_court_chaplain_paganism_religion_kingdom_possessive$"
+
+#Flavor localizaton for Spouse Councilor, sorted by Cultures/Governments.
+ councillor_spouse:0 "Spouse"
+ councillor_spouse_prince_consort:0 "Prince Consort"
+ councillor_spouse_husband:0 "Husband"
+ councillor_spouse_empress:0 "Empress"
+ councillor_spouse_queen:0 "Queen"
+ councillor_spouse_duchess:0 "Duchess"
+ councillor_spouse_countess:0 "Countess"
+ councillor_spouse_baroness:0 "Baroness"
+
+ councillor_spouse_emperor:0 "Emperor"
+ councillor_spouse_king:0 "King"
+ councillor_spouse_duke:0 "Duke"
+ councillor_spouse_count:0 "Count"
+ councillor_spouse_baron:0 "Baron"
+
+ councillor_spouse_possessive:0 "Spouse's"
+ councillor_spouse_prince_consort_possessive:0 "Prince Consort's"
+ councillor_spouse_husband_possessive:0 "Husband's"
+ councillor_spouse_empress_possessive:0 "Empress'"
+ councillor_spouse_queen_possessive:0 "Queen's"
+ councillor_spouse_duchess_possessive:0 "Duchess'"
+ councillor_spouse_countess_possessive:0 "Countess'"
+ councillor_spouse_baroness_possessive:0 "Baroness'"
+
+ councillor_spouse_emperor_possessive:0 "Emperor's"
+ councillor_spouse_king_possessive:0 "King's"
+ councillor_spouse_duke_possessive:0 "Duke's"
+ councillor_spouse_count_possessive:0 "Count's"
+ councillor_spouse_baron_possessive:0 "Baron's"
+ 
+ councillor_leaving_court_message_title:0 "Councillor Left Court"
+ councillor_leaving_court_marriage_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHis] marriage to a landed spouse."
+ councillor_leaving_court_landed_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], left [councillor.GetHerHis] position and your court as a result of [councillor.GetHerHim] inheriting a title."
+ councillor_leaving_court_generic_fallback_notification:0 "Your [council_task.GetPositionName], [councillor.GetShortUINameNoTooltip|U], has left [councillor.GetHerHis] position and your court."
