@@ -1,4 +1,0 @@
-﻿l_english:
- TITLE_VIEW_DEMOTE_TITLE:0 "Demote"
- DEMOTE_TITLE_TOOLTIP:0 "#T Demote [TitleViewWindow.GetTitle.GetName] to a [kingdom|E] and integrate it into the [de_jure|E] hierarchy of your [primary_title|E]#!\n\nCost: @prestige_icon![GuiScope.SetRoot( GetPlayer.MakeScope ).ScriptValue('monumental_prestige_value')|V0]\n\n[GetScriptedGui('demote_title_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('title_being_demoted', TitleViewWindow.GetTitle.MakeScope).End)]"
- GENERATED_DEMOTED_EMPIRE_NAME:0 "Kyvernis ti [empire_being_demoted.GetNameNoTierNoTooltip]"

@@ -1,0 +1,6 @@
+﻿l_russian:
+  
+ activity_elephant_race:0 "Слоновьи гонки"
+ activity_elephant_race_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Слоновьи гонки"
+ activity_elephant_race_desc:0 "[ACTIVITY.GetOwner.GetTitledFirstName] отправился на трассу, чтобы насладиться гонками на слонах."
+ activity_elephant_race_owner:0 "Покровитель"

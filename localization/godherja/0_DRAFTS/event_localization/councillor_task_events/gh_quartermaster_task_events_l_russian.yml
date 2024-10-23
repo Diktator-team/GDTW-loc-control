@@ -1,0 +1,19 @@
+﻿l_russian:
+  
+ quartermaster_task.0001.notification:0 "Получена дополнительная добыча"
+ quartermaster_task.0011.notification:0 "Неорганизованная команда"
+ quartermaster_task.0021.notification:0 "Мятеж в [county.GetNameNoTier]"
+ quartermaster_task.0031.notification:0 "Набор персонала"
+ quartermaster_task.0111.notification:0 "Распространение историй о славе"
+ quartermaster_task.0041.notification:0 "Интендант распространяет славу"
+ quartermaster_task.0051.notification:0 "Интендант захватывает корабль с сокровищами"
+ quartermaster_task.0071.notification:0 "Интендант провалил рейд"
+ quartermaster_task.0081.notification:0 "Интендант Анже Рулер"
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ quartermaster_task_disorganized_crew_modifier:0 "Неорганизованная команда"
+ quartermaster_task_recruitment_drive_modifier:0 "Набор персонала"
+ quartermaster_task_mutiny_modifier:0 "Мятеж"
+ quartermaster_task_mutiny_modifier_desc:0 "Солдаты в полном мятеже мародерствуют по всему округу."

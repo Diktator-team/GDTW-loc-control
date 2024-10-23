@@ -1,0 +1,9 @@
+﻿l_russian:
+  ##TO BE SORTED LATER## 
+ PIRATE_RELOCATION_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Переезд в [DEFENDER.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+ PIRATE_RELOCATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ PIRATE_RELOCATION_CB_NAME: "Переезд"
+  
+ isles_claimant_war.involved_notif: "[isles_claimant.GetPrimaryTitle.GetBaseName] Превосходство островов"
+ isles_claimant_war.involved_notif_desc: "[isles_claimant.GetPrimaryTitle.GetBaseName] предъявил права на острова и все моря между ними."
+  

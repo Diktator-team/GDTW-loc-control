@@ -1,0 +1,458 @@
+﻿l_russian:
+ cn_soncepad: "Сонцепад"
+ cn_soncipadj: "Сончипадж"
+ cn_konipolj: "Кониполь"
+ cn_solnivala: "Солнивалла"
+ cn_solvjalla: "Солвьялла"
+ cn_solnvala: "Солнвала"
+ cn_sonnenvall: "Зонненвалль"
+ cn_bolhavin: "Болгавин"
+ cn_tacajnik: "Такайник"
+ cn_tacinik: "Тачиник"
+ cn_taC_zaj: "Тачай"
+ cn_sirvrihicja: "Сирврихича"
+ cn_S_ervrihC_e: "Шерврихче"
+ cn_maorrhos: "Маоррос"
+ cn_savrabrocha: "Савраброча"
+ cn_svirD_brihja: "Свирбрихья"
+ cn_siorbraga: "Сиорбрага"
+ cn_seibrauchne: "Зайбраухне"
+ cn_hrasjovce: "Храсёвция"
+ cn_hraS_ovce: "Грашовче"
+ cn_chrassox: "Крассокс"
+ cn_harimoth: "Харамот"
+ cn_hjormonD_: "Хьёрмонд"
+ cn_hiormonD_: "Хиормонд"
+ cn_pathosmund: "Патосмунд"
+ cn_vystancja: "Выстанция"
+ cn_vejS_tnice: "Вейштнице"
+ cn_nysnia: "Нисния"
+ cn_vaithroch: "Вайтрох"
+ cn_viD_rog: "Видрог"
+ cn_widros: "Видрос"
+ cn_caesicja: "Цесикья"
+ cn_cuS_cihaj: "Кушчихай"
+ cn_kaschae: "Кащее"
+ cn_laithulm: "Лайтхулм"
+ cn_loD_holm: "Лодхольм"
+ cn_laiD_golm: "Лайдгольм"
+ cn_lithcholm: "Литхольм"
+ cn_sjavrech: "Сявреч"
+ cn_S_avriha: "Шавриха"
+ cn_savrocha: "Савроча"
+ cn_othragard: "Отрагард"
+ cn_utgarD_: "Утгард"
+ cn_otgarD_: "Отгард"
+ cn_autgard: "Аутгард"
+ cn_ljevnovrek: "Левноврек"
+ cn_ilnivrocha: "Ильнивроча"
+ cn_jolnivrihja: "Йолниврихья"
+ cn_ilnivrig: "Ильнивриг"
+ cn_ilnevorch: "Ильневорч"
+ cn_svarcet: "Сварцет"
+ cn_sverC_taj: "Сверчтай"
+ cn_askivala: "Аскивала"
+ cn_askvalra: "Асквалра"
+ cn_avrasa: "Авраса"
+ cn_kabrjek: "Кабрьек"
+ cn_kamparna: "Кампарна"
+ cn_gambjorna: "Гамбьерна"
+ cn_kampern: "Камперн"
+ cn_aulblesja: "Аулблеся"
+ cn_dimlina: "Димлина"
+ cn_raukerei: "Раукерей"
+ cn_ulvleS_a: "Улблеша"
+ cn_ablassea: "Аблассеа"
+ cn_alvolth: "Альвольт"
+ cn_ulvolD_: "Ульволд"
+ cn_nedweis: "Недвейс"
+ cn_pranja: "Пранья"
+ cn_hariskolth: "Харисколт"
+ cn_groskilD_: "Гроскилд"
+ cn_groscailD_: "Гроскайль"
+ cn_liebnesse: "Либнессе"
+ cn_vysortrja: "Высортря"
+ cn_vS_ortrja: "Вшертря"
+ cn_vysarthrios: "Визартриос"
+ cn_vithravaga: "Витривига"
+ cn_viD_vejgi: "Видвейги"
+ cn_vasaiD_ri: "Васайдри"
+ cn_trosche: "Троше"
+ cn_kalicpesvi: "Каличпесви"
+ cn_kalicpeS_vi: "Каличпешви"
+ cn_kalathipsomi: "Калатипсоми"
+ cn_kalathrich: "Калатрича"
+ cn_klajD_ihja: "Клайдрихья"
+ cn_claiD_rig: "Клайдрига"
+ cn_pomorbal: "Поморбал"
+ cn_pomrbal: "Помрбал"
+ cn_rasikostha: "Расикостха"
+ cn_volgarD_: "Волгард"
+ cn_rosgarD_: "Росгард"
+ cn_ladanthe: "Ладанте"
+ cn_lesjovce: "Лесёвце"
+ cn_leS_ovce: "Лешовце"
+ cn_uloska: "Улоска"
+ cn_uljosk: "Ульоск"
+ cn_liosca: "Лиоска"
+ cn_kalicrek: "Каликрек"
+ cn_kralthricha: "Кралтрича"
+ cn_kralD_rihja: "Кральдрихья"
+ cn_karalD_ras: "Каральдрас"
+ cn_cervrek: "Черврек"
+ cn_C_ervirk: "Черврек"
+ cn_rothros: "Ротрос"
+ cn_roD_ros: "Родрос"
+ cn_schaulren: "Шольре"
+ cn_kactrek: "Кактрек"
+ cn_kasthrox: "Кастрокс"
+ cn_abrikircha: "Абрикрича"
+ cn_ovkrihja: "Оркрихья"
+ cn_obcrigi: "Обкриги"
+ cn_obrekrichne: "Обречное"
+ cn_cekricojre: "Чекрикойре"
+ cn_cekriC_ojre: "Цекричойре"
+ cn_rothorna: "Роторна"
+ cn_roD_yrir: "Родирир"
+ cn_roD_airi: "Родайри"
+ cn_rodrilne: "Родрилне"
+ cn_kostorrech: "Косторреч"
+ cn_ilkhom: "Ильхом"
+ cn_abrasos: "Абрасос"
+ cn_mohlicech: "Мохличех"
+ cn_nivlgaro: "Нивлгаро"
+ cn_zapodnoj: "Заподной"
+ cn_vystregard: "Выстрегард"
+ cn_prlabrjezt: "Прлабрежт"
+ cn_margridkyst: "Маргридкист"
+ cn_drakprost: "Дракпрост"
+ cn_drakhrad: "Дракрад"
+ cn_laessox: "Лессокс"
+ cn_parcos: "Parcos" #NT!
+ cn_ztohvrna: "Зтохврна"
+ cn_logrn: "Логрн"
+ cn_dautsif: "Дауциф"
+ cn_majikprolan: "Majikprolan"
+ cn_majiprolan: "Majeprolan"
+ cn_opojnas: "Opojnas"
+ cn_openja: "Openja"
+ cn_borjas: "Borjas"
+ cn_apaina: "Apaine"
+ cn_apojne: "Apojne"
+ cn_bolhavna: "Bolhavna"
+ cn_bolhavn: "Bolhavn"
+ cn_bolheiven: "Bolheiven"
+ cn_lok_vojazik: "Lok Vojazik"
+ cn_lok_voyaZek: "Lok Vojažek"
+ cn_port_vojazich: "Port Vojazich"
+ cn_vojarhavn: "Vojarhavn"
+ cn_polajcev: "Polajcev"
+ cn_polajC_ev: "Polajčev"
+ cn_viljecpolj: "Viljecpolj"
+ cn_viljaspoli: "Viljaspoli"
+ cn_vjolkaspol: "Vjolkaspol"
+ cn_wiljaspol: "Wiljaspol"
+ cn_onactrev: "Onactrev"
+ cn_onaC_trev: "Jonačtrev"
+ cn_tilsjehrac: "Tilsjehrac"
+ cn_tilS_ehrac: "Tilšehrac"
+ cn_torog_pojecha: "Torog Pojecha"
+ cn_thalsigratha: "Thalsigratha"
+ cn_thjolgarD_: "Thjolgarð"
+ cn_thalsegard: "Thalsegard"
+ cn_torg_pojech: "Torg Pojech"
+ cn_mispolj: "Mispolj"
+ cn_mespol: "Mespol"
+ cn_mispol: "Mispol"
+ cn_hajce: "Hajce"
+ cn_hruje: "Hruje"
+ cn_rhoje: "Rhoje"
+ cn_chroje: "Chroje"
+ cn_asipolj: "Asipolj"
+ cn_aS_polj: "Ašpolj"
+ cn_asipol: "Asipol"
+ cn_ispol: "Ispol"
+ cn_aspol: "Aspol"
+ cn_lok_zjalcev: "Lok Zjalcev"
+ cn_loka_Z_elca: "Loka Želca"
+ cn_lokas_hrise: "Lokas Hrise"
+ cn_golthrihavni: "Golthrihavni"
+ cn_golD_rhavn: "Golðrihavn"
+ cn_havn_apalD_ir: "Havn Ivalðir"
+ cn_goltheiven: "Goltheiven"
+ cn_orispol: "Orispol"
+ cn_miropolj: "Miropolj"
+ cn_miropol: "Miropol"
+ cn_grothri_orispol: "Grothur Orispol"
+ cn_groD_ri_orispol: "Groðir Orispol"
+ cn_kajs: "Kajs"
+ cn_kajsce: "Kajsce"
+ cn_kaios: "Kaios"
+ cn_kajsa: "Kajsa"
+ cn_keise: "Keise"
+ cn_horn_udoljev: "Horn Udoljev"
+ cn_naprojev: "Naprojev"
+ cn_nabrojech: "Nabrojech"
+ cn_nabroja: "Nabroja"
+ cn_nebreine: "Nebreine"
+ cn_dikajnek: "Dikajnek"
+ cn_dikajnox: "Dikainox"
+ cn_dakainech: "Dakainech"
+ cn_dikainech: "Dikainech"
+ cn_dikeinech: "Dikeinech"
+ cn_iljecpojeka: "Iljecpojeka"
+ cn_iltapoiexos: "Iltapoiexos"
+ cn_ilthifecha: "Ilthifecha"
+ cn_ilD_ifjag: "Ilðifjag"
+ cn_hilteveich: "Hilteveich"
+ cn_tominopaj: "Tominopaj"
+ cn_comnopaj: "Comnopaj"
+ cn_tomnope: "Tomnope"
+ cn_tominaifa: "Tominaifa"
+ cn_tonajfi: "Tonajfi"
+ cn_tomineife: "Tomineife"
+ cn_kralvojech: "Kralvojech"
+ cn_kralfaicha: "Kralfaicha"
+ cn_kralvojgir: "Kralvojgir"
+ cn_kralvauch: "Kralvauch"
+ cn_dvur_rodrajek: "Dvur Rodrajek"
+ cn_rothrocha: "Rothrocha"
+ cn_roD_rajgi: "Roðrajgi"
+ cn_rotreiche: "Rotreiche"
+ cn_rodrajek: "Rodrajek"
+ cn_mistak_misticajev: "Mistak Misticajev"
+ cn_miS_ce_miS_cajev: "Mišce Mišcajev"
+ cn_armistoka: "Armistoka"
+ cn_lapthale: "Lapthalen"
+ cn_mistak_zjelcev: "Mistak Zjelcev"
+ cn_miS_ce_Z_elcev: "Mišce Želcev"
+ cn_mistokas_chrise: "Mistokas Chrisae"
+ cn_tinestei: "Tinestei"
+ cn_agojnicev: "Agojnicev"
+ cn_prazdnojca_saumrev: "Prazdnojca Saumrev"
+ cn_dimastvoka: "Dimastvoka"
+ cn_dimastvojce: "Dimastvojce"
+ cn_vilsvjamak: "Vilsvjamak"
+ cn_hajmstak: "Hemstak"
+ cn_lug_spikacja: "Lug Spikacja"
+ cn_lug_spikac_a: "Lug Spikača"
+ cn_tancja_aulbdano: "Tancja Aulbdano"
+ cn_itnic_e_ulbdano: "Itniče Ulbdano"
+ cn_drahadvur: "Drahadvur"
+ cn_samvitj: "Samvitj"
+ cn_cjas_morovecht: "Cjas Morovecht"
+ cn_c_as_morovecht: "Čas Morovecht"
+ cn_vilug: "Vilug"
+ cn_blojnak: "Blojnak"
+ cn_belkomorce: "Belkomorce"
+ cn_drevactojna: "Drevactojna"
+ cn_stilubspor: "Stilubspor"
+ cn_svotmakvetj: "Svotmakvetj"
+ cn_druma: "Druma"
+ cn_drumlok: "Drumlok"
+ cn_bagmodrev: "Bagmodrev"
+ cn_vesnikarlev: "Vesnikarlev"
+ cn_karskosj: "Karskosj"
+ cn_karskos_: "Karskoš"
+ cn_bljavalje: "Bljavalje"
+ cn_celratorg: "Cjelratorg"
+ cn_c_elratorg: "Čelratorg"
+ cn_marktorg: "Marktorg" #NT!
+ cn_kapscevriha: "Kapscevriha"
+ cn_kaulibroch: "Kaulibroch" #NT!
+ cn_kalabraug: "Kaljabraug" #NT!
+ cn_calabraig: "Calabraig" #NT!
+ cn_tisnamajs: "Tisnamajs"
+ cn_tis_namajs: "Tišnamajs"
+ cn_cervnat: "Cervnat"
+ cn_c_ervnat: "Červnat"
+ cn_boljeclug: "Boljeclug"
+ cn_bolkrilaga: "Bolkrilaga" #NT!
+ cn_boljarlajg: "Boljarlajg" #NT!
+ cn_bolralaig: "Bolralaig" #NT!
+ cn_bolkriloch: "Bolkriloch" #NT!
+ cn_motsporajg: "Motsporajg"
+ cn_svjamgort: "Svjamgort"
+ cn_geljetko: "Geljetko"
+ cn_galthikin: "Galithkin" #NT!
+ cn_gilD_ja: "Gilðja" #NT!
+ cn_galthchen: "Galthchen" #NT!
+ cn_belojmeksten: "Belojmeksten"
+ cn_belojmeks_ten: "Belojmekšten"
+ cn_kwalgistana: "Kwalgistana" #NT!
+ cn_svanstejni: "Svanstejni" #NT!
+ cn_callistaini: "Caulstaini" #NT!
+ cn_eirthsten: "Eirthsten" #NT!
+ cn_olujdvur: "Olujdvur"
+ cn_obolkmotic: "Obolkmotic"
+ cn_hromsin: "Hromsin"
+ cn_richnicica: "Richnicica"
+ cn_vulkevoj: "Vulkevoj" #NT!
+ cn_wulgifai: "Wulgifai" #NT!
+ cn_volgvej: "Volgvej" #NT!
+ cn_wulgfei: "Wulgfei" #NT!
+ cn_olujhak: "Olujhak"
+ cn_zujovistak: "Zujovistak"
+ cn_zujovis_ce: "Zujovišce"
+ cn_hitviha: "Hitviha"
+ cn_valsviha: "Valsviha" #NT!
+ cn_valrahavna: "Valrahavna" #NT!
+ cn_vjornhavn: "Vjornhavn" #NT!
+ cn_vilrehaun: "Vilrehaun" #NT!
+ cn_majs_olujka: "Majs Olujka"
+ cn_burjalok: "Burjalok" #NT!
+ cn_hromurka: "Hromurka"
+ cn_grumarka: "Grumarka" #NT!
+ cn_hromjamerk: "Hromjamerk" #NT!
+ cn_raumarka: "Raumarkne" #NT!
+ cn_drinikorj: "Drinikorj"
+ cn_alnilag: "Alnilag" #NT!
+ cn_ilnlajg: "Ilnlajg" #NT!
+ cn_ilnlaig: "Ilnlaig" #NT!
+ cn_ilnleig: "Elnleig" #NT!
+ cn_richnihrotj: "Richnihrotj"
+ cn_rignabroch: "Rignabroch" #NT!
+ cn_rignbraug: "Rignbraug" #NT!
+ cn_reinbroch: "Rinbroch" #NT!
+ cn_svartust: "Svartust" #NT!
+ cn_s_vartust: "Švartust" #NT!
+ cn_leipsas: "Leipsas" #NT!
+ cn_sirnos: "Sirnos" #NT!
+ cn_sjoros: "Sjoros" #NT!
+ cn_zujovka_vi_drinokorj: "Zujovka vi Drinokorj"
+ cn_zujovka: "Zujovka" #NT!
+ cn_zujovkas: "Zujovkas" #NT!
+ cn_saifrihof: "Saifrihof" #NT!
+ cn_sjarhov: "Sjarhov" #NT!
+ cn_seifrehaun: "Seifrehaun" #NT!
+ cn_mechprotj: "Mechprotj"
+ cn_mokbrus: "Mokbrus"
+ cn_waidistan: "Waidistan" #NT!
+ cn_vatnastajn: "Vatnastajn" #NT!
+ cn_vatnastain: "Vatnastain" #NT!
+ cn_weidnestan: "Weidnestan" #NT!
+ cn_oj_bolhav: "Oj Bolhav"
+ cn_balhafair: "Balhafair" #NT!
+ cn_boljavej: "Boljavej" #NT!
+ cn_balfeir: "Balfeir" #NT!
+ cn_mohlavorj: "Mohlavorj"
+ cn_muldochra: "Muldochra" #NT!
+ cn_moljavog: "Moljavog" #NT!
+ cn_sachmatva: "Sachmatva"
+ cn_vanja_seva: "Vanja Seva"
+ cn_grimvetj: "Grimvetj"
+ cn_podklajni: "Podklajni"
+ cn_pod_vihnikev: "Pod Vihnikev"
+ cn_kraulbrona: "Kraulbrona"
+ cn_mastpodja: "Mastpodja" #NT!
+ cn_mastpodje: "Mastpodje" #NT!
+ cn_agladon: "Agladon" #NT!
+ cn_volark: "Volark" #NT!
+ cn_rizatna: "Rizatna" #NT!
+ cn_carnikija: "Carnikija" #NT!
+ cn_carnikja: "Carnikja" #NT!
+ cn_tsarnikia: "Tsarnikia" #NT!
+ cn_zilodras: "Zilodras" #NT!
+ cn_nispodja: "Nispodja" #NT!
+ cn_nispodae: "Nispodae" #NT!
+ cn_svotmori: "Svotmori" #NT!
+ cn_svotmorka: "Svotmorka" #NT!
+ cn_grimrasja: "Grimrasja" #NT!
+ cn_grimras_a: "Grimraša" #NT!
+ cn_hram_molecva: "Hram Molecva" #NT!
+ cn_trajnos: "Trajnos" #NT!
+ cn_kiroskau: "Kiroskau" #NT!
+ cn_kirs_kav: "Kirškav" #NT!
+ cn_medverc: "Medverc" #NT!
+ cn_milikspol: "Milikspol" #NT!
+ cn_vuhkasjakica: "Vuhkasjakica" #NT!
+ cn_vuc_as_kica: "Vujčaškica" #NT!
+ cn_veclika: "Veclika" #NT!
+ cn_vec_lica: "Večlica" #NT!
+ cn_vetsilkias: "Vetsilkias" #NT!
+ cn_sjemvjatra: "Sjemvjatra" #NT!
+ cn_s_emvitra: "Šemvitra" #NT!
+ cn_semvitra: "Semvitra" #NT!
+ cn_drevnikech: "Drevnikech" #NT!
+ cn_hrindj: "Hrindj" #NT!
+ cn_drivak_bohulja: "Drivak Bohulja" #NT!
+ cn_bolajcech: "Bolajcech" #NT!
+ cn_drivaksos: "Drivaksos" #NT!
+ cn_kotiljeva: "Kotiljeva" #NT!
+ cn_kotilka: "Kotelka" #NT!
+ cn_kotilkas: "Kotilkas" #NT!
+ cn_zjeltvidlak: "Zjeltvidlak" #NT!
+ cn_ziltvidlak: "Ziltvidlak" #NT!
+ cn_metseia: "Metseia" #NT!
+ cn_vaskmost: "Vaskmost" #NT!
+ cn_dahat_driva: "Dahat Driva" #NT!
+ cn_dah_drive: "Dah' Drive" #NT!
+ cn_centrivos: "Kentrivos" #NT!
+ cn_sjakravcil: "Sjakravcil" #NT!
+ cn_s_akravcil: "Šakravcil" #NT!
+ cn_sakraklos: "Sakraklos" #NT!
+ cn_rekovka: "Rekovka" #NT!
+ cn_rikovce: "Rikovce" #NT!
+ cn_mostmistak: "Mostmistak" #NT!
+ cn_mostmis_ce: "Mostmišce" #NT!
+ cn_lugbrona: "Lugbrona" #NT!
+ cn_hromiste: "Hromiste" #NT!
+ cn_hromis_te: "Hromiše" #NT!
+ cn_chromiste: "Chromiste" #NT!
+ cn_jablek_most: "Jablek Most" #NT!
+ cn_jablekmost: "Jablekmost" #NT!
+ cn_olakmost: "Olakmost" #NT!
+ cn_cervnavetj: "Cervnavetj" #NT!
+ cn_c_arnavitj: "Čarnavitj" #NT!
+ cn_karnouthos: "Karnouthos" #NT!
+ cn_krinawith: "Krinawith" #NT!
+ cn_krajnavold_: "Krajnavolð" #NT!
+ cn_crainavold_: "Crainavolð" #NT!
+ cn_hram_vihrojcech: "Hram Vihrojce" #NT!
+ cn_vihrojcech: "Vihrojcech" #NT!
+ cn_nihblojce: "Nihblojce" #NT!
+ cn_urjalug: "Urjalug" #NT!
+ cn_vorchalag: "Vorchalag" #NT!
+ cn_urjalajg: "Urjalajg" #NT!
+ cn_urjalaig: "Urjalaig" #NT!
+ cn_urchaleig: "Urchaleig" #NT!
+ cn_hrasrotj: "Hrasrotj" #NT!
+ cn_chrasrotos: "Chrasrotos" #NT!
+ cn_hararoth: "Hararoth" #NT!
+ cn_hjorarajd_: "Hjorarajð" #NT!
+ cn_hioraid_: "Hioraið" #NT!
+ cn_heirroth: "Heirroth" #NT!
+ cn_irvalhovak_vi_nihblojce: "Irvalhovak vi Nihblojce" #NT!
+ cn_irvalhovce: "Irvalhovce" #NT!
+ cn_ovaks_aervala: "Ovaks Aervalla" #NT!
+ cn_oblak_nitvihrajca: "Oblak Nitvihrajca" #NT!
+ cn_i_nitvihrajcek: "i Nitvihrajcek" #NT!
+ cn_oulakos: "Oulakos" #NT!
+ cn_hrasjovak: "Hrasjovak" #NT!
+ cn_chrasokas: "Chrasokas" #NT!
+ cn_haragrathi: "Haragrathi" #NT!
+ cn_hjoragard_: "Hjoragarð" #NT!
+ cn_hiorgard_: "Hiorgarð" #NT!
+ cn_heirgart: "Heirgart" #NT!
+ cn_miseharga: "Miseharga" #NT!
+ cn_mis_harje: "Mišharje" #NT!
+ cn_misgrochos: "Misgrochos" #NT!
+ cn_mosaharga: "Mosaharga" #NT!
+ cn_mosaharja: "Mosiharja" #NT!
+ cn_lindpol: "Lindpol" #NT!
+ cn_vejsovka: "Vejsovka" #NT!
+ cn_vs_ovce: "Všovce" #NT!
+ cn_vasahof: "Vasahof" #NT!
+ cn_vejd_ihov: "Vejðihov" #NT!
+ cn_veid_hov: "Veiðhov" #NT!
+ cn_veithof: "Veithof" #NT!
+ cn_dvur_aulbukralca: "Dvur Aulbukralca" #NT!
+ cn_dvurka: "Dvurka" #NT!
+ cn_dourochsae: "Dourochsae" #NT!
+ cn_dobvitancja: "Dobvitancja" #NT!
+ cn_dovtnic_e: "Dovitniče" #NT!
+ cn_hlicprotj: "Hlicprotj" #NT!
+ cn_illits_porotha: "Illits Porotha" #NT!
+ cn_sevhora: "Sevhora" #NT!
+ cn_sevora: "Sevora" #NT!
+ cn_tarnojo: "Tarnojo" #NT!

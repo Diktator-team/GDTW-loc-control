@@ -1,0 +1,16 @@
+﻿l_russian:
+  
+  ##GH 
+  #InsultNoun 
+ mutant: "мутант"
+ monster: "монстр"
+ thinblood: "тонкокровный"
+ nonhuman: "нечеловеческий"
+  
+  #InsultAdjective 
+ thinblooded: "тонкокровный"
+ weakblooded: "слабокровный"
+ impure: "нечистый"
+  
+  #InsultSentence 
+ insult_sentence_magic: "ты прячешься за своей магией, как будто это щит от многих твоих ужасных качеств"

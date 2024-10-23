@@ -1,0 +1,10 @@
+﻿l_russian:
+ cellar: "подвал"
+ alleyway: "переулок"
+ bedroom: "Спальня"
+ legion_veteran: "ветераны старых легионов"
+ legion_trained: "воины, обученные войне легионов"
+  
+  #Error Prevention 
+ success: "успех"
+ failure: "отказ"

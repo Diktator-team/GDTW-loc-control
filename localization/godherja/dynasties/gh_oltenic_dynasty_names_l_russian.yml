@@ -1,0 +1,56 @@
+﻿l_russian:
+  ###Dynastic Prefixes### 
+ dynnp_za: "за"
+  ###Historic Dynasties### 
+  #Vhanavid 
+ dynn_bohai: "Бохай"
+ dynn_bohai_motto: "Под странными звездами"
+ dynn_ilugei: "Ilugei"
+ dynn_ilugei_motto: "Кони Тогорила"
+ dynn_Otroka: "Отрока"
+ dynn_Otroka_motto: "Последователи Отачеда"
+ dynn_Takhaid: "Тахайд"
+ dynn_Takhaid_motto: "Поездка с честью"
+ dynn_Arjigin: "Арджигин"
+ dynn_Arjigin_motto: "Наши кони быстрые"
+ dynn_Vaskhad: "Васхад"
+ dynn_Vaskhad_motto: "Галопирующая ярость"
+ dynn_Sagchi: "Сагчи"
+ dynn_Sagchi_motto: "Стражи Последнего Города"
+ dynn_Qorhaid: "Корхайд"
+ dynn_Qorhaid_motto: "Первым в бой"
+ dynn_Guraut: "Гураут"
+ dynn_Guraut_motto: "Оседланный от вреда"
+ dynn_Barduhk: "Бардук"
+ dynn_Barduhk_motto: "Остерегайтесь наших бурь"
+  #Kikarsag 
+ dynn_ishkapai: "Ишкапай"
+ dynn_ishkapai_motto: "Мир плачет, а мы едем"
+ dynn_agathyrs: "Агафиры"
+ dynn_agathyrs_motto: "Не давайте, не уступайте"
+ dynn_xammad: "Хаммад"
+ dynn_xammad_motto: "Наши копья чисты"
+ dynn_zhamal: "Жамал"
+ dynn_zhamal_motto: "Нет надежды в степи"
+ dynn_merkhan: "Мерхан"
+ dynn_merkhan_motto: "Бич пустошей"
+ dynn_zoglut: "Зоглут"
+ dynn_zoglut_motto: "Окровавленные копыта"
+ dynn_kartalnur: "Карталнур"
+ dynn_kartalnur_motto: "Группа Озкан"
+ dynn_aktheinur: "Aktheinur" #NT!
+ dynn_aktheinur_motto: "Blade of the Purest" #NT!
+  #Khorinot 
+ dynn_Khontij: "Хонтий"
+ dynn_Khontij_motto: "Первым в бой"
+ dynn_Nagkhei: "Нагхей"
+ dynn_Nagkhei_motto: "Быстрый конь, быстрая рука"
+  #Muhadamd 
+ dynn_Salkarid: "Салкарид"
+ dynn_Salkarid_motto: "Наши клинки острые"
+ dynn_Argkhan: "Аргхан"
+ dynn_Argkhan_motto: "Езда на серебряных конях"
+  ###Cultural Dynasties### 
+  #Kikarsag 
+ dynn_Zitek: "Зитек"
+ dynn_Tosak: "Тосак"
