@@ -9,7 +9,9 @@
  kaosahetam_high_god_name_alternate:0 "The Inner Fortune"
  kaosahetam_high_god_name_alternate_possessive:0 "The Inner Fortune's"
  kaosahetam_devil_name:0 "Khom"
+ kaosahetam_devil_name_alternate:0 "$kaosahetam_devil_name$"
  kaosahetam_devil_name_possessive:0 "Khom's"
+ kaosahetam_devil_name_alternate_possessive:0 "$kaosahetam_devil_name_possessive$"
  kaosahetam_death_deity_name:0 "$kaosahetam_devil_god_name$"
  kaosahetam_death_deity_name_possessive:0 "$kaosahetam_devil_god_name_possessive$"
 

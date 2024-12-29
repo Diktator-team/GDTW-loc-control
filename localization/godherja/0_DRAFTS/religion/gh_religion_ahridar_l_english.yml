@@ -2,7 +2,7 @@
 
  ahridar_religion:0 "Ohrasik"
  ahridar_religion_adj:0 "Ohrasikian"
- ahridar_religion_adjerent:0 "Ohrasikian"
+ ahridar_religion_adherent:0 "Ohrasikian"
  ahridar_religion_adherent_plural:0 "Ohrasikians"
  ahridar_religion_desc:0 "These faiths all follow the ancient sun god Ohrasik, and their divine war against the shadows. They usually hold a black and white morality, symbolized by the sun and the moon."
  
@@ -11,7 +11,9 @@
  ahridar_high_god_name_alternate:0 "Ohrasik"
  ahridar_high_god_name_alternate_possessive:0 "Ohrasik's"
  ahridar_devil_name:0 "Aervalr"
+ ahridar_devil_name_alternate:0 "$ahridar_devil_name$"
  ahridar_devil_name_possessive:0 "Aervalr's"
+ ahridar_devil_name_alternate_possessive:0 "$ahridar_devil_name_possessive$"
  ahridar_death_deity_name:0 "Aervalr"
  ahridar_death_deity_name_possessive:0 "Aervalr's"
 
@@ -70,4 +72,4 @@
  arayvtar_adherent:0 "Arayvtarist"
  arayvtar_adherent_plural:0 "Arayvtarists"
 
- arayvtar_desc:0 "Arising from ancient interactions with the [wardenites|E], the Arayvtar hold that the Warden and several prominent [mamur|E]s in the Wardenite religion were, in fact, [malaak|E]s carrying out the will of Ohrasik. As such, the Arayvtar have adopted some of the teachings of the Warden, claiming that the moon is the prison that contains the dead god, and that the correct traditions and laws must be observed to keep it trapped there."
+ arayvtar_desc:0 "Arising from ancient interactions with the [Concept('wardenism','Wardenites')|E], the Arayvtar hold that the Warden and several prominent [Concept('mamuramat','Mamur')|E]s in the Wardenite religion were, in fact, [malaak|E]s carrying out the will of Ohrasik. As such, the Arayvtar have adopted some of the teachings of the Warden, claiming that the moon is the prison that contains the dead god, and that the correct traditions and laws must be observed to keep it trapped there."

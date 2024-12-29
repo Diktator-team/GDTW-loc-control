@@ -11,7 +11,9 @@
  shyatan_high_god_name_alternate:0 "The Master of the Cycle"
  shyatan_high_god_name_alternate_possessive:0 "The Master of the Cycle's"
  shyatan_devil_name:0 "Utsnora"
+ shyatan_devil_name_alternate:0 "$shyatan_devil_name$"
  shyatan_devil_name_possessive:0 "Utsnora's"
+ shyatan_devil_name_alternate_possessive:0 "$shyatan_devil_name_possessive$"
  shyatan_death_deity_name:0 "Vanela Nestani"
  shyatan_death_deity_name_possessive:0 "Vanela Nestani's"
 

@@ -6,7 +6,7 @@
  alau_koev.0001.b:0 "I will not sear my skin off for the pleasure of priests!"
 
  alau_koev.0002.t:0 "Before the Great Flame"
- alau_koev.0002.desc:0 "I take my place at the peak of the stairs, quickly pulled into a stone hut by figures I do not recognise. The Great Flame shimmers before me in a smoky room, beckoning me take another step into its pyre. The priests huddle around its warmth with seared skin and missing limbs. I am offered a knife by the cloaked figure nearest to, his hollow socket glaring back at me in the flickering torchlight.\n\nSurrounded by the priesthood, I cannot escape my divine duty now. I could place my hand onto the flame for a moment, risking injury but saving my pious reputation. On the other hand, I could take the offered knife and give a part of myself to the fire–such an act would no doubt please the zealots around me. Neither would be safe, but surely the glory of [alau_koev|E] is worth the pain?"
+ alau_koev.0002.desc:0 "I take my place at the peak of the stairs, quickly pulled into a stone hut by figures I do not recognise. The Great Flame shimmers before me in a smoky room, beckoning me take another step into its pyre. The priests huddle around its warmth with seared skin and missing limbs. I am offered a knife by the cloaked figure nearest to, his hollow socket glaring back at me in the flickering torchlight.\n\nSurrounded by the priesthood, I cannot escape my divine duty now. I could place my hand onto the flame for a moment, risking injury but saving my pious reputation. On the other hand, I could take the offered knife and give a part of myself to the fire–such an act would no doubt please the zealots around me. Neither would be safe, but surely the glory of [Concept('fire_gate','Alau Koev')|E] is worth the pain?"
  alau_koev.0002.a:0 "All it would take is a single touch..."
  alau_koev.0002.b:0 "I must offer a part of myself."
  alau_koev.0002.c:0 "It beckons me in."
@@ -30,5 +30,5 @@
  alau_koev.0003.wound2:0 "Your wounds are extensive"
 
  alau_koev.0004.t:0 "Returning from the Flames"
- alau_koev.0004.desc:0 "I step away from the Great Flame changed. No longer am I an outsider to the circles of the old priesthood; now, I am known across all lands that hold [alau_koev|E] in their hearts. The choice of how to negotiate the flame was my own, and it cannot be forgotten. The gods that lie within and beyond the Fire Gate have seen my actions, and I can only hope that the mortal world respects my choice."
+ alau_koev.0004.desc:0 "I step away from the Great Flame changed. No longer am I an outsider to the circles of the old priesthood; now, I am known across all lands that hold [Concept('fire_gate','Alau Koev')|E] in their hearts. The choice of how to negotiate the flame was my own, and it cannot be forgotten. The gods that lie within and beyond the Fire Gate have seen my actions, and I can only hope that the mortal world respects my choice."
  alau_koev.0004.a:0 "Time to return home."

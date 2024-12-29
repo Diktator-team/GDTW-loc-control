@@ -3,7 +3,7 @@
 #cnevobarthane Loc
  cnevobarthane_religion:0 "Theugombric"
  cnevobarthane_religion_adj:0 "Theugombric"
- cnevobarthane_religion_adjerent:0 "Speaker"
+ cnevobarthane_religion_adherent:0 "Speaker"
  cnevobarthane_religion_adherent_plural:0 "Speakers"
  cnevobarthane_religion_desc:0 "The native beliefs of the insular Theugombrian peoples tend towards monotheism, with a solar diety being seen as the central figure. While reincarnation is sometimes a factor, it is usually limited to beings of great or godlike power, with the faithful relegated to eternal rest in either the "Bright Halls" of Cutu Remzna, or to eternally wander [aeras|E] in a cursed invisible and ethereal form known as the Naxaz. These faiths see few converts from outside their culture, with the faith usually passed from mother to son. That being said, conversion from without is not technically impossible."
  cnevobarthane_high_god_name:0 "Cnevobarthane"
@@ -11,7 +11,9 @@
  cnevobarthane_high_god_name_alternate:0 "The Sunbringer"
  cnevobarthane_high_god_name_alternate_possessive:0 "The Sunbringer's"
  cnevobarthane_devil_name:0 "Larn Haxu"
+ cnevobarthane_devil_name_alternate:0 "$cnevobarthane_devil_name$"
  cnevobarthane_devil_name_possessive:0 "Larn Haxu's"
+ cnevobarthane_devil_name_alternate_possessive:0 "$cnevobarthane_devil_name_possessive$"
 
 
  cnevobarthane_house_of_worship:0 "Eguxkleia"

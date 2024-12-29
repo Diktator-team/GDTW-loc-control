@@ -6,8 +6,6 @@
  dynn_Pilmak_motto:0 "Wherever the Waves Take Us"
  dynn_Natagray:0 "Natagray"
  dynn_Natagray_motto:0 "Ever-Piercing"
- dynn_So_Vinh:0 "Sồ Vinh"
- dynn_So_Vinh_motto:0 "Inheritors of Liberty"
  dynn_Binsalik:0 "Binsalik"
  dynn_Binsalik_motto:0 "Guardians of Gold"
  dynn_Sawabingkay:0 "Sawabingkay"
@@ -16,6 +14,16 @@
  dynn_Puysak_motto:0 "Our Souls Burn Bright"
  dynn_Sulidan:0 "Sulidan"
  dynn_Sulidan_motto:0 "Stay True"
+ dynn_Dawataruk:0 "Dawataruk"
+ dynn_Dawataruk_motto:0 "Weavers of Truth"
+
+ #Saielaien
+ dynn_So_Vinh:0 "Sồ Vinh"
+ dynn_So_Vinh_motto:0 "Inheritors of Liberty"
+
+ #Kedari
+ dynn_Kumangla:0 "Kumangla"
+ dynn_Kumangla_motto:0 "Learners of the Marks"
 
  ###Cultural Dynasties###
  dynn_Adekay:0 "Adekay"

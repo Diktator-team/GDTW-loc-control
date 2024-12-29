@@ -3,7 +3,7 @@
 #gestanwoder Loc
  gestanwoder_religion:0 "Gestanwoder"
  gestanwoder_religion_adj:0 "Gestanwoders"
- gestanwoder_religion_adjerent:0 "Gestanwoder"
+ gestanwoder_religion_adherent:0 "Gestanwoder"
  gestanwoder_religion_adherent_plural:0 "Gestanwoders"
  gestanwoder_religion_desc:0 "The Gestanwoder religion believes in gods, but these are not kind or caring; they are cruel and capricious beings, celestial despots who see humans as their toys and nothing more. Life is an unending chain of misery, and one's only hope is to eke out a passable existence beneath the gods' thumb. If one is lucky, they might strike a lopsided bargain with a deity, so that their unending torment may at least be briefly preceded by mortal pleasures."
  gestanwoder_high_god_name:0 "Nerzaal, the Messenger of the Gods"
@@ -11,7 +11,9 @@
  gestanwoder_high_god_name_alternate:0 "the Crawling Chaos"
  gestanwoder_high_god_name_alternate_possessive:0 "the Crawling Chaos'"
  gestanwoder_devil_name:0 "the Mighty Alrebrigt"
+ gestanwoder_devil_name_alternate:0 "$gestanwoder_devil_name$"
  gestanwoder_devil_name_possessive:0 "the Mighty Alrebrigt's"
+ gestanwoder_devil_name_alternate_possessive:0 "$gestanwoder_devil_name_possessive$"
  gestanwoder_death_deity_name:0 "the Skinless One"
  gestanwoder_death_deity_name_possessive:0 "the Skinless One's"
 
@@ -67,7 +69,7 @@
  
  gestanwoder:0 "Gestanwoder"
  gestanwoder_adj:0 "Gestanwoders"
- gestanwoder_adjerent:0 "Gestanwoder"
+ gestanwoder_adherent:0 "Gestanwoder"
  gestanwoder_adherent_plural:0 "Gestanwoders"
  gestanwoder_desc:0 "The Gestanwoder once ruled over the Konijkmener swamps, but then they were pushed out by the Pathtreader invaders. They survive only within the deepest and hardest to reach marshlands, clinging to their ancestral faith and believing this to simply be another punishment from their cruel gods. But some have turned to dark and untold creatures in places where even the fearless dare not tread, seeking brief moments of untold power in their short lives..."
  gestanwoder_old:0 "Old Gestanwoder"

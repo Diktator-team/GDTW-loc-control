@@ -7,7 +7,7 @@
 
  ritewars_struggle.1002.desc_avenzoar:0 ""I have peered beyond the mists", he says, "and wrote a book on my visions of what is to come. But I am a sworn enemy of superstition and the false promises peddled by witches and astrologers, so I would ask you to ban such things..." \n\n"
 
- ritewars_struggle.1002.desc_tufail:0 ""I study the [fog|E], as well as the creatures that come from within it", [great_physician.GetSheHe] says. "I believe that further study is needed, to even have the slightest chance of stopping its spread... Might you provide me with opportunities to pursue this?" \n\n"
+ ritewars_struggle.1002.desc_tufail:0 ""I study the [Concept('the_fog','Fog')|E], as well as the creatures that come from within it", [great_physician.GetSheHe] says. "I believe that further study is needed, to even have the slightest chance of stopping its spread... Might you provide me with opportunities to pursue this?" \n\n"
 
  ritewars_struggle.1002.desc_no_historical_physician_early:0 ""I have learned much", [great_physician.GetSheHe] says, "from the works of the Ancients. Yet I have rescued their knowledge from the abyss of prolixity, and can use it for your benefit." \n\n"
 

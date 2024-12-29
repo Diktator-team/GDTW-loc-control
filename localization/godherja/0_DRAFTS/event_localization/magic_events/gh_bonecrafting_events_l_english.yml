@@ -15,7 +15,7 @@
  #bonecrafting.0002.c:0 "The Skull of Axiaothea herself!"
 
  bonecrafting.0002.t:0 "Creature Skeletons"
- bonecrafting.0002.desc:0 "The ossified remnants of [creatures|E] magically potent in life vary greatly in the amount of [magical|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
+ bonecrafting.0002.desc:0 "The ossified remnants of [Concept('creature','Creatures')|E] magically potent in life vary greatly in the amount of [Concept('magic','Magical')|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
  bonecrafting.0002.a:0 "No, I intend to use bones from other sources instead."
  bonecrafting.0002.b:0 "Perhaps..."
  bonecrafting.0002.c:0 "Perhaps..."
@@ -23,7 +23,7 @@
  bonecrafting.0002.e:0 "Perhaps..."
 
  bonecrafting.0003.t:0 "Creature Skeletons"
- bonecrafting.0003.desc:0 "The ossified remnants of [creatures|E] magically potent in life vary greatly in the amount of [magical|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
+ bonecrafting.0003.desc:0 "The ossified remnants of [Concept('creature','Creatures')|E] magically potent in life vary greatly in the amount of [Concept('magic','Magical')|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
  bonecrafting.0003.a:0 "No, I intend to use bones from other sources instead."
  bonecrafting.0003.b:0 "Perhaps..."
  bonecrafting.0003.c:0 "Perhaps..."
@@ -31,7 +31,7 @@
  bonecrafting.0003.e:0 "Perhaps..."
 
  bonecrafting.0004.t:0 "Creature Skeletons"
- bonecrafting.0004.desc:0 "The ossified remnants of [creatures|E] magically potent in life vary greatly in the amount of [magical|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
+ bonecrafting.0004.desc:0 "The ossified remnants of [Concept('creature','Creatures')|E] magically potent in life vary greatly in the amount of [Concept('magic','Magical')|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
  bonecrafting.0004.a:0 "No, I intend to use bones from other sources instead."
  bonecrafting.0004.b:0 "Perhaps..."
  bonecrafting.0004.c:0 "Perhaps..."
@@ -48,7 +48,7 @@
  bonecrafting.0005.f:0 "The bones of a truly great magi!"
  
  bonecrafting.0006.t:0 "Creature Skeletons"
- bonecrafting.0006.desc:0 "The ossified remnants of [creatures|E] magically potent in life vary greatly in the amount of [magical|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
+ bonecrafting.0006.desc:0 "The ossified remnants of [Concept('creature','Creatures')|E] magically potent in life vary greatly in the amount of [Concept('magic','Magical')|E] energies they hold within them, depending on the species of origin. I must decide which of these suit my needs best."
  bonecrafting.0006.a:0 "No, I intend to use bones from other sources instead."
  bonecrafting.0006.b:0 "Perhaps..."
  bonecrafting.0006.c:0 "Perhaps..."
@@ -95,10 +95,10 @@
  bonecrafting.0122.b:0 "These bones appear to have been from a Magi and his acolytes, all magically potent."
  
  bonecrafting.0130.t:0 "Dubious Barrows"
- bonecrafting.0130.desc:0 "Following a few days of consulting local villagers and a few histories of the area, I've managed to pinpoint the location of a grave that may contain the remains of a magi who was powerful in life. Though some of the residents of the area mumble harsh words under their breath, we press on regardless. Be that as it may, we quickly manage to pry the magi from their place of rest and begin examining our find. Upon closer appraisal of the bones, it seems that this one was likely a mere village [magi|E], who probably sold minor concoctions to peasants. The [magical|E] impotency of the remains is quite disheartening, and I question if I have wasted my time in coming here. Nonetheless, even the weakest of material can be made use of in a pinch."
+ bonecrafting.0130.desc:0 "Following a few days of consulting local villagers and a few histories of the area, I've managed to pinpoint the location of a grave that may contain the remains of a magi who was powerful in life. Though some of the residents of the area mumble harsh words under their breath, we press on regardless. Be that as it may, we quickly manage to pry the magi from their place of rest and begin examining our find. Upon closer appraisal of the bones, it seems that this one was likely a mere village [magi|E], who probably sold minor concoctions to peasants. The [Concept('magic','Magical')|E] impotency of the remains is quite disheartening, and I question if I have wasted my time in coming here. Nonetheless, even the weakest of material can be made use of in a pinch."
  bonecrafting.0130.a:0 "Should never have trusted that damn charlatan."
  bonecrafting.0130.b:0 "At least we have this as something to show for our efforts."
- bonecrafting.0130.c:0 "Within these remains lie much [magical|E] power, more than the average hedge Magi."
+ bonecrafting.0130.c:0 "Within these remains lie much [Concept('magic','Magical')|E] power, more than the average hedge Magi."
  
  bonecrafting.0131.t:0 "Disturbed Rest"
  bonecrafting.0131.desc:0 "After weeks of research, planning and careful surveying of the chosen grave, I've finally made my way over to what is said to be the final resting place of a former [magi|E], reputed for his skills in the arcane. The tomb itself is somewhat fortified with wards, likely in anticipation of grave robbers. Unfortunately for them, I came prepared for this, and I hastily draw a ritual circle before performing a quick counterspell to dispel the wards keeping me from my goal. The body is clothed in the robes of a Magi and clearly filled with power, as it radiates a faint amount of energy even in death. These bones will surely provide ample fuel for my magical endeavours."
@@ -111,7 +111,7 @@
  bonecrafting.0132.b:0 "The bones of both this powerful Magi and the weaker Magi buried nearby will suffice."
  
  bonecrafting.0140.t:0 "A Poor Salesman"
- bonecrafting.0140.desc:0 "In my quest to obtain more bones for my [magical|E] undertakings, I've recently been in contact with disreputable traders who claim to be able to obtain the objects of my desire. A few days after the conclusion of our pact, we meet once again in a secluded area, and I tell the trader to show me his wares. To say I was outraged would be an understatement, as the accursed swindler opened a box full of mundane bones! My rage momentarily subsided as I saw that there were indeed some magical bones contained within, obscured by the others they were mixed in with. Alas, they were of poor quality at best, but nevertheless I start haggling with the merchant. "
+ bonecrafting.0140.desc:0 "In my quest to obtain more bones for my [Concept('magic','Magical')|E] undertakings, I've recently been in contact with disreputable traders who claim to be able to obtain the objects of my desire. A few days after the conclusion of our pact, we meet once again in a secluded area, and I tell the trader to show me his wares. To say I was outraged would be an understatement, as the accursed swindler opened a box full of mundane bones! My rage momentarily subsided as I saw that there were indeed some magical bones contained within, obscured by the others they were mixed in with. Alas, they were of poor quality at best, but nevertheless I start haggling with the merchant. "
  bonecrafting.0140.a:0 "At least this one is as inexpensive as it is pitiful."
  bonecrafting.0140.b:0 "I'll have these bones, as they are slightly less pathetic than the rest."
  bonecrafting.0140.c:0 "This is quite a few bones for the price, though they are all of poor quality."
@@ -132,7 +132,7 @@
  bonecrafting.0142.d:0 "Regrettably, I don't think any of these options suit me."
  
  bonecrafting.0201.t:0 "To Mold Bones"
- bonecrafting.0201.desc:0 "I am planning to transmogrify some of the more potent bones within my collection through the practice of bonemolding. Bonemolding is the art of creating various types of [magical|E] artifacts using the remains of beings who once wielded arcane power in life. It is conventionally taught at an early age, as its employment of several basics of magic in tandem helps to reinforce fundamental concepts in budding Magi. However, despite its apparent simplicity, those who have mastered bonemolding can forge awe-inspiring works that blend the aesthetic with the functional. Of course, I must first know what bones I will use in this process before I start"
+ bonecrafting.0201.desc:0 "I am planning to transmogrify some of the more potent bones within my collection through the practice of bonemolding. Bonemolding is the art of creating various types of [Concept('magic','Magical')|E] artifacts using the remains of beings who once wielded arcane power in life. It is conventionally taught at an early age, as its employment of several basics of magic in tandem helps to reinforce fundamental concepts in budding Magi. However, despite its apparent simplicity, those who have mastered bonemolding can forge awe-inspiring works that blend the aesthetic with the functional. Of course, I must first know what bones I will use in this process before I start"
  bonecrafting.0201.a:0 "I will employ the remains of a small creature"
  bonecrafting.0201.b:0 "The bones of a average sized creature will do."
  bonecrafting.0201.c:0 "I will use those of a large and powerful creature."
@@ -141,7 +141,7 @@
  bonecrafting.0201.f:0 "Hmm, perhaps this isn't the time for bonemolding."
 
  bonecrafting.0202.t:0 "Molding a Plan"
- bonecrafting.0202.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [magical|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
+ bonecrafting.0202.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [Concept('magic','Magical')|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
  bonecrafting.0202.a:0 "I shall shape some form of dagger."
  bonecrafting.0202.b:0 "I shall craft a well made dagger."
  bonecrafting.0202.c:0 "I shall craft a beautiful short blade."
@@ -154,13 +154,13 @@
  bonecrafting_magic_cost_3.tt:0 "You spend @magic_icon!#P 250 [magic|E]!"
 
  bonecrafting.0203.t:0 "Molding a Plan"
- bonecrafting.0203.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ bonecrafting.0203.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  bonecrafting.0203.a:0 "I shall shape some form of a crown"
  bonecrafting.0203.b:0 "I will fashion some sort of scepter."
  bonecrafting.0203.c:0 "Hm, perhaps something else instead."
  
  bonecrafting.0204.t:0 "Molding a Plan"
- bonecrafting.0204.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ bonecrafting.0204.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  bonecrafting.0204.a:0 "I shall craft a decent crown."
  bonecrafting.0204.b:0 "I shall craft a well made crown."
  bonecrafting.0204.c:0 "I shall craft a beautiful headpiece."
@@ -168,7 +168,7 @@
  bonecrafting.0204.e:0 "Hm, perhaps something else instead."
 
  bonecrafting.0205.t:0 "Molding a Plan"
- bonecrafting.0205.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ bonecrafting.0205.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  bonecrafting.0205.a:0 "I shall craft a decent scepter."
  bonecrafting.0205.b:0 "I shall craft a well made scepter."
  bonecrafting.0205.c:0 "I shall craft a majestic regalia."
@@ -176,13 +176,13 @@
  bonecrafting.0205.e:0 "Hm, perhaps something else instead."
 
  bonecrafting.0206.t:0 "Molding a Plan"
- bonecrafting.0206.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ bonecrafting.0206.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  bonecrafting.0206.a:0 "I will mold these bones into a fine spear."
  bonecrafting.0206.b:0 "I will fashion a staff."
  bonecrafting.0206.c:0 "Hm, perhaps something else instead."
  
  bonecrafting.0207.t:0 "Molding a Plan"
- bonecrafting.0207.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [magical|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
+ bonecrafting.0207.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [Concept('magic','Magical')|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
  bonecrafting.0207.a:0 "I shall craft a decent spear."
  bonecrafting.0207.b:0 "I shall craft a well made spear."
  bonecrafting.0207.c:0 "I shall craft an empowering spear."
@@ -190,7 +190,7 @@
  bonecrafting.0207.e:0 "Hm, perhaps something else instead."
 
  bonecrafting.0208.t:0 "Molding a Plan"
- bonecrafting.0208.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ bonecrafting.0208.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  bonecrafting.0208.a:0 "I shall craft a decent staff."
  bonecrafting.0208.b:0 "I shall craft a well made staff."
  bonecrafting.0208.c:0 "I shall craft an empowering staff."
@@ -261,7 +261,7 @@
  bonecrafting.0216.e:0 "Hm, perhaps something else instead."
  
  bonecrafting.0217.t:0 "Molding a Plan"
- bonecrafting.0217.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [magical|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
+ bonecrafting.0217.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [Concept('magic','Magical')|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
  bonecrafting.0217.a:0 "I shall craft a decent spear."
  bonecrafting.0217.b:0 "I shall craft a well made spear."
  bonecrafting.0217.c:0 "I shall craft an empowering spear."
@@ -296,17 +296,17 @@
  #bonecrafting.0203.f:0 "The bones of a truly great Magi!"
  #
  #bonecrafting.0204.t:0 "Bones of the Beast"
- #bonecrafting.0204.desc:0 "In this endeavour, I have elected to use the remains of [creatures|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [magical|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
+ #bonecrafting.0204.desc:0 "In this endeavour, I have elected to use the remains of [Concept('creature','Creatures')|E] that once possessed arcane power. Some might say that fashioning artifacts out of the bones and other various parts of these [Concept('magic','Magical')|E] creatures is akin to the use of a mundane animal's fur for clothing, but true [magi|E] know that the hands of those without the gift can never match the craftsmanship of an expert in the art of bonemolding. Now what shall I mold?"
  #bonecrafting.0204.a:0 "Not a single one of these fits my specifications."
  #bonecrafting.0204.b:0 "An ancient, humanoid skull of extreme power."
- #bonecrafting.0204.c:0 "The skull of a mighty [dragon|E]!"
+ #bonecrafting.0204.c:0 "The skull of a mighty [Concept('dragons','Dragon')|E]!"
  #
 # bonecrafting.0211.t:0 "Molding a Plan"
 # bonecrafting.0211.desc:0 "Now that I've chosen the bones I plan to mold within the ritual, there only remain a few more decisions to make. What will I be molding these remains into? Whether I transform these materials into a scepter, staff, amulet, weapon, headwear or some other object remains up to me."
 # bonecrafting.0211.a:0 "I shall shape some form of adorning headwear."
 # bonecrafting.0211.b:0 "I will mold these bones into weaponry that will see my foes fall as leaves in the wind."
 # bonecrafting.0211.c:0 "I will fashion some sort of scepter or staff-like object."
-# bonecrafting.0211.d:0 "I will create an amulet filled with [magical|E] energies."
+# bonecrafting.0211.d:0 "I will create an amulet filled with [Concept('magic','Magical')|E] energies."
 # 
 # bonecrafting.0212.t:0 "Adornment of the Skull"
 # bonecrafting.0212.desc:0 "The only choice I must make now is what sort of headwear I'll be making from the bones I previously selected. There is a medley of options for me to create, from coronets to veils and plain old protective helmets. The choice lies with me and me alone."
@@ -316,7 +316,7 @@
 # bonecrafting.0212.d:0 "I will make a helmet from these bones that will shield myself from mortal dangers."
 # 
 # bonecrafting.0213.t:0 "Osteal Weaponry"
-# bonecrafting.0213.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [magical|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
+# bonecrafting.0213.desc:0 "Sometimes, simple is good, and what could be more simple than weapons fashioned from osseous matter? Unlike most weapons, any weapon forged from bones of such [Concept('magic','Magical')|E] potency would be able to interact with beings of the arcane in ways that their banusaic counterparts can't. This makes them an excellent choice for [magi|E] who prefer to hunt more esoteric creatures, as well as those hoping to slay other Magi. What sort of weapon will I create?"
 # bonecrafting.0213.a:0 "On further reflection, I'd rather not create a weapon."
 # bonecrafting.0213.b:0 "I will sculpt a dagger made entirely out of bone, that will cut through any enemy."
 # bonecrafting.0213.c:0 "A spear shaped out of bone will do me well in battle against various foes."

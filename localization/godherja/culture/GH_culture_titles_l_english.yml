@@ -319,6 +319,10 @@
  emperor_feudal_male_aversarian:90 "Aautokratir"
  emperor_feudal_female_aversarian:90 "Aautokratia"
  empire_feudal_aversarian:90 "Aautokrata"
+
+ # Republic
+ duchy_republic_male_aversarian:90 "Arkonir"
+ duchy_republic_female_aversarian:90 "Arkona"
  
  title_aversarian_governorate:90 "Governorate"
  aversarian_governor_male:90 "Governor"
@@ -343,12 +347,12 @@
  magocratic_male_archmagi_kingdom:90 "Arch-Magi"
  magocratic_male_firstmagi_empire:90 "First-Magi"
  magocratic_male_firstmagi_kingdom:90 "First-Magi"
- magocratic_male_duchy_landed:90 "Matzistirex"
+ magocratic_male_duchy_landed:90 "Magister"
  magocratic_female_archmagi_empire:90 "Arch-Magi"
  magocratic_female_archmagi_kingdom:90 "Arch-Magi"
  magocratic_female_firstmagi_empire:90 "First-Magi"
  magocratic_female_firstmagi_kingdom:90 "First-Magi"
- magocratic_female_duchy_landed:90 "Matzistirax"
+ magocratic_female_duchy_landed:90 "Magister"
 
  aversarian_legon_female_lxi:90 "Legan"
  aversarian_legon_lxi:90 "Legon"
@@ -1068,7 +1072,7 @@
  baron_female_tanarka:90 "Likri"
 
  ### Kathunian (Bronzeport) ###
- emperor_male_bronzport:90 "Exalted Minister"
+ emperor_male_bronzeport:90 "Exalted Minister"
  emperor_female_bronzeport:90 "Exalted Minister"
 
  kingdom_male_bronzeport:90 "High Minister"
@@ -1113,3 +1117,6 @@
  wasteland_duke:90 ""
  wasteland_king:90 ""
  wasteland_emperor:90 ""
+
+ ## Landless
+ duke_landless_adventurer_camp_beast_hunters:90 "Beast Hunter"

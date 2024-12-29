@@ -11,12 +11,12 @@
  free_the_slaves_decision_5:0 "Free Slaves in He Vrerai"
  free_the_slaves_decision_6:0 "Free Slaves in Hyrea"
  free_the_slaves_decision_desc:0 "The governor is dead, and Aironoi as we knew it disbanded. With Valerix avenged, a new age dawns, an age where we will fix [aversaria|E] and right wrongs a thousand years in the making.\n\nWe shall begin by freeing all those bound in slavery within our lands and we shall do the same in lands we conquer. By breaking their chains we will give them the offer, they may leave or they may join us, and bolster our army further. While the hardliners will no doubt find issue, with the governor dead they have nobody to organize under, and with the numbers our new bretheren can bring in, we will be more prepared than ever to take back [GetTitleByKey('c_asiupoli').GetNameNoTier] and then face the Witch-Breaker."
- free_the_slaves_decision_confirm:0 "Today, we are all [aversarians|E]."
- free_the_slaves_decision_2_confirm:0 "Today, we are all [aversarians|E]."
- free_the_slaves_decision_3_confirm:0 "Today, we are all [aversarians|E]."
- free_the_slaves_decision_4_confirm:0 "Today, we are all [aversarians|E]."
- free_the_slaves_decision_5_confirm:0 "Today, we are all [aversarians|E]."
- free_the_slaves_decision_6_confirm:0 "Today, we are all [aversarians|E]."
+ free_the_slaves_decision_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
+ free_the_slaves_decision_2_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
+ free_the_slaves_decision_3_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
+ free_the_slaves_decision_4_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
+ free_the_slaves_decision_5_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
+ free_the_slaves_decision_6_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
  free_the_slaves_decision_tooltip:0 "Free the Slaves"
  free_the_slaves_decision_2_tooltip:0 "Free the Slaves"
  free_the_slaves_decision_3_tooltip:0 "Free the Slaves"
@@ -34,7 +34,7 @@
 
  emancipate_the_slaves_decision:0 "End Slavery in Aironoi"
  emancipate_the_slaves_decision_desc:0 "We now hold the jewel of [aversaria|E] in [GetTitleByKey('c_asiupoli').GetNameNoTier] and can begin the greater work of bringing our people to greater glory. A new age dawns, an age where we will fix Aversaria and right wrongs a thousand years in the making.\n\nWe shall free all slaves within [GetTitleByKey('c_asiupoli').GetNameNoTier], and announce the emancipation of all others living on Aversarian land in Aironoi. None shall live in bondage within our lands."
- emancipate_the_slaves_decision_confirm:0 "Today, we are all [aversarians|E]."
+ emancipate_the_slaves_decision_confirm:0 "Today, we are all [Concept('aversaria','Aversarians')|E]."
  emancipate_the_slaves_decision_tooltip:0 "End Slavery in Aironoi"
 
  eastern_reforms.0001.title:0 "The Investigation Begins"
@@ -46,7 +46,7 @@
  eastern_reforms.0002.a:0 "Damning evidence..."
  
  eastern_reforms.0003.title:0 "Masked Words"
- eastern_reforms.0003.desc:0 "Khatan Altan of the Kteumaxa tribe has sent me a rider, and a series of letters dictated by himself with notes added by several of my Öltenic vassals.\n\nThe letter describes a second narrative to the death of Legon Valerix. Attempts to bribe him and his clansmen by mysterious agents speaking in [aversarian|E] accents, Valerix's Öltenic guard of the night not deserting but disappearing shortly after, a woman who was otherwise renowned for her loyalty and honor. Finally, a similar accusation of eastern poison, but instead a note that the seller of which had been captured, and had given the information that the poison was shipped to our port by a third party before committing suicide...\n\nAltan states in the letter that he has no wish to make assumptions on my account, but tells me that the culprit is likely one within my own court..."
+ eastern_reforms.0003.desc:0 "Khatan Altan of the Kteumaxa tribe has sent me a rider, and a series of letters dictated by himself with notes added by several of my Öltenic vassals.\n\nThe letter describes a second narrative to the death of Legon Valerix. Attempts to bribe him and his clansmen by mysterious agents speaking in [Concept('aversaria','Aversarian')|E] accents, Valerix's Öltenic guard of the night not deserting but disappearing shortly after, a woman who was otherwise renowned for her loyalty and honor. Finally, a similar accusation of eastern poison, but instead a note that the seller of which had been captured, and had given the information that the poison was shipped to our port by a third party before committing suicide...\n\nAltan states in the letter that he has no wish to make assumptions on my account, but tells me that the culprit is likely one within my own court..."
  eastern_reforms.0003.a:0 "Oh are they? Something to think about..."
  eastern_reforms.0003.a.tt:0 "With the evidence in our hands, we must now make a choice"
  
@@ -64,11 +64,11 @@
  eastern_reforms.0006.a.tt:0 "More decisions are now available"
  
  eastern_reforms.0007.title:0 "The Invasion Begins"
- eastern_reforms.0007.desc:0 "The time is now. The legion stands before me, just as they did for Valerix when the first march west began, with our new allies alongside them. Freed slaves, Öltenic tribesmen, volunteers from across the east. Before us stands the gates of [GetTitleByKey('c_asiupoli').GetNameNoTier], the great city glimmering in the wastes, even in its ruined post-Frodbrokna state.\n\nThe Fenvir are not to be discounted, and we will need bravery, skill, and cunning to defeat them. It wouldn't hurt to have more help as well, and the Öltenic have promised their aid in return for their claims in Niodini. The southern region is now essentially wasteland, and while no doubt it will be a shame to give away rightful [aversarian|E] land, it would be a small price to pay for the entirety of the homeland."
+ eastern_reforms.0007.desc:0 "The time is now. The legion stands before me, just as they did for Valerix when the first march west began, with our new allies alongside them. Freed slaves, Öltenic tribesmen, volunteers from across the east. Before us stands the gates of [GetTitleByKey('c_asiupoli').GetNameNoTier], the great city glimmering in the wastes, even in its ruined post-Frodbrokna state.\n\nThe Fenvir are not to be discounted, and we will need bravery, skill, and cunning to defeat them. It wouldn't hurt to have more help as well, and the Öltenic have promised their aid in return for their claims in Niodini. The southern region is now essentially wasteland, and while no doubt it will be a shame to give away rightful [Concept('aversaria','Aversarian')|E] land, it would be a small price to pay for the entirety of the homeland."
  eastern_reforms.0007.a:0 "The Öltenic aided us before, let us prove the alliance true."
  eastern_reforms.0007.b:0 "[aversaria|E] will be united, all of it."
  
- eastern_reforms.0008.title:0 "The [aversarians|E] Call for Aid"
+ eastern_reforms.0008.title:0 "The [Concept('aversaria','Aversarians')|E] Call for Aid"
  eastern_reforms.0008.desc:0 "Hecaeda, the woman-general of the west, has requested our aid once again. While she had already proven herself one of our people at heart, just as her mother was, she now proves herself a true Khatan of her people as well. She has vowed to retake the city of her people, and has requested her blood-bretheren in our clans join her. In return for aiding her in this war, she shall grant us the lands in Niodini for settlement."
  eastern_reforms.0008.a:0 "We will aid our blood-sister as we should."
  eastern_reforms.0008.b:0 "Sister or not, she is on her own."
@@ -82,7 +82,7 @@
  eastern_reforms.0010.a:0 "Then we will free our nation without them."
  
  eastern_reforms.0011.title:0 "The Invasion Begins"
- eastern_reforms.0011.desc:0 "Doubt still clouds my mind about Valerix and the truth of his death, but this is doubt that I must banish from my mind from the task ahead. Reform or no, [GetTitleByKey('c_asiupoli').GetNameNoTier] can not be held by the Fenvir while [aversarians|E] still live to take it back. With the pure-blooded sons of Aversaria before me, my legion and the governor's personal forces both, the time is now to retake our city."
+ eastern_reforms.0011.desc:0 "Doubt still clouds my mind about Valerix and the truth of his death, but this is doubt that I must banish from my mind from the task ahead. Reform or no, [GetTitleByKey('c_asiupoli').GetNameNoTier] can not be held by the Fenvir while [Concept('aversaria','Aversarians')|E] still live to take it back. With the pure-blooded sons of Aversaria before me, my legion and the governor's personal forces both, the time is now to retake our city."
  eastern_reforms.0011.a:0 "Attack!"
  
  redlands_decision.0001.title:0 "Selling the Prism"
@@ -102,15 +102,15 @@
  redlander_decision.1000.magic_gain_tt:0 "You will gain #positive_value; [EmptyScope.ScriptValue('redlander_decay_county_interaction_mana_gain')|0]#!@magic_icon![magic|E]"
 
  redlands_decision.2001.t:0 "Crimson Canyons Forever"
- redlands_decision.2001.desc:0 "Years of conflict with outsiders, colonizers, and thieves of all shapes and sizes once overwhelmed the [redlands|E]. No more. With the last of the outsiders fleeing for the sea, the Redlands are once again fully that of its strange inhabitants, and only time will tell what will come of their new independence."
+ redlands_decision.2001.desc:0 "Years of conflict with outsiders, colonizers, and thieves of all shapes and sizes once overwhelmed the [Concept('redlands_biozone','Redlands')|E]. No more. With the last of the outsiders fleeing for the sea, the Redlands are once again fully that of its strange inhabitants, and only time will tell what will come of their new independence."
  redlands_decision.2001.a:0 "What does the future hold?"
 
  redlands_decision.2002.t:0 "Fading Sands"
- redlands_decision.2002.desc:0 "What were once considered the strangest occultists in [aversaria|E] are no more. The "Redlanders" once dominated the [redlands|E] yet with the last of their cults disappearing from the canyons, they exist now as little more than a folktale. Only time will tell what will come of the silent canyons."
+ redlands_decision.2002.desc:0 "What were once considered the strangest occultists in [aversaria|E] are no more. The "Redlanders" once dominated the [Concept('redlands_biozone','Redlands')|E] yet with the last of their cults disappearing from the canyons, they exist now as little more than a folktale. Only time will tell what will come of the silent canyons."
  redlands_decision.2002.a:0 "What does the future hold?"
 
  redlands_decision.2003.t:0 "Shattered Dreams"
- redlands_decision.2003.desc:0 "It seems that whatever grand designs were planned for the chaos wreaking havoc across the [redlands|E] have come to naught, as the Redlanders return to the deep canyons."
+ redlands_decision.2003.desc:0 "It seems that whatever grand designs were planned for the chaos wreaking havoc across the [Concept('redlands_biozone','Redlands')|E] have come to naught, as the Redlanders return to the deep canyons."
  redlands_decision.2003.a:0 "What does the future hold?"
 
  redlands_decision.2004.t:0 "A New World"
@@ -118,12 +118,12 @@
  redlands_decision.2004.a:0 "What does the future hold?"
 
  redlands_decision.2005.t:0 "Ancient Designs Made Real"
- redlands_decision.2005.desc:0 "The grand designs of the mysterious [redlands|E] cults have finally born fruit. The chaos wreaking havoc in their lands has now spread across the whole planet as the Sun once above dies, and the world turns to shadow."
+ redlands_decision.2005.desc:0 "The grand designs of the mysterious [Concept('redlands_biozone','Redlands')|E] cults have finally born fruit. The chaos wreaking havoc in their lands has now spread across the whole planet as the Sun once above dies, and the world turns to shadow."
  redlands_decision.2005.a:0 "What does the future hold?"
 
  redlands_crisis_ended_tooltip:0 "The Redlands Crisis Ends"
  story_redlands_crisis_story_name:0 "The Redlands Crisis"
- story_redlands_crisis_story_desc:0 "Chaos has taken hold in the strange and mysterious [redlands|E] as powerful magics and foreboding cults seep out from the deep sands."
+ story_redlands_crisis_story_desc:0 "Chaos has taken hold in the strange and mysterious [Concept('redlands_biozone','Redlands')|E] as powerful magics and foreboding cults seep out from the deep sands."
 
 
  must_not_be_redlander_or_must_end_crisis:0 "Must not follow [GetReligionByKey('redland_cults_religion').GetName] [faith|E] or must have ended the Redlands Crisis."

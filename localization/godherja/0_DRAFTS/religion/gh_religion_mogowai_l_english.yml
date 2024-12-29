@@ -13,7 +13,9 @@
  mogowai_death_deity_name:0 "The Most High"
  mogowai_death_deity_name_possessive:0 "The Most High's"
  mogowai_devil_name:0 "Temple Burner"
+ mogowai_devil_name_alternate:0 "$mogowai_devil_name$"
  mogowai_devil_name_possessive:0 "Temple Burner's"
+ mogowai_devil_name_alternate_possessive:0 "$mogowai_devil_name_possessive$"
 
  mogowai_house_of_worship:0 "Temple"
  mogowai_house_of_worship_plural:0 "Temples"

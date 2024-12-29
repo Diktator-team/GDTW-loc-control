@@ -3,15 +3,17 @@
 #ritualist Loc
  ritualist_religion:0 "Ritualist"
  ritualist_religion_adj:0 "Ritualist"
- ritualist_religion_adjerent:0 "Ritualist"
+ ritualist_religion_adherent:0 "Ritualist"
  ritualist_religion_adherent_plural:0 "Ritualists"
- ritualist_religion_desc:0 "Less of a defined faith and more a label for a collection of local beliefs, Ritualism is a polytheistic group of faiths native to [sarradon|E] that tend to have esoteric beliefs and secretive ceremonies. Common among these sects is their reverence for the Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName], a [tower|E] where one can achieve enlightenment if they climb every man-sized step and face a plethora of trials from the gods. The few who achieved this task had their accounts compiled in the Story of the Steps, an esoteric tome which is consulted for guidance and whose meanings are hotly debated among its followers. To walk the Thousand-and-One steps is not only a literal pilgrimage for Ritualists, but also a figurative quest for self-improvement."
+ ritualist_religion_desc:0 "Less of a defined faith and more a label for a collection of local beliefs, Ritualism is a polytheistic group of faiths native to [sarradon|E] that tend to have esoteric beliefs and secretive ceremonies. Common among these sects is their reverence for the Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName], a [Concept('the_towers','Tower')|E] where one can achieve enlightenment if they climb every man-sized step and face a plethora of trials from the gods. The few who achieved this task had their accounts compiled in the Story of the Steps, an esoteric tome which is consulted for guidance and whose meanings are hotly debated among its followers. To walk the Thousand-and-One steps is not only a literal pilgrimage for Ritualists, but also a figurative quest for self-improvement."
  ritualist_high_god_name:0 "Nantala"
  ritualist_high_god_name_possessive:0 "Nantala's"
  ritualist_high_god_name_alternate:0 "Lightgiver"
  ritualist_high_god_name_alternate_possessive:0 "Lightgiver"
  ritualist_devil_name:0 "Zezan"
+ ritualist_devil_name_alternate:0 "$ritualist_devil_name$"
  ritualist_devil_name_possessive:0 "Zezan's"
+ ritualist_devil_name_alternate_possessive:0 "$ritualist_devil_name_possessive$"
  ritualist_death_deity_name:0 "Mawtal"
  ritualist_death_deity_name_possessive:0 "Mawtal's"
 
@@ -71,14 +73,14 @@
  ritualist_adj:0 "Sophocist"
  ritualist_adherent:0 "Sophocist"
  ritualist_adherent_plural:0 "Sophocists"
- ritualist_desc:0 "The Sophocists emphasize the memorization and performance of symbolic divine rituals, which they insist are the true Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName]. The [tower|E] where the physical Steps lay are merely where the lessons were passed down, and the rituals were meant to be performed anywhere. Through accurate performance of all 1,001 rituals, will a person be able to understand the secrets of the gods and attain enlightenment."
+ ritualist_desc:0 "The Sophocists emphasize the memorization and performance of symbolic divine rituals, which they insist are the true Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName]. The [Concept('the_towers','Tower')|E] where the physical Steps lay are merely where the lessons were passed down, and the rituals were meant to be performed anywhere. Through accurate performance of all 1,001 rituals, will a person be able to understand the secrets of the gods and attain enlightenment."
  
  #kamayed loc
  kamayed:0 "Kamayed"
  kamayed_adj:0 "Kamayed"
  kamayed_adherent:0 "Kamayed"
  kamayed_adherent_plural:0 "Kamayedi"
- kamayed_desc:0 "The Kamayed believe that the Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName] are indeed a literal place, but not at the great [tower|E] that is usually described as their location in Sophocist folklore. Instead, they claim that the steps are a location of descent into a great crater "beyond the north stars." This crater, they insist, is the doorway to the afterlife, and those who are worthy enough to reach the bottom may enter into the realm of the gods."
+ kamayed_desc:0 "The Kamayed believe that the Thousand-and-One Steps of [GetBuilding('01_sophocos').GetName] are indeed a literal place, but not at the great [Concept('the_towers','Tower')|E] that is usually described as their location in Sophocist folklore. Instead, they claim that the steps are a location of descent into a great crater "beyond the north stars." This crater, they insist, is the doorway to the afterlife, and those who are worthy enough to reach the bottom may enter into the realm of the gods."
  
  #hayawan loc, hayawani
  hayawan:0 "Hayawan"
@@ -91,7 +93,9 @@
  hayawani_high_god_name_alternate:0 "Lightgiver"
  hayawani_high_god_name_alternate_possessive:0 "Lightgiver"
  hayawani_devil_name:0 "Vulture"
+ hayawani_devil_name_alternate:0 "$hayawani_devil_name$"
  hayawani_devil_name_possessive:0 "Vulture's"
+ hayawani_devil_name_alternate_possessive:0 "$hayawani_devil_name_possessive$"
  hayawani_death_deity_name:0 "Hound"
  hayawani_death_deity_name_possessive:0 "Hound's"
  
@@ -145,7 +149,7 @@
  iramite_high_god_name_alternate:0 "The Seven Headed Serpent"
  iramite_high_god_name_alternate_possessive:0 "The Serpent's"
  
- iramite_fate_god_name:0 "$iramite_high_god_name"
+ iramite_fate_god_name:0 "$iramite_high_god_name$"
  iramite_fate_god_name_possessive:0 "$iramite_high_god_name_possessive$"
  
  iramite_knowledge_god_name:0 "$iramite_high_god_name_alternate$"
@@ -171,8 +175,10 @@
  monolith_death_deity:0 "Mawtal"
  monolith_death_deity_possessive:0 "Mawtal's"
  #monolith_death_cult evil gods
- monolith_devil_name:0 "Nisiyaan" #Oblivion
+ monolith_devil_name:0 "Nisiyaan"
+ monolith_devil_name_alternate:0 "$monolith_devil_name$" #Oblivion
  monolith_devil_name_possessive:0 "Nisiyaan's"
+ monolith_devil_name_alternate_possessive:0 "$monolith_devil_name_possessive$"
 
  
  #suleimania localization, Suleimani'a
@@ -206,7 +212,7 @@
  ataabay_zatanai_adj:0 "Zatani'a"
  ataabay_zatanai_adherent:0 "Zatani'a"
  ataabay_zatanai_adherent_plural:0 "Zatanii"
- ataabay_zatanai_desc:0 "The Followers of Zatanai adhere to the teachings of the Ritualist prophet Zatanai, who received his revelations from [GetBuilding('01_sophocos').GetName] at just seventeen years of age. Zatanai, though young, was a fierce orator who stated that the [wardenites|E] must be destroyed utterly, and that anyone who rejected the truths of [GetBuilding('01_sophocos').GetName] should be slain as an enemy of mankind. Though it was not originally meant to be a permanent sect, Zatanai incorporated elements of the Suleimani'a sect into his own, chiefly the belief in Domah Daniyal and the view that all philosophies can be learned from, though Zatanai rejected the idea that non-Ritualist philosophies have any merit. Zatanai and his followers believe that Ritualism is the one and only way of life for mankind; all other religions are mere perversions of Ritualism, and so must either be assimilated if possible or destroyed if not. Zatanai was one of the youngest Ritualist prophets in the religion's history, and he entered into occultation at nineteen years of age after declaring that he would return when his people needed him most."
+ ataabay_zatanai_desc:0 "The Followers of Zatanai adhere to the teachings of the Ritualist prophet Zatanai, who received his revelations from [GetBuilding('01_sophocos').GetName] at just seventeen years of age. Zatanai, though young, was a fierce orator who stated that the [Concept('wardenism','Wardenites')|E] must be destroyed utterly, and that anyone who rejected the truths of [GetBuilding('01_sophocos').GetName] should be slain as an enemy of mankind. Though it was not originally meant to be a permanent sect, Zatanai incorporated elements of the Suleimani'a sect into his own, chiefly the belief in Domah Daniyal and the view that all philosophies can be learned from, though Zatanai rejected the idea that non-Ritualist philosophies have any merit. Zatanai and his followers believe that Ritualism is the one and only way of life for mankind; all other religions are mere perversions of Ritualism, and so must either be assimilated if possible or destroyed if not. Zatanai was one of the youngest Ritualist prophets in the religion's history, and he entered into occultation at nineteen years of age after declaring that he would return when his people needed him most."
  #zatania good gods
  ataabay_zatanai_high_god_name:0 "Zatanai"
  ataabay_zatanai_high_god_name_possessive:0 "Zatanai's"
@@ -220,7 +226,9 @@
  ataabay_zatanai_fertility_god_name_possessive:0 "Sharaah al-Aswad's"
  #zatania evil gods
  zatania_devil_name:0 "the First Warden"
+ zatania_devil_name_alternate:0 "$zatania_devil_name$"
  zatania_devil_name_possessive:0 "the First Warden's"
+ zatania_devil_name_alternate_possessive:0 "$zatania_devil_name_possessive$"
  ataabay_zatanai_witch_god_name:0 "$zatania_devil_name$"
  ataabay_zatanai_witch_god_name_possessive:0 "$zatania_devil_name_possessive$"
 
@@ -268,7 +276,7 @@
  zamitilaat_karim_adj:0 "Karimi'a"
  zamitilaat_karim_adherent:0 "Karimi'a"
  zamitilaat_karim_adherent_plural:0 "Karimii"
- zamitilaat_karim_desc:0 "The Fellowship of Karim, or Zamitaalat Karim, was founded by the prophet Karim ibn Sophocos, an illiterate and uneducated man who lived near the [tower|E]. Karim argued that organized priesthoods were anathema to the revelations of [GetBuilding('01_sophocos').GetName], and that one didn't need to be educated, highborn, or even intelligent to be a prophet of the Tower. The concept of priest-king, high priest, or god-king is an abomination to the Karimii, who argue that any sort of organized priesthood merely serves to repress the truths delivered on Sophocos' steps. The priesthood should therefore be comprised entirely of the laity, and any attempt to impose organization on it or to codify the religion should be violently resisted. Ascension of [GetBuilding('01_sophocos').GetName] is considered paramount for any true Karimi'a, and every member of the sect and prospective priest is expected to make the journey at least once in their lifetimes."
+ zamitilaat_karim_desc:0 "The Fellowship of Karim, or Zamitaalat Karim, was founded by the prophet Karim ibn Sophocos, an illiterate and uneducated man who lived near the [Concept('the_towers','Tower')|E]. Karim argued that organized priesthoods were anathema to the revelations of [GetBuilding('01_sophocos').GetName], and that one didn't need to be educated, highborn, or even intelligent to be a prophet of the Tower. The concept of priest-king, high priest, or god-king is an abomination to the Karimii, who argue that any sort of organized priesthood merely serves to repress the truths delivered on Sophocos' steps. The priesthood should therefore be comprised entirely of the laity, and any attempt to impose organization on it or to codify the religion should be violently resisted. Ascension of [GetBuilding('01_sophocos').GetName] is considered paramount for any true Karimi'a, and every member of the sect and prospective priest is expected to make the journey at least once in their lifetimes."
 
 
  #eabuyad_ilah_al_atilaam localization, Eabuyad Ilah al-Atilaam
@@ -345,8 +353,10 @@
  eirbaadit_al_hukadir_death_deity_name:0 "Ashranugal" #Qubaal's executioner
  eirbaadit_al_hukadir_death_deity_name_possessive:0 "Ashranugal's"
  #hukadirite evil gods
- eirbaadit_al_hukadir_devil_name:0 "Eburhoodh" #Foeman of Qubaal
+ eirbaadit_al_hukadir_devil_name:0 "Eburhoodh"
+ eirbaadit_al_hukadir_devil_name_alternate:0 "$eirbaadit_al_hukadir_devil_name$" #Foeman of Qubaal
  eirbaadit_al_hukadir_devil_name_possessive:0 "Eburhoodh"
+ eirbaadit_al_hukadir_devil_name_alternate_possessive:0 "$eirbaadit_al_hukadir_devil_name_possessive$"
 
 
  #akhawwat localization, Akhawwat al-Iiraahadat al-Mutajaaluyah
@@ -417,7 +427,9 @@
  eabuyad_al_duhaad_khubir_death_deity_name:0 "the Devourer of Death"
  eabuyad_al_duhaad_khubir_death_deity_name_possessive:0 "the Devourer of Death"
  eabuyad_al_duhaad_khubir_devil_name:0 "the Worldeater"
+ eabuyad_al_duhaad_khubir_devil_name_alternate:0 "$eabuyad_al_duhaad_khubir_devil_name$"
  eabuyad_al_duhaad_khubir_devil_name_possessive:0 "the Worldeater's"
+ eabuyad_al_duhaad_khubir_devil_name_alternate_possessive:0 "$eabuyad_al_duhaad_khubir_devil_name_possessive$"
  eabuyad_al_duhaad_khubir_fate_god_name:0 "the Swallower of Fate"
  eabuyad_al_duhaad_khubir_fate_god_name_possessive:0 "the Swallower of Fate's"
  eabuyad_al_duhaad_khubir_witch_god_name:0 "Majus-eater"
@@ -428,7 +440,7 @@
  hanaaist_adj:0 "Hanaaist"
  hanaaist_adherent:0 "Hanaaist"
  hanaaist_adherent_plural:0 "Hanaaists"
- hanaaist_desc:0 "The Road of the One was founded by a prophetess named Hanaa, a woman born under [wardenite|E] rule. Hanaa was born a Ritualist, but fraternized extensively with Wardenites. Attaining an understanding of Wardenite beliefs, and sympathizing with the Wardenite cause, Hanaa was said to have been given a revelation when she ascended the steps of [GetBuilding('01_sophocos').GetName], warning her that the physical world was created by a malevolent demiurge, and that it this demiurge's servants must be combated whenever possible. Only through its annihilation can mortals be freed from the shackles of physical existence and dwell eternally in the Gardens of Life. Hanaa also preached that there was but one god, and that this god was named the One. The One commanded the Ritualists to battle the demiurge long ago, but these prophets were misinterpreted or slain by their followers; therefore, the One gave a revelation unto the first of the Wardenites, and abandoned the Ritualists. But if the Ritualists heed Hanaa, and live according to the Road of the One - a list of laws delivered to Hanaa - the One will favor them again."
+ hanaaist_desc:0 "The Road of the One was founded by a prophetess named Hanaa, a woman born under [Concept('wardenism','Wardenite')|E] rule. Hanaa was born a Ritualist, but fraternized extensively with Wardenites. Attaining an understanding of Wardenite beliefs, and sympathizing with the Wardenite cause, Hanaa was said to have been given a revelation when she ascended the steps of [GetBuilding('01_sophocos').GetName], warning her that the physical world was created by a malevolent demiurge, and that it this demiurge's servants must be combated whenever possible. Only through its annihilation can mortals be freed from the shackles of physical existence and dwell eternally in the Gardens of Life. Hanaa also preached that there was but one god, and that this god was named the One. The One commanded the Ritualists to battle the demiurge long ago, but these prophets were misinterpreted or slain by their followers; therefore, the One gave a revelation unto the first of the Wardenites, and abandoned the Ritualists. But if the Ritualists heed Hanaa, and live according to the Road of the One - a list of laws delivered to Hanaa - the One will favor them again."
 
  #good gods
  hanaaist_creator_god_name:0 "Mawtal"
@@ -454,4 +466,4 @@
  corkkattirkana_adj:0 "Corkkattirkanan"
  corkkattirkana_adherent:0 "Corkkattirkanan"
  corkkattirkana_adherent_plural:0 "Corkkattirkanas"
- corkkattirkana_desc:0 "A [ritualist|E] sect born on the [pirate_coast|E], the Corkkattirkana believe that the climb of [GetBuilding('01_sophocos').GetName] can only truly be completed by the greatest of believers. Each follower strives to be greater than their others, as if in competition to decide who will be the one to complete the climb."
+ corkkattirkana_desc:0 "A [Concept('ritualism','Ritualist')|E] sect born on the [pirate_coast|E], the Corkkattirkana believe that the climb of [GetBuilding('01_sophocos').GetName] can only truly be completed by the greatest of believers. Each follower strives to be greater than their others, as if in competition to decide who will be the one to complete the climb."

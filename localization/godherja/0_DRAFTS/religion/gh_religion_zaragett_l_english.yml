@@ -12,7 +12,9 @@
  zaragett_high_god_name_alternate_possessive:0 "The Seamother's"
 
  zaragett_devil_name:0 "Arggosu"
+ zaragett_devil_name_alternate:0 "$zaragett_devil_name$"
  zaragett_devil_name_possessive:0 "Argossu's"
+ zaragett_devil_name_alternate_possessive:0 "$zaragett_devil_name_possessive$"
  
  zaragett_house_of_worship:0 "edaen"
  zaragett_house_of_worship_plural:0 "edaens"

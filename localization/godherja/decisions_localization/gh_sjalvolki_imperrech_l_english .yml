@@ -1,6 +1,6 @@
 ﻿l_english:
  gh_disband_the_imperrech_decision:0 "Disband the Imperrech"
- gh_disband_the_imperrech_decision_desc:0 "The migration is over. I have defeated the remnants of [aversaria|E] and settled the peoples of the Imperrech in fertile new lands, free from the threat of the [fog|E]. There is no more need for the the High Kingdom, and thus it should disband, so that the tribes may carve out their own destinies. "
+ gh_disband_the_imperrech_decision_desc:0 "The migration is over. I have defeated the remnants of [aversaria|E] and settled the peoples of the Imperrech in fertile new lands, free from the threat of the [Concept('the_fog','Fog')|E]. There is no more need for the the High Kingdom, and thus it should disband, so that the tribes may carve out their own destinies. "
  gh_disband_the_imperrech_decision_tooltip:0 "I will gather the chieftains to announce the end of the Imperrech."
  gh_disband_the_imperrech_decision_effect_tt:0 "All non-created de jure kingdoms within your realm will be granted to the most powerful ruler within the kingdom"
  gh_disband_the_imperrech_decision_effect2_tt:0 "All kingdoms within the Imperrech will receive all their de jure vassals"

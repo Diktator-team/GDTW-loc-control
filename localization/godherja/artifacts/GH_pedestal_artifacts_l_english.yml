@@ -276,8 +276,8 @@
 
  artifact_marcher_casket_name:89 "$artifact_name_prefix$ Marcher Casket"
  artifact_marcher_casket_description:89 "A Chevalien casket of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made out of [newly_created_artifact.GetFeatureText( 'casket_material' )] and [newly_created_artifact.GetFeatureText( 'casket_decoration' )].\n\n$artifact_marcher_casket_explanation$ $artifact_marcher_casket_age$\n\n[newly_created_artifact.GetFeatureText( 'casket_branded' )][newly_created_artifact.GetFeatureText( 'casket_name' )]"
- artifact_marcher_casket_explanation:89 "Chevalien caskets have long been a standard of Marcher craftsmen, and are often used as wedding gifts and jewelry boxes throughout the [continent|E]."
- artifact_marcher_casket_age:89 "This [newly_created_artifact.GetFeatureText( 'casket_characteristic' )] sample was likely made around the year [owner.MakeScope.Var('casket_age').GetValue|0]."
+ artifact_marcher_casket_explanation:89 "Chevalien caskets have long been a standard of Marcher craftsmen, and are often used as wedding gifts and jewelry boxes throughout the [Concept('the_continent','Continent')|E]."
+ artifact_marcher_casket_age:89 "This [newly_created_artifact.GetFeatureText( 'casket_characteristic' )]sample was likely made around the year [owner.MakeScope.Var('casket_age').GetValue|0]."
 
 ## Vases ##
  artifact_vessel_glassware:89 "Glassware"
@@ -291,7 +291,7 @@
  artifact_aversarian_vase_age:89 "This sample is [newly_created_artifact.GetFeatureText( 'vase_decoration' )] and was likely made around the year [owner.MakeScope.Var('vase_age').GetValue|0]."
  
  feature_generic_material_glassware_glass:90 "glass"
- feature_generic_material_glassware_tarshaf_glass:90 "[tarshaf_glasswork|E]"
+ feature_generic_material_glassware_tarshaf_glass:90 "[tarshaf_glasswork_fix|E]"
  
  feature_vessel_type_amphora:89 "amphora"
  feature_vessel_type_column_krater:89 "column krater"

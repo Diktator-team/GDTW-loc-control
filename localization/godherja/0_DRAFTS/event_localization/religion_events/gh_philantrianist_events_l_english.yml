@@ -29,7 +29,7 @@
  
  philantrianist.0021.t:0 "An Offer You Can't Refuse"
  philantrianist.0021.desc:0 "Our honest ways and selfless fight to better the station of the destitute has been known to thaw the hearts of even the most stern of rulers. Sometimes we must bend the truth and hide who we actually are for fear of the greedy oppressors' reprisal, true, but was it not Saint Philantros himself who said that the beggar stealing a loaf of bread was more honest than the authorities that oppressed him?\n\nI believe that [recipient.GetTitledFirstName] might be receptive to our pleas for alms – though they might not even realize they are helping the poor until we depart with their donation. If I could spin a sufficiently convincing tale to get [recipient.GetHerHim] to part with [recipient.GetHerHis] gold, the impoverished everywhere will cry out in joy and [recipient.GetFirstName]'s heart will be unburdened from avarice."
- philantrianist.0021.a:0 "This contraption is guaranteed to repel the [fog|E]!"
+ philantrianist.0021.a:0 "This contraption is guaranteed to repel the [Concept('the_fog','Fog')|E]!"
  philantrianist.0021.b:0 "I am an Adabyssinian prince, and I have an offer."
  philantrianist.0021.c:0 "Spare a coin for starving Kemsari children?"
  philantrianist.0022.t:0 "A Plan of Action"

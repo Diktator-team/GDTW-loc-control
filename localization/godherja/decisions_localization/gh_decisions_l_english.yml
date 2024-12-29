@@ -1,7 +1,7 @@
 ﻿l_english:
  reunite_the_empire_decision:1 "Reunite the Empire"
  reunite_the_empire_decision_tooltip:1 "Reunite the Aversarinas Aautokrata and once more bring all Aversarians back under a single banner!"
- reunite_the_empire_decision_desc:0 "Woe to the children of [aversaria|E]! We were whole once, and strong, ruling a [continent|E] and spreading out across the world - our birthright - as we deserved. The years of the past have not been kind to us, but no longer!\n\nWe have once more united most of the Aautokrata's central holdings back under a united banner, and it is now time to declare ourselves the true successors to the great Empire of old!"
+ reunite_the_empire_decision_desc:0 "Woe to the children of [aversaria|E]! We were whole once, and strong, ruling a [Concept('the_continent','Continent')|E] and spreading out across the world - our birthright - as we deserved. The years of the past have not been kind to us, but no longer!\n\nWe have once more united most of the Aautokrata's central holdings back under a united banner, and it is now time to declare ourselves the true successors to the great Empire of old!"
  reunite_the_empire_decision_titles_tt:1 "Every empire title you own will be destroyed and their territories will become [de_jure|E] of your new Primary Title, the [GetTitleByKey('e_aversarinas_aautokrata').GetNameNoTier]"
  reunite_the_empire_decision_titles_empire_tt:0 "Every West Slavic [kingdom|E] [title|E] you own (except your [primary_title|E]) will be destroyed and their territories will become [de_jure|E] of a random owned West Slavic kingdom"
  reunite_the_empire_decision_confirm:1 "Reunite the Empire"
@@ -68,10 +68,10 @@
  invade_fenvir_clanrech_decision:0 "Begin the Reconquest"
  invade_fenvir_clanrech_decision_tooltip:0 "Begin a campaign to retake [GetTitleByKey('c_asiupoli').GetNameNoTier]"
  invade_fenvir_clanrech_decision_tt:0 "We will declare [war|E] upon the Fenvir Clanrech, with the goal of retaking [GetTitleByKey('c_asiupoli').GetNameNoTier]."
- invade_fenvir_clanrech_decision_desc:0 "The time is now. The Fenvir dogs have sat on rightful [aversarian|E] soil for too long, and we will never be able to save our homeland from itself and its enemies while they squat in its greatest city. It is time to call our allies, and write the first letter of the sagas of our holy reconquest."
+ invade_fenvir_clanrech_decision_desc:0 "The time is now. The Fenvir dogs have sat on rightful [Concept('aversaria','Aversarian')|E] soil for too long, and we will never be able to save our homeland from itself and its enemies while they squat in its greatest city. It is time to call our allies, and write the first letter of the sagas of our holy reconquest."
  invade_fenvir_clanrech_decision_confirm:0 "Declare war!"
  iyrossi_kill_aversarians_decision:0 "Slaughter Aversarians"
- iyrossi_kill_aversarians_decision_desc:0 "Our recently conquered lands are inhabited by [aversarians|E], our age-old tormenters, they must be purged so that we may be free once again. The sun will shine on our ancestral lands, now cleansed of the eternal enemy!"
+ iyrossi_kill_aversarians_decision_desc:0 "Our recently conquered lands are inhabited by [Concept('aversaria','Aversarians')|E], our age-old tormenters, they must be purged so that we may be free once again. The sun will shine on our ancestral lands, now cleansed of the eternal enemy!"
  iyrossi_kill_aversarians_decision_confirm:0 "It must be done"
  iyrossi_united_desc:0 "The Iyrossi have been united"
  bloody_throne_decision:0 "Reaffirm Bloody Throne"
@@ -134,62 +134,63 @@
  restore_etepezea_decision:0 "Restore Etepezea"
  restore_etepezea_decision_desc:0 "The collapse of Etepezea was a tragedy to Aversarians everywhere. The nightmare of immaculate [GetTitleByKey('c_oraispol').GetNameNoTier] falling under Sjalvolki control, the beating heart of the Aversarinas Aautokrata, torn from our grasp - it's too much to bear remembering! All that now lies in the past as the ancestral homeland the Purest himself granted to us is now secure once more."
  restore_etepezea_decision_confirm:0 "Redraw Etepezea's old borders"
- restore_etepezea_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Etepezea will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_etepezea_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Etepezea will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_etepezea_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Etepezea#! are controlled by us"
  must_control_majority_of_etepezea_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_etepezea_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_etepezea_decision_region_owned_percent_value')|0]%)"
  #restore_etepezea_decision_tooltip:0 "#E Etepezea's#! de jure hierarchy will be restored."
  restore_cornucopia_decision:0 "Restore Megos Kalathipsomi"
  restore_cornucopia_decision_desc:0 "The rugged beauty of Megos Kalathipsomi, once stolen from us by the devilish Cenware, is now ours once more, and lucrative trade is already flowing into our empire through [GetBuilding('01_bastonport').GetName]. There is much work to be done to restore the province, but once we rebuild the imposing mountain fortresses we should be able to secure our heartland against future would-be conquerors."
  restore_cornucopia_decision_confirm:0 "Redraw Megos Kalathipsomi's old borders"
- restore_cornucopia_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Megos Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_cornucopia_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Megos Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_cornucopia_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Megos Kalathipsomi#! are controlled by us"
  must_control_majority_of_megos_kalathipsomi_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_megos_kalathipsomi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_megos_kalathipsomi_decision_region_owned_percent_value')|0]%)"
  #restore_cornucopia_decision_tooltip:0 "#E Megos Kalathipsomi's#! de jure hierarchy will be restored."
  restore_the_reach_decision:0 "Restore Mikros Kalathipsomi"
  restore_the_reach_decision_desc:0 "The rustic border province of Mikros Kalathipsomi is once more under our control. The Pathos river valley will be crucial to feed our slowly recovering population. We must be wary however - the Marchers have always been a threat, but more worrisome are the bizarre monsters that slouch out of the encroaching Fog every day."
  restore_the_reach_decision_confirm:0 "Redraw Mikros Kalathipsomi's old borders"
- restore_the_reach_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Mikros Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_the_reach_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Mikros Kalathipsomi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_the_reach_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Mikros Kalathipsomi#! are controlled by us"
  must_control_majority_of_mikros_kalathipsomi_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_mikros_kalathipsomi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_mikros_kalathipsomi_decision_region_owned_percent_value')|0]%)"
  #restore_the_reach_decision_tooltip:0 "#E Mikros Kalathipsomi's#! de jure hierarchy will be restored."
  restore_malcois_decision:0 "Restore Malcois"
  restore_malcois_decision_desc:0 "Slaves, perfidious Marchers and ravening Sjalvolki all did their best to wrest Malcois from us, but their successes proved to only be temporary setbacks for us. With Aversarian rule once more firmly ensconced in that Palát to Mytidon our authority shall not be challenged again."
  restore_malcois_decision_confirm:0 "Redraw Malcois' old borders"
- restore_malcois_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Malcois will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_malcois_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Malcois will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_malcois_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Malcois#! are controlled by us"
  must_control_majority_of_malcois_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_malcois_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_malcois_decision_region_owned_percent_value')|0]%)"
  #restore_malcois_decision_tooltip:0 "#E Malcois'#! de jure hierarchy will be restored."
  restore_opakhasia_decision:0 "Restore Opakhasia"
  restore_opakhasia_decision_desc:0 "It has been with great effort that we have driven back the tide of barbarians and restored the borders of Opakhasia, from the Korvion Strait to the glittering city of [GetTitleByKey('c_last_light').GetNameNoTier]. While the flower of the empire is much wilted, with our resolute guidance it is sure to blossom once more!"
  restore_opakhasia_decision_confirm:0 "Redraw Opakhasia's old borders"
- restore_opakhasia_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Opakhasia will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_opakhasia_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Opakhasia will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_opakhasia_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Opakhasia#! are controlled by us"
  must_control_majority_of_opakhasia_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_opakhasia_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_opakhasia_decision_region_owned_percent_value')|0]%)"
+ must_control_majority_of_dahangon_decision_tt:0 "You control more than [SCOPE.ScriptValue('dahangon_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_dahangon_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_dahangon_decision_region_owned_percent_value')|0]%)"
  #restore_opakhasia_decision_tooltip:0 "#E Opakhasia's#! de jure hierarchy will be restored."
  expand_opakhasia_decision:0 "Restore Opakhasia"
  expand_opakhasia_decision_desc:0 "It has been with great effort that we have driven back the tide of barbarians and restored the borders of Opakhasia, from the Korvion Strait to the glittering city of [GetTitleByKey('c_last_light').GetNameNoTier]. While the flower of the empire is much wilted, with our resolute guidance it is sure to blossom once more!"
  expand_opakhasia_decision_confirm:0 "Redraw Opakhasia's old borders"
- expand_opakhasia_decision_tooltip:0 "The old [aversarian|E] borders of Opakhasia will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ expand_opakhasia_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] borders of Opakhasia will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  expand_opakhasia_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Opakhasia#! are controlled by us"
  #expand_opakhasia_decision_tooltip:0 "#E Opakhasia's#! provincial dominion will be restored."
  restore_aironoi_decision:0 "Restore Aironoi"
  restore_aironoi_decision_desc:0 "While the devastation from the [frodbrokna|E] leaves us with a daunting task ahead, from shattered [GetTitleByKey('c_asiupoli').GetNameNoTier] we have beaten back the barbarians from both east and west. Bloodied but never broken, Aironoi will once more stand as the strong eastern bulwark of a restored Aversaria."
  restore_aironoi_decision_confirm:0 "Redraw Aironoi's old borders"
- restore_aironoi_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of Aironoi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_aironoi_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of Aironoi will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_aironoi_requirement:0 "All non-fogswept duchies with changed de jure lieges in #E Aironoi#! are controlled by us"
  must_control_majority_of_aironoi_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_aironoi_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_aironoi_decision_region_owned_percent_value')|0]%)"
  #restore_aironoi_decision_tooltip:0 "#E Aironoi's#! de jure hierarchy will be restored."
  restore_gurdurbok_decision:0 "Restore the Black Mountains"
  restore_gurdurbok_decision_desc:0 "Though once cut off from [aversaria|E] by Cenware, the Province of [GetTitleByKey('e_gurdurbok').GetNameNoTier] has been brought back under our righteous control, from the Chevalien border to the [mayikrata|E]. Already, recontruction efforts are beginning in Dethiclos, and all the world shall know that [aversaria|E] will never allow its territories to be sundered."
  restore_gurdurbok_decision_confirm:0 "Redraw Maaurrhos' old borders"
- restore_gurdurbok_decision_tooltip:0 "The old [aversarian|E] de jure kingdoms of [GetTitleByKey('e_gurdurbok').GetNameNoTier] will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
+ restore_gurdurbok_decision_tooltip:0 "The old [Concept('aversaria','Aversarian')|E] de jure kingdoms of [GetTitleByKey('e_gurdurbok').GetNameNoTier] will be restored in place of any petty Sjalvolki kingdoms drawn up following Cenware's Conquest."
  restore_gurdurbok_requirement:0 "All non-fogswept duchies with changed de jure lieges in [GetTitleByKey('e_gurdurbok').GetNameNoTier] are controlled by us"
  must_control_majority_of_gurdurbok_decision_tt:0 "You control more than [SCOPE.ScriptValue('aversaria_formable_percent_value')|0]% of the [GetGeographicalRegion('world_ga_gurdurbok_formable').GetName] [region|E] (Current: [SCOPE.ScriptValue('current_controlled_gurdurbok_decision_region_owned_percent_value')|0]%)"
  #restore_gurdurbok_decision_tooltip:0 "#E Maaurrhos'#! de jure hierarchy will be restored."
  kikarsagi_kill_aversarians_decision:0 "Slaughter Aversarians"
- kikarsagi_kill_aversarians_decision_desc:0 "The [aversarians|E] have shown themselves to be weak, and the weak get beaten. Bereft of the Mandate of Purity and dogs in the eyes of the Purest, we must massacre their weak race to become the Chosen Men and save the empire. No mercy for the weak! No retreat for the strong!"
+ kikarsagi_kill_aversarians_decision_desc:0 "The [Concept('aversaria','Aversarians')|E] have shown themselves to be weak, and the weak get beaten. Bereft of the Mandate of Purity and dogs in the eyes of the Purest, we must massacre their weak race to become the Chosen Men and save the empire. No mercy for the weak! No retreat for the strong!"
  kikarsagi_kill_aversarians_decision_confirm:0 "Today we become Chosen Men!"
- kikarsagi_kill_aversarians_decision_tooltip:0 "Slaughter the [aversarians|E] and become one of the Chosen Men."
+ kikarsagi_kill_aversarians_decision_tooltip:0 "Slaughter the [Concept('aversaria','Aversarians')|E] and become one of the Chosen Men."
  bonefinding_decision:0 "Search for Magically Potent Bones"
  bonefinding_decision_desc:0 "In order to empower my Dead Magic, it would be useful to acquire the bones of powerful magi. I shall attempt to locate bones magically potent enough to fulfill my purposes."
  bonefinding_decision_tooltip:0 "You will be given the choice of how you wish to locate magically potent bones."
@@ -202,7 +203,7 @@
  craft_bone_artifact_decision_effect_tooltip:0 "You will attempt to craft some of your magical bones into an [artifact|E]"
  craft_bone_artifact_decision_confirm:0 "I shall craft an arcane masterpiece!"
  reforge_aversarian_crown_decision:0 "Reforge the Aversarian Crown"
- reforge_aversarian_crown_decision_desc:0 "Over the preceding centuries, various pieces of the [aversarian|E] Crown were stripped and sold or stolen by nefarious figures across the [shattered_coast|E]. Now with all the pieces in hand, I can forge the crown, and lay claim to [aversaria|E]."
+ reforge_aversarian_crown_decision_desc:0 "Over the preceding centuries, various pieces of the [Concept('aversaria','Aversarian')|E] Crown were stripped and sold or stolen by nefarious figures across the [Concept('aversaria','Shattered Coast')|E]. Now with all the pieces in hand, I can forge the crown, and lay claim to [aversaria|E]."
  reforge_aversarian_crown_valid_condition:0 "All five pieces of the Aversarian Crown are in your possession"
  reforge_aversarian_crown_decision_effect:0 "All pieces of the Aversarian Crown are destroyed"
  reforge_aversarian_crown_decision_confirm:0 "A rebirth for Aversaria awaits"
@@ -237,7 +238,7 @@
  flourishing_pirate_coast_trade_modifier_desc:0 "This [county|E] is experiencing a golden age of commerce and mercantilism."
  flourishing_pirate_coast_trade_modifier:0 "Flourising Trade"
  reformed_ufaliracci_modifier:0 "Reformed Ufaliracci"
- reformed_ufaliracci_modifier_desc:0 "This character has reformed the kingdom of [ufaliracci|E] in its old [ritualist|E] capital."
+ reformed_ufaliracci_modifier_desc:0 "This character has reformed the kingdom of [ufaliracci|E] in its old [Concept('ritualism','Ritualist')|E] capital."
  reform_ufaliracci_decision:0 "Reform the Silver Kingdom"
  reform_ufaliracci_decision_desc:0 "It has been centuries since the [siege_of_ufaliracci|E], yet the [silver_palace|E] stands tall once again over the [pirate_coast|E]. It is time for its kingdom to do the same."
  reform_ufaliracci_decision_tooltip:0 "Reform the Silver Kingdom"
@@ -251,7 +252,7 @@
  abolish_the_conclave_decision_tooltip:0 "The time has come for my former captors to pay their dues"
  rhesus_defeated:0 "Rhesus is either dead or has been deposed"
  conclave_faction_power_below_50:0 "The Conclave faction has less than 50% power"
- abolish_the_conclave_decision_tt:0 "All of the Conclave's lands and gold will be confiscated. You will convert back to the mainstream [aversarian|E] faith."
+ abolish_the_conclave_decision_tt:0 "All of the Conclave's lands and gold will be confiscated. You will convert back to the mainstream [Concept('aversaria','Aversarian')|E] faith."
  abolish_the_conclave_decision_desc:0 "The scheming of the Conclave may have accidentally made possible my rise, but they are not my allies, nor will they define my reign. It is time to end this charade of an institution."
  abolish_the_conclave_decision_confirm:0 "Crush Rhesus' Legacy"
  sjalvolki_defectors_decision:0 "Invite Sjalvolki Defectors"
@@ -307,7 +308,7 @@
  purge_conclave_decision_tooltip:0 "The time for subtle politics is over"
  purge_conclave_decision_tt:0 "You will launch a massive purge against any current and former members of the Conclave faction, wiping it out for good. Obviously, this bloodshed will be seen as extraordinarily tyrannical."
  conclave_faction_power_below_100:0 "The Conclave faction has less than 100% power"
- purge_conclave_decision_desc:0 "Rhesus' downfall nears, but so do his minions' daggers to my back. If I am [aversaria_possessive|E] best hope, I cannot have my focus be consumed by petty court politics.\n\nDrastic measures must be taken."
+ purge_conclave_decision_desc:0 "Rhesus' downfall nears, but so do his minions' daggers to my back. If I am [Concept('aversaria','Aversaria')|E]'s best hope, I cannot have my focus be consumed by petty court politics.\n\nDrastic measures must be taken."
  purge_conclave_decision_confirm:0 "Start preparations..."
  invite_legio_axiaothea_decision:0 "Contact Legio XXI"
  invite_legio_axiaothea_decision_tooltip:0 "An unlikely ally, but a possible one."
@@ -352,8 +353,24 @@
  found_kingdom_samazonas_skymothers_tear:0 "You hold 3 or more [duchies|E] while being in possession of the $artifact_skymothers_tear_name$ [artifact|E]"
  found_kingdom_samazonas_generic:0 "You hold 4 or more [duchies|E] as any [ruler|E] of $gh_sarminian_group$ [heritage|E]"
  just_one_kingdom:0 "Must hold a single kingdom level title and no empire level titles"
- renovate_palat_to_mytidon_decision:0 "Renovate the Palat to Mytidon"
- renovate_palat_to_mytidon_decision_tooltip:0 "Transform this stain on our landscape into a new capital."
+
+ restore_the_eternal_flame_decision:0 "Restore the Priesthood of the Eternal Flame"
+ restore_the_eternal_flame_decision_tooltip:0 "Declare a new home for the faithful of Korlacu"
+ restore_the_eternal_flame_desc:0 "All Hail the Bringer of Fire!" #Embellish this a bit
+ restore_the_eternal_flame_decision_confirm:0 "Declare the Supremacy of Korlacu"
+ restore_the_eternal_flame_decision_tt:0 "Become the Firebrand of Korlacu, Sacred Keeper of the Eternal Flame"
+ restore_the_eternal_flame_spear_of_korlacu:0 "You hold 3 or more [duchies|E] while being in possession of the $artifact_gh_spear_of_korlacu_name$ [artifact|E]"
+ restore_the_eternal_flame_generic:0 "You hold 4 or more [duchies|E] as any [ruler|E] of Korlacan [heritage|E]"
+
+ establish_thura_bawadi_decision:0 "Restore the Sacred Realm of Thura Bawadi"
+ establish_thura_bawadi_decision_tooltip:0 "Re-establish a divine sanctuary for the faithful of the Twin Gods."
+ establish_thura_bawadi_desc:0 "All Hail the Sanctifier of the Sacred Grove, Blessed Keeper of Divine Peace!"
+ establish_thura_bawadi_decision_confirm:0 "Declare the Supremacy of the Twin Gods"
+ establish_thura_bawadi_decision_tt:0 "Become the Divine Steward of Thura Bawadi, Keeper of Sacred Harmony"
+ establish_thura_bawadi_staff_of_tarfal_desc:0 "You hold 1 or more [duchies|E] while being in possession of the $artifact_gh_tarfals_staff_name$ [artifact|E]"
+ establish_thura_bawadi_generic_desc:0 "You hold 2 or more [duchies|E] as any [ruler|E] of Nattanan [heritage|E]"
+ arise_thura_bawadi_desc:0 "You must convert 70% of [GetTitleByKey('k_currentsprings').GetName] to your faith."
+ renovate_palat_to_mytidon_decision:0 "Renovate the Palat to Mytidon" renovate_palat_to_mytidon_decision_tooltip:0 "Transform this stain on our landscape into a new capital."
  renovate_palat_to_mytidon_decision_tt:0 "Your capital will be transformed into a your choice of either a palace or temple metropolis holding and gain a special building. This will take a year of work and replace the Palat to Mytidon with a new building.\n\n#W This decision will mean effectively abandoning any attempts at building a new capital altogether.#!"
  renovate_palat_to_mytidon_decision_desc:0 "We are free once more, and have established a strong new kingdom. There yet remains a nagging question: from whence shall we rule Mytidon? To Pedithipsi is a haunted ruin unfit for a king. And founding a new capital altogether may be outside of our reach. Thankfully the Aversarians left behind an administrative building in our territory that we could simply renovate to serve our own purposes."
  hubarite_codex_decision:0 "Write a Codex"
@@ -366,7 +383,7 @@
  create_filosi_school_tt:0 "Creates a new Legal School for your Faith, called the Filosi School."
  create_filosi_school_decision_tooltip:0 "Create a New Legal School"
  hubarite_empire_decision:0 "Elevate a Hubarite Empire"
- hubarite_empire_decision_desc:0 "The oldest tales of our faith tell of a time when the [magi|E]-Judges reigned over a golden age of prosperity, when grand swathes of [sarradon|E] and perhaps even pieces of [the_continent|E], were ruled over by benevolent emperors, ruling close to the Great Sun itself. Though the people of this empire have so long been crushed beneath the alternating boots of [wardenites|E] and [ritualists|E], and though even the exact borders of our ancient realm have been lost to the mists of history, it has finally been restored."
+ hubarite_empire_decision_desc:0 "The oldest tales of our faith tell of a time when the [magi|E]-Judges reigned over a golden age of prosperity, when grand swathes of [sarradon|E] and perhaps even pieces of [the_continent|E], were ruled over by benevolent emperors, ruling close to the Great Sun itself. Though the people of this empire have so long been crushed beneath the alternating boots of [Concept('wardenism','Wardenites')|E] and [Concept('ritualism','Ritualists')|E], and though even the exact borders of our ancient realm have been lost to the mists of history, it has finally been restored."
  hubarite_empire_decision_valid_desc:0 "You completely control at least 3 kingdoms"
  hubarite_empire_decision_confirm:0 "Praise the Great Sun!"
  hubarite_empire_decision_tooltip:0 "Restore the Hubarite Empire of old"
@@ -378,123 +395,123 @@
  # Kardawai
  ## Pathos Delta
  coalition_holysites_kardawai_pathos_delta:0 "Affirm our Faith in the Bay of Swords"
- coalition_holysites_kardawai_pathos_delta_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves in [Concept('pathos_delta','a rich and plentiful land')|E] where the familiarity of forests eventually gives way to a seemingly endless blue expanse, the likes of which the eyes of our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_pathos_delta_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves in [Concept('pathos_delta_biozone','a rich and plentiful land')|E] where the familiarity of forests eventually gives way to a seemingly endless blue expanse, the likes of which the eyes of our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_pathos_delta_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_pathos_delta').GetName] [region|E]"
  coalition_holysites_kardawai_pathos_delta_confirm:0 "To drink dry the endless sea!"
 
  ## Etepezea
  coalition_holysites_kardawai_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_kardawai_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves in [Concept('etepezea','a wholly alien demesne')|E] of sun-baked hills and forests of stone, the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves in [Concept('etepezea_biozone','a wholly alien demesne')|E] of sun-baked hills and forests of stone, the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_kardawai_etepezea_confirm:0 "Kardwen feasts amongst the city-dwellers"
 
  ## Imperial Isle
  coalition_holysites_kardawai_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_kardawai_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves [Concept('imperial_isle','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_kardawai_imperial_isle_confirm:0 "Kardwen gazes over the horizon"
 
  ## Malcois
  coalition_holysites_kardawai_malcois:0 "Affirm our faith in Malcois"
- coalition_holysites_kardawai_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves in [Concept('malcois','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves in [Concept('malcois_biozone','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_kardawai_malcois_confirm:0 "Kardwen walks among the former slaves"
 
  ## Opakhasia
  coalition_holysites_kardawai_opakhasia:0 "Affirm our faith in Opakhasia"
- coalition_holysites_kardawai_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves in [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves in [Concept('western_opakhasia_biozone','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_kardawai_opakhasia_confirm:0 "Kardwen wills plentiful sacrifices"
 
  ## Aironoi
  coalition_holysites_kardawai_aironoi:0 "Affirm our faith in Aironoi"
- coalition_holysites_kardawai_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having thrown our lot with [Concept('sjalvolki_migrations','Cenware and his Imperrech')|E], we now find ourselves in [Concept('western_aironoi','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kardawai_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having thrown our lot with [Concept('sjalvolki_migration','Cenware and his Imperrech')|E], we now find ourselves in [Concept('western_aironoi_biozone','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe_biozone','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kardawai_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_kardawai_aironoi_confirm:0 "Kardwen stalks in the plains and cities of the East"
 
  ## Red Wastes
  coalition_holysites_kardawai_red_wastes:0 "Seek Kardwen in the Red Wastes"
- coalition_holysites_kardawai_red_wastes_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Now with our [Concept('sjalvolki_migrations','migration')|E] at an end, we find ourselves lost and betrayed. The rich and bountiful lands promised to us by Cenware were lies, all of them given out to Sjalvolki traitors and their cullies. At the same time, we were left with nought but bare hills bordering [Concept('red_waste','a desolate wasteland')|E].\n\nBut have we not always sought solitude? Did we not dwell in isolation long before the [frodbrokna|E], since times lost to memory? Time and time again, were we shown that outsiders are not to be trusted, so eager to deceive and scorn and despise us, naming us demons, monsters, and worse.\n\nOur old home might be lost to us, our people betrayed—but we shall tame this cursed land and make it our own all the same."
+ coalition_holysites_kardawai_red_wastes_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Now with our [Concept('sjalvolki_migration','migration')|E] at an end, we find ourselves lost and betrayed. The rich and bountiful lands promised to us by Cenware were lies, all of them given out to Sjalvolki traitors and their cullies. At the same time, we were left with nought but bare hills bordering [Concept('red_waste_biozone','a desolate wasteland')|E].\n\nBut have we not always sought solitude? Did we not dwell in isolation long before the [frodbrokna|E], since times lost to memory? Time and time again, were we shown that outsiders are not to be trusted, so eager to deceive and scorn and despise us, naming us demons, monsters, and worse.\n\nOur old home might be lost to us, our people betrayed—but we shall tame this cursed land and make it our own all the same."
  coalition_holysites_kardawai_red_wastes_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('governate_aversarian_sarradon').GetName] [region|E]"
  coalition_holysites_kardawai_red_wastes_confirm:0 "This bounty tastes like ash"
 
  # Kakarataki
  ## Eastern Kalathipsomi
  coalition_holysites_kakarataki_eastern_kalathipsomi:0 "Affirm our Faith in Eastern Kalathipsomi"
- coalition_holysites_kakarataki_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin','mountains')|E], primeval [Concept('kalath_old_growth','forests')|E], and alluvial [Concept('pathos_delta','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin_biozone','mountains')|E], primeval [Concept('kalath_old_growth_biozone','forests')|E], and alluvial [Concept('pathos_delta_biozone','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_eastern_kalathipsomi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]"
  coalition_holysites_kakarataki_eastern_kalathipsomi_confirm:0 "A new beginning for our people"
 
  ## Western Kalathipsomi
  coalition_holysites_kakarataki_western_kalathipsomi:0 "Affirm our Faith in Western Kalathipsomi"
- coalition_holysites_kakarataki_western_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in a land of sky-reaching [Concept('kalath_redwoods','trees')|E] interspersed with gentle [Concept('southern_kalath','linns and springs')|E] that heal both the body and the mind.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_western_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in a land of sky-reaching [Concept('kalath_redwoods_biozone','trees')|E] interspersed with gentle [Concept('southern_kalath_biozone','linns and springs')|E] that heal both the body and the mind.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_western_kalathipsomi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_western_kalathipsomi').GetName] [region|E]"
  coalition_holysites_kakarataki_western_kalathipsomi_confirm:0 "A new beginning for our people"
 
  ## Etepezea
  coalition_holysites_kakarataki_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_kakarataki_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea','a rocky land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea_biozone','a rocky land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_kakarataki_etepezea_confirm:0 "A new beginning for our people"
 
  ## Imperial Isle
  coalition_holysites_kakarataki_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_kakarataki_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_kakarataki_imperial_isle_confirm:0 "A new beginning for our people"
 
  ## Malcois
  coalition_holysites_kakarataki_malcois:0 "Affirm our Faith in Malcois"
- coalition_holysites_kakarataki_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois_biozone','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_kakarataki_malcois_confirm:0 "A new beginning for our people"
 
  ## Opakhasia
  coalition_holysites_kakarataki_opakhasia:0 "Affirm our Faith in Opakhasia"
- coalition_holysites_kakarataki_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia_biozone','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_kakarataki_opakhasia_confirm:0 "A new beginning for our people"
 
  ## Aironoi
  coalition_holysites_kakarataki_aironoi:0 "Affirm our Faith in Aironoi"
- coalition_holysites_kakarataki_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_kakarataki_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi_biozone','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe_biozone','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_kakarataki_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_kakarataki_aironoi_confirm:0 "A new beginning for our people"
 
  # Gethian
  ## Eramasic Delta
  coalition_holysites_gethian_eramasic_delta:0 "Affirm our Faith in the Bay of Pathos"
- coalition_holysites_gethian_eramasic_delta_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves on the edge of the surviving world, in [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], on the shores of a gulf rich in fish and bustling with ships.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_eramasic_delta_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves on the edge of the surviving world, in [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], on the shores of a gulf rich in fish and bustling with ships.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_eramasic_delta_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_eramasic_delta').GetName] [region|E]"
  coalition_holysites_gethian_eramasic_delta_confirm:0 "Our journey ends at last"
 
  ## Etepezea
  coalition_holysites_gethian_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_gethian_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea_biozone','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_gethian_etepezea_confirm:0 "A new beginning for our people"
 
  ## Imperial Isle
  coalition_holysites_gethian_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_gethian_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle','away from the mainland')|E] and its familiar mountains, surrounded on all sides by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E] and its familiar mountains, surrounded on all sides by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_gethian_imperial_isle_confirm:0 "A new beginning for our people"
 
  ## Malcois
  coalition_holysites_gethian_malcois:0 "Affirm our Faith in Malcois"
- coalition_holysites_gethian_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('malcois','back under the mountains bosom')|E], in a land inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('malcois_biozone','back under the mountains bosom')|E], in a land inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_gethian_malcois_confirm:0 "A new beginning for our people"
 
  ## Opakhasia
  coalition_holysites_gethian_opakhasia:0 "Affirm our Faith in Opakhasia"
- coalition_holysites_gethian_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia','a fair mountainous land')|E], where steep cliffs and bountiful fells descend onto carved shores, and our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia_biozone','a fair mountainous land')|E], where steep cliffs and bountiful fells descend onto carved shores, and our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_gethian_opakhasia_confirm:0 "A new beginning for our people"
 
  ## Aironoi
  coalition_holysites_gethian_aironoi:0 "Affirm our Faith in Aironoi"
- coalition_holysites_gethian_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi','a strange land')|E] where endless fields and orchards stretch beyond the horizon, and tall mountain ranges eventually give way to [Concept('great_steppe','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_gethian_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi_biozone','a strange land')|E] where endless fields and orchards stretch beyond the horizon, and tall mountain ranges eventually give way to [Concept('great_steppe_biozone','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_gethian_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_gethian_aironoi_confirm:0 "A new beginning for our people"
 
@@ -502,130 +519,130 @@
 
  ## Kepyran Basin
  coalition_holysites_salacad_sulzegg_basin:0 "Affirm our Faith in the Kepyran Basin"
- coalition_holysites_salacad_sulzegg_basin_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('sulzegg_basin','a plentiful mountainous land')|E] rich in game and timber, where our daughters can roam unopposed.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_sulzegg_basin_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('sulzegg_basin_biozone','a plentiful mountainous land')|E] rich in game and timber, where our daughters can roam unopposed.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_sulzegg_basin_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_sulzegg_basin').GetName] [region|E]"
  coalition_holysites_salacad_sulzegg_basin_confirm:0 "A new beginning for our people"
 
  ## Chevalie
  coalition_holysites_salacad_chevalie:0 "Affirm our Faith in Chevalie"
- coalition_holysites_salacad_chevalie_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we have forged our own path and now find ourselves in a land [Concept('ash_war','torn by conflict')|E], in the corner of the known world [Concept('antimagic','known for its lack of magic')|E].\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_chevalie_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we have forged our own path and now find ourselves in a land [Concept('ash_war','torn by conflict')|E], in the corner of the known world [Concept('antimagic','known for its lack of magic')|E].\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_chevalie_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_chevalie').GetName] [region|E]"
  coalition_holysites_salacad_chevalie_confirm:0 "A new beginning for our people"
 
  ## Etepezea
  coalition_holysites_salacad_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_salacad_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea','a rugged, arid land')|E] that slowly ascends towards the majestic mountain peaks of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea_biozone','a rugged, arid land')|E] that slowly ascends towards the majestic mountain peaks of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_salacad_etepezea_confirm:0 "A new beginning for our people"
 
  ## Imperial Isle
  coalition_holysites_salacad_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_salacad_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle','away from the mainland')|E] and its sacred mountain peaks, surrounded on all sides by alien seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E] and its sacred mountain peaks, surrounded on all sides by alien seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_salacad_imperial_isle_confirm:0 "Azure above, Azure below"
 
  ## Malcois
  coalition_holysites_salacad_malcois:0 "Affirm our Faith in Malcois"
- coalition_holysites_salacad_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('malcois','among the deep mountain valleys')|E], in a land inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('malcois_biozone','among the deep mountain valleys')|E], in a land inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_salacad_malcois_confirm:0 "A new beginning for our people"
 
  ## Opakhasia
  coalition_holysites_salacad_opakhasia:0 "Affirm our Faith in Opakhasia"
- coalition_holysites_salacad_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia','a land of jagged coasts and hallowed mountains')|E], where the fair daughters of Sálaza will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_salacad_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia_biozone','a land of jagged coasts and hallowed mountains')|E], where the fair daughters of Sálaza will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_salacad_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_salacad_opakhasia_confirm:0 "A new beginning for our people"
 
  ## Aironoi
  coalition_holysites_salacad_aironoi:0 "Affirm our Faith in Aironoi"
- coalition_holysites_salacad_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we have finally reached the end of our long journey. None are left who remember our old home—even those who can recall the days of Salazsek are now few in number. And yet, the land before us is familiar, for it mirrors our lost homeland—even the masked men, whom we thought lost, dwell here among [Concept('western_aironoi','fertile plains and majestic peaks')|E]. \n\nOur old home might be lost to us, but we shall tame this blessed land and make it our own all the same."
+ coalition_holysites_salacad_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we have finally reached the end of our long journey. None are left who remember our old home—even those who can recall the days of Salazsek are now few in number. And yet, the land before us is familiar, for it mirrors our lost homeland—even the masked men, whom we thought lost, dwell here among [Concept('western_aironoi_biozone','fertile plains and majestic peaks')|E]. \n\nOur old home might be lost to us, but we shall tame this blessed land and make it our own all the same."
  coalition_holysites_salacad_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_salacad_aironoi_confirm:0 "A new beginning for our people"
 
  # Stodherrn
  ## Eastern Kalathipsomi
  coalition_holysites_stodherrn_eastern_kalathipsomi:0 "Affirm our Faith in Eastern Kalathipsomi"
- coalition_holysites_stodherrn_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin','mountains')|E], primeval [Concept('kalath_old_growth','forests')|E], and alluvial [Concept('pathos_delta','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin_biozone','mountains')|E], primeval [Concept('kalath_old_growth_biozone','forests')|E], and alluvial [Concept('pathos_delta_biozone','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_eastern_kalathipsomi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]"
  coalition_holysites_stodherrn_eastern_kalathipsomi_confirm:0 "A new beginning for our people"
 
  ## Knokidbes Valley
  coalition_holysites_stodherrn_knokidbes_valley:0 "Affirm our Faith in the Knokidbes Valley"
- coalition_holysites_stodherrn_knokidbes_valley_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], among the tender forests and vales.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_knokidbes_valley_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('knokidbes_biozone','a rugged land of rivers and mountains')|E], among the tender forests and vales.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_knokidbes_valley_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_knokidbes_valley').GetName] [region|E]"
  coalition_holysites_stodherrn_knokidbes_valley_confirm:0 "A new beginning for our people"
 
  ## Etepezea
  coalition_holysites_stodherrn_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_stodherrn_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea_biozone','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_stodherrn_etepezea_confirm:0 "A new beginning for our people"
 
  ## Imperial Isle
  coalition_holysites_stodherrn_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_stodherrn_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_stodherrn_imperial_isle_confirm:0 "A new beginning for our people"
 
  ## Malcois
  coalition_holysites_stodherrn_malcois:0 "Affirm our Faith in Malcois"
- coalition_holysites_stodherrn_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois_biozone','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_stodherrn_malcois_confirm:0 "A new beginning for our people"
 
  ## Opakhasia
  coalition_holysites_stodherrn_opakhasia:0 "Affirm our Faith in Opakhasia"
- coalition_holysites_stodherrn_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia_biozone','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_stodherrn_opakhasia_confirm:0 "A new beginning for our people"
 
  ## Aironoi
  coalition_holysites_stodherrn_aironoi:0 "Affirm our Faith in Aironoi"
- coalition_holysites_stodherrn_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_stodherrn_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi_biozone','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe_biozone','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_stodherrn_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_stodherrn_aironoi_confirm:0 "A new beginning for our people"
 
  # Apti
  ## Eastern Kalathipsomi
  coalition_holysites_apti_eastern_kalathipsomi:0 "Affirm our Faith in Eastern Kalathipsomi"
- coalition_holysites_apti_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin','mountains')|E], primeval [Concept('kalath_old_growth','forests')|E], and alluvial [Concept('pathos_delta','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_eastern_kalathipsomi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in a plentiful land of tall [Concept('sulzegg_basin_biozone','mountains')|E], primeval [Concept('kalath_old_growth_biozone','forests')|E], and alluvial [Concept('pathos_delta_biozone','rivers')|E] laden with fish and game.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_eastern_kalathipsomi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_eastern_kalathipsomi').GetName] [region|E]"
  coalition_holysites_apti_eastern_kalathipsomi_confirm:0 "A new beginning for our people"
 
  ## Etepezea
  coalition_holysites_apti_etepezea:0 "Affirm our Faith in Etepezea"
- coalition_holysites_apti_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_etepezea_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('etepezea_biozone','an arid land full of monumental ruins')|E], the likes of which our people have never seen before.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_etepezea_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_etepezea').GetName] [region|E]"
  coalition_holysites_apti_etepezea_confirm:0 "A new beginning for our people"
 
  ## Imperial Isle
  coalition_holysites_apti_imperial_isle:0 "Affirm our Faith on the Imperial Isle"
- coalition_holysites_apti_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_imperial_isle_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves [Concept('imperial_isle_biozone','away from the mainland')|E], surrounded by the blue seas and islands beyond count.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_imperial_isle_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_imperial_isle').GetName] [region|E]"
  coalition_holysites_apti_imperial_isle_confirm:0 "A new beginning for our people"
 
  ## Malcois
  coalition_holysites_apti_malcois:0 "Affirm our Faith in Malcois"
- coalition_holysites_apti_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_malcois_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('malcois_biozone','a rugged land')|E] of rolling hills and deep mountain valleys, inhabited by a hardy and fierce people who abhor slavery.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_malcois_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_malcois').GetName] [region|E]"
  coalition_holysites_apti_malcois_confirm:0 "A new beginning for our people"
 
  ## Opakhasia
  coalition_holysites_apti_opakhasia:0 "Affirm our Faith in Opakhasia"
- coalition_holysites_apti_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_opakhasia_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_opakhasia_biozone','a land carved by jagged coasts and mild fells')|E], where our people will live without want.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_opakhasia_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_opakhasia').GetName] [region|E]"
  coalition_holysites_apti_opakhasia_confirm:0 "A new beginning for our people"
 
  ## Aironoi
  coalition_holysites_apti_aironoi:0 "Affirm our Faith in Aironoi"
- coalition_holysites_apti_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [fog|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
+ coalition_holysites_apti_aironoi_desc:0 "Many a year has passed since we left our homelands, escaping the encroaching [Concept('the_fog','Fog')|E]. Having travelled through strife and hardship, we now find ourselves in [Concept('western_aironoi_biozone','a strange land')|E] where endless fields and orchards stretch beyond the horizon, eventually giving way to [Concept('great_steppe_biozone','the harsh steppes')|E] of the interior.\n\nOur old home might be lost to us, but we shall tame this land and make it our own all the same."
  coalition_holysites_apti_aironoi_tooltip:0 "Your [realm|E] has at least one [county|E] in the [GetGeographicalRegion('custom_holysite_migration_aironoi').GetName] [region|E]"
  coalition_holysites_apti_aironoi_confirm:0 "A new beginning for our people"
 
  # Northern Oltenic 
  ## Kashirya
  coalition_holysites_ebohephai_olten_kashirya:0 "Affirm our Faith in Otached's Lands"
- coalition_holysites_ebohephai_olten_kashirya_desc:0 "Long ago, our southern brethren [Concept('otachedian_empire','settled')|E] in these [Concept('kashirya','lands')|E]. Now, with the [fog|E] spreading far and wide across our home, we must do the same, to ensure the survival of our ways in these strange lands."
+ coalition_holysites_ebohephai_olten_kashirya_desc:0 "Long ago, our southern brethren [Concept('otachedian_empire','settled')|E] in these [Concept('kashirya','lands')|E]. Now, with the [Concept('the_fog','Fog')|E] spreading far and wide across our home, we must do the same, to ensure the survival of our ways in these strange lands."
  coalition_holysites_ebohephai_olten_kashirya_tooltip:0 "Your [realm|E] has at least one [county|e] in the [GetGeographicalRegion('custom_holysite_migration_kashirya').GetName] [region|E]"
  coalition_holysites_ebohephai_olten_kashirya_confirm:0 "A new beginning for our people"
 
@@ -636,16 +653,16 @@
  revive_ertomax_kingdom_decision:0 "The Return of Aryvann Vos"
  revive_ertomax_kingdom_decision_tooltip:0 "Declare the kingdom of [ertomax|E] restored"
  revive_ertomax_kingdom_decision_desc:0 "The ancient kingdom of Aryvann Vos has been lost to our people since [ertomax|E], but it is not yet beyond restoration. If I were to pull together the heartlands beneath my banner, none could deny the return of the realm of Ertomax to the face of Aironoi."
- revive_ertomax_kingdom_decision_confirm:0 "Restore the kingdom of [ertomax|E]"
+ revive_ertomax_kingdom_decision_confirm:0 "The kingdom of Ertomax, restored!"
  revive_ertomax_kingdom_decision_tt:0 "Become the ruler of Aryvann Vos"
- anaanide_purification_decision:0 "Take a Step of Purification"
- anaanide_purification_decision_desc:0 "To reach the holy land of Anaan, I must purify myself of sin. It is time to take the next step in this long journey."
- anaanide_purification_decision_tooltip:0 "You take a step of purification to purify your soul."
- anaanide_purification_decision_confirm:0 "Begin the Preparations!"
- anaanide_final_step_decision:0 "Take the Final Step to Anaan"
- anaanide_final_step_decision_desc:0 "My efforts to cleanse myself through meditation and prayer culminated in my soul being pure of sin. At long last, it is time to take the final step to Anaan and face the Great Judge."
- anaanide_final_step_decision_tooltip:0 "You take the final step in the journey to Anaan."
- anaanide_final_step_decision_confirm:0 "It is time to end this long journey."
+ anaanides_purification_decision:0 "Take a Step of Purification"
+ anaanides_purification_decision_desc:0 "To reach the holy land of Anaan, I must purify myself of sin. It is time to take the next step in this long journey."
+ anaanides_purification_decision_tooltip:0 "You take a step of purification to purify your soul."
+ anaanides_purification_decision_confirm:0 "Begin the Preparations!"
+ anaanides_final_step_decision:0 "Take the Final Step to Anaan"
+ anaanides_final_step_decision_desc:0 "My efforts to cleanse myself through meditation and prayer culminated in my soul being pure of sin. At long last, it is time to take the final step to Anaan and face the Great Judge."
+ anaanides_final_step_decision_tooltip:0 "You take the final step in the journey to Anaan."
+ anaanides_final_step_decision_confirm:0 "It is time to end this long journey."
  anaan_ascension_desc:0 "Zealot ascended to Anaan"
  eloi_reclaimed_desc:0 "Eloi has been reclaimed"
  alau_koev_flame_festival_decision:0 "Celebrate Alau Pyesali"
@@ -658,9 +675,9 @@
  gh_debase_currency_decision_2_tooltip:0 "Sacrifice a large amount of [prestige|E] in return for an instant influx of gold."
  gh_debase_currency_decision_4:0 "Debase Currency"
  new_eastern_empire:0 "Form a New Empire in the East"
- new_eastern_empire_desc:0 "With our powerbase well established, and the crises of the past now behind us, we can finally look to establish a proper [aversarians|E] Empire in the East. Asuipol was the capital of the old Empire for a long time, and it shall be again. It is time for a new state to rise from the Ashes and reclaim our birthright! Hail Aautokratia Hecaeda!"
+ new_eastern_empire_desc:0 "With our powerbase well established, and the crises of the past now behind us, we can finally look to establish a proper [Concept('aversaria','Aversarians')|E] Empire in the East. Asuipol was the capital of the old Empire for a long time, and it shall be again. It is time for a new state to rise from the Ashes and reclaim our birthright! Hail Aautokratia Hecaeda!"
  new_eastern_empire_confirm:0 "Establish the new state"
- new_eastern_empire_tooltip:0 "It is time to form a new [aversarians|E] Empire in the East."
+ new_eastern_empire_tooltip:0 "It is time to form a new [Concept('aversaria','Aversarians')|E] Empire in the East."
  legio_xcv_reborn:0 "Reform the Legio XCV Viesuados"
  legio_xcv_reborn_desc:0 "With the rebels firmly crushed, and the troubles of our past defeated, we can now begin to build anew, and bring glory back to our legion."
  legio_xcv_reborn_confirm:0 "Reform the Legion"
@@ -828,8 +845,8 @@
  claim_the_isles_decision_tooltip:0 "Stake your claim for the Shattered Isles"
  claim_the_isles_decision_confirm:0 "Claim the Isles"
 
- isles_retribution_war_decision:0 "Islander Sovreignty"
- isles_retribution_war_decision_desc:0 "For too long continentals have encroached upon the salt—battered shores of our home, taking what is rightfully ours. We must put an end to it, and kick them back into the sea."
+ isles_retribution_war_decision:0 "Islander Sovereignty"
+ isles_retribution_war_decision_desc:0 "For too long the continentals have encroached upon the salt—battered shores of our home, taking what is rightfully ours. We must put an end to it, and kick them back into the sea."
  isles_retribution_war_decision_tooltip:0 "Defend the Isles"
  isles_retribution_war_decision_confirm:0 "Retribution!"
  islander_warriors:0 "Islander Warriors"
@@ -838,7 +855,7 @@
  isles_retribution_war_tt:0 "More than 25% of the [GetGeographicalRegion('world_ga_isles').GetName] must be controlled by a non-[Concept('shatteredisles','Islander')|E]"
 
  hire_protoshliti_warrior_decision:0 "Hire a Warrior from the Protoshliti"
- hire_protoshliti_warrior_decision_desc:0 "The Protoshliti is famous for providing the [aversarian|E] legions with skilled and able soldiers. Now that the Champion Grounds have resumed its operations, perhaps I can procure one of these talented warriors to serve at my Court."
+ hire_protoshliti_warrior_decision_desc:0 "The Protoshliti is famous for providing the [Concept('aversaria','Aversarian')|E] legions with skilled and able soldiers. Now that the Champion Grounds have resumed its operations, perhaps I can procure one of these talented warriors to serve at my Court."
  hire_protoshliti_warrior_decision_tooltip:0 "You will be presented with a group of Protoshliti-trained warriors and may hire one of them for a fee"
  hire_protoshliti_warrior_decision_effect_tooltip:0 "You will look for a Protoshliti-trained warrior to join your Court"
  hire_protoshliti_warrior_decision_confirm:0 "Pay a visit to the Protoshliti"
@@ -858,6 +875,21 @@
  hire_aironoiakaan_magi_decision_confirm:0 "Send an emissary"
  hire_aironoiakaan_magi_decision_desc_tooltip:0 "You will attempt to hire a Aironoiakaan-trained [magi|E]"
 
+ summon_disciple_from_the_burning_temple_decision:90 "Seek a Disciple from the Fire Temple of Korlacu"
+ summon_disciple_from_the_burning_temple_decision_desc:90 "It is time to summoned forth an initiate worthy enough to be my disciple and advise me at court.."
+ summon_disciple_from_the_burning_temple_decision_sel_tooltip:90 "You will be presented with a group of possible candidates to pick your Court [magi|E] from."
+ summon_disciple_from_the_burning_temple_decision_tooltip:90 "You will be presented with a group of possible candidates to choose from"
+ summon_disciple_from_the_burning_temple_quality_tooltip:90 "The quality of the candidates will depend on your [piety|E] level"
+ summon_disciple_from_the_burning_temple_decision_confirm:90 "Send the messenger."
+
+ request_heir_from_the_grove_decision:90 "Seek a Disciple from the Sacred Grove"
+ request_heir_from_the_grove_decision_desc:90 "It is time to summon forth an initiate worthy enough to be my disciple."
+ request_heir_from_the_grove_decision_tooltip:90 "As the High Sepattan, you will be presented with a group of possible candidates to pick your [heir|E] from."
+ request_heir_from_the_grove_decision_quality_tooltip:90 "The quality of the candidates will depend on your [piety|E] level"
+ request_heir_from_the_grove_decision_confirm:90 "Send the messenger"
+ request_magi_from_the_grove_decision_tooltip:90 "You will be presented with a group of possible candidates to pick your Court [magi|E] from."
+ request_magi_from_the_grove_decision_quality_tooltip:90 "The quality of the candidates will depend on your [piety|E] level."
+
  request_heir_from_the_pit_decision:90 "Seek a Disciple from the Pit"
  request_heir_from_the_pit_decision_desc:90 "From whence we come and to where we all return—the Pit is the beginning and the end of all things, the caress of the true gods beyond [aeras|E], and the place where flesh and ichor are joined into black blood. It is from there that I shall call forth an initiate worthy to be my disciple."
  request_heir_from_the_pit_decision_tooltip:90 "You will be presented with a group of [GetTrait('gh_blackspawn_1').GetName( GetNullCharacter )] candidates to pick your [heir|E] from"
@@ -874,3 +906,49 @@
  gh_divine_mission_decision_tt:90 "The gods shall commune with you once the mission is complete"
  gh_divine_mission_decision_tooltip:90 "Track the progress of the assigned mission"
  gh_divine_mission_decision_confirm:90 "Masters' will be done"
+
+ # Dahangon
+ gh_restore_bronzeport_bureaucracy_decision:89 "Restore the Bureaucracy of the Bronzeport"
+ gh_restore_bronzeport_bureaucracy_decision_desc:89 "The High Ministers of the [Concept('bureau_bronzeport','Bronzeport')|E] have always been elected by the merchants and officials of the Bureau. To do otherwise is in direct contravention of the esteemed and most noble charter of the Heaven-Ordained Semi-Autonomous Bureau of the Bronzeport."
+ gh_restore_bronzeport_bureaucracy_decision_tooltip:89 "Restores the Bronzeport's government into a republic."
+ gh_restore_bronzeport_bureaucracy_decision_confirm:89 "The Bronzeport shall belong to the people once more!"
+
+ restored_bronzeport_modifier:89 "Restored Bronzeport Bureaucracy"
+ restored_bronzeport_modifier_desc:89 "The restoration of the Bronzeport's bureaucracy has resulted in a temporary boost in trade."
+ bronzeport_restorer_modifier:89 "Restorer of the Bureau"
+ bronzeport_restorer_modifier_desc:89 "This character has restored the Bronzeport's bureaucracy, earning the love of his republic vassals."
+
+ establish_southsea_protectorate.t:0 "Establish the Protectorate of the Southsea"
+ establish_southsea_protectorate_decision_desc:0 "The southern seas of Dahangon have long been beyond the grasp of the Empire. No more."
+ establish_southsea_protectorate_decision_tooltip:0 "Establish a new Protectorate in the southern seas."
+ establish_southsea_protectorate_decision_confirm:0 "The Seas are Ours to Rule!"
+
+ gh_kedari_magocracy.t:0 "Convene the Rite of Marks"
+ gh_kedari_magocracy_decision_desc:0 "For too long have the best of us stood alone in the shadows. It is high time that we convene to unearth the great marks lost to our people."
+ gh_kedari_magocracy_decision_tooltip:0 "Change your government into a magocracy."
+ gh_kedari_magocracy_decision_confirm:0 "To a new age of magic!"
+
+ reclaim_naklans_legacy.t:0 "Reclaim Naklan's Legacy"
+ reclaim_naklans_legacy_decision_desc:0 "The greatest of our leaders have oft claimed to be reincarnations of [naklan_the_golden|E]. For our people know that even in death, power does not fade, but instead waits for an opportunity to return to its rightful wielder."
+ reclaim_naklans_legacy_decision_tooltip:0 "Announce to the world your claim of being Naklan Reborn"
+ reclaim_naklans_legacy_decision_confirm:0 "I have returned!"
+ reclaim_naklans_legacy_capital_tt:0 "Our capital is located at [GetTitleByKey('c_shadowflats').GetNameNoTier]"
+
+ achieve_dayas_dream.t:0 "Achieve Daya's Dream"
+ achieve_dayas_dream_decision_desc:0 "[nari_daya|E], the Mother of Us All, had been denied her queenship by weak and unworthy men. The time has come to correct this injustice."
+ achieve_dayas_dream_decision_tooltip:0 "Achieve Nari Daya's dream, and sing her legend to the stars."
+ achieve_dayas_dream_decision_confirm:0 "Our Thorns Shall Never Break!"
+
+ create_aversaria_anastereias_decision.t: "Form Aversaria Anastereias"
+ create_aversaria_anastereias_decision_desc: "[Concept('aversaria', 'Aversaria’s')|E] ashes settle into [aeras|E], and our once proclaimed 'pure' blood mixes with the people of [kasiryat_biozone|E]. The time has come to decide: do we cling to tradition, imposing a new order in attempts to supplant the Aautokrata, or do we let it go? Should we embrace the cultures of our new neighbors and subjects, and create something new?" 
+ create_aversaria_anastereias_decision_tooltip: "Form a new [Concept('aversaria', 'Aversarian')|E] empire on the shores of Kasiryat"
+ create_aversaria_anastereias_decision_confirm: "Let us decide our new destiny!"
+ create_aversaria_anastereias_generic_effect_tooltip: "You will create [GetTitleByKey('e_aversaria_anastereias').GetNameNoTier] and be given a choice between integrating with the peoples of the Kasiryat and subjugating them"
+ create_aversaria_anastereias_decision_hybridization_tooltip: "If you choose to integrate and [completely_control_region|E] the [kingdoms|E] of [GetTitleByKey('k_dartar').GetNameNoTier], [GetTitleByKey('k_hyratan').GetNameNoTier], [GetTitleByKey('k_taleshtadendar').GetNameNoTier], and [GetTitleByKey('k_kasharya').GetNameNoTier], as well as the [duchies|E] of [GetTitleByKey('d_taliron').GetNameNoTier], [GetTitleByKey('d_batset').GetNameNoTier], and [GetTitleByKey('d_detbora').GetNameNoTier], they will become a [de_jure|E] part of the new [empire|E]"
+ create_aversaria_anastereias_decision_traditionalist_tooltip: "If you choose to subjugate and [completely_control_region|E] the [duchies|E] of [GetTitleByKey('d_taliron').GetNameNoTier] and [GetTitleByKey('d_bazauuk').GetNameNoTier], they will become a [de_jure|E] part of the new [empire|E]"
+
+ solidify_aversaria_anastereias_decision.t: "Solidify Aversaria Anasterias"
+ solidify_aversaria_anastereias_decision_desc: "While we claimed the whole of [kasiryat_biozone|E] at the inception of our Aautokrata, many along the river still spurn our authority. Yet with these recalcitrant lands now under our control we can render our claim unassailable in truth as well as it is on paper."
+ solidify_aversaria_anastereias_decision_tooltip: "Expand the [de_jure|E] borders of the new empire"
+ solidify_aversaria_anastereias_decision_confirm: "Let None Renounce Our Claim"
+ solidify_aversaria_anastereias_effect_tooltip: "All of the optional [titles|E] not claimed in the original decision will become a [de_jure|E] part of [GetTitleByKey('e_aversaria_anastereias').GetNameNoTier]"

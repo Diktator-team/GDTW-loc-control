@@ -2,7 +2,7 @@
 
  oulaupi_religion:0 "Oulaupi"
  oulaupi_religion_adj:0 "Oulaupi"
- oulaupi_religion_adjerent:0 "Oulaupia"
+ oulaupi_religion_adherent:0 "Oulaupia"
  oulaupi_religion_adherent_plural:0 "Oulaupiia"
  oulaupi_religion_desc:0 "The Oulaupi believe that the eight highest peaks of the Northern Mountains represent the eight gods and their heavens, and consider scaling them to be the supreme act of devotion."
  oulaupi_high_god_name:0 "Nauvreg"
@@ -10,7 +10,9 @@
  oulaupi_high_god_name_alternate:0 "The Most High"
  oulaupi_high_god_name_alternate_possessive:0 "The Most High's"
  oulaupi_devil_name:0 "Blaurun"
+ oulaupi_devil_name_alternate:0 "$oulaupi_devil_name$"
  oulaupi_devil_name_possessive:0 "Blaurun's"
+ oulaupi_devil_name_alternate_possessive:0 "$oulaupi_devil_name_possessive$"
  oulaupi_death_deity_name:0 "$oulaupi_devil_name$"
  oulaupi_death_deity_name_possessive:0 "$oulaupi_devil_name_possessive$"
 
@@ -86,7 +88,9 @@
  cosnaupi_high_god_name_alternate:0 "The Most High"
  cosnaupi_high_god_name_alternate_possessive:0 "The Most High's"
  cosnaupi_devil_name:0 "Blaurun"
+ cosnaupi_devil_name_alternate:0 "$cosnaupi_devil_name$"
  cosnaupi_devil_name_possessive:0 "Blaurun's"
+ cosnaupi_devil_name_alternate_possessive:0 "$cosnaupi_devil_name_possessive$"
  cosnaupi_death_deity_name:0 "$cosnaupi_high_god_name$"
  cosnaupi_death_deity_name_possessive:0 "$cosnaupi_high_god_name_possessive$"
 

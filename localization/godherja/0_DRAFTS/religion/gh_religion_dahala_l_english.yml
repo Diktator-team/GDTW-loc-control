@@ -10,7 +10,9 @@
  dahala_high_god_name_alternate:0 "The Source"
  dahala_high_god_name_alternate_possessive:0 "The Source's"
  dahala_devil_name:0 "Datal"
+ dahala_devil_name_alternate:0 "$dahala_devil_name$"
  dahala_devil_name_possessive:0 "Datal's"
+ dahala_devil_name_alternate_possessive:0 "$dahala_devil_name_possessive$"
  dahala_death_deity_name:0 "$dahala_devil_name$"
  dahala_death_deity_name_possessive:0 "$dahala_devil_name_possessive$"
 

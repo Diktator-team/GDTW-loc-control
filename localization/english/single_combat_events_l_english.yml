@@ -22,6 +22,9 @@
  single_combat.0001.duel_success.medium:0 "#difficulty_medium MEDIUM#! increase to your [single_combat_success_chance|E]"
  single_combat.0001.duel_success.high:0 "#difficulty_easy HIGH#! increase to your [single_combat_success_chance|E]"
  single_combat.0001.duel_success.very_high:0 "#difficulty_easy VERY HIGH#! increase to your [single_combat_success_chance|E]"
+ # GH ADDITIONS: Additional Success Increase Level Tooltips
+ single_combat.0001.duel_success.epic:0 "#difficulty_easy EPIC#! increase to your [single_combat_success_chance|E]"
+ single_combat.0001.duel_success.legendary:0 "#difficulty_easy LEGENDARY#! increase to your [single_combat_success_chance|E]"
 
  ## Own Injury Risk Increase Tooltips
  single_combat.0001.injury.none:0 "#difficulty_easy NO#! increase to your [single_combat_injury_chance|E]"
@@ -29,6 +32,9 @@
  single_combat.0001.injury.medium:0 "#difficulty_medium MEDIUM#! increase to your [single_combat_injury_chance|E]"
  single_combat.0001.injury.high:0 "#difficulty_hard HIGH#! increase to your [single_combat_injury_chance|E]"
  single_combat.0001.injury.very_high:0 "#difficulty_hard VERY HIGH#! increase to your [single_combat_injury_chance|E]"
+ # GH ADDITIONS: Injury Risk Increase Level Tooltips
+ single_combat.0001.injury.epic:0 "#difficulty_hard EPIC#! increase to your [single_combat_injury_chance|E]"
+ single_combat.0001.injury.legendary:0 "#difficulty_hard LEGENDARY#! increase to your [single_combat_injury_chance|E]"
 
  ## Opponent Duel Success Increase Tooltips
  single_combat.0001.duel_success.none.has_happened:0 "#difficulty_hard NO#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
@@ -36,6 +42,9 @@
  single_combat.0001.duel_success.medium.has_happened:0 "#difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
  single_combat.0001.duel_success.high.has_happened:0 "#difficulty_easy HIGH#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
  single_combat.0001.duel_success.very_high.has_happened:0 "#difficulty_easy VERY HIGH#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
+ # GH ADDITIONS: Additional Success Increase Level Tooltips
+ single_combat.0001.duel_success.epic.has_happened:0 "#difficulty_easy EPIC#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
+ single_combat.0001.duel_success.legendary.has_happened:0 "#difficulty_easy LEGENDARY#! increase to [my_foe.GetHerHis] [single_combat_success_chance|E]"
 
  ## Opponent Injury Risk Increase Tooltips
  single_combat.0001.injury.none.has_happened:0 "#difficulty_easy NO#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
@@ -43,6 +52,9 @@
  single_combat.0001.injury.medium.has_happened:0 "#difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
  single_combat.0001.injury.high.has_happened:0 "#difficulty_hard HIGH#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
  single_combat.0001.injury.very_high.has_happened:0 "#difficulty_hard VERY HIGH#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
+ # GH ADDITIONS: Opponent Injury Risk Increase Level Tooltips
+ single_combat.0001.injury.epic.has_happened:0 "#difficulty_hard EPIC#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
+ single_combat.0001.injury.legendary.has_happened:0 "#difficulty_hard LEGENDARY#! increase to [my_foe.GetHerHis] [single_combat_injury_chance|E]"
 
  ## Duel Edge Overflow Tooltips
  single_combat.0001.tt.maximum_buff_reached:0 "Maximum [single_combat_prowess_bonus|E] reached"
@@ -143,6 +155,9 @@
  single_combat.0001.hurt_me_better:1 "#EMP Mmmmm#!, you think #EMP that#! hurts? I'll show you pain!"
  single_combat.0001.special_fallback:0 "To the floor with you!"
  single_combat.0001.something_to_hide:0 "Have you forgotten your #EMP debt#! to me, [my_foe.GetFirstNameNoTooltip]?"
+ ## GH ADDITIONS: GH-combat moves
+ single_combat.0001.magic:90 "Feel the arcane wrath of #underline [myself.MakeScope.Var('event_option_displayed_spell').Story.Custom('SpellName')]#!!"
+ single_combat.0001.magic.combat_pyromantics:90 "I'll burn you to a crisp!"
 
  ## Combat Move Option Tooltips
  single_combat.0001.tt.wait_and_hope:0 "#BOL Wait & Hope:#! you stay still, patiently hoping that [my_foe.GetFirstNameNoTooltip] just makes a mistake"
@@ -186,6 +201,8 @@
  single_combat.0001.tt.hurt_me_better:0 "#BOL Fueled by Pain:#! relishing the pain, you lean in to [my_foe.GetFirstNamePossessiveNoTooltip] attacks for advantage"
  single_combat.0001.tt.special_fallback:0 "#BOL Unstable Foundations:#! you kick [my_foe.GetFirstNameNoTooltip] in the shin"
  single_combat.0001.tt.something_to_hide:0 "#BOL Something to Hide:#! you remind your opponent of the [hook|E] you hold over [my_foe.GetHerHim]"
+ ## GH ADDITIONS: GH-combat moves
+ single_combat.0001.tt.magic:90 "#BOL Spellcasting:#! you cast #underline [myself.MakeScope.Var('event_option_displayed_spell').Story.Custom('SpellName')]#! at a [myself.Custom('CantripOvercharge')] skill level!"
 
  ##################################################
  # Combat Descs
@@ -233,7 +250,12 @@
  single_combat.0001.desc.my_feedback.hurt_me_better:0 "Nothing quite gets the blood pumping like the sting of sweet agony, and no one understands pain quite like I do. Fueled by my wounds, I rush [my_foe.GetFirstNameNoTooltip], unleashing a barrage of savage, [myself.Custom('SignatureWeaponAttemptedLightPlural')] with my [myself.Custom('signature_weapon')]."
  single_combat.0001.desc.my_feedback.special_fallback:0 "Spotting a moment of opportunity, I deliver a fierce kick, right at [my_foe.GetFirstNamePossessiveNoTooltip] shin, nearly hobbling [my_foe.GetHerHim]."
  single_combat.0001.desc.my_feedback.something_to_hide:0 "For a moment, [my_foe.GetFirstNameNoTooltip] is still. Then, something seems to click in [my_foe.GetHerHis] head, and [my_foe.GetHerHis] body flags noticeably at the weight of remembering my hold over [my_foe.GetHerHim]."
-
+ ## GH ADDITIONS: GH-combat moves
+ single_combat.0001.desc.my_feedback.magic:90 "Taking advantage of a pause in [my_foe.GetFirstNamePossessiveNoTooltip] attacks, I weave my magics and perform the required incantations for casting [GetPlayer.MakeScope.Var('previously_casted_combat_spell').Story.Custom('SpellName')]."
+ single_combat.0001.desc.my_feedback.magic.combat_pyromantics.novice:90 "After creating some distance between us, I begin to form a fiery projectile in my hands, but in the thick of combat I find it difficult to focus; the fireball fizzles out numerous times before I successfully cast the spell, and my opponent easily avoids the poorly formed mass of fire that I lob at [my_foe.GetHerHim]."
+ single_combat.0001.desc.my_feedback.magic.combat_pyromantics.skilled:90 "I unleash a rapid volley of fireballs at my opponent, forcing [my_foe.GetHerHim] to frantically duck out of the way."
+ single_combat.0001.desc.my_feedback.magic.combat_pyromantics.expert:90 "I unleash a rapid volley of fireballs at my opponent, forcing [my_foe.GetHerHim] to frantically duck out of the way."
+ 
  ## Opponent Combat Move Feedback
  single_combat.0001.desc.opponent_response.wait_and_hope:1 "[my_foe.GetFirstNameNoTooltip] stays stock-still, seemingly hoping I'll just throw down my [myself.Custom('signature_weapon')]."
  single_combat.0001.desc.opponent_response.unsure_attack:0 "[my_foe.GetFirstNameNoTooltip] tries, hesitantly, to launch a [myself.Custom('SignatureWeaponAttemptedLight')] at me, but the blow is easily swatted away."
@@ -279,6 +301,11 @@
  single_combat.0001.desc.opponent_response.hurt_me_better:0 "A trickle of blood flows down from [my_foe.GetFirstNamePossessiveNoTooltip] scalp; where it meets [my_foe.GetHerHis] upper lip, [my_foe.GetSheHe] licks it away, smiling devilishly."
  single_combat.0001.desc.opponent_response.special_fallback:0 "Unexpectedly, [my_foe.GetFirstNameNoTooltip] manages to swing a vicious kick for my shin, momentarily hobbling me."
  single_combat.0001.desc.opponent_response.something_to_hide:0 ""Have you forgotten your #EMP debt#! to me, [myself.GetFirstNameNoTooltip]?", smiles [my_foe.GetFirstNameNoTooltip]. When I realize what [my_foe.GetSheHe]'s talking about, my shoulders sag."
+ ## GH ADDITIONS: GH-combat moves
+ single_combat.0001.desc.opponent_response.magic:90 "[my_foe.GetFirstNameNoTooltip] weaves intricate gestures with their hands, invoking the words of [my_foe.MakeScope.Var('previously_casted_combat_spell').Story.Custom('SpellName')]."
+ single_combat.0001.desc.opponent_response.magic.combat_pyromantics.novice:90 "[my_foe.GetFirstNameNoTooltip] casts a ball of fire at me, but their magic is sloppy and rushed, and it is not difficult for me to step out of its way."
+ single_combat.0001.desc.opponent_response.magic.combat_pyromantics.skilled:90 "[my_foe.GetFirstNameNoTooltip] deftly launches a volley of fireballs in my direction, sometimes giving me only a scant few moments to evade a fiery death."
+ single_combat.0001.desc.opponent_response.magic.combat_pyromantics.expert:90 "[my_foe.GetFirstNameNoTooltip] bombards me with an unstoppable onslaught of pyromantics, massive bolides being thrown at me with incredible speed and power."
 
  ##################################################
  # Outcome Event: Loser
@@ -932,3 +959,11 @@
 
  debug_log.single_combat_setup.attacker_and_defender_same_person: "Attempted to fire a duel where the attacker and the defender are the same person; this needs to be filtered out in the content setting up the duel or else it can cause crashes. Scopes logged to debug.log under "$debug_log.single_combat_setup.attacker_and_defender_same_person.notice$"."
  debug_log.single_combat_setup.attacker_and_defender_same_person.notice: "Single Combat Too Single"
+
+ #################################################
+ # GH ADDITIONS: Custom loc 
+ 
+ cantrip_overcharge_epic:0 "#BOL Epic#!"
+ cantrip_overcharge_expert:0 "#BOL Expert#!"
+ cantrip_overcharge_competent:0 "#BOL Competent#!"
+ cantrip_overcharge_none:0 "#BOL Amateurish#!"

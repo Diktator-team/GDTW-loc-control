@@ -54,15 +54,15 @@
  artifact_votive_figure_name:0 "$artifact_name_prefix$ Aversarian Votive Figure"
  artifact_votive_figure_description:1 "An Aversarian sculpture of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made out of [newly_created_artifact.GetFeatureText( 'votive_material' )] and is [newly_created_artifact.GetFeatureText( 'votive_carving' )].\n\n$artifact_votive_figure_explanation$ $artifact_votive_figure_age$"
  artifact_votive_figure_explanation:0 "Aversarians have long produced votive figures that were offered to sacred places across [aversaria|E]. Many depict the Aautokratirs, but other famous or powerful Aversarians are not uncommon."
- artifact_votive_figure_age:0 "This [newly_created_artifact.GetFeatureText( 'votive_characteristic' )] sample was likely made around the year [owner.MakeScope.Var('votive_age').GetValue|0]."
+ artifact_votive_figure_age:0 "This [newly_created_artifact.GetFeatureText( 'votive_characteristic' )]sample was likely made around the year [owner.MakeScope.Var('votive_age').GetValue|0]."
 
 ## Coins ##
  artifact_commemorative_coin_name:0 "$artifact_name_prefix$ Commemorative Coin"
  artifact_commemorative_coin_description:1 "A commemorative coin of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It was [newly_created_artifact.GetFeatureText( 'coin_issue' )], and [newly_created_artifact.GetFeatureText( 'coin_decoration' )].\n\n$artifact_commemorative_coin_explanation$ $artifact_commemorative_coin_age$"
  artifact_commemorative_coin_explanation:0 "Commemorative coins have been issued across [aversaria|E] and [chevalie|E] to commemorate special events or moments throughout history."
- artifact_commemorative_coin_age:0 "This [newly_created_artifact.GetFeatureText( 'coin_characteristic' )] sample was likely made around the year [owner.MakeScope.Var('coin_age').GetValue|0]."
+ artifact_commemorative_coin_age:0 "This [newly_created_artifact.GetFeatureText( 'coin_characteristic' )]sample was likely made around the year [owner.MakeScope.Var('coin_age').GetValue|0]."
 
- feature_coin_issue_karthraddi:0 "issued in memory of the [kartharaddi|E] wars"
+ feature_coin_issue_karthraddi:0 "issued in memory of the [Concept('kartharadd','Kartharaddi')|E] wars"
  feature_coin_issue_jan:0 "issued in remembrance of Jan va Gisredde, surrounded by livestock"
  feature_coin_issue_printed:0 "issued by the Bank of [peti_gisredde|E]"
  feature_coin_issue_hero:0 "issued in honor of the [champion_of_chevalie|E]"

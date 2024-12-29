@@ -2,7 +2,7 @@
 #masaagnite Loc
  masaagnite_religion:0 "Masaagnism"
  masaagnite_religion_adj:0 "Masaagnite"
- masaagnite_religion_adjerent:0 "Masaagnite"
+ masaagnite_religion_adherent:0 "Masaagnite"
  masaagnite_religion_adherent_plural:0 "Masaagnite"
  masaagnite_religion_desc:0 "The ancient temples of Rojihlat Mara have long confounded those who have become lost enough to stumble upon them, but to the Masaagnites the crumbling ruins represent the houses of the gods and the remains of a once glorious age they presided over. Masaagnites believe it is their duty to satisfy their pantheon with endless sacrifice, high upon the altars they once called home, for if they do not the gods will instead swallow the universe itself. Believing that the gods were tricked by the evil spirit Korromesh to eat hunger itself, those who do not provide enough tribute are believed to be devoured by the great maws of the deities themselves, but for those who do, an eternity of feasting and celebration awaits."
  masaagnite_high_god_name:0 "Vosharaa"
@@ -10,7 +10,9 @@
  masaagnite_high_god_name_alternate:0 "The Great Devourer"
  masaagnite_high_god_name_alternate_possessive:0 "The Great Devourers'"
  masaagnite_devil_name:0 "Korromesh"
+ masaagnite_devil_name_alternate:0 "$masaagnite_devil_name$"
  masaagnite_devil_name_possessive:0 "Korromesh's"
+ masaagnite_devil_name_alternate_possessive:0 "$masaagnite_devil_name_possessive$"
  masaagnite_death_deity_name:0 "Arganovaa"
  masaagnite_death_deity_name_possessive:0 "Arganovaa's"
 

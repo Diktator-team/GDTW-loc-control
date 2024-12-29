@@ -38,7 +38,7 @@
  bloodline_phanagorax_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_phanagorax_bastards:0 "yes" # do bastards inherit? yes/no
  bloodline_phanagorax_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_phanagorax_desc:0 "Despite being highly controversial during his life, Phanago'rax was deified in later [aversarian|E] scriptures as the founder of the modern Aagiokrata."
+ bloodline_phanagorax_desc:0 "Despite being highly controversial during his life, Phanago'rax was deified in later [Concept('aversaria','Aversarian')|E] scriptures as the founder of the modern Aagiokrata."
 
  trait_bloodline_dhacixen:0 "Blood of Dhacï'xen"
  bloodline_dhacixen_inherit:0 "patri" # inheritance all, matri, patri
@@ -66,7 +66,7 @@
  bloodline_nothyx_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_nothyx_bastards:0 "yes" # do bastards inherit? yes/no
  bloodline_nothyx_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_nothyx_desc:0 "Nothyx was the first Aautokratir to emerge victorious in a Blood Senate with no magic. Having trained with the Anti-Magi of [chevalie|E], his dynasty would rule for several generations and lead [aversaria_possessive|E] final golden age."
+ bloodline_nothyx_desc:0 "Nothyx was the first Aautokratir to emerge victorious in a Blood Senate with no magic. Having trained with the Anti-Magi of [chevalie|E], his dynasty would rule for several generations and lead [Concept('aversaria','Aversaria')|E]'s final golden age."
 
  trait_bloodline_axiaothea:0 "Blood of Axiaothea"
  bloodline_axiaothea_inherit:0 "all" # inheritance all, matri, patri
@@ -80,7 +80,7 @@
  bloodline_aeschraes_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_aeschraes_bastards:0 "yes" # do bastards inherit? yes/no
  bloodline_aeschraes_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_aeschraes_desc:0 "Aeschraes was one of the youngest Legons in history after a tragic upbringing, and would earn the distinction as [aversaria_possessive|E] most powerful [magi|E] after ending the world during the [imperial_civil_war|E]."
+ bloodline_aeschraes_desc:0 "Aeschraes was one of the youngest Legons in history after a tragic upbringing, and would earn the distinction as [Concept('aversaria','Aversaria')|E]'s most powerful [magi|E] after ending the world during the [imperial_civil_war|E]."
 
  trait_bloodline_pothacleas:0 "Blood of the Last Iyrossi"
  bloodline_pothacleas_inherit:0 "all" # inheritance all, matri, patri
@@ -143,7 +143,7 @@
  bloodline_odyr_then_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_odyr_then_bastards:0 "no" # do bastards inherit? yes/no
  bloodline_odyr_then_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_odyr_then_desc:0 "Odyr Then rebelled against the Mountain-Sun Temple in an attempt to bring down the monastic orders and bring power to its secular warlords, and then continued his rebellion against the invading [aversarians|E]."
+ bloodline_odyr_then_desc:0 "Odyr Then rebelled against the Mountain-Sun Temple in an attempt to bring down the monastic orders and bring power to its secular warlords, and then continued his rebellion against the invading [Concept('aversaria','Aversarians')|E]."
 
  trait_bloodline_odyr_lleth:0 "Blood of Odyr Lleth"
  bloodline_odyr_lleth_inherit:0 "patri" # inheritance all, matri, patri
@@ -157,7 +157,7 @@
  bloodline_odyr_hune_matri_override:0 "yes" # does the bloodline pass in opposite dominant marriages, ie woman pass patri in matri marriage? yes/no
  bloodline_odyr_hune_bastards:0 "no" # do bastards inherit? yes/no
  bloodline_odyr_hune_special:0 "yes" # are there an extra conditions for inheritance? yes/no
- bloodline_odyr_hune_desc:0 "Odyr Hune launched the final Odyr rebellion, nearly taking [GetTitleByKey('c_asiupoli').GetNameNoTier] before being defeated by the unified forces of [aversaria_possessive|E] legions."
+ bloodline_odyr_hune_desc:0 "Odyr Hune launched the final Odyr rebellion, nearly taking [GetTitleByKey('c_asiupoli').GetNameNoTier] before being defeated by the unified forces of [Concept('aversaria','Aversaria')|E]'s legions."
 
  trait_bloodline_vercigex:0 "Blood of Vercigex"
  bloodline_vercigex_inherit:0 "patri" # inheritance all, matri, patri
@@ -237,4 +237,4 @@
 
  otached_reborn_modifier:0 "Lords of Kashirya"
  otached_reborn_modifier_desc:0 "This dynasty has laid claim to the whole of Kashirya, seeking to restore the glory of the [otachedian_empire|E] once more."
- otachedian_law_modifier_reason:0 "You have the [GetModifier('otachedian_law_modifier_reason').GetNameWithTooltip|l] [modifier|E]: $VALUE|=+0$"
+ otachedian_law_modifier_reason:0 "You have the [GetModifier('otachedian_law_modifier').GetNameWithTooltip|l] [modifier|E]: $VALUE|=+0$"

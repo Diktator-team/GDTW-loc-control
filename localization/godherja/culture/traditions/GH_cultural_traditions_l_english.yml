@@ -15,25 +15,25 @@
  tradition_traders_name:89 "Traders"
  tradition_traders_desc:89 "Either due to an optimal geographic position or simply inherent cultural values, this culture has a long and storied history of commercial activity with its neighbors."
  tradition_mubaaizun_name:89 "Mubaaizun"
- tradition_mubaaizun_desc:89 "A mubaaizun is a champion of a [sarradonian|E] army; often the best warriors of a lord will participate in a ritual duel before the battle commences, fighting to the death. These duels are often accompanied with each army chanting or insulting one another, and there have been instances - such as the Battle of the Mubaaizun - where multiple duels happen before battle commences, often to avenge a dead mubaaizun."
+ tradition_mubaaizun_desc:89 "A mubaaizun is a champion of a [Concept('sarradon','Sarradonian')|E] army; often the best warriors of a lord will participate in a ritual duel before the battle commences, fighting to the death. These duels are often accompanied with each army chanting or insulting one another, and there have been instances - such as the Battle of the Mubaaizun - where multiple duels happen before battle commences, often to avenge a dead mubaaizun."
  tradition_botai_name:89 "Bötai"
  tradition_botai_desc:89 "Bötai are warrior-bands formed for the purposes of raiding and companionship. Societies with bötai have them as a core social group, the decider of whether one is an adult or a child, and whether one can participate in society or not."
  tradition_ardara_name:89 "Ardara"
  tradition_ardara_desc:89 "Ardara is a system of honor emblematic to the Kikarsagi. Being brave in battle, generous in wealth, and forthright in one's dealings with other Kikarsagi is the epitome of ardara."
  tradition_bloodhounds_of_aversaria_name:89 "Bloodhounds of Aversaria"
- tradition_bloodhounds_of_aversaria_desc:89 "The Sycharceg could count themselves among the most feared of [aversaria_possessive|E] enforcers, their culture gradually transformed to hone and magnify the most ruthless aspects of their warrior society. A rebellious area visited by the Sycharceg is usually brought back to peace quickly and decisively - the peace of the grave, at least."
+ tradition_bloodhounds_of_aversaria_desc:89 "The Sycharceg could count themselves among the most feared of [Concept('aversaria','Aversaria')|E]'s enforcers, their culture gradually transformed to hone and magnify the most ruthless aspects of their warrior society. A rebellious area visited by the Sycharceg is usually brought back to peace quickly and decisively - the peace of the grave, at least."
  tradition_legacy_of_aversaria_name:89 "Legacy of Aversaria"
  tradition_legacy_of_aversaria_desc:89 "[aversaria|E] and its institutions loom large in this culture - regardless of whether the Aautokrata still stands, these people see themselves as its subjects and inheritors."
  tradition_legacy_of_aversaria_lesser_name:89 "Legacy of Aversaria"
  tradition_legacy_of_aversaria_lesser_desc:89 "[aversaria|E] and its institutions loom large in this culture - regardless of whether the Aautokrata still stands, these people see themselves as its subjects and inheritors."
  tradition_northern_pragmatism_name:89 "Northern Pragmatism"
- tradition_northern_pragmatism_desc:89 "Generally disinterested in broader world affairs and content to stick to their forest estates, the [aversarians|E] of Kalathipsomi are well known for a type of ruthless pragmatism that has oft put them at odds with their more principled kin in the rest of the empire. The amount of storms that their ruling houses have weathered over the centuries, however, stands as a clear testament to the effectiveness of their approach to politics."
+ tradition_northern_pragmatism_desc:89 "Generally disinterested in broader world affairs and content to stick to their forest estates, the [Concept('aversaria','Aversarians')|E] of Kalathipsomi are well known for a type of ruthless pragmatism that has oft put them at odds with their more principled kin in the rest of the empire. The amount of storms that their ruling houses have weathered over the centuries, however, stands as a clear testament to the effectiveness of their approach to politics."
  tradition_opakhasian_opulence_name:89 "Opakhasian Opulence"
  tradition_opakhasian_opulence_desc:89 "The decadence which Opakhasian courts are expected to play host to would be considered near-crass in most other cultures, but it has undoubtedly made them quite an attractive destination for those seeking a level of excess normally considered only the stuff of fairytales."
  tradition_blood_magi_name:89 "Blood Magi"
- tradition_blood_magi_desc:89 "This culture has great reverence for practitioners of [blood_magic|E], and has developed a skill in the field that places their [blood_magi|E] above those of most others."
+ tradition_blood_magi_desc:89 "This culture has great reverence for practitioners of [blood_magic|E], and has developed a skill in the field that places their [Concept('living_magi','Blood Magi')|E] above those of most others."
  tradition_purity_of_blood_name:89 "Purity of Blood"
- tradition_purity_of_blood_desc:89 "Great emphasis is placed on cultivating pure, [magical|E] bloodlines in this culture."
+ tradition_purity_of_blood_desc:89 "Great emphasis is placed on cultivating pure, [Concept('magic','Magical')|E] bloodlines in this culture."
  tradition_otachedian_law_name:89 "Otachedian Law"
  tradition_otachedian_law_desc:89 "Though centuries have passed since its fall, the rules and guidelines of the [otachedian_empire|E] still hold strong in this culture's society."
  tradition_literary_divergence_name:89 "Literary Divergence"
@@ -72,8 +72,8 @@
  tradition_herbalist_priests_desc:89 "The ritualistic nature of floral medicine in Tanumarei culture leads to herbalists seen as renowned priests, especially due to their important place as healers for the ones that come back from a hunt."
  tradition_ruled_by_no_other_name:89 "Ruled By No Other"
  tradition_ruled_by_no_other_desc:89 "We have been oppressed for long. No more! We shall now hunt their blood, the ones that strangle us. The Scarred shall never be caged!"
- tradition_axe_master_name:89 "Sevra Par"
- tradition_axe_master_desc:89 "Sevra Par, the Dance of Axes, is a key part of this culture and the tales of great warriors wielding greater axes are plenty."
+ tradition_axe_master_name: "Sevra Par"
+ tradition_axe_master_desc: "[sevra_par|E] is a key part of this culture and the tales of great warriors wielding greater axes are plenty."
  tradition_middlemen_of_empires_name:89 "Middlemen of Empires"
  tradition_middlemen_of_empires_desc:89 "This culture has established itself as powerful and loyal vassals of great empires. Rulers of this culture are rarely at the top of the hierarchy, but rarely at the bottom either."
  tradition_beloved_bastards_name:89 "Beloved Bastards"
@@ -135,6 +135,8 @@
  tradition_mercenary_contractors_desc:89 "To fight for the sake of money over honor or glory is no sin to this culture, and even its highest lords may contract out their aid in exchange for gold."
  tradition_tenacious_herdmasters_name:89 "Tenacious Herdmasters"
  tradition_tenacious_herdmasters_desc:89 "Herding cattle is the lifeblood of this culture. Having grown accustomed to roaming vast pastures with their livestock, they have developed a strong resilience to foreign threats."
+ tradition_dream_interpreters_name:89 "Dream Interpreters"
+ tradition_dream_interpreters_desc:89 "Where do we go when we dream? What ephemeral fates might be gazed upon beyond the horn gates? What secrets are robbed from us by the coming of fickle dawn? These questions and more vex this culture, and they have developed a tradition of appointed Dream Interpreters to get to the bottom of this enigma once and for all."
  culture_parameter_cancer_trait_more_common:89 "The [GetTrait('cancer').GetName( GetNullCharacter )] [trait|E] is more common"
  culture_parameter_innovation_from_arcana_traits:89 "[arcana|E] [education_traits|E] give [cultural_fascination|E] Progress"
  culture_parameter_stewardship_from_arcana_education:89 "The [arcana|E] [education|E] [traits|E] also grant [stewardship|E]"
@@ -150,6 +152,36 @@
  tradition_wasteland_reclaimers_desc:90 "This culture is adept at settling the harshest environments, finding shelter in ruins and opportunity in desolation. Thankfully for them, [aeras|E] is abundant in both."
  tradition_mutant_outcasts_name:90 "Mutant Outcasts"
  tradition_mutant_outcasts_desc:90 "This culture was borne out of wretched exiles and mangled mutants who had no place in society and were left to die in arcane wastelands. Contrary to all expectations, they have adapted and will now fiercely defend the only place they can call home."
+ tradition_kedari_marked_name:90 "The Marked"
+ tradition_kedari_marked_desc:90 "The members of this reclusive culture prides themselves for the intricate and visually striking tattoos that adorn their bodies. These markings not only strike fear to the inhabitants of the settlements they raid, but also provide an unusual affinity for powers beyond the physical form."
+ tradition_shared_defense_name:90 "Shared Defense"
+ tradition_shared_defense_desc:90 "Members of this culture have long practiced a more relaxed tradition of rule and tax, valuing a shared commitment over rule."
+ tradition_azakna_zagsa_name:0 "Azakna Zagša"
+ tradition_azakna_zagsa_desc:0 "This culture has embraced the martial art and ritual worship of two-handed curved blades letting them foster strong and able warriors. The heavy swords allow them to mow down infantry and cavalry alike."
+ tradition_painted_burghers_name:0 "Painted Burghers"
+ tradition_painted_burghers_desc:0 "The tattooed members of this culture are adept at all kinds of mercantile dealings and the art of manipulating the flow of gold."
+ tradition_starbound_sojourners_name:0 "Starbound Sojourners"
+ tradition_starbound_sojourners_desc:0 "This culture has tattooed navigators that are well-versed in reading the ocean of stars to safely traverse the oceans below the skies."
+ tradition_inscribed_triumphs_name:0 "Inscribed Triumphs"
+ tradition_inscribed_triumphs_desc:0 "This culture celebrates each kill earned in battle with a tattoo commemorating the feat."
+ tradition_branded_battlemasters_name:0 "Branded Battlemasters"
+ tradition_branded_battlemasters_desc:0 "Distinguished warriors in this culture are designated as Dhā'geray, and are heavily tattooed in ochre war paint."
+ tradition_great_calling_name:0 "Great Calling"
+ tradition_great_calling_desc:0 "This culture divides their society into three [great_callings|E] once their children turn 16."
+ tradition_frontier_warriors_name:0 "Frontier Warriors"
+ tradition_frontier_warriors_desc:0 "This culture is on a constant struggle to tame the wild northern frontier, utilizing a volatile mixture of elite soldiers, tribal mercenaries and fanatic volunteers."
+ tradition_snowbound_resilience_name:0 "Snowbound Resilience"
+ tradition_snowbound_resilience_desc:0 "This culture has mastered the tundra and the ice. Though life is oft a battle against the cold, they have learned to use the wastes to their advantage."
+ culture_parameter_unlocks_additional_alliances:90 "Can form alliances more easily with others who possess this [tradition|E]"
+ has_shared_defense_tradition_trigger:90 "Must have the Shared Defense [tradition|E]"
+
+ tradition_palace_economy_name: "Palace Economy"
+ tradition_palace_economy_desc: "Palace-cities play a central role in this culture's day-to-day administration, centralizing the distribution of resources and serving as hubs for governance, trade, and religious ceremonies."
+ culture_parameter_unlock_city_temple_buildings_in_castles: "Certain [city|E] and [temple|E] [buildings|E] can be constructed in [castle|E] [holdings|E]"
+
+ tradition_kherkeloi_war_codes_name: "Iur vol Rannu"
+ tradition_kherkeloi_war_codes_desc: "This culture adheres to [Glossary('Iur vol Rannu','GH_IUR_VOL_RANNU_GLOSS')], an extensive codex of wartime laws and customs that governs the order of military engagements, protects prisoners of war, and even dictates the acceptable lengths of soldiers' sarissas."
+ culture_parameter_building_barracks_spearmen_bonuses: "The #V $building_type_barracks_01$#! line of [buildings|E] provides additional [spearmen|E] bonuses"
 
  ###############
  # MAA UNLOCKS #
@@ -167,6 +199,14 @@
  culture_parameter_unlock_maa_kanpahuri:89 "Can recruit [GetMaA('kanpahuri').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_visvasavrak:89 "Can recruit [GetMaA('visvasavrak').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_leki_herdmasters:89 "Can recruit [GetMaA('leki_herdmasters').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_death_seekers:89 "Can recruit [GetMaA('death_seekers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_markwardens:89 "Can recruit [GetMaA('markwardens').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_sidharakyan:89 "Can recruit [GetMaA('sidharakyan').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_dhageray:89 "Can recruit [GetMaA('dhageray').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_bluescars:89 "Can recruit [GetMaA('bluescars').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_oltenic_cavalry:89 "Can build the unique Öltenic Cavalry."
+ culture_parameter_unlock_maa_thorn_maidens:89 "Can recruit [GetMaA('thorn_maidens').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_azmaram: "Can recruit [GetMaA('azmaram').GetName] as [men_at_arms|E]"
   
  #############
  # TRAIT LOC #
@@ -195,7 +235,7 @@
  culture_parameter_purging_counties_gives_prestige:89 "#E Purging Counties#! gives [prestige_i][prestige|E]"
  culture_parameter_executing_different_culture_characters_gives_prestige:89 "[executing|E] characters of a different [culture|E] gives [prestige_i][prestige|E]"
  
- culture_parameter_blood_magi_positive_trait_modifiers:89 "The [GetTrait('education_living_magic_1').GetName( GetNullCharacter )], [GetTrait('education_living_magic_2').GetName( GetNullCharacter )], [GetTrait('education_living_magic_3').GetName( GetNullCharacter )] and [GetTrait('education_living_magic_4').GetName( GetNullCharacter )] [traits|E] are seen as [prestige_i][prestigious|E]"
+ #culture_parameter_blood_magi_positive_trait_modifiers:89 "The [GetTrait('education_living_magic_1').GetName( GetNullCharacter )], [GetTrait('education_living_magic_2').GetName( GetNullCharacter )], [GetTrait('education_living_magic_3').GetName( GetNullCharacter )] and [GetTrait('education_living_magic_4').GetName( GetNullCharacter )] [traits|E] are seen as [prestige_i][prestigious|E]"
  culture_parameter_living_magic_mutation_positive_trait_modifiers:89 "Mutations from using [living_magic|E] such as [GetTrait('gh_glowing_veins').GetName( GetNullCharacter )] and [GetTrait('gh_ritual_tattoos').GetName( GetNullCharacter )] are seen as [prestige_i][prestigious|E]"
  culture_parameter_living_magic_education_better_outcomes:89 "[children|E] tend to do better in the [living_magic|E] [education|E]"
  culture_parameter_culture_characters_more_magically_potent:89 "[Concept( 'character', 'Characters' )|E] of the [culture|E] tend to have better [congenital|E] [magic|E]"
@@ -223,7 +263,7 @@
  
  culture_parameter_unlocks_lodge_mechanics:89 "Unlocks access to [lodges_mechanical|E]"
 
- culture_parameter_not_tribal_pirate_raiding_malus:2 "When returning from a successful [raid|E], non-[tribal|E] or non-[pirates|E] characters #EMP lose#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] per 1 [raid_loot|E] delivered"
+ culture_parameter_not_tribal_pirate_raiding_malus:2 "When returning from a successful [raid|E], non-[tribal|E] or non-[Concept('pirate','Pirates')|E] characters #EMP lose#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] per 1 [raid_loot|E] delivered"
  
  culture_parameter_sacred_living_magi:89 "The [aspect_blood|E] [aspect|E] gives [piety|E]."
  
@@ -242,10 +282,9 @@
  culture_parameter_deceitful_trait_more_common:89 "The [GetTrait('deceitful').GetName( GetNullCharacter )] [trait|E] is more common"
  culture_parameter_herbalist_trait_give_piety:89 "The [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [trait|E] gives more [piety|E]"
  culture_parameter_herbalist_trait_give_renown:89 "The [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [trait|E] gives more [dynasty_prestige|E]"
- culture_parameter_ambitious_trait_more_common:89 "The [GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] is more common"
  
- culture_parameter_enable_axe_house_building:89 "Can build Houses of Axes, unique Kherkeloi Duchy Buildings."
- culture_parameter_blademaster_traits_give_diplomacy:89 "[GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] give [diplomacy|E]"
+ culture_parameter_enable_axe_house_building:89 "Rulers can construct the [GetBuilding('gh_axe_house_01').GetName] [duchy_building|E]"
+ culture_parameter_blademaster_traits_give_diplomacy:89 "The [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [traits|E] also grant [diplomacy|E]"
 
  culture_parameter_more_prestige_from_battles:89 "Gains more [prestige_i][prestige|E] from battles"
  culture_parameter_more_piety_from_battles:89 "Gains more [piety_i][piety|E] from battles"
@@ -270,6 +309,7 @@
  
  culture_parameter_otachedian_tolerance:89 "Gains #P 15%#! [cultural_acceptance|E] with other [Concept('culture', 'Cultures')|E] that possess this [tradition|E]."
  culture_parameter_otachedian_hybridization:89 "Creating a Hybrid [culture|E] requires #P 25%#! less [cultural_acceptance|E] and [prestige_i]#P -25%#! with other Cultures that possess this [tradition|E]."
+ culture_parameter_administrative_is_expected:0 "It is easier (and expected) to convert to an [administrative_government|E] as a [liege|E] or [vassal|E]."
 
  culture_parameter_mutually_beneficial_acceptance:89 "Gains #P 50%#! acceptance towards gaining an [alliance|E] with other [Concept('culture','Cultures')|E] that possess this [tradition|E]."
  culture_parameter_mutually_beneficial_tolerance:89 "Gains #P 20%#! [cultural_acceptance|E] with other [Concept('culture','Cultures')|E] that possess this [tradition|E]."
@@ -277,14 +317,12 @@
  culture_parameter_enable_mdala_duchy_building:89 "Can Build Mdala Hasira, which grant [income|E], [court_grandeur|E] and [prestige_i][prestige|E] at the cost of [development|E] and [county_opinion|E]."
  culture_parameter_enable_crab_ranch_duchy_building:89 "Can Build Kaa Beero, temporary shelters for the Giant Spindle Leg Crabs that grant [income|E] and [advantage|E], though they can only be built while a county is experiencing [high_tide|E]."
  
- culture_parameter_mountain_dwellers_biome:89 "Is better at not getting lost in [mountainous|E] [biozones|E]."
- culture_parameter_jungle_dwellers_biome:89 "Is better at not getting lost in [jungle|E] [biozones|E]."
- culture_parameter_forest_folk_biome:89 "Is better at not getting lost in [woodland|E] [biozones|E]."
- culture_parameter_challenging_terrain_dwellers:89 "Is better at not getting lost in [challenging_terrain|E] [biozones|E]."
- culture_parameter_cold_home_biozone_dwellers:89 "Is better at avoiding penalties in [cold|E] [biozones|E]."
- culture_parameter_hot_home_biozone_dwellers:89 "Is better at avoiding penalties in [hot|E] [biozones|E]."
-
- culture_parameter_unlock_maa_oltenic_cavalry:89 "Can build the unique Öltenic Cavalry."
+ culture_parameter_mountain_dwellers_biome:89 "Is better at not getting lost in Mountainous [Concept('biozone','Biozones')|E]."
+ culture_parameter_jungle_dwellers_biome:89 "Is better at not getting lost in Jungle [Concept('biozone','Biozones')|E]."
+ culture_parameter_forest_folk_biome:89 "Is better at not getting lost in Woodland [Concept('biozone','Biozones')|E]."
+ culture_parameter_challenging_terrain_dwellers:89 "Is better at not getting lost in Challenging Terrain [Concept('biozone','Biozones')|E]."
+ culture_parameter_cold_home_biozone_dwellers:89 "Is better at avoiding penalties in Cold [Concept('biozone','Biozones')|E]."
+ culture_parameter_hot_home_biozone_dwellers:89 "Is better at avoiding penalties in Hot [Concept('biozone','Biozones')|E]."
 
  culture_parameter_unlock_urbanism_legacy:89 "A [dynast|E] of this [culture|E] can use the #V $fp2_urbanism_legacy_track_name$#! [dynasty_perk|E]."
  culture_parameter_unlock_coterie_legacy:89 "A [dynast|E] of this [culture|E] can use the #V $fp2_coterie_legacy_track_name$#! [dynasty_perk|E]."
@@ -315,12 +353,15 @@
  culture_parameter_islander_colonization_bonus:90 "[habitability_threshold|E] in [GetTerrain('archipelagic').GetName] [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -10#!"
  culture_parameter_armazli_sanctuaries_colonization_bonus:90 "[habitability_threshold|E] in [GetTerrain('mountains').GetName] [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -15#!"
  culture_parameter_redlanders_colonization_bonus:90 "[habitability_threshold|E] in [GetTerrain('redlands_drylands').GetName], [GetTerrain('redlands_desert').GetName], [GetTerrain('redlands_mountains').GetName], and [GetTerrain('redlands_chasms').GetName] [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -80#!"
- culture_parameter_desert_nomads_colonization_bonus:90 "[habitability_threshold|E] in [GetTerrain('desert').GetName] and [GetTerrain('desert_mountains').GetName] [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -30#!"
- culture_parameter_can_colonize_even_if_tribal:90 "[tribal|E] rulers can [colonize|E] with [Concept('prestige','@prestige_icon!')] [prestige|E]"
+ culture_parameter_desert_nomads_colonization_bonus:90 "[habitability_threshold|E] in [GetTerrain('desert').GetName], [GetTerrain('desert_mountains').GetName], and  [GetTerrain('oasis').GetName] [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -30#!"
+ culture_parameter_can_colonize_even_if_tribal:90 "[tribal|E] rulers can [Concept('colonization','Colonize')|E] with [Concept('prestige','@prestige_icon!')] [prestige|E]"
  culture_parameter_wasteland_reclaimers_colonization_bonus:90 "[habitability_threshold|E] in any [terrain|E]: [Concept('habitability_threshold','@habitability_threshold_icon!')] #P -10#!"
  culture_parameter_wasteland_reclaimers_colonization_speed_bonus:90 "[colonization_progress|E]: @colonization_progress_icon!#P +0.5#!/month"
  culture_parameter_mutant_outcasts_colonization_bonus:90 "Half of [ambient_magic|E] from Arcane Fallout is converted into [Concept('habitability_threshold','@habitability_threshold_icon!')] [habitability_threshold|E]"
+ culture_parameter_can_appoint_dream_interpreter:89 "Can appoint Adults to the Dream Interpreter [court_position|E], increasing [stress|E] loss and increasing [hostile_schemes|E] resistance."
+ can_appoint_dream_interpreter_name:89 "Dream Interpreter"
 
+ culture_parameter_members_have_tattoos:90 "Members of this culture are marked with tattoos"
  #############
  # MODIFIERS #
  #############
@@ -335,7 +376,7 @@
  not_sjalvolki_heritage_desc:89 "The [culture|E] does not have the [GetCulturePillar('heritage_sjalvolki').GetName] [heritage|E]"
  rulers_with_living_magic_education_desc:89 "The [culture|E] does not have #V 4#! [rulers|E] with [GetTraitGroup('education_living_magic').GetName] [traits|E]"
  culture_parameter_parks_and_gardens_bonuses:89 "The #V $building_type_parks_and_gardens_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
- eloi_myar_gets_women_rulers_trigger:0 "Your [culture|E] must have the [GetCulturePillar('heritage_canian).GetName] [heritage|E] and the ELOI-Myar title."
+ eloi_myar_gets_women_rulers_trigger:0 "Your [culture|E] must have the [GetCulturePillar('heritage_canian').GetName] [heritage|E] and the ELOI-Myar title."
 
 
  TRADITION_PENALTY_PURIST:89 "Purist [culture|E]: $VALUE|+=0$"
@@ -359,7 +400,24 @@
  culture_ironspines_desc:89 "Must be located in the [GetGeographicalRegion('world_ga_mayikprolollan_mayikprolollan_surface').GetName] [region|E]"
  culture_parameter_can_always_isolate_capital:89 "Can always take the $isolate_capital_decision$#! [decision|E]"
  culture_parameter_can_always_isolate_family:89 "Can always take the $isolate_family_decision$#! [decision|E]"
- does_not_border_wasteland_desc:89 "The [realm|E] not border any [uncolonized_wastelands|E]"
+ does_not_border_wasteland_desc:89 "The [realm|E] not border any [Concept('uncolonized_wasteland','Uncolonized Wastelands')|E]"
+ cannot_have_tradition_chevalien_identity: "$cannot_combine_tradition_trigger_desc$ #high $tradition_chevalien_identity$#!"
+ cannot_have_tradition_fp2_malleable_subjects: "$cannot_combine_tradition_trigger_desc$ #high $tradition_fp2_malleable_subjects$#!"
+ cannot_have_tradition_swords_for_hire: "$cannot_combine_tradition_trigger_desc$ #high $tradition_swords_for_hire$#!"
+ cannot_have_tradition_mercenary_contractors: "$cannot_combine_tradition_trigger_desc$ #high $tradition_mercenary_contractors$#!"
 
  culture_parameter_can_freely_execute_and_torture_commoners:90 "[rulers|E] of this [culture|E] can freely [execute|E] and [torture|E] [lowborn|E] characters"
  IS_ALLOWED_TO_EXECUTE_LOWBORNS_DESC:90 "#weak As [Select_CString( imprisoner.IsLocalPlayer, 'my', imprisoner.GetShortUIName )] [culture|E] has the [GetCultureTradition('tradition_hives_of_scum_and_villainy').GetName] [tradition|E], no one will think [Select_CString( imprisoner.IsLocalPlayer, 'me', imprisoner.GetShortUIName )] a [tyrant|E] for removing this disgusting commoner#!"
+
+ culture_parameter_more_magic_focused_vassals:90 "$magic_focused_vassals$ are more common"
+ culture_parameter_much_more_magic_focused_vassals:89 "$magic_focused_vassals$ are much more common"
+ tradition_jungle_dwellers_value_desc:0 "[GetCultureTradition('tradition_jungle_dwellers').GetName]"
+
+ culture_parameter_much_more_likely_to_be_beast_hunter_laamps: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_much_more_likely_to_be_beast_hunter_laamps_DLC', 'culture_parameter_much_more_likely_to_be_beast_hunter_laamps_NO_DLC' )]"
+ culture_parameter_much_more_likely_to_be_beast_hunter_laamps_DLC: "[characters|E] are much more likely to become [adventurers|E] with the [GetLaw('camp_purpose_beast_hunters').GetName] [camp_purpose|E]"
+ culture_parameter_much_more_likely_to_be_beast_hunter_laamps_NO_DLC: ""
+ 
+ culture_in_taiga_desc:0 "The [culture|E] is not present in any [county|E] with Taiga [terrain|E]"
+ culture_in_taiga_count_desc:0 "The [culture|E] is not present in at least #V 3#! [counties|E] with Taiga [terrain|E]"
+ culture_parameter_piety_gain_on_building_complete_in_taiga:0 "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with #V Taiga#! [terrain|E]"
+ culture_parameter_taiga_hunt_success_chance:0 "Increased [hunt_success_chance|E] in [GetTerrain( 'taiga' ).GetName]"

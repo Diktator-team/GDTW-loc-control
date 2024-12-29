@@ -104,7 +104,7 @@
  mercenary_company_riverfall_raiders_article:0 "the "
  
  #Fog Eaters
- mercenary_company_children_of_the_fog:0 "Children of the [fog|E]"
+ mercenary_company_children_of_the_fog:0 "Children of the [Concept('the_fog','Fog')|E]"
  mercenary_company_children_of_the_fog_article:0 "the "
  mercenary_company_shadows:0 "Shadows"
  mercenary_company_shadows_article:0 "the "
@@ -184,7 +184,7 @@
  mercenary_company_exiled_brotherhood_article:0 "the "
  mercenary_company_river_snakes:0 "River Snakes"
  mercenary_company_river_snakes_article:0 "the "
- mercenary_company_fog_slayers:0 "[fog|E] Slayers"
+ mercenary_company_fog_slayers:0 "[Concept('the_fog','Fog')|E] Slayers"
  mercenary_company_fog_slayers_article:0 "the "
  mercenary_company_wetwood_bandits:0 "Wetwood Bandits"
  mercenary_company_wetwood_bandits_article:0 "the "

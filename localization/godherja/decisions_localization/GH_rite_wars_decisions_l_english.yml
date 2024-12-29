@@ -12,7 +12,7 @@
  form_highkingdom_decision_region_tt:0 "No other [independent|E] [struggle_involved|E] [ruler|E] controls more than [SCOPE.ScriptValue('form_highkingdom_region_percent_value')|0]% of [GetGeographicalRegion('struggle_rite_wars_south').GetName]"
  form_highkingdom_decision_kingdom_tt:0 "Must control the [kingdoms|E] of Gevek, Bakav, and Sabalv for 25 years each"
  form_highkingdom_ends_struggle_tt:0 "If you [completely_control|E] the [GetGeographicalRegion('struggle_rite_wars_south').GetName], the [rite_wars_south_struggle|E] will end"
- mountain_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
+ mountain_footholder_transfer_tt:0 "[THIS.Title.GetName] [THIS.GetName]"
  form_highkingdom_dejure_structure_tt:0 "Any [kingdoms|E] you [completely_control|E] in the [GetGeographicalRegion('struggle_rite_wars_south').GetName] [region|E] will become [de_jure|E] part of [GetTitleByKey('e_opakasija').GetNameNoTier]"
  
  form_mountain_sun_concordat_decision:0 "Form the Mountain Sun Concordat"

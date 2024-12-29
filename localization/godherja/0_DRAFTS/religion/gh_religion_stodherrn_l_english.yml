@@ -3,7 +3,7 @@
 #allemani Loc renaming Stoðherrn due to conflict w/ kardwen culture also being called allemani, leaving the in-code name alone for now to prevent unforseen complications
  stodherrn_religion:0 "Stoðherrn"
  stodherrn_religion_adj:0 "Stoðherrn"
- stodherrn_religion_adjerent:0 "Stoðherrn"
+ stodherrn_religion_adherent:0 "Stoðherrn"
  stodherrn_religion_adherent_plural:0 "Stoðherrn"
  stodherrn_religion_desc:0 "The Stoðherrn faith sees the world as being the trunk that supports a great Tree, which they call Stoðrusigga. Further up the trunk and one passes into the trees, which are the homes of the gods, and down the trunk are the roots where the dead lie. They believe that their duty is to act as stewards of the tree, maintaining it the same way that birds and squirrels peacefully live in the trees they call home. Honoring the gods brings them bounties from the earth, and mistreatment will eventually lead to blight and decay until the world is naught but a gnarled stump."
  stodherrn_high_god_name:0 "The World Tree"
@@ -70,9 +70,9 @@
  #portenchant loc
  portenchant:0 "Portenchant"
  portenchant_adj:0 "Portenchant"
- portenchant_adjerent:0 "Portenchant"
+ portenchant_adherent:0 "Portenchant"
  portenchant_adherent_plural:0 "Portenchant"
- portenchant_desc:0 "The Portenchant found themselves conquered and victimized under the lash of the [aversarians|E], but they did not break in their faith. The Sjalvolki invasion freed them from their servitude, but they do not wish to seek vengeance on their former slavemasters. Instead, they wish to return to the ways of isolationism and quiet faith, as they once practiced when they were free."
+ portenchant_desc:0 "The Portenchant found themselves conquered and victimized under the lash of the [Concept('aversaria','Aversarians')|E], but they did not break in their faith. The Sjalvolki invasion freed them from their servitude, but they do not wish to seek vengeance on their former slavemasters. Instead, they wish to return to the ways of isolationism and quiet faith, as they once practiced when they were free."
  
  portenchant_old:0 "Old Portenchant"
  portenchant_old_adj:0 "Old Portenchant"

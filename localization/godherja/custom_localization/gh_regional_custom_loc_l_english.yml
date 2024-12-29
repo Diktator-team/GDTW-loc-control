@@ -44,13 +44,22 @@
  random_entertainment_text_travels_to_the_darkest_realm:0 "Travels to the Darkest Realm"
  terrain_deadlands:0 "deadlands"
  terrain_underground:0 "underground"
- rubble:0 "rubble"
- tower:0 "tower"
+ #:0 "rubble"
+ #tower:0 "tower"
  towers:0 "towers"
 
  #Regional drink
  imperial_mytosic:0 "Imperial mytosic" # Lonely Note: Move out
  acolytes_eye:0 "Acolyte's eye"
  expensive_drink_salisian_claret:0 "Salisian clarets"
+ kumis_variant:90 "[ROOT.Char.Custom('GetCulturalKumisVariant')]"
  #GetExpensiveDrink_Singular
  expensive_drink_singular_salisian_claret:0 "Salisian claret"
+
+ kuzum:90 "[Glossary('kuzum','GH_KUZUM_GLOSS')]"
+ czumij:90 "[Glossary('czumij','GH_CZUMIJ_GLOSS')]"
+ airagaang:90 "[Glossary('airagaang','GH_AIRAGAANG_GLOSS')]"
+ airagag:90 "[Glossary('airagag','GH_AIRAGAG_GLOSS')]"
+ eireg:90 "[Glossary('eireg','GH_EIREG_GLOSS')]"
+ tsegun:90 "[Glossary('tsegun','GH_TSEGUN_GLOSS')]"
+ kumis:90 "kumis"

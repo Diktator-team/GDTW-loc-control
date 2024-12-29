@@ -34,9 +34,9 @@
  trait_beasthunter_3_specialized_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to be an expert at hunting all things dangerous and monstrous. They are a sight to behold while on the trail, particularly when hunting  [SelectLocalization('(bool)no','',Concatenate(ROOT.GetCharacter.MakeScope.Var('game_gain_expert_proficiency_var').GetFlagName,'_name'))] "
  trait_beasthunter_4_specialized_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] hunts are a thing of legend, the most mighty of beasts fearing the day they enter their lair - the [SelectLocalization('(bool)no','',Concatenate(ROOT.GetCharacter.MakeScope.Var('game_gain_expert_proficiency_var').GetFlagName,'_name'))] especially so."
 
- TRAIT_FLAG_DESC_can_hunt_low_level_monsters:1 "Can go on [monster_hunts|E] against #E Low Level Monsters#! "
- TRAIT_FLAG_DESC_can_hunt_medium_level_monsters:1 "Can go on [monster_hunts|E] against #E Medium Level Monsters#! "
- TRAIT_FLAG_DESC_can_hunt_high_level_monsters:1 "Can go on [monster_hunts|E] against #E High Level Monsters#! "
+ TRAIT_FLAG_DESC_can_hunt_low_level_monsters:1 "Can go on [Concept('monster_hunt','Monster Hunts')|E] against #E Low Level Monsters#! "
+ TRAIT_FLAG_DESC_can_hunt_medium_level_monsters:1 "Can go on [Concept('monster_hunt','Monster Hunts')|E] against #E Medium Level Monsters#! "
+ TRAIT_FLAG_DESC_can_hunt_high_level_monsters:1 "Can go on [Concept('monster_hunt','Monster Hunts')|E] against #E High Level Monsters#! "
 ##EDUCATION##
 
  trait_magic_school_1:0 "Magic School"
@@ -74,17 +74,17 @@
  trait_education_dead_magic_latent_desc:0 "A character with latent [dead_magic|E] is unable to use magic at all, but has it buried deep within them."
  trait_education_dead_magic_latent_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has [dead_magic|E] hidden within them. They are unable to use any [dead_magic|E]."
  trait_education_dead_magic_1:0 "[dead_magic|E] Novice"
- trait_education_dead_magic_1_desc:0 "A novice in [dead_magic|E] has studied the movements of [aervalr|E] extensively, but manipulation of its powers are a struggle for them and their powers as a [dead_magi|E] are few."
- trait_education_dead_magic_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has studied the movements of [aervalr|E] extensively, but manipulation of its powers are a struggle for [ROOT.GetCharacter.GetHerHim], and [ROOT.GetCharacter.GetHerHis] powers as a [dead_magi|E] are few."
+ trait_education_dead_magic_1_desc:0 "A novice in [dead_magic|E] has studied the movements of [aervalr|E] extensively, but manipulation of its powers are a struggle for them and their powers as a [Concept('dead_magi','Earth Magi')|E] are few."
+ trait_education_dead_magic_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has studied the movements of [aervalr|E] extensively, but manipulation of its powers are a struggle for [ROOT.GetCharacter.GetHerHim], and [ROOT.GetCharacter.GetHerHis] powers as a [Concept('dead_magi','Earth Magi')|E] are few."
  trait_education_dead_magic_2:0 "[dead_magic|E] Adept"
- trait_education_dead_magic_2_desc:0 "The cycles of [aervalr|E] are well known to an adept [magi|E] in the discipline of[dead_magic|E], who knows how to use the phases of the dying moon to fearsome benefit as a true [dead_magi|E]."
- trait_education_dead_magic_2_character_desc:0 "The cycles of [aervalr|E] are well known to [ROOT.GetCharacter.GetFirstNameNoTooltip], who knows how to use the phases of the dying moon to [ROOT.GetCharacter.GetHerHis] fearsome benefit as a true [dead_magi|E]."
+ trait_education_dead_magic_2_desc:0 "The cycles of [aervalr|E] are well known to an adept [magi|E] in the discipline of[dead_magic|E], who knows how to use the phases of the dying moon to fearsome benefit as a true [Concept('dead_magi','Earth Magi')|E]."
+ trait_education_dead_magic_2_character_desc:0 "The cycles of [aervalr|E] are well known to [ROOT.GetCharacter.GetFirstNameNoTooltip], who knows how to use the phases of the dying moon to [ROOT.GetCharacter.GetHerHis] fearsome benefit as a true [Concept('dead_magi','Earth Magi')|E]."
  trait_education_dead_magic_3:0 "[dead_magic|E] Expert"
- trait_education_dead_magic_3_desc:0 "A learned expert in the magical arts of [dead_magic|E], the expert has mastered a rare art many would consider unnatural, and can devastate their enemies no matter what cycle the dying moon passes through. Few [dead_magi|E] have ever truly reached this level."
- trait_education_dead_magic_3_character_desc:0 "A learned expert in the mystical arts of [dead_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered a rare art many would consider unnatural, and can devastate [ROOT.GetCharacter.GetHerHis] enemies no matter what cycle the dying moon passes through. Few [dead_magi|E] have ever truly reached this level."
+ trait_education_dead_magic_3_desc:0 "A learned expert in the magical arts of [dead_magic|E], the expert has mastered a rare art many would consider unnatural, and can devastate their enemies no matter what cycle the dying moon passes through. Few [Concept('dead_magi','Earth Magi')|E] have ever truly reached this level."
+ trait_education_dead_magic_3_character_desc:0 "A learned expert in the mystical arts of [dead_magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered a rare art many would consider unnatural, and can devastate [ROOT.GetCharacter.GetHerHis] enemies no matter what cycle the dying moon passes through. Few [Concept('dead_magi','Earth Magi')|E] have ever truly reached this level."
  trait_education_dead_magic_4:0 "[dead_magic|E] Master"
- trait_education_dead_magic_4_desc:0 "This character is a legendary [dead_magi|E], and their very presence unsettles those around them, putting hairs on end as those nearby unconsciously sense the pure power and danger resonating from their body."
- trait_education_dead_magic_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a legendary [dead_magi|E], and [ROOT.GetCharacter.GetHerHis] very presence unsettles those around [ROOT.GetCharacter.GetHerHim], putting hairs on end as those nearby unconsciously sense the pure power and danger resonating from [ROOT.GetCharacter.GetHerHim]."
+ trait_education_dead_magic_4_desc:0 "This character is a legendary [Concept('dead_magi','Earth Magi')|E], and their very presence unsettles those around them, putting hairs on end as those nearby unconsciously sense the pure power and danger resonating from their body."
+ trait_education_dead_magic_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a legendary [Concept('dead_magi','Earth Magi')|E], and [ROOT.GetCharacter.GetHerHis] very presence unsettles those around [ROOT.GetCharacter.GetHerHim], putting hairs on end as those nearby unconsciously sense the pure power and danger resonating from [ROOT.GetCharacter.GetHerHim]."
 
  trait_education_mixed_magic:0 "[mixed_magic|E]"
  trait_education_mixed_magic_latent:0 "Latent [mixed_magic|E]"
@@ -135,23 +135,23 @@
  trait_education_arcana_2_desc:0 "The Timid Experimentalist has begun to venture beyond their tomes but still has far to go."
  trait_education_arcana_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has begun to venture beyond their tomes but still has far to go."
  trait_education_arcana_3:0 "Observant Esotericist"
- trait_education_arcana_3_desc:0 "The Observant Esotericist has explored ancient grimoires and shown considerable insight into the [arcane|E]."
- trait_education_arcana_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has explored ancient grimoires and shown considerable insight into the [arcane|E]."
+ trait_education_arcana_3_desc:0 "The Observant Esotericist has explored ancient grimoires and shown considerable insight into the [Concept('arcana','Arcane')|E]."
+ trait_education_arcana_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has explored ancient grimoires and shown considerable insight into the [Concept('arcana','Arcane')|E]."
  trait_education_arcana_4:0 "Masterful Arcanosopher"
- trait_education_arcana_4_desc:0 "The Masterful Arcanosopher is a foremost expert on all matters considered [arcane|E] or preternatural."
- trait_education_arcana_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a foremost expert on all matters considered [arcane|E] or preternatural."
+ trait_education_arcana_4_desc:0 "The Masterful Arcanosopher is a foremost expert on all matters considered [Concept('arcana','Arcane')|E] or preternatural."
+ trait_education_arcana_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a foremost expert on all matters considered [Concept('arcana','Arcane')|E] or preternatural."
  trait_education_arcana_5:0 "Erudite Thaumaturgist"
  trait_education_arcana_5_desc:0 "The Erudite Thaumaturgist possesses the breadth of a civilization's insight into [arcana|E] and holds many secrets once thought lost."
  trait_education_arcana_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses the breadth of a civilization's insight into [arcana|E] and holds many secrets once thought lost."
  trait_gh_arcanist:0 "Arcanist"
- trait_gh_arcanist_desc:0 "This character is able to delve deeper into the hidden worlds of [aeras|E], possessing many answers to the secret questions of existence."
- trait_gh_arcanist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is able to delve deeper into the hidden worlds of [aeras|E], possessing many answers to the secret questions of existence."
+ trait_gh_arcanist_desc:0 "This character possesses great skill in both exploring the mysteries of [magic|E] and experimenting beyond the confines of the known world."
+ trait_gh_arcanist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses great skill in both exploring the mysteries of [magic|E] and experimenting beyond the confines of the known world."
  trait_gh_transmuturgist:0 "Transmuturgist"
- trait_gh_transmuturgist_desc:0 ""
- trait_gh_transmuturgist_character_desc:0 ""
+ trait_gh_transmuturgist_desc:0 "This character has tuned themselves to the ebb and flow of arcane powers, and is able to perform and understand complex rituals far beyond the scope of most [magi|E]."
+ trait_gh_transmuturgist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has tuned themselves to the ebb and flow of arcane powers, and is able to perform and understand complex rituals far beyond the scope of most [magi|E]."
  trait_gh_sage:0 "Sage"
- trait_gh_sage_desc:0 ""
- trait_gh_sage_character_desc:0 ""
+ trait_gh_sage_desc:0 "This character is able to delve deeper into the hidden worlds of [aeras|E], possessing many answers to the secret questions of existence."
+ trait_gh_sage_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is able to delve deeper into the hidden worlds of [aeras|E], possessing many answers to the secret questions of existence."
  trait_marine_commander:0 "Marine Commander"
  trait_marine_commander_desc:0 "This character is at home in the [shatteredisles|E] and will take advantage of their terrain in battle."
  trait_marine_commander_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is at home in the [shatteredisles|E] and will take advantage of their terrain in battle."
@@ -172,7 +172,7 @@
  trait_gh_blackspawn_5_desc:0 "A being of bottomless evil, incredible power and terrible designs for the world; if there was a word that described what the [shadesoul_curse|E] has transformed this character into, 'demon' would not be far off."
  trait_gh_blackspawn_5_character_desc:0 "A being of bottomless evil, incredible power and terrible designs for the world; if there was a word that described what the [shadesoul_curse|E] has transformed [ROOT.GetCharacter.GetFirstNameNoTooltip] into, 'demon' would not be far off."
 
- 
+
  ##CONGENITAL##
 
  trait_magic_good:0 "[magi|E]"
@@ -293,8 +293,8 @@
  trait_gh_iyrossi_uniter_character_desc:0 "Through war, intrigue, diplomacy, or likely a mix of all three, [ROOT.GetCharacter.GetFirstNameNoTooltip] has united the disparate slaves of the Iyrossi, [ROOT.GetCharacter.GetSheHe] reigns as the great uniter on par with Pothacleas of old."
 
  trait_gh_chosen_man:0 "Chosen Man"
- trait_gh_chosen_man_desc:0 "This character has been anointed in the blood of [aversarians|E] and become one of the Chosen Men; those who are tasked with upholding the Mandate of Purity."
- trait_gh_chosen_man_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been anointed in the blood of [aversarians|E] and become one of the Chosen Men; those who are tasked with upholding the Mandate of Purity."
+ trait_gh_chosen_man_desc:0 "This character has been anointed in the blood of [Concept('aversaria','Aversarians')|E] and become one of the Chosen Men; those who are tasked with upholding the Mandate of Purity."
+ trait_gh_chosen_man_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been anointed in the blood of [Concept('aversaria','Aversarians')|E] and become one of the Chosen Men; those who are tasked with upholding the Mandate of Purity."
 
  trait_gh_alatan:0 "Alatan"
  trait_gh_alatan_desc:0 ""
@@ -303,8 +303,8 @@
  #invasion stuff
  
  trait_fogeater_invasion_leader:0 "Garformdaer"
- trait_fogeater_invasion_leader_desc:0 "The Garfordaer is the self proclaimed 'War Speaker' of the unified [fogeater|E] clans. Claiming to have heard the truth of the Mistmother's words and having, in a surprising show of cunning and sanity for the [fogeaters|E], crushed their opposition and united the tribes of Listeners, is now marching upon the known world for an unknown goal.\n\nNot only intimidating in stature and form, those few who see them and live can not deny the oddity about them. From the hushed sounds of whispering whenever they are near, to the twisting and blurring of the vision when their twisted visage is observed..."
- trait_fogeater_invasion_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the self proclaimed 'War Speaker' of the unified [fogeater|E] clans. Claiming to have heard the truth of the Mistmother's words and having, in a surprising show of cunning and sanity for the [fogeaters|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] has crushed [ROOT.GetCharacter.GetHerHis] opposition and united the tribes of Listeners, is now marching upon the known world for an unknown goal.\n\nNot only intimidating in stature and form, those few who see [ROOT.GetCharacter.GetFirstNameNoTooltip] and live can not deny the oddity about [ROOT.GetCharacter.GetHerHim]. From the hushed sounds of whispering whenever they are near, to the twisting and blurring of the vision when [ROOT.GetCharacter.GetHerHis] twisted visage is observed..."
+ trait_fogeater_invasion_leader_desc:0 "The Garfordaer is the self proclaimed 'War Speaker' of the unified [Concept('fogeaters','Fogeater')|E] clans. Claiming to have heard the truth of the Mistmother's words and having, in a surprising show of cunning and sanity for the [fogeaters|E], crushed their opposition and united the tribes of Listeners, is now marching upon the known world for an unknown goal.\n\nNot only intimidating in stature and form, those few who see them and live can not deny the oddity about them. From the hushed sounds of whispering whenever they are near, to the twisting and blurring of the vision when their twisted visage is observed..."
+ trait_fogeater_invasion_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the self proclaimed 'War Speaker' of the unified [Concept('fogeaters','Fogeater')|E] clans. Claiming to have heard the truth of the Mistmother's words and having, in a surprising show of cunning and sanity for the [fogeaters|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] has crushed [ROOT.GetCharacter.GetHerHis] opposition and united the tribes of Listeners, is now marching upon the known world for an unknown goal.\n\nNot only intimidating in stature and form, those few who see [ROOT.GetCharacter.GetFirstNameNoTooltip] and live can not deny the oddity about [ROOT.GetCharacter.GetHerHim]. From the hushed sounds of whispering whenever they are near, to the twisting and blurring of the vision when [ROOT.GetCharacter.GetHerHis] twisted visage is observed..."
  #smh u deleted my stuff panzer
  #fuck you anonymous contrib i cant be stopped ~panzy
  trait_gh_the_last_nikaryin:0 "The Last Nikaryin"
@@ -319,8 +319,8 @@
  trait_gh_aeschraes_killer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was the capturer of the World Sunderer, Lord of Ashes himself, Aeschraes. And with a swing of [ROOT.GetCharacter.GetHerHis] blade the powerful magi fell silent."
 
  trait_adabyss_invasion_leader:0 "Lëlmand"
- trait_adabyss_invasion_leader_desc:0 "Lëlmand is the official title for the commander of the Adabyssian equivalent to an [aversarian|E] Legion. Having finished the 47 trials required to enter leadership in Adabyss's massive military structure, and having learnt the use and operation of weaponry only imagined by those in the north, the Lëlmand now leads the Mósëku Limpegail, or 'Amber Corps', in an invasion of the northern lands.\n\nThe Corps is only a small scion of the Adabyssian military, the conquest of northern realms seen as nothing besides a side show for the much more important and lucrative invasions in the south and east. Despite this, however, the Adabyssians march in seemingly uncountable numbers, with technology that was once thought only used by gods."
- trait_adabyss_invasion_leader_character_desc:0 "Lëlmand is the official title for the commander of the Adabyssian equivalent to an [aversarian|E] Legion. Having finished the 47 trials required to enter leadership in Adabyss's massive military structure, and having learnt the use and operation of weaponry only imagined by those in the north, [ROOT.GetCharacter.GetFirstNameNoTooltip] now leads the Mósëku Limpegail, or 'Amber Corps', in an invasion of the northern lands.\n\nThe Corps is only a small scion of the Adabyssian military, the conquest of northern realms seen as nothing besides a side show for the much more important and lucrative invasions in the south and east. Despite this, however, the Adabyssians march in seemingly uncountable numbers, with technology that was once thought only used by gods."
+ trait_adabyss_invasion_leader_desc:0 "Lëlmand is the official title for the commander of the Adabyssian equivalent to an [Concept('aversaria','Aversarian')|E] Legion. Having finished the 47 trials required to enter leadership in Adabyss's massive military structure, and having learnt the use and operation of weaponry only imagined by those in the north, the Lëlmand now leads the Mósëku Limpegail, or 'Amber Corps', in an invasion of the northern lands.\n\nThe Corps is only a small scion of the Adabyssian military, the conquest of northern realms seen as nothing besides a side show for the much more important and lucrative invasions in the south and east. Despite this, however, the Adabyssians march in seemingly uncountable numbers, with technology that was once thought only used by gods."
+ trait_adabyss_invasion_leader_character_desc:0 "Lëlmand is the official title for the commander of the Adabyssian equivalent to an [Concept('aversaria','Aversarian')|E] Legion. Having finished the 47 trials required to enter leadership in Adabyss's massive military structure, and having learnt the use and operation of weaponry only imagined by those in the north, [ROOT.GetCharacter.GetFirstNameNoTooltip] now leads the Mósëku Limpegail, or 'Amber Corps', in an invasion of the northern lands.\n\nThe Corps is only a small scion of the Adabyssian military, the conquest of northern realms seen as nothing besides a side show for the much more important and lucrative invasions in the south and east. Despite this, however, the Adabyssians march in seemingly uncountable numbers, with technology that was once thought only used by gods."
 
  trait_gh_boneshaped_strong:0 "Magistrength"
 
@@ -371,8 +371,8 @@
  trait_gh_glowing_eyes_character_desc:0 "While a [magi|E]'s eyes often will glow while performing rituals of [magic|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] is permanently affixed with the condition from constant use of [ROOT.GetCharacter.GetHerHis] gift. A somewhat disturbing if otherwise harmless quirk, that many [magi] see as a symbol of [ROOT.GetCharacter.GetHerHis] power."
 
  trait_gh_excessively_pale:0 "Excessively Pale"
- trait_gh_excessively_pale_desc:0 "Thanks to overuse of [magical|E] rituals, this character is possessed with an extremely sickly and pale pallor, their skin so thin and bleached that veins and sinew can be seen pulsing beneath if observed closely."
- trait_gh_excessively_pale_character_desc:0 "Thanks to overuse of [magical|E] rituals, [ROOT.GetCharacter.GetFirstNameNoTooltip] is possessed with an extremely sickly and pale pallor, [ROOT.GetCharacter.GetHerHis] skin so thin and bleached that veins and sinew can be seen pulsing beneath if observed closely."
+ trait_gh_excessively_pale_desc:0 "Thanks to overuse of [Concept('magic','Magical')|E] rituals, this character is possessed with an extremely sickly and pale pallor, their skin so thin and bleached that veins and sinew can be seen pulsing beneath if observed closely."
+ trait_gh_excessively_pale_character_desc:0 "Thanks to overuse of [Concept('magic','Magical')|E] rituals, [ROOT.GetCharacter.GetFirstNameNoTooltip] is possessed with an extremely sickly and pale pallor, [ROOT.GetCharacter.GetHerHis] skin so thin and bleached that veins and sinew can be seen pulsing beneath if observed closely."
 
  trait_gh_glowing_veins:0 "Glowing Veins"
  trait_gh_glowing_veins_desc:0 "While the color varies based on the [magic_type|E] employed, glowing veins is a tell-tale sign of a [magi|E] who has used their gift so often that it has begun to have long-lasting effects on their body. While disturbing to behold, it is a relatively common affliction and considered harmless."
@@ -383,16 +383,16 @@
  trait_gh_power_bleeder_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is afflicted by the Scarlet Tide, a malady of [living_magi|E] that causes excessive bleeding in all orifices of the body. Despite being not as severe as the bleeding suffered by those suffering from [exposure_sickness|E], the Scarlet Tide still poses a serious hazard to a Living Magi. Those afflicted by it will see that even the shallowest of wounds could lead to total blood loss if not treated urgently."
 
  trait_gh_necronic_skin:0 "Elthiadd's Ash"
- trait_gh_necronic_skin_desc:0 "Named after the Magi Lord Elthiadd who slowly turned to ash from excessive use of [dead_magic|E], 'Elthiadd's Ash' (or Necronic Skin) is a condition that afflicts many [dead_magi|E] though rarely severely enough to be debilitating. Elthiadd's Ash is characterized by the skin of the hands, mouth, and other power conduits slowly turning black and hardening into a rocky substance that will gradually flake away with ash. Most [magi|E] so afflicted normally begin a strict routine of moisturization and avoid using their power for some periods to limit its affects, but continued and persistent use of powerful [dead_magic|E] will cause the condition to spread to the rest of the body until the [magi|E] is dead."
- trait_gh_necronic_skin_character_desc:0 "Named after the Magi Lord Elthiadd who slowly turned to ash from excessive use of [dead_magic|E], 'Elthiadd's Ash' (or Necronic Skin) is a condition that afflicts many [dead_magi|E] though rarely severely enough to be debilitating. Elthiadd's Ash is characterized by the skin of the hands, mouth, and other power conduits slowly turning black and hardening into a rocky substance that will gradually flake away with ash. Most [magi|E] so afflicted normally begin a strict routine of moisturization and avoid using their power for some periods to limit its affects, but continued and persistent use of powerful [dead_magic|E] will cause the condition to spread to the rest of the body until the [magi|E] is dead."
+ trait_gh_necronic_skin_desc:0 "Named after the Magi Lord Elthiadd who slowly turned to ash from excessive use of [dead_magic|E], 'Elthiadd's Ash' (or Necronic Skin) is a condition that afflicts many [Concept('dead_magi','Earth Magi')|E] though rarely severely enough to be debilitating. Elthiadd's Ash is characterized by the skin of the hands, mouth, and other power conduits slowly turning black and hardening into a rocky substance that will gradually flake away with ash. Most [magi|E] so afflicted normally begin a strict routine of moisturization and avoid using their power for some periods to limit its affects, but continued and persistent use of powerful [dead_magic|E] will cause the condition to spread to the rest of the body until the [magi|E] is dead."
+ trait_gh_necronic_skin_character_desc:0 "Named after the Magi Lord Elthiadd who slowly turned to ash from excessive use of [dead_magic|E], 'Elthiadd's Ash' (or Necronic Skin) is a condition that afflicts many [Concept('dead_magi','Earth Magi')|E] though rarely severely enough to be debilitating. Elthiadd's Ash is characterized by the skin of the hands, mouth, and other power conduits slowly turning black and hardening into a rocky substance that will gradually flake away with ash. Most [magi|E] so afflicted normally begin a strict routine of moisturization and avoid using their power for some periods to limit its affects, but continued and persistent use of powerful [dead_magic|E] will cause the condition to spread to the rest of the body until the [magi|E] is dead."
 
  trait_gh_beset_by_visions:0 "Beset by Visions"
  trait_gh_beset_by_visions_desc:0 "Constantly beset by visions, this character regularly suffers through long spells in which they see everything from the lives of the members of their court to the deaths of warlords thousands of years removed across the world itself. The weight of so many lives is clearly taking its toll, and they are regularly trapped in their bed from endless migraines and bouts of random personality shifts from the bleedover of lives never truly lived."
  trait_gh_beset_by_visions_character_desc:0 "Constantly beset by visions, [ROOT.GetCharacter.GetFirstNameNoTooltip] regularly suffers through long spells in which [ROOT.GetCharacter.GetSheHe] sees everything from the lives of the members of their court to the deaths of warlords thousands of years removed across the world itself. The weight of so many lives is clearly taking its toll, and [ROOT.GetCharacter.GetFirstNameNoTooltip] is regularly trapped in [ROOT.GetCharacter.GetHerHis] bed from endless migraines and bouts of random personality shifts from the bleedover of lives never truly lived."
 
  trait_gh_aervalrian_curse:0 "Aervalrian Curse"
- trait_gh_aervalrian_curse_desc:0 "This character is consumed by the [Concept('aervalr','Aervalrian')|E] Curse, an affliction said to strike [dead_magi|E] who delve far too deeply into their arts. Constantly beset by visions of the shattered moon of Aervalr, they feel a seemingly unending draw towards its sickly green visage, and are regularly compelled to walk the night to be closer to the moon. The curse is so strong, that it has begun to ruin both their personal life and their capabilities as a ruler."
- trait_gh_aervalrian_curse_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is consumed by the [Concept('aervalr','Aervalrian')|E] Curse, an affliction said to strike [dead_magi|E] who delve far too deeply into their arts. Constantly beset by visions of the shattered moon of Aervalr, [ROOT.GetCharacter.GetFirstNameNoTooltip] feels a seemingly unending draw towards its sickly green visage, and [ROOT.GetCharacter.GetSheHe] is regularly compelled to walk the night to be closer to the moon. The curse is so strong, that it has begun to ruin both [ROOT.GetCharacter.GetHerHis] personal life and [ROOT.GetCharacter.GetHerHis] capabilities as a ruler."
+ trait_gh_aervalrian_curse_desc:0 "This character is consumed by the [Concept('aervalr','Aervalrian')|E] Curse, an affliction said to strike [Concept('dead_magi','Earth Magi')|E] who delve far too deeply into their arts. Constantly beset by visions of the shattered moon of Aervalr, they feel a seemingly unending draw towards its sickly green visage, and are regularly compelled to walk the night to be closer to the moon. The curse is so strong, that it has begun to ruin both their personal life and their capabilities as a ruler."
+ trait_gh_aervalrian_curse_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is consumed by the [Concept('aervalr','Aervalrian')|E] Curse, an affliction said to strike [Concept('dead_magi','Earth Magi')|E] who delve far too deeply into their arts. Constantly beset by visions of the shattered moon of Aervalr, [ROOT.GetCharacter.GetFirstNameNoTooltip] feels a seemingly unending draw towards its sickly green visage, and [ROOT.GetCharacter.GetSheHe] is regularly compelled to walk the night to be closer to the moon. The curse is so strong, that it has begun to ruin both [ROOT.GetCharacter.GetHerHis] personal life and [ROOT.GetCharacter.GetHerHis] capabilities as a ruler."
 
  trait_gh_ritual_tattoos:0 "Ritual Tattoos"
  trait_gh_ritual_tattoos_desc:0 "Covered by arcane tattoos to draw and focus magical power, this character clearly had little consideration for style. Even where the ink was pressed with an intent for aesthetics, the disturbing nature of what the designs bely and the dull throbbing behind the eyes one feels when staring at them for too long turn many away."
@@ -411,8 +411,8 @@
  trait_gh_ritual_scars_3_character_desc:0 "Ritual scarring is a common practice for [magi|E], either as an attempt to drain blood for magical use or as part of many rituals. [ROOT.GetCharacter.GetFirstNameNoTooltip] seemingly gave up on the pretension of a public life away from [ROOT.GetCharacter.GetHerHis] [magic|E] and over dozens of rituals and exaltations become so covered in scars that there is seemingly no unmarked skin left. Incredibly disturbing and most likely unhealthy, but a sign of true power."
 
  trait_gh_racked_by_voices:0 "Voidspeaker"
- trait_gh_racked_by_voices_desc:0 "Voidspeakers are [magi|E] (or rarely non-[magical|E] individuals exposed to excess [magic|E]) who have become somehow attached to the other world beyond human comprehension. Regularly racked by voices, this character is constantly consumed by whispers, statements and screaming anger from unseen specters, some seeming all too familiar..."
- trait_gh_racked_by_voices_character_desc:0 "Voidspeakers are [magi|E] (or rarely non-[magical|E] individuals exposed to excess [magic|E]) who have become somehow attached to the other world beyond human comprehension. Regularly racked by voices, [ROOT.GetCharacter.GetFirstNameNoTooltip] is constantly consumed by whispers, statements and screaming anger from unseen specters, some seeming all too familiar..."
+ trait_gh_racked_by_voices_desc:0 "Voidspeakers are [magi|E] (or rarely non-[Concept('magic','Magical')|E] individuals exposed to excess [magic|E]) who have become somehow attached to the other world beyond human comprehension. Regularly racked by voices, this character is constantly consumed by whispers, statements and screaming anger from unseen specters, some seeming all too familiar..."
+ trait_gh_racked_by_voices_character_desc:0 "Voidspeakers are [magi|E] (or rarely non-[Concept('magic','Magical')|E] individuals exposed to excess [magic|E]) who have become somehow attached to the other world beyond human comprehension. Regularly racked by voices, [ROOT.GetCharacter.GetFirstNameNoTooltip] is constantly consumed by whispers, statements and screaming anger from unseen specters, some seeming all too familiar..."
 
  trait_gh_exhausted:0 "Exhausted"
  trait_gh_exhausted_desc:0 "This character struggles to get even small amounts of sleep, and finds themselves perpetually exhausted and miserably tired."
@@ -505,7 +505,7 @@
  trait_magikill_6_char_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has slain countless numbers of the monstrous [magi|E]. Their name inspires fear amongst even the mightiest of Magi."
  trait_magikill_7:0 "The Death of Magic"
  trait_magikill_7_desc:0 "Numberless [magi|E] lives have been cut short by this character's hand. From the [mayikrata|E] to the halls of the Amsari, Magi whisper terrifying tales regarding their feats. They know that none of them are safe."
- trait_magikill_7_char_desc:0 "[Numberless [magi|E] lives have been cut short by [ROOT.GetCharacter.GetFirstNameNoTooltip]'s hand. From the [mayikrata|E] to the halls of the Amsari, Magi whisper terrifying tales regarding their feats. They know that none of them are safe."
+ trait_magikill_7_char_desc:0 "Numberless [magi|E] lives have been cut short by [ROOT.GetCharacter.GetFirstNameNoTooltip]'s hand. From the [mayikrata|E] to the halls of the Amsari, Magi whisper terrifying tales regarding their feats. They know that none of them are safe."
 
  trait_gh_mind_fog_1:0 "Hazed Mind"
  trait_gh_mind_fog_1_desc:0 "This character's mind has begun to suffer a strange sort of madness. Thoughts begin to bubble up unbidden from time to time, forming bizarre associations between apparently unrelated things."
@@ -538,7 +538,7 @@
  trait_gh_riftmark_3:0 "Rift-Cursed"
  trait_gh_riftmark_3_desc:0 "This character has been laid bare by the effects of Mixed Magic. They frequently awake to find themselves sleepwalking, alone in isolated parts of their manor. At other times they are misdirected, having unfortunately misheard directions and becoming lost and isolated. Sometimes they look over their shoulder and see they are being followed - always by the same person, and always closer every time."
  trait_gh_riftmark_3_char_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been laid bare by the effects of Mixed Magic. They frequently awake to find themselves sleepwalking, alone in isolated parts of their manor. At other times they are misdirected, having unfortunately misheard directions and becoming lost and isolated. Sometimes they look over their shoulder and see they are being followed - always by the same person, and always closer every time."
- TRAIT_FLAG_DESC_gh_riftmark_3_spell_vulnerability:0 "Significantly more vulnerable to [fog_magic|E]."
+ TRAIT_FLAG_DESC_gh_riftmark_3_spell_vulnerability:0 "Significantly more vulnerable to [Concept('mixed_magic','Fog Magic')|E]."
 
 
  trait_way_of_swords:0 "Way of Swords"
@@ -554,6 +554,13 @@
  trait_way_of_sword:0 "Way of the Sword"
  trait_way_of_stars:0 "Way of Stars"
  trait_way_of_shepherd:0 "Way of Shepherds"
+ trait_way_of_blood:0 "Way of Blood"
+ trait_way_of_fear:0 "Way of Fear"
+ trait_way_of_dread:0 "Way of Dread"
+ trait_way_of_pain:0 "Way of Pain"
+ trait_way_of_war:0 "Way of War"
+ trait_way_of_peace:0 "Way of Peace"
+ trait_way_of_death:0 "Way of Death"
  trait_undead:0 "Undead"
  trait_magicsickness:0 "Magic-Sickness"
  trait_ritual_scars:0 "Ritual Scarring"
@@ -574,9 +581,9 @@
  trait_gh_pale_seer_char_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] can almost effortlessly shunt their mind into the rift and dance amongst the fraying threads of reality. While most would become lost in this twisting realm, [ROOT.GetCharacter.GetFirstNameNoTooltip]  can navigate it freely, gaining insights into past, present, and future."
  TRAIT_FLAG_DESC_gh_pale_seer_spell_reroll:0 "Can reroll Glimpse Reality's results"
  
-trait_gh_reifier:0 "Reifier"
-trait_gh_reifier_desc:0 "Most dismiss the hours of night as a time for rest. For this character it's when their other life begins. From the moment their eyes close they step into the sleeping world, a fogbound realm of dread secrets, never-born abominations, and burning truths. Sometimes it's difficult to tell which of the two worlds is more real."
-trait_gh_reifier_char_desc:0 "Most dismiss the hours of night as a time for rest. For [ROOT.GetCharacter.GetFirstNameNoTooltip] it's when their other life begins. From the moment their eyes close, they step into the sleeping world, a fogbound place of dread secrets, never-born abominations, and burning truths. Sometimes it's difficult to tell which of the two worlds is more real."
+ trait_gh_reifier:0 "Reifier"
+ trait_gh_reifier_desc:0 "Most dismiss the hours of night as a time for rest. For this character it's when their other life begins. From the moment their eyes close they step into the sleeping world, a fogbound realm of dread secrets, never-born abominations, and burning truths. Sometimes it's difficult to tell which of the two worlds is more real."
+ trait_gh_reifier_char_desc:0 "Most dismiss the hours of night as a time for rest. For [ROOT.GetCharacter.GetFirstNameNoTooltip] it's when their other life begins. From the moment their eyes close, they step into the sleeping world, a fogbound place of dread secrets, never-born abominations, and burning truths. Sometimes it's difficult to tell which of the two worlds is more real."
  
  trait_lifestyle_jurist:0 "Jurist"
  
@@ -656,6 +663,13 @@ trait_gh_reifier_char_desc:0 "Most dismiss the hours of night as a time for rest
  trait_track_lifestyle_gh_steppe_queen:0 "Órzopaja"
  trait_track_lifestyle_gh_steppe_queen_desc:0 "An órzopaja is expected to excel in traditional Sarminian warrior pursuits of archery, falconry, and mounted combat."
  
+ trait_gh_elementalist:0 "Elementalist"
+ trait_gh_elementalist_desc:0 "An Elementalist, a title reserved for only the most powerful magi, wields the raw forces of magical aspects, summoning formidable elementals to do their bidding and commanding nature's primal energies to adapt and dominate any situation."
+ trait_track_gh_elementalist:0 "Elementalist"
+ trait_track_gh_elementalist_desc:0 "An Elementalist, a title reserved for only the most powerful magi, wields the raw forces of magical aspects, summoning formidable elementals to do their bidding and commanding nature's primal energies to adapt and dominate any situation."
+
+ 
+
  trait_gh_heir_of_asojiva:0 "Heir of Asojiva"
  trait_gh_heir_of_asojiva_desc:0 "This character is declared the rightful heir to the throne of Asojiva and the Taryaad blood. Applying the very same skills used in winning back the lands of their rightful ancestors, they shall surely bring forth the golden age seen in their ancestors times and cast a watchful eye on certain groups, like the scholars, so as to not repeat the tragedy of Taryaad's demise ever again."
  trait_gh_heir_of_asojiva_char_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is declared the rightful heir to the throne of Asojiva and the Taryaad blood. Applying the very same skills used in winning back the lands of [ROOT.GetCharacter.GetHerHis] rightful ancestors, [ROOT.GetCharacter.GetSheHe] shall surely bring forth the golden age seen in [ROOT.GetCharacter.GetHerHis] ancestors times and cast a watchful eye on certain groups, like the scholars, so as to not repeat the tragedy of Taryaad's demise ever again."
@@ -665,41 +679,41 @@ trait_gh_reifier_char_desc:0 "Most dismiss the hours of night as a time for rest
  trait_temporarily_disinherited_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has, due to the vicissitudes of faith, been stripped of their rights of inheritance. A temporary situation, they have been assured."
  
  trait_necromancy_undead_thrall:0 "Undead Thrall"
- trait_necromancy_undead_thrall_desc:0 "This character is an undead thrall, a pawn to a powerful necromancer or [lich|E], raised from the dead only to be condemned to an existence of servitude. Only tenuously capable of creative thought, they are best fit to serve as a menial, capable of no more autonomy than the ability to complain about their station. With time however, the soul within them may begin to reassert a personality of sorts."
- trait_necromancy_undead_thrall_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an undead thrall, a pawn to a powerful necromancer or [lich|E], raised from the dead only to be condemned to an existence of servitude. Only tenuously capable of creative thought, [ROOT.GetCharacter.GetFirstNameNoTooltip] is best fit to serve as a menial, capable of no more autonomy than the ability to complain about their station. With time however, the soul within [ROOT.GetCharacter.GetFirstNameNoTooltip] may begin to reassert a personality of sorts."
+ trait_necromancy_undead_thrall_desc:0 "This character is an undead thrall, a pawn to a powerful necromancer or [Concept('liches','Lich')|E], raised from the dead only to be condemned to an existence of servitude. Only tenuously capable of creative thought, they are best fit to serve as a menial, capable of no more autonomy than the ability to complain about their station. With time however, the soul within them may begin to reassert a personality of sorts."
+ trait_necromancy_undead_thrall_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an undead thrall, a pawn to a powerful necromancer or [Concept('liches','Lich')|E], raised from the dead only to be condemned to an existence of servitude. Only tenuously capable of creative thought, [ROOT.GetCharacter.GetFirstNameNoTooltip] is best fit to serve as a menial, capable of no more autonomy than the ability to complain about their station. With time however, the soul within [ROOT.GetCharacter.GetFirstNameNoTooltip] may begin to reassert a personality of sorts."
  
  trait_necromancy_undead_awakened:0 "Awakened Undead"
- trait_necromancy_undead_awakened_desc:0 "Whether by explicit creation by a powerful necromancer or [lich|E], or the natural result of an undead thrall developing a true sentience by happenstance, this character is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, they can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
- trait_necromancy_undead_awakened_character_desc:0 "Whether by explicit creation by a powerful necromancer or [lich|E], or the natural result of an undead thrall developing a true sentience by happenstance, [ROOT.GetCharacter.GetFirstNameNoTooltip] is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, [ROOT.GetCharacter.GetFirstNameNoTooltip] can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
- #trait_necromancy_undead_awakened_desc:0 "Whether by explicit creation by a powerful necromancer or [lich|E], or the natural result of an undead thrall developing a true sentience by happenstance, [ROOT.GetCharacter.GetFirstNameNoTooltip] is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, [ROOT.GetCharacter.GetFirstNameNoTooltip] can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
+ trait_necromancy_undead_awakened_desc:0 "Whether by explicit creation by a powerful necromancer or [Concept('liches','Lich')|E], or the natural result of an undead thrall developing a true sentience by happenstance, this character is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, they can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
+ trait_necromancy_undead_awakened_character_desc:0 "Whether by explicit creation by a powerful necromancer or [Concept('liches','Lich')|E], or the natural result of an undead thrall developing a true sentience by happenstance, [ROOT.GetCharacter.GetFirstNameNoTooltip] is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, [ROOT.GetCharacter.GetFirstNameNoTooltip] can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
+ #trait_necromancy_undead_awakened_desc:0 "Whether by explicit creation by a powerful necromancer or [Concept('liches','Lich')|E], or the natural result of an undead thrall developing a true sentience by happenstance, [ROOT.GetCharacter.GetFirstNameNoTooltip] is an Awakened Undead. Possessed of a personality, willpower, and the fundamental desire to continue existing, [ROOT.GetCharacter.GetFirstNameNoTooltip] can no longer be controlled by baser magics. More powerful necromantic domination will still work of course, as will more mundane contrivances such as "reason" and "bargaining"."
 
-trait_necromancy_undead_lich:0 "Lich"
- trait_necromancy_undead_lich_desc:0 "This character is a powerful necromancer or [lich|E], master of life and death and wielder of power most would find unnatural."
+ trait_necromancy_undead_lich:0 "Lich"
+ trait_necromancy_undead_lich_desc:0 "This character is a powerful necromancer or [Concept('liches','Lich')|E], master of life and death and wielder of power most would find unnatural."
  trait_necromancy_undead_lich_character_desc:0 "Through a series of arcane and disturbing rituals, known as the 'Thirteen Abyssal Steps' [ROOT.GetCharacter.GetFirstNameNoTooltip], has achieved the state of [lichdom|E], stripping them of morality and their mortal, fleshy bodies, in return granting them apparent imortality."
 
  #Lich traits
  trait_gh_volatile:0 "Volatile"
- trait_gh_volatile_desc:0 "This [lich|E] is prone to extreme mood swings and is capable of exploding in destructive rage at even the slightest provocation or setback."
+ trait_gh_volatile_desc:0 "This [Concept('liches','Lich')|E] is prone to extreme mood swings and is capable of exploding in destructive rage at even the slightest provocation or setback."
  trait_gh_volatile_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is prone to extreme mood swings and is capable of exploding in destructive rage at even the slightest provocation or setback."
  
  trait_gh_emotionless:0 "Emotionless"
- trait_gh_emotionless_desc:0 "The last sparks of human emotion have left this [lich|E] long ago, their unshakably cold demeanor being akin to that of an automaton."
+ trait_gh_emotionless_desc:0 "The last sparks of human emotion have left this [Concept('liches','Lich')|E] long ago, their unshakably cold demeanor being akin to that of an automaton."
  trait_gh_emotionless_character_desc:0 "The last sparks of human emotion have left [ROOT.GetCharacter.GetFirstNameNoTooltip] long ago, their unshakably cold demeanor being akin to that of an automaton"
 
  trait_gh_divine:0 "Divine"
- trait_gh_divine_desc:0 "This [lich|E] knows there are indeed gods, and that they must be one of them."
- trait_gh_divine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who knows there are indeed gods, and that [ROOT.GetCharacter.GetSheHe] must be one of them."
+ trait_gh_divine_desc:0 "This [Concept('liches','Lich')|E] knows there are indeed gods, and that they must be one of them."
+ trait_gh_divine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who knows there are indeed gods, and that [ROOT.GetCharacter.GetSheHe] must be one of them."
  
  trait_gh_megalomaniacal:0 "Megalomaniacal"
- trait_gh_megalomaniacal_desc:0 "Even by the standards of a [lich|E], this character spends an inordinate amount of effort on building monuments to their glory, going on long-winded gloating rants, and accepting the worship of both mortals and undead servants alike."
- trait_gh_megalomaniacal_character_desc:0 "Even by the standards of a [lich|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] spends an inordinate amount of effort on building monuments to their glory, going on long-winded gloating rants, and accepting the worship of both mortals and undead servants alike."
+ trait_gh_megalomaniacal_desc:0 "Even by the standards of a [Concept('liches','Lich')|E], this character spends an inordinate amount of effort on building monuments to their glory, going on long-winded gloating rants, and accepting the worship of both mortals and undead servants alike."
+ trait_gh_megalomaniacal_character_desc:0 "Even by the standards of a [Concept('liches','Lich')|E], [ROOT.GetCharacter.GetFirstNameNoTooltip] spends an inordinate amount of effort on building monuments to their glory, going on long-winded gloating rants, and accepting the worship of both mortals and undead servants alike."
 
  trait_gh_inactive:0 "Inactive"
- trait_gh_inactive_desc:0 "This [lich|E] is only sporadically active, spending large amounts of time idling in their necropolis rather than trying to affect the outside world."
+ trait_gh_inactive_desc:0 "This [Concept('liches','Lich')|E] is only sporadically active, spending large amounts of time idling in their necropolis rather than trying to affect the outside world."
  trait_gh_inactive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is only sporadically active, spending large amounts of time idling in their necropolis rather than trying to affect the outside world."
 
  trait_gh_tireless:0 "Tireless"
- trait_gh_tireless_desc:0 "Never wasting even the smallest amount of their eternal time, this [lich|E] spends every moment of their undeath actively working on their ultimate goals."
+ trait_gh_tireless_desc:0 "Never wasting even the smallest amount of their eternal time, this [Concept('liches','Lich')|E] spends every moment of their undeath actively working on their ultimate goals."
  trait_gh_tireless_character_desc:0 "Never wasting even the smallest amount of their eternal time, this [ROOT.GetCharacter.GetFirstNameNoTooltip] spends every moment of their undeath actively working on their ultimate goals."
 
  trait_gh_naive:0 "Naive"
@@ -707,121 +721,121 @@ trait_necromancy_undead_lich:0 "Lich"
  trait_gh_naive_character_desc:0 "Seemingly incapable of comprehending that others may dare betray them, this lich often delegates dangerous amounts of power to their subordinates and is easily swayed by flattery and signs of submission."
 
  trait_gh_erratic:0 "Erratic"
- trait_gh_erratic_desc:0 "Never entertained by a singular pursuit for long, this [lich|E] has a graveyard of half-finished projects and schemes behind them."
+ trait_gh_erratic_desc:0 "Never entertained by a singular pursuit for long, this [Concept('liches','Lich')|E] has a graveyard of half-finished projects and schemes behind them."
  trait_gh_erratic_character_desc:0 "Never entertained by a singular pursuit for long, [ROOT.GetCharacter.GetFirstNameNoTooltip] has a graveyard of half-finished projects and schemes behind them."
 
  trait_gh_indomitable:0 "Indomitable"
- trait_gh_indomitable_desc:0 "Once this [lich|E] sets their mind on a course of action, they will follow it through come what may. Although this can often be a boon for a being with essentially infinite time at their disposal, their predictability will often make said plans easily foiled."
+ trait_gh_indomitable_desc:0 "Once this [Concept('liches','Lich')|E] sets their mind on a course of action, they will follow it through come what may. Although this can often be a boon for a being with essentially infinite time at their disposal, their predictability will often make said plans easily foiled."
  trait_gh_indomitable_character_desc:0 "Once [ROOT.GetCharacter.GetFirstNameNoTooltip] sets their mind on a course of action, they will follow it through come what may. Although this can often be a boon for a being with essentially infinite time at their disposal, their predictability will often make said plans easily foiled."
 
  trait_gh_godhater:0 "God-Hater"
- trait_gh_godhater_desc:0 "This [lich|E] either rejects the concept of the existence of gods more powerful than themselves outright, or finds the idea so troubling they intend to rectify it."
- trait_gh_godhater_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who either rejects the concept of the existence of gods more powerful than [ROOT.GetCharacter.GetHerselfHimself], or finds the idea so troubling [ROOT.GetCharacter.GetSheHe] intends to rectify it."
+ trait_gh_godhater_desc:0 "This [Concept('liches','Lich')|E] either rejects the concept of the existence of gods more powerful than themselves outright, or finds the idea so troubling they intend to rectify it."
+ trait_gh_godhater_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who either rejects the concept of the existence of gods more powerful than [ROOT.GetCharacter.GetHerselfHimself], or finds the idea so troubling [ROOT.GetCharacter.GetSheHe] intends to rectify it."
  
  trait_gh_destroyer:0 "Destroyer"
  trait_gh_destroyer_desc:0 "Perfectly content with the idea of being the last sentient creature remaining on [aeras|E], this Lich is more interested in the annihilation of mortals and Liches alike than conquest or domination."
- trait_gh_destroyer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who knows that the living are weak fools whose very lives are insults to be answered in kind. Naturally, this means that every living thing upon [aeras|E] should be killed and reforged into a more useful, durable form."
+ trait_gh_destroyer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who knows that the living are weak fools whose very lives are insults to be answered in kind. Naturally, this means that every living thing upon [aeras|E] should be killed and reforged into a more useful, durable form."
 
  trait_gh_controller:0 "Controller"
- trait_gh_controller_desc:0 "This [lich|E] is more interested in making mortals bow than slaying them. Risen skeletons are just so drab! Who wants to be worshipped by beings that can't even beg you to stop torturing them?"
- trait_gh_controller_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] more interested in making pathetic mortal beings bow than slaying them all. Risen skeletons are just so drab! What would [ROOT.GetCharacter.GetSheHe] really gain from torturing beings that can't even beg for mercy?"
+ trait_gh_controller_desc:0 "This [Concept('liches','Lich')|E] is more interested in making mortals bow than slaying them. Risen skeletons are just so drab! Who wants to be worshipped by beings that can't even beg you to stop torturing them?"
+ trait_gh_controller_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] more interested in making pathetic mortal beings bow than slaying them all. Risen skeletons are just so drab! What would [ROOT.GetCharacter.GetSheHe] really gain from torturing beings that can't even beg for mercy?"
  
  trait_gh_imperious:0 "Imperious"
  trait_gh_imperious_desc:0 "Undeath would be drab for this Lich if it didn't entail holding the fate of countless other beings in their hands. Whether it be mortals, intelligent undead or even other Liches, this character is much more interested in receiving the submission of their enemies than in destroying them."
- trait_gh_imperious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who finds [ROOT.GetCharacter.GetHerselfHimself] particularly angry that there may exist realms not worshipping [ROOT.GetCharacter.GetHerHim] as a god yet, and considers ending this disgusting and flagrant disregard for [ROOT.GetCharacter.GetHerHis] rightful rule an extremely high priority."
+ trait_gh_imperious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who finds [ROOT.GetCharacter.GetHerselfHimself] particularly angry that there may exist realms not worshipping [ROOT.GetCharacter.GetHerHim] as a god yet, and considers ending this disgusting and flagrant disregard for [ROOT.GetCharacter.GetHerHis] rightful rule an extremely high priority."
  
  trait_gh_logical:0 "Logical"
- trait_gh_logical_desc:0 "This [lich|E] is slow and methodical, preferring to destroy their enemies with long-running plots and machinations. They have all the time in the world after all"
- trait_gh_logical_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a slow and methodical [lich|E], preferring to destroy [ROOT.GetCharacter.GetHerHis] enemies with long-running plots and machinations. [ROOT.GetCharacter.GetHerHis] has all the time in the world after all"
+ trait_gh_logical_desc:0 "This [Concept('liches','Lich')|E] is slow and methodical, preferring to destroy their enemies with long-running plots and machinations. They have all the time in the world after all"
+ trait_gh_logical_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a slow and methodical [Concept('liches','Lich')|E], preferring to destroy [ROOT.GetCharacter.GetHerHis] enemies with long-running plots and machinations. [ROOT.GetCharacter.GetHerHis] has all the time in the world after all"
  
  trait_gh_impulsive:0 "Impulsive"
- trait_gh_impulsive_desc:0 "This [lich|E] is one of action, where the prospect of eternity brings others perspective and patience they have waited enough, after all they've endured and given to attain their rightful power they are still yet to achieve their owed dominion over all of [aeras|E] and every moment this state of affairs continues is an insult too grave to bear"
- trait_gh_impulsive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] of action, where the prospect of eternity brings others perspective and patience [ROOT.GetCharacter.GetSheHe] has waited enough, fter all [ROOT.GetCharacter.GetSheHe]'s endured and given to attain their rightful power they are still yet to achieve their owed dominion over all of [aeras|E] and every moment this state of affairs continues is an insult too grave to bear"
+ trait_gh_impulsive_desc:0 "This [Concept('liches','Lich')|E] is one of action, where the prospect of eternity brings others perspective and patience they have waited enough, after all they've endured and given to attain their rightful power they are still yet to achieve their owed dominion over all of [aeras|E] and every moment this state of affairs continues is an insult too grave to bear"
+ trait_gh_impulsive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] of action, where the prospect of eternity brings others perspective and patience [ROOT.GetCharacter.GetSheHe] has waited enough, fter all [ROOT.GetCharacter.GetSheHe]'s endured and given to attain their rightful power they are still yet to achieve their owed dominion over all of [aeras|E] and every moment this state of affairs continues is an insult too grave to bear"
  
  trait_gh_perfectionist:0 "Perfectionist"
- trait_gh_perfectionist_desc:0 "This [lich|E] aims to make their servants and creations reflect some spark of their own magnificence, and favours the elites of their armies over the mindless horde."
- trait_gh_perfectionist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who aims to make [ROOT.GetCharacter.GetHerHis] servants and creations reflect some spark of [ROOT.GetCharacter.GetHerHis] own magnificence, and favours the elites of [ROOT.GetCharacter.GetHerHis] armies over the mindless horde."
+ trait_gh_perfectionist_desc:0 "This [Concept('liches','Lich')|E] aims to make their servants and creations reflect some spark of their own magnificence, and favours the elites of their armies over the mindless horde."
+ trait_gh_perfectionist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who aims to make [ROOT.GetCharacter.GetHerHis] servants and creations reflect some spark of [ROOT.GetCharacter.GetHerHis] own magnificence, and favours the elites of [ROOT.GetCharacter.GetHerHis] armies over the mindless horde."
 
  trait_gh_pragmatic:0 "Pragmatic"
- trait_gh_pragmatic_desc:0 "This [lich|E] believes any flaws in the combat prowess of the mindless dead can be compensated for by sheer numbers."
- trait_gh_pragmatic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who believes any flaws in the combat prowess of the mindless dead can be compensated for by sheer numbers."
+ trait_gh_pragmatic_desc:0 "This [Concept('liches','Lich')|E] believes any flaws in the combat prowess of the mindless dead can be compensated for by sheer numbers."
+ trait_gh_pragmatic_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who believes any flaws in the combat prowess of the mindless dead can be compensated for by sheer numbers."
  
  trait_gh_selfcentered:0 "Self-Centered"
- trait_gh_selfcentered_desc:0 "This [lich|E] cares little for the pathetic things that may or may not exist directly out of their immediate line of sight. As the center of the universe, it all revolves around them anyway."
- trait_gh_selfcentered_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who cares little for the pathetic things that may or may not exist directly out of [ROOT.GetCharacter.GetHerHis] immediate line of sight. As the center of the universe, it all revolves around [ROOT.GetCharacter.GetHerHim] anyway."
+ trait_gh_selfcentered_desc:0 "This [Concept('liches','Lich')|E] cares little for the pathetic things that may or may not exist directly out of their immediate line of sight. As the center of the universe, it all revolves around them anyway."
+ trait_gh_selfcentered_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who cares little for the pathetic things that may or may not exist directly out of [ROOT.GetCharacter.GetHerHis] immediate line of sight. As the center of the universe, it all revolves around [ROOT.GetCharacter.GetHerHim] anyway."
 
  trait_gh_luxurious:0 "Luxurious"
- trait_gh_luxurious_desc:0 "This [lich|E] knows that to live a life of undeath is to live a life of splendor. How could the lesser beings of the world hope appreciate their magnificence if they don't proudly display it?"
- trait_gh_luxurious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who knows that to live a life of undeath is to live a life of splendor. How could the lesser beings of the world hope appreciate [ROOT.GetCharacter.GetHerHis] magnificence if they don't proudly display it [ROOT.GetCharacter.GetSheHe] doesn't proudly display it?"
+ trait_gh_luxurious_desc:0 "This [Concept('liches','Lich')|E] knows that to live a life of undeath is to live a life of splendor. How could the lesser beings of the world hope appreciate their magnificence if they don't proudly display it?"
+ trait_gh_luxurious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who knows that to live a life of undeath is to live a life of splendor. How could the lesser beings of the world hope appreciate [ROOT.GetCharacter.GetHerHis] magnificence if they don't proudly display it [ROOT.GetCharacter.GetSheHe] doesn't proudly display it?"
 
  trait_gh_dour:0 "Dour"
- trait_gh_dour_desc:0 "This [lich|E], while still as flamboyant as one would expect, is far more austere than many of their kind. Some Liches just tire of the century-long parties, especially when the neighboring necropolis never seems to be able to be quiet!"
- trait_gh_dour_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [lich|E] who, while still as flamboyant as one would expect, is far more austere than many of [ROOT.GetCharacter.GetHerHis] kind. Some Liches just tire of the century-long parties, especially when the neighboring necropolis never seems to be able to be quiet!"
+ trait_gh_dour_desc:0 "This [Concept('liches','Lich')|E], while still as flamboyant as one would expect, is far more austere than many of their kind. Some Liches just tire of the century-long parties, especially when the neighboring necropolis never seems to be able to be quiet!"
+ trait_gh_dour_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('liches','Lich')|E] who, while still as flamboyant as one would expect, is far more austere than many of [ROOT.GetCharacter.GetHerHis] kind. Some Liches just tire of the century-long parties, especially when the neighboring necropolis never seems to be able to be quiet!"
  
  trait_gh_hoarder:0 "Hoarder"
- trait_gh_hoarder_desc:0 "For this [lich|E], collecting treasures, arcane knowledge and artifacts is less of a means to an end and more of an end in and of itself."
- trait_gh_hoarder_character_desc:0 "For this [lich|E], collecting treasures, arcane knowledge and artifacts is less of a means to an end and more of an end in and of itself."
+ trait_gh_hoarder_desc:0 "For this [Concept('liches','Lich')|E], collecting treasures, arcane knowledge and artifacts is less of a means to an end and more of an end in and of itself."
+ trait_gh_hoarder_character_desc:0 "For this [Concept('liches','Lich')|E], collecting treasures, arcane knowledge and artifacts is less of a means to an end and more of an end in and of itself."
 
  trait_gh_cautious:0 "Cautious"
- trait_gh_cautious_desc:0 "Rarely seen without being surrounded by a veritable army of minions, this [lich|E] will not put themselves in even the slightest direct danger's way unless forced to, rarely even leaving their necropolis."
- trait_gh_cautious_character_desc:0 "Rarely seen without being surrounded by a veritable army of minions, this [lich|E] will not put themselves in even the slightest direct danger's way unless forced to, rarely even leaving their necropolis."
+ trait_gh_cautious_desc:0 "Rarely seen without being surrounded by a veritable army of minions, this [Concept('liches','Lich')|E] will not put themselves in even the slightest direct danger's way unless forced to, rarely even leaving their necropolis."
+ trait_gh_cautious_character_desc:0 "Rarely seen without being surrounded by a veritable army of minions, this [Concept('liches','Lich')|E] will not put themselves in even the slightest direct danger's way unless forced to, rarely even leaving their necropolis."
 
  trait_gh_chaotic:0 "Chaotic"
- trait_gh_chaotic_desc:0 "Order is anathema to this [lich|E], even the kind with them at the helm — they revel in being a wildcard, causing chaos and mayhem even when it goes against their interests."
- trait_gh_chaotic_character_desc:0 "Order is anathema to this [lich|E], even the kind with them at the helm — they revel in being a wildcard, causing chaos and mayhem even when it goes against their interests."
+ trait_gh_chaotic_desc:0 "Order is anathema to this [Concept('liches','Lich')|E], even the kind with them at the helm — they revel in being a wildcard, causing chaos and mayhem even when it goes against their interests."
+ trait_gh_chaotic_character_desc:0 "Order is anathema to this [Concept('liches','Lich')|E], even the kind with them at the helm — they revel in being a wildcard, causing chaos and mayhem even when it goes against their interests."
 
  trait_gh_brazen:0 "Brazen"
- trait_gh_brazen_desc:0 "Emboldened by immortality, this [lich|E] likes to charge into the thick of things personally."
- trait_gh_brazen_character_desc:0 "Emboldened by immortality, this [lich|E] likes to charge into the thick of things personally."
+ trait_gh_brazen_desc:0 "Emboldened by immortality, this [Concept('liches','Lich')|E] likes to charge into the thick of things personally."
+ trait_gh_brazen_character_desc:0 "Emboldened by immortality, this [Concept('liches','Lich')|E] likes to charge into the thick of things personally."
 
  trait_gh_manipulator:0 "Manipulator"
- trait_gh_manipulator_desc:0 "The complex web of schemes and deceit that surrounds this [lich|E] spans centuries and continents."
- trait_gh_manipulator_character_desc:0 "The complex web of schemes and deceit that surrounds this [lich|E] spans centuries and continents."
+ trait_gh_manipulator_desc:0 "The complex web of schemes and deceit that surrounds this [Concept('liches','Lich')|E] spans centuries and continents."
+ trait_gh_manipulator_character_desc:0 "The complex web of schemes and deceit that surrounds this [Concept('liches','Lich')|E] spans centuries and continents."
 
  trait_education_lich:0 "Lich"
  trait_education_lich_1:0 "Young Lich"
- trait_education_lich_1_desc:0 "The Young [lich|E] has only taken their baby steps at becoming a disgusting abomination against all laws that govern life, and has yet to gather the black knowledge of many more aged and learned Liches. Or perhaps they're just terrible at the whole Lich thing, though they'd never admit it."
+ trait_education_lich_1_desc:0 "The Young [Concept('liches','Lich')|E] has only taken their baby steps at becoming a disgusting abomination against all laws that govern life, and has yet to gather the black knowledge of many more aged and learned Liches. Or perhaps they're just terrible at the whole Lich thing, though they'd never admit it."
  trait_education_lich_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has only taken [ROOT.GetCharacter.GetHerHis] baby steps at becoming a disgusting abomination against all laws that govern life, and has yet to gather the black knowledge of many more aged and learned [liches|E]. Or perhaps [ROOT.GetCharacter.GetSheHe] is just terrible at the whole Lich thing, though [ROOT.GetCharacter.GetSheHe] will never admit it."
  
  trait_education_lich_2:0 "Initiate Lich"
- trait_education_lich_2_desc:0 "The Initiate [lich|E] is still considered on the lower end of power compared to many of their contemporaries, either because of still being newly turned or from incompetence, though you wouldn't think so by listening to their ranting."
+ trait_education_lich_2_desc:0 "The Initiate [Concept('liches','Lich')|E] is still considered on the lower end of power compared to many of their contemporaries, either because of still being newly turned or from incompetence, though you wouldn't think so by listening to their ranting."
  trait_education_lich_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is still considered on the lower end of power compared to many of [ROOT.GetCharacter.GetHerHis] contemporaneous [liches|E], either because of still being newly turned or from incompetence, though you wouldn't think so by listening to [ROOT.GetCharacter.GetHerHis] ranting."
  
  trait_education_lich_3:0 "Lich"
- trait_education_lich_3_desc:0 "The [lich|E] is the most average of their kind, with powers most would consider maddening and a demeanor most would call 'uncomfortable to have to be around'."
- trait_education_lich_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is still considered average for a [lich|E], with powers most would consider maddening and a demeanor most would call 'uncomfortable to have to be around'."
+ trait_education_lich_3_desc:0 "The [Concept('liches','Lich')|E] is the most average of their kind, with powers most would consider maddening and a demeanor most would call 'uncomfortable to have to be around'."
+ trait_education_lich_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is still considered average for a [Concept('liches','Lich')|E], with powers most would consider maddening and a demeanor most would call 'uncomfortable to have to be around'."
  
  trait_education_lich_4:0 "Powerful Lich"
- trait_education_lich_4_desc:0 "The Powerful [lich|E] has, through age or power, established themselves as a powerful example of their kind and a feared necromancer capable of causing much destruction and showing truly magical levels of narcissism."
- trait_education_lich_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has, through age or power, established [ROOT.GetCharacter.GetHerselfHimself] as a powerful example of a [lich|E] and a feared necromancer capable of causing much destruction and showing truly magical levels of narcissism."
+ trait_education_lich_4_desc:0 "The Powerful [Concept('liches','Lich')|E] has, through age or power, established themselves as a powerful example of their kind and a feared necromancer capable of causing much destruction and showing truly magical levels of narcissism."
+ trait_education_lich_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has, through age or power, established [ROOT.GetCharacter.GetHerselfHimself] as a powerful example of a [Concept('liches','Lich')|E] and a feared necromancer capable of causing much destruction and showing truly magical levels of narcissism."
  
  trait_education_lich_5:0 "Elder Lich"
- trait_education_lich_5_desc:0 "The Elder [lich|E] stands as one of the most powerful of their dark kind. Whether they have reached such terrifying heights through a disgustingly long mockery of life or from obscene levels of powers within their soul, they stand as a Lich more capable than any other at causing great destruction and delivering infamous multi-day rants not requiring petty human interruptions like 'breathing' or 'giving others a chance to talk'. It normally helps that most Elder Liches are so old that their opinions on modern culture tend to be generously described as 'outdated'."
- trait_education_lich_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as one of the most powerful of [ROOT.GetCharacter.GetHerHis] dark kind. Whether [ROOT.GetCharacter.GetSheHe] have reached such terrifying heights through a disgustingly long mockery of life or from obscene levels of powers within [ROOT.GetCharacter.GetHerHis] soul, they stand as a [lich|E] more capable than any other at causing great destruction and delivering infamous multi-day rants not requiring petty human interruptions like 'breathing' or 'giving others a chance to talk'. It normally helps that most Elder Liches are so old that their opinions on modern culture tend to be generously described as 'outdated'."
+ trait_education_lich_5_desc:0 "The Elder [Concept('liches','Lich')|E] stands as one of the most powerful of their dark kind. Whether they have reached such terrifying heights through a disgustingly long mockery of life or from obscene levels of powers within their soul, they stand as a Lich more capable than any other at causing great destruction and delivering infamous multi-day rants not requiring petty human interruptions like 'breathing' or 'giving others a chance to talk'. It normally helps that most Elder Liches are so old that their opinions on modern culture tend to be generously described as 'outdated'."
+ trait_education_lich_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] stands as one of the most powerful of [ROOT.GetCharacter.GetHerHis] dark kind. Whether [ROOT.GetCharacter.GetSheHe] have reached such terrifying heights through a disgustingly long mockery of life or from obscene levels of powers within [ROOT.GetCharacter.GetHerHis] soul, they stand as a [Concept('liches','Lich')|E] more capable than any other at causing great destruction and delivering infamous multi-day rants not requiring petty human interruptions like 'breathing' or 'giving others a chance to talk'. It normally helps that most Elder Liches are so old that their opinions on modern culture tend to be generously described as 'outdated'."
  
  trait_gh_cult_everlasting:0 "Kult Wiczośwoci"
- trait_gh_cult_everlasting_desc:0 "This [lich|E] was once a member of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks them as one of the original Liches and a disciple of the legendary [vilas_venslau|E]. One of the perpetrators of the horrific [sorrowing_of_oejeynica|E], they are considered by foreigners to be a horrible monster, but are also recognized as possibly one of the most dangerous individuals who has ever lived or unlived. A member of the Cult of Everlasting even enjoys one benefit almost impossible to earn for any other Lich, the begrudging respect of most Liches."
+ trait_gh_cult_everlasting_desc:0 "This [Concept('liches','Lich')|E] was once a member of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks them as one of the original Liches and a disciple of the legendary [vilas_venslau|E]. One of the perpetrators of the horrific [sorrowing_of_oejeynica|E], they are considered by foreigners to be a horrible monster, but are also recognized as possibly one of the most dangerous individuals who has ever lived or unlived. A member of the Cult of Everlasting even enjoys one benefit almost impossible to earn for any other Lich, the begrudging respect of most Liches."
  trait_gh_cult_everlasting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was once a member of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks [ROOT.GetCharacter.GetHerHis] as one of the original [liches|E] and a disciple of the legendary [vilas_venslau|E]. One of the perpetrators of the horrific [sorrowing_of_oejeynica|E], [ROOT.GetCharacter.GetSheHe] is considered by foreigners to be a horrible monster, but also recognized as possibly one of the most dangerous individuals who has ever lived or unlived. [ROOT.GetCharacter.GetSheHe] even enjoys one benefit almost impossible to earn for any other Lich, the begrudging respect of most Liches."
  
  trait_gh_master_cult_everlasting:0 "Mstrnz Kult Wiczośwoci"
- trait_gh_master_cult_everlasting_desc:0 "This [lich|E] was once the master of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks them as the progenitor of nearly every [lich|E] on [the_continent|E]. Possibly the most powerful Lich to ever live, even the infamously spiteful and infighting-minded Liches of the [the_lichdoms|E] are forced to give respect to they who began the [sorrowing_of_oejeynica|E]."
- trait_gh_master_cult_everlasting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was once the master of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks [ROOT.GetCharacter.GetHerHim] as the progenitor of nearly every [lich|E] on [the_continent|E]. Possibly the most powerful Lich to ever live, even the infamously spiteful and infighting-minded Liches of the [the_lichdoms|E] are forced to give respect to [ROOT.GetCharacter.GetSheHe|U] who began the [sorrowing_of_oejeynica|E]."
+ trait_gh_master_cult_everlasting_desc:0 "This [Concept('liches','Lich')|E] was once the master of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks them as the progenitor of nearly every [Concept('liches','Lich')|E] on [the_continent|E]. Possibly the most powerful Lich to ever live, even the infamously spiteful and infighting-minded Liches of the [the_lichdoms|E] are forced to give respect to they who began the [sorrowing_of_oejeynica|E]."
+ trait_gh_master_cult_everlasting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was once the master of the Kult Wiczośwoci, or the 'Cult of the Everlasting' in ancient Ojyczaynz. This marks [ROOT.GetCharacter.GetHerHim] as the progenitor of nearly every [Concept('liches','Lich')|E] on [the_continent|E]. Possibly the most powerful Lich to ever live, even the infamously spiteful and infighting-minded Liches of the [the_lichdoms|E] are forced to give respect to [ROOT.GetCharacter.GetSheHe|U] who began the [sorrowing_of_oejeynica|E]."
  
  trait_gh_arch_lich_1:0 "Arch Lich"
- trait_gh_arch_lich_1_desc:0 "A true [archlich|E], this [lich|E] has done the near impossible and temporarily subdued enough rival Liches of the [the_lichdoms|E] to be recognized as an Archlich, supreme ruler of all Liches. This means they likely lead a massive force of the undead and their peerage consists of a coven of some of the most powerful [magi|E] currently in existence. Whether or not they actually use any of this before one of their subordinates does the traditional political assassination remains yet to be seen..."
- trait_gh_arch_lich_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a true [archlich|E], a [lich|E] that has done the near impossible and temporarily subdued enough rival Liches of the [the_lichdoms|E] to be recognized as an Archlich, supreme ruler of all Liches. This means [ROOT.GetCharacter.GetSheHe] likely leads a massive force of the undead and [ROOT.GetCharacter.GetHerHis] peerage consists of a coven of some of the most powerful [magi|E] currently in existence. Whether or not [ROOT.GetCharacter.GetSheHe] actually uses any of this before one of [ROOT.GetCharacter.GetHerHis] subordinates does the traditional political assassination remains yet to be seen..."
+ trait_gh_arch_lich_1_desc:0 "A true [Concept('arch_lich','Arch Lich')|E], this [Concept('liches','Lich')|E] has done the near impossible and temporarily subdued enough rival Liches of the [the_lichdoms|E] to be recognized as an Archlich, supreme ruler of all Liches. This means they likely lead a massive force of the undead and their peerage consists of a coven of some of the most powerful [magi|E] currently in existence. Whether or not they actually use any of this before one of their subordinates does the traditional political assassination remains yet to be seen..."
+ trait_gh_arch_lich_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a true [Concept('arch_lich','Arch Lich')|E], a [Concept('liches','Lich')|E] that has done the near impossible and temporarily subdued enough rival Liches of the [the_lichdoms|E] to be recognized as an Archlich, supreme ruler of all Liches. This means [ROOT.GetCharacter.GetSheHe] likely leads a massive force of the undead and [ROOT.GetCharacter.GetHerHis] peerage consists of a coven of some of the most powerful [magi|E] currently in existence. Whether or not [ROOT.GetCharacter.GetSheHe] actually uses any of this before one of [ROOT.GetCharacter.GetHerHis] subordinates does the traditional political assassination remains yet to be seen..."
  
  trait_gh_disconnected:0 "Disconnected"
- trait_gh_disconnected_desc:0 "This [lich|E] has become disconnected from the world, apparently having lost the ability to manipulate their body."
+ trait_gh_disconnected_desc:0 "This [Concept('liches','Lich')|E] has become disconnected from the world, apparently having lost the ability to manipulate their body."
  trait_gh_disconnected_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has become disconnected from the world, apparently having lost the ability to manipulate [ROOT.GetCharacter.GetHerHis] body."
  
  trait_gh_debodied:0 "Debodied"
- trait_gh_debodied_desc:0 "This [lich|E] has had their body destroyed, but their skull remains. They are likely quite angry about this fact, and have also lost almost all of their magic."
+ trait_gh_debodied_desc:0 "This [Concept('liches','Lich')|E] has had their body destroyed, but their skull remains. They are likely quite angry about this fact, and have also lost almost all of their magic."
  trait_gh_debodied_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had [ROOT.GetCharacter.GetHerHis] body destroyed, but [ROOT.GetCharacter.GetHerHis] skull remains. [ROOT.GetCharacter.GetHerHis] are likely quite angry about this fact, and have also lost almost all of [ROOT.GetCharacter.GetHerHis] magic."
  
  trait_gh_overvain:0 "Overvain"
- trait_gh_overvain_desc:0 "This [lich|E] has become overvain, a type of Lich-based insanity. With their pretensions at ruling the universe unanswered and an eternity of life providing little actual change, they have gone mad with self-obsession, and now endlessly attempt to one-up themselves as they destroy themselves in attempts at 'beautification'."
- trait_gh_overvain_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has become overvain, a type of [lich|E]-based insanity. With their pretensions at ruling the universe unanswered and an eternity of life providing little actual change, they have gone mad with self-obsession, and now endlessly attempt to one-up themselves as they destroy themselves in attempts at 'beautification'."
+ trait_gh_overvain_desc:0 "This [Concept('liches','Lich')|E] has become overvain, a type of Lich-based insanity. With their pretensions at ruling the universe unanswered and an eternity of life providing little actual change, they have gone mad with self-obsession, and now endlessly attempt to one-up themselves as they destroy themselves in attempts at 'beautification'."
+ trait_gh_overvain_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has become overvain, a type of [Concept('liches','Lich')|E]-based insanity. With their pretensions at ruling the universe unanswered and an eternity of life providing little actual change, they have gone mad with self-obsession, and now endlessly attempt to one-up themselves as they destroy themselves in attempts at 'beautification'."
  
  trait_gh_soulshadowed:0 "Soulshadowed"
  trait_gh_soulshadowed_desc:0 "Soulshadowed is a polite description used by [liches|E] to describe the collapse of their undead mind. Those necromancers that experience the sickness tend to become increasingly distant and uncaring of the world around them, struggling to comprehend sentences and regularly appearing to be 'lost' in odd daydreams, visions or nightmares. It is unknown what exactly causes it, but different reasons have included a rediscovered trauma, magical damage to their binding, or that it's an inevitability of the lives of Liches is unknown. The last is most likely the most dreaded for Liches themselves, many having frantically attempted to find a way to stave off the madness for centuries."
@@ -831,7 +845,7 @@ trait_necromancy_undead_lich:0 "Lich"
  gh_legon_neutral:0 "Legon"
  gh_legon_male:0 "Legon"
  gh_legon_female:0 "Legan"
- trait_gh_legon_character_desc:0 "Through politicking, birthright or merit, [ROOT.GetCharacter.GetFirstNameNoTooltip] has become recognized as the master of an [aversarian|E] Legion."
+ trait_gh_legon_character_desc:0 "Through politicking, birthright or merit, [ROOT.GetCharacter.GetFirstNameNoTooltip] has become recognized as the master of an [Concept('aversaria','Aversarian')|E] Legion."
  trait_gh_legon_desc:0 "Through politicking, birthright or merit, this character has become recognized as the master of an Aversarian Legion."
 
  trait_gh_arch_legon:0 "Arch-Legon"
@@ -846,11 +860,11 @@ trait_necromancy_undead_lich:0 "Lich"
  trait_gh_gedeora_victim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had [ROOT.GetCharacter.GetHerHis] mind altered by a [gedeora|E]. Even if [ROOT.GetCharacter.GetSheHe] can't place how [ROOT.GetCharacter.GetSheHe] is different, some deep part of [ROOT.GetCharacter.GetHerHis] mind screams out that something is deeply wrong..."
  
  trait_gh_odrstund_victim:0 "[odrstund|E] Victim"
- trait_gh_odrstund_victim_desc:0 "This character has had their mind altered by [odrstund|E], the worst [gedeora|E] recorded in [aversarian|E] history. Driven to near madness by the bloodlust unleashed in their mind, they are pitied, feared, and detested in equal amounts."
- trait_gh_odrstund_victim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had [ROOT.GetCharacter.GetHerHis] mind altered by [odrstund|E], the worst [gedeora|E] recorded in [aversarian|E] history. Driven to near madness by the bloodlust unleashed in [ROOT.GetCharacter.GetHerHis] mind, [ROOT.GetCharacter.GetSheHe] is pitied, feared, and detested in equal amounts."
+ trait_gh_odrstund_victim_desc:0 "This character has had their mind altered by [odrstund|E], the worst [gedeora|E] recorded in [Concept('aversaria','Aversarian')|E] history. Driven to near madness by the bloodlust unleashed in their mind, they are pitied, feared, and detested in equal amounts."
+ trait_gh_odrstund_victim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had [ROOT.GetCharacter.GetHerHis] mind altered by [odrstund|E], the worst [gedeora|E] recorded in [Concept('aversaria','Aversarian')|E] history. Driven to near madness by the bloodlust unleashed in [ROOT.GetCharacter.GetHerHis] mind, [ROOT.GetCharacter.GetSheHe] is pitied, feared, and detested in equal amounts."
 
  trait_fools_curse:0 "Fool's Curse"
- trait_fools_curse_desc:0 "This character has been afflicted by the curse of the [fools_coast|E], alloying their flesh and tearing their insides apart."
+ trait_fools_curse_desc:0 "This character has been afflicted by the curse of the [Concept('fools_coast_biozone','Fools Coast')|E], alloying their flesh and tearing their insides apart."
  trait_fools_curse_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been afflicted by the [fools_curse|E], alloying [ROOT.GetCharacter.GetHerHis] flesh and tearing [ROOT.GetCharacter.GetHerHis] insides apart."
 
  trait_shade_stricken:0 "Shade-Stricken"
@@ -870,148 +884,160 @@ trait_necromancy_undead_lich:0 "Lich"
  trait_gh_magic_debug_desc:0 "This character is a Magi used for debug purposes. #BOL You# are most probably cheating. Boo!"
  trait_gh_magic_debug_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a Magi used for debug purposes. #BOL You#! are most probably cheating. Boo!"
 
-trait_gh_griffon_trait:0 "Griffon"
-trait_gh_griffon_trait_desc:0 "This is a [griffon|E], a [godtouched_creature|E] native to [chevalie|E]. While they are treasured steeds, they are relatively rare and are only common among royalty."
-trait_gh_griffon_trait_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [griffon|E], a [godtouched_creature|E] native to [chevalie|E]. While they are treasured steeds, they are relatively rare and are only common among royalty."
-
-trait_gh_gedeora_struck:0 ""
-trait_gh_gedeora_struck_desc:0 ""
-trait_gh_gedeora_struck_character_desc:0 ""
-
-trait_gh_one_handed:0 "One-Handed"
-trait_gh_one_handed_desc:0 "This character only has one hand."
-trait_gh_one_handed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] only has one hand."
-
-trait_gh_dragon_black:0 "Dragon"
-trait_gh_dragon_black_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
-trait_gh_dragon_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
-
-trait_gh_dragon_blue:0 "Dragon"
-trait_gh_dragon_blue_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
-trait_gh_dragon_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
-
-trait_gh_dragon_green:0 "Dragon"
-trait_gh_dragon_green_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
-trait_gh_dragon_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
-
-trait_gh_dragon_red:0 "Dragon"
-trait_gh_dragon_red_desc:0 "This is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]."
-trait_gh_dragon_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [dragon|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]."
-
-# Substitute lifestyle traits for history work
-trait_gh_historical_blademaster_1:0 "Aspiring Blademaster"
-trait_gh_historical_blademaster_1_desc:0 "Deft in personal combat — the Aspiring Blademaster knows which end to stick them with."
-trait_gh_historical_blademaster_1_character_desc:0 "Deft in personal combat — [ROOT.GetCharacter.GetFirstNameNoTooltip] knows which end to stick them with."
-
-trait_gh_historical_blademaster_2:0 "Blademaster"
-trait_gh_historical_blademaster_2_desc:0 "The Blademaster is a formidable and respected opponent in all kinds of combat."
-trait_gh_historical_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a formidable and respected opponent in all kinds of combat."
-
-trait_gh_historical_blademaster_3:0 "Legendary Blademaster"
-trait_gh_historical_blademaster_3_desc:0 "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
-trait_gh_historical_blademaster_3_character_desc:0 "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
-
-trait_gh_historical_reveler_1:0 "Eager Reveler"
-trait_gh_historical_reveler_1_desc:0 "A drink and a laugh, all with good company. What more is there to life?"
-trait_gh_historical_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sampled the intoxicating life of carousing and debauchery and is hungry for more."
-
-trait_gh_historical_reveler_2:0 "Famous Reveler"
-trait_gh_historical_reveler_2_desc:0 "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
-trait_gh_historical_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the life of every gathering, attracting both debauchery and glamor."
-
-trait_gh_historical_reveler_3:0 "Legendary Reveler"
-trait_gh_historical_reveler_3_desc:0 "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
-trait_gh_historical_reveler_3_character_desc:0 "Food, drink, intoxication of both body and mind — [ROOT.GetCharacter.GetFirstNameNoTooltip] denies [ROOT.GetCharacter.GetHerselfHimself] nothing and is the nexus of every feast."
-
-trait_gh_historical_physician_1:0 "Novice Physician"
-trait_gh_historical_physician_1_desc:1 "This character is trained in the art of healing."
-trait_gh_historical_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is trained in the art of healing."
-
-trait_gh_historical_physician_2:0 "Physician"
-trait_gh_historical_physician_2_desc:1 "This character has plenty of experience tending to the sick and wounded."
-trait_gh_historical_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has plenty of experience tending to the sick and wounded."
-
-trait_gh_historical_physician_3:0 "Renowned Physician"
-trait_gh_historical_physician_3_desc:1 "This character's healing skills are well known in scholarly circles."
-trait_gh_historical_physician_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] healing skills are well known in scholarly circles."
-
-trait_gh_historical_pilgrim_1:0 "Pilgrim"
-trait_gh_historical_pilgrim_1_desc:0 "Calloused feet, aching limbs, weathered face. It is all a small price to pay for doing your holy duty."
-trait_gh_historical_pilgrim_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed a pilgrimage to a holy site."
-
-trait_gh_historical_pilgrim_2:0 "Experienced Pilgrim"
-trait_gh_historical_pilgrim_2_desc:0 "This character has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
-trait_gh_historical_pilgrim_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
-
-trait_gh_historical_pilgrim_3:0 "Prolific Pilgrim"
-trait_gh_historical_pilgrim_3_desc:0 "This character is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
-trait_gh_historical_pilgrim_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
-
-trait_gh_historical_mystic_1:0 "Esoteric"
-trait_gh_historical_mystic_1_desc:0 "This character is known for their unconventional, but practical, approach to religion."
-trait_gh_historical_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unconventional, but practical, approach to religion."
-
-trait_gh_historical_mystic_2:0 "Mystic"
-trait_gh_historical_mystic_2_desc:0 "The mysteries of the world, both physical and otherwise, are laid bare with enough musing."
-trait_gh_historical_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unusual methods for achieving religious ascension."
-
-trait_gh_historical_mystic_3:0 "Miracle Worker"
-trait_gh_historical_mystic_3_desc:0 "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
-trait_gh_historical_mystic_3_character_desc:0 "Incense, chants, and odd cantrips – [ROOT.Char.GetFirstNameNoTooltip] works miracles through unconventional means."
-
-trait_gh_historical_hunter:0 "Hunter"
-trait_gh_historical_hunter_desc:0 "This character has taken up the call of the wild."
-trait_gh_historical_hunter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken up the call of the wild."
-
-trait_gh_historical_track_hunter_1:0 "Hunter"
-trait_gh_historical_track_hunter_1_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
-trait_gh_historical_track_hunter_1_character_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
-
-trait_gh_historical_track_hunter_2:0 "Hunter"
-trait_gh_historical_track_hunter_2_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
-trait_gh_historical_track_hunter_2_character_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
-
-trait_gh_historical_track_hunter_3:0 "Expert Hunter"
-trait_gh_historical_track_hunter_3_desc:0 "The Expert Hunter is the scourge of the wilds."
-trait_gh_historical_track_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the scourge of the wilds."
-
-trait_gh_historical_track_hunter_4:0 "Legendary Hunter"
-trait_gh_historical_track_hunter_4_desc:0 "The Legendary Hunter can hunt as naturally as they can breathe."
-trait_gh_historical_track_hunter_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] can hunt as naturally as they can breathe."
-
-trait_gh_historical_track_falconer_1:0 "Falconer"
-trait_gh_historical_track_falconer_1_desc:0 "There is no nobler pursuit than the sport of hunting with hawk and falcon."
-trait_gh_historical_track_falconer_1_character_desc:0 "There is no nobler pursuit than the sport of hunting with hawk and falcon."
-
-trait_gh_historical_track_falconer_2:0 "Falconer"
-trait_gh_historical_track_falconer_2_desc:0 "This character is proficient in training birds of prey to hunt wild animals."
-trait_gh_historical_track_falconer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is proficient in training birds of prey to hunt wild animals."
-
-trait_gh_historical_track_beasthunter_1:0 "Rookie Monster Slayer"
-trait_gh_historical_track_beasthunter_1_desc:1 "This character is a novice in the art of hunting the most dangerous of game."
-trait_gh_historical_track_beasthunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a novice in the art of hunting the most dangerous of game."
+ trait_gh_griffon_trait:0 "Griffon"
+ trait_gh_griffon_trait_desc:0 "This is a [Concept('griffons','Griffon')|E], a [Concept('godtouched_creatures','Godtouched Creatures')|E] native to [chevalie|E]. While they are treasured steeds, they are relatively rare and are only common among royalty."
+ trait_gh_griffon_trait_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('griffons','Griffon')|E], a [Concept('godtouched_creatures','Godtouched Creatures')|E] native to [chevalie|E]. While they are treasured steeds, they are relatively rare and are only common among royalty."
  
-trait_gh_historical_track_beasthunter_2:0 "Monster Slayer"
-trait_gh_historical_track_beasthunter_2_desc:1 "This character has proven themselves proficient at hunting the exotic and the dangerous. And sometimes both."
-trait_gh_historical_track_beasthunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has proven themselves proficient at hunting the exotic and the dangerous. And sometimes both."
+ trait_gh_gedeora_struck:0 ""
+ trait_gh_gedeora_struck_desc:0 ""
+ trait_gh_gedeora_struck_character_desc:0 ""
  
-trait_gh_historical_track_beasthunter_3:0 "Veteran Monster Slayer"
-trait_gh_historical_track_beasthunter_3_desc:1 "This character is known to be an expert at hunting all things dangerous and monstrous. They are a sight to behold while on the trail."
-trait_gh_historical_track_beasthunter_3_character_desc:0  "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to be an expert at hunting all things dangerous and monstrous. They are a sight to behold while on the trail."
+ trait_gh_one_handed:0 "One-Handed"
+ trait_gh_one_handed_desc:0 "This character only has one hand."
+ trait_gh_one_handed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] only has one hand."
  
-trait_gh_historical_track_beasthunter_4:0 "Legendary Monster Slayer"
-trait_gh_historical_track_beasthunter_4_desc:1 "This character's hunts are a thing of legend, the most mighty of beasts fearing the day they enter their lair."
-trait_gh_historical_track_beasthunter_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] hunts are a thing of legend, the most mighty of beasts fearing the day they enter their lair."
+ trait_gh_dragon_black:0 "Dragon"
+ trait_gh_dragon_black_desc:0 "This is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
+ trait_gh_dragon_black_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of obsidian, a species known for its mastery over [aspect_dark|E]."
+ 
+ trait_gh_dragon_blue:0 "Dragon"
+ trait_gh_dragon_blue_desc:0 "This is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
+ trait_gh_dragon_blue_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of sapphire, a species known for its mastery over [aspect_water|E]."
+ 
+ trait_gh_dragon_green:0 "Dragon"
+ trait_gh_dragon_green_desc:0 "This is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
+ trait_gh_dragon_green_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of emerald, a species known for its mastery over [aspect_nature|E]."
+ 
+ trait_gh_dragon_red:0 "Dragon"
+ trait_gh_dragon_red_desc:0 "This is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]."
+ trait_gh_dragon_red_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a [Concept('dragons','Dragon')|E]: one of the greatest [godtouched_creatures|E] to ever tread upon [aeras|E]. Dragons once ruled over land and sky, but were seemingly wiped out just after the [war_of_the_thousand_dragons|E], thus consigning them to myth and legend.\n\nThis particular creature is covered in scales of ruby, a species known for its mastery over [aspect_fire|E]."
+ 
+ # Substitute lifestyle traits for history work
+ trait_gh_historical_blademaster_1:0 "Aspiring Blademaster"
+ trait_gh_historical_blademaster_1_desc:0 "Deft in personal combat — the Aspiring Blademaster knows which end to stick them with."
+ trait_gh_historical_blademaster_1_character_desc:0 "Deft in personal combat — [ROOT.GetCharacter.GetFirstNameNoTooltip] knows which end to stick them with."
+ 
+ trait_gh_historical_blademaster_2:0 "Blademaster"
+ trait_gh_historical_blademaster_2_desc:0 "The Blademaster is a formidable and respected opponent in all kinds of combat."
+ trait_gh_historical_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a formidable and respected opponent in all kinds of combat."
+ 
+ trait_gh_historical_blademaster_3:0 "Legendary Blademaster"
+ trait_gh_historical_blademaster_3_desc:0 "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
+ trait_gh_historical_blademaster_3_character_desc:0 "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
+ 
+ trait_gh_historical_reveler_1:0 "Eager Reveler"
+ trait_gh_historical_reveler_1_desc:0 "A drink and a laugh, all with good company. What more is there to life?"
+ trait_gh_historical_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sampled the intoxicating life of carousing and debauchery and is hungry for more."
+ 
+ trait_gh_historical_reveler_2:0 "Famous Reveler"
+ trait_gh_historical_reveler_2_desc:0 "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
+ trait_gh_historical_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the life of every gathering, attracting both debauchery and glamor."
+ 
+ trait_gh_historical_reveler_3:0 "Legendary Reveler"
+ trait_gh_historical_reveler_3_desc:0 "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
+ trait_gh_historical_reveler_3_character_desc:0 "Food, drink, intoxication of both body and mind — [ROOT.GetCharacter.GetFirstNameNoTooltip] denies [ROOT.GetCharacter.GetHerselfHimself] nothing and is the nexus of every feast."
+ 
+ trait_gh_historical_physician_1:0 "Novice Physician"
+ trait_gh_historical_physician_1_desc:1 "This character is trained in the art of healing."
+ trait_gh_historical_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is trained in the art of healing."
+ 
+ trait_gh_historical_physician_2:0 "Physician"
+ trait_gh_historical_physician_2_desc:1 "This character has plenty of experience tending to the sick and wounded."
+ trait_gh_historical_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has plenty of experience tending to the sick and wounded."
+ 
+ trait_gh_historical_physician_3:0 "Renowned Physician"
+ trait_gh_historical_physician_3_desc:1 "This character's healing skills are well known in scholarly circles."
+ trait_gh_historical_physician_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] healing skills are well known in scholarly circles."
+ 
+ trait_gh_historical_pilgrim_1:0 "Pilgrim"
+ trait_gh_historical_pilgrim_1_desc:0 "Calloused feet, aching limbs, weathered face. It is all a small price to pay for doing your holy duty."
+ trait_gh_historical_pilgrim_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed a pilgrimage to a holy site."
+ 
+ trait_gh_historical_pilgrim_2:0 "Experienced Pilgrim"
+ trait_gh_historical_pilgrim_2_desc:0 "This character has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
+ trait_gh_historical_pilgrim_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
+ 
+ trait_gh_historical_pilgrim_3:0 "Prolific Pilgrim"
+ trait_gh_historical_pilgrim_3_desc:0 "This character is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
+ trait_gh_historical_pilgrim_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
+ 
+ trait_gh_historical_mystic_1:0 "Esoteric"
+ trait_gh_historical_mystic_1_desc:0 "This character is known for their unconventional, but practical, approach to religion."
+ trait_gh_historical_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unconventional, but practical, approach to religion."
+ 
+ trait_gh_historical_mystic_2:0 "Mystic"
+ trait_gh_historical_mystic_2_desc:0 "The mysteries of the world, both physical and otherwise, are laid bare with enough musing."
+ trait_gh_historical_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unusual methods for achieving religious ascension."
+ 
+ trait_gh_historical_mystic_3:0 "Miracle Worker"
+ trait_gh_historical_mystic_3_desc:0 "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
+ trait_gh_historical_mystic_3_character_desc:0 "Incense, chants, and odd cantrips – [ROOT.Char.GetFirstNameNoTooltip] works miracles through unconventional means."
+ 
+ trait_gh_historical_hunter:0 "Hunter"
+ trait_gh_historical_hunter_desc:0 "This character has taken up the call of the wild."
+ trait_gh_historical_hunter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken up the call of the wild."
+ 
+ trait_gh_historical_track_hunter_1:0 "Hunter"
+ trait_gh_historical_track_hunter_1_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+ trait_gh_historical_track_hunter_1_character_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+ 
+ trait_gh_historical_track_hunter_2:0 "Hunter"
+ trait_gh_historical_track_hunter_2_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+ trait_gh_historical_track_hunter_2_character_desc:0 "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+ 
+ trait_gh_historical_track_hunter_3:0 "Expert Hunter"
+ trait_gh_historical_track_hunter_3_desc:0 "The Expert Hunter is the scourge of the wilds."
+ trait_gh_historical_track_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the scourge of the wilds."
+ 
+ trait_gh_historical_track_hunter_4:0 "Legendary Hunter"
+ trait_gh_historical_track_hunter_4_desc:0 "The Legendary Hunter can hunt as naturally as they can breathe."
+ trait_gh_historical_track_hunter_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] can hunt as naturally as they can breathe."
+ 
+ trait_gh_historical_track_falconer_1:0 "Falconer"
+ trait_gh_historical_track_falconer_1_desc:0 "There is no nobler pursuit than the sport of hunting with hawk and falcon."
+ trait_gh_historical_track_falconer_1_character_desc:0 "There is no nobler pursuit than the sport of hunting with hawk and falcon."
+ 
+ trait_gh_historical_track_falconer_2:0 "Falconer"
+ trait_gh_historical_track_falconer_2_desc:0 "This character is proficient in training birds of prey to hunt wild animals."
+ trait_gh_historical_track_falconer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is proficient in training birds of prey to hunt wild animals."
+ 
+ trait_gh_historical_track_beasthunter_1:0 "Rookie Monster Slayer"
+ trait_gh_historical_track_beasthunter_1_desc:1 "This character is a novice in the art of hunting the most dangerous of game."
+ trait_gh_historical_track_beasthunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a novice in the art of hunting the most dangerous of game."
+  
+ trait_gh_historical_track_beasthunter_2:0 "Monster Slayer"
+ trait_gh_historical_track_beasthunter_2_desc:1 "This character has proven themselves proficient at hunting the exotic and the dangerous. And sometimes both."
+ trait_gh_historical_track_beasthunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has proven themselves proficient at hunting the exotic and the dangerous. And sometimes both."
+  
+ trait_gh_historical_track_beasthunter_3:0 "Veteran Monster Slayer"
+ trait_gh_historical_track_beasthunter_3_desc:1 "This character is known to be an expert at hunting all things dangerous and monstrous. They are a sight to behold while on the trail."
+ trait_gh_historical_track_beasthunter_3_character_desc:0  "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known to be an expert at hunting all things dangerous and monstrous. They are a sight to behold while on the trail."
+  
+ trait_gh_historical_track_beasthunter_4:0 "Legendary Monster Slayer"
+ trait_gh_historical_track_beasthunter_4_desc:1 "This character's hunts are a thing of legend, the most mighty of beasts fearing the day they enter their lair."
+ trait_gh_historical_track_beasthunter_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] hunts are a thing of legend, the most mighty of beasts fearing the day they enter their lair."
+ 
+ trait_pellagra:0 "Aironoian Leprosy"
+ trait_pellagra_desc:0 "This character suffers from an affliction of Aironoian Leprosy, a horrible disease said to originate from Eastern Aironoi from a curse that an ancient [magi|E] once put upon the land to keep out invaders."
+ trait_pellagra_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] suffers from an affliction of Aironoian Leprosy, a horrible disease said to originate from Eastern Aironoi from a curse that an ancient [magi|E] once put upon the land to keep out invaders."
+ 
+ trait_mostly_whole_of_body:0 "Mostly Whole of Body"
+ trait_mostly_whole_of_body_desc:0 "Know yourself, know your limitations, and know the full extent of your somewhat limited reach."
+ 
+ trait_track_lifestyle_beasthunter:0 "Beast Hunter"
+ trait_track_lifestyle_beasthunter_desc:0 "A Beast Hunter is someone who has experience hunting and slaying some of the more monstrous creatures found across [aeras|E]. "
+ 
+ trait_gh_historical_school:0 "Historical Magi"
+ trait_gh_historical_school_desc:0 "This character was known to be a [magi|E] in their time."
+ 
+ trait_gh_naklan_returned:0 "Naklan Reborn"
+ trait_gh_naklan_returned_desc:0 "This character is considered by many to be the second coming of [Concept('naklan_the_golden','Naklan')|E], the legendary King of Dahangon, both in body and spirit."
+ trait_gh_naklan_returned_char_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is considered by many to be the second coming of [Concept('naklan_the_golden','Naklan')|E], the legendary King of Dahangon, both in body and spirit."
+ 
+ trait_gh_trait_amsari_pretender:89 "Hiklahn Pretender"
+ gh_trait_amsari_pretender_desc:89 "This character has openly claimed the Asmari Hiklahn."
+ gh_trait_amsari_pretender_character_desc:89 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has openly claimed the Asmari Hiklahn."
 
-trait_pellagra:0 "Aironoian Leprosy"
-trait_pellagra_desc:0 "This character suffers from an affliction of Aironoian Leprosy, a horrible disease said to originate from Eastern Aironoi from a curse that an ancient [magi|E] once put upon the land to keep out invaders."
-trait_pellagra_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] suffers from an affliction of Aironoian Leprosy, a horrible disease said to originate from Eastern Aironoi from a curse that an ancient [magi|E] once put upon the land to keep out invaders."
-
-trait_mostly_whole_of_body:0 "Mostly Whole of Body"
-trait_mostly_whole_of_body_desc:0 "Know yourself, know your limitations, and know the full extent of your somewhat limited reach."
-
-trait_track_lifestyle_beasthunter:0 "Beast Hunter"
-trait_track_lifestyle_beasthunter_desc:0 "A Beast Hunter is someone who has experience hunting and slaying some of the more monstrous creatures found across [aeras|E]. "
-
-trait_gh_historical_school:0 "Historical Magi"
-trait_gh_historical_school_desc:0 "This character was known to be a [magi|E] in their time."
+ trait_gh_trait_renounced_claim:89 "Claim Renounced"
+ gh_trait_renounced_claim_desc:89 "This character has publicly renounced all claims to the throne—willingly or otherwise."
+ gh_trait_renounced_claim_character_desc:89 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has publicly renounced all claims to the throne, willingly or otherwise."

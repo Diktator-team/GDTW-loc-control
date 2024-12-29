@@ -88,7 +88,7 @@
  nick_III_the_younger_Megistos_desc:0 "By this point, some are beginning to wonder if Megistos' name is bestowed due to vanity or the lack of imagination."
 
  nick_bane_of_azzykrazz:0 "the Bane of Azzy'krazz"
- nick_bane_of_azzykrazz_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] dedicated [CharYourHerHis(CHARACTER)] life to hunting down the demon Azzy'krazz, bringer of the [fog|E]"
+ nick_bane_of_azzykrazz_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] dedicated [CharYourHerHis(CHARACTER)] life to hunting down the demon Azzy'krazz, bringer of the [Concept('the_fog','Fog')|E]"
 
  nick_the_heart_eater:0 "the Heart-Eater"
  nick_the_heart_eater_desc:0 "Many whisper that [CHARACTER.GetShortUINameNoTooltipNoFormat] practice[_s(CHARACTER)] the vile ways of the northern barbarians, eating the flesh of foe and friend alike."
@@ -246,10 +246,25 @@
  nick_the_elder_alphioxis:0 "the Elder"
 
  nick_the_unready_aricon:0 "the Unready"
- 
- nick_the_hesitant:0 "the Hesitant"
 
  nick_second_breath:0 "Second-Breath"
+
+ nick_stonehide:0 "Stonehide"
+
+ nick_youngthorn:0 "Youngthorn"
+
+ nick_wave_rider:0 "Wave-Rider"
+
+ nick_keeneye:0 "Keen-Eye"
+
+ nick_manhunter:0 "Manhunter"
+ # THE REACH #
+
+ nick_the_hesitant: "the Hesitant"
+ nick_witchblood: "Witchblood"
+ nick_the_haughty: "the Haughty"
+ nick_of_the_golden_rowan: "of the Golden Rowan"
+ nick_the_coin_clutcher: "the Coin-Clutcher"
 
  # SARRADON #
  nick_ironheart:0 "Ironheart"
@@ -268,10 +283,10 @@
  nick_the_pale_sphinx_desc:0 "So-named for [CharYourHerHis(CHARACTER)] unusual complexion and shrewd demeanor, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharAreIs(CHARACTER)] considered by most to be as perilous as [CharYourHerHis(CHARACTER)] namesake."
 
  nick_the_grim:0 "the Grim"
- nick_the_grim_desc:0 "Stern in both action and word, [CHARACTER.GetShortUINameNoTooltipNoFormat] find[_s(CHARACTER)] it difficult to enjoy what life has to offer.
+ nick_the_grim_desc:0 "Stern in both action and word, [CHARACTER.GetShortUINameNoTooltipNoFormat] finds it difficult to enjoy what life has to offer."
  
  nick_the_father_of_sarradon:0 "the Father of Sarradon"
- nick_the_father_of_sarradon_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] united much of [sarradon|E] under [CharYourHerHis(CHARACTER)] rule, vowing that [CharYouSheHe(CHARACTER)] will not rest until [CharYourHerHis(CHARACTER)] 'family' is fully liberated from the yoke of the [aversarians|E]."
+ nick_the_father_of_sarradon_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] united much of [sarradon|E] under [CharYourHerHis(CHARACTER)] rule, vowing that [CharYouSheHe(CHARACTER)] will not rest until [CharYourHerHis(CHARACTER)] 'family' is fully liberated from the yoke of the [Concept('aversaria','Aversarians')|E]."
 
  nick_the_younger_harthah:0 "the Younger"
 
@@ -340,13 +355,13 @@
  nick_shapechanger_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] participated in the Witch-Breaker's famed raid of the [mayikrata|E], gaining the power to freely shift [CharYourHerHis(CHARACTER)] assumed form."
 
  nick_crow_eye:0 "Crow-Eye"
- nick_crow_eye_desc:0 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] eyes [CharAreIs(CHARACTER)] of the deepest black, and many whisper that [CharYourHerHis(CHARACTER)] sight pierces through even the [fog|E]."
+ nick_crow_eye_desc:0 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] eyes [CharAreIs(CHARACTER)] of the deepest black, and many whisper that [CharYourHerHis(CHARACTER)] sight pierces through even the [Concept('the_fog','Fog')|E]."
 
  nick_earthshaker:0 "the Earthshaker"
  nick_earthshaker_desc:0 "Taking advantage of a fallen shard of [aervalr|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] amplified [CharYourHerHis(CHARACTER)] already considerable powers to conquer the Goan tribes."
 
  nick_rosewolf:0 "the Rose-Wolf"
- nick_rosewolf_desc:0 "So-named by the [chevalien|E] scholar Mitheux Chridae, who described [CHARACTER.GetShortUINameNoTooltipNoFormat] as being a "Rose among Wolves", which was later adapted by the Sjalvolki themselves in its current form."
+ nick_rosewolf_desc:0 "So-named by the [Concept('marchers','Chevalien')|E] scholar Mitheux Chridae, who described [CHARACTER.GetShortUINameNoTooltipNoFormat] as being a "Rose among Wolves", which was later adapted by the Sjalvolki themselves in its current form."
 
  nick_bloodbeard:0 "Blood-Beard"
  nick_bloodbeard_desc:0 ""
@@ -365,6 +380,9 @@
 
  nick_shield_eater:0 "Shield-Eater"
  nick_shield_eater_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] infamous for [CharYourHerHis(CHARACTER)] unorthodox ways of piercing through [CharYourHerHis(CHARACTER)] opponents' defenses."
+
+ nick_ten_tree:0 "Ten-Tree"
+ nick_ten_tree_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] was born amongst the carnage of [battle_of_ten_trees|E] and is said to have not uttered a cry."
 
  nick_silent_tongue_mergos:0 "Silent-Tongue"
 
@@ -399,6 +417,12 @@
  nick_love_another:0 "Love-Another"
 
  nick_the_aversarian_uloven:0 "the Aversarian"
+
+ nick_wrath_braid:0 "Wrath-Braid"
+ nick_wrath_braid_desc:0 "Once, it was probably possible to discern [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] natural hair color underneath all the caked blood. Probably."
+
+ nick_the_croaker:0 "the Croaker"
+ nick_the_croaker_desc:0 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] voice leaves a lasting impression, even if [CharYouSheHe(CHARACTER)] wished it didn't."
 
  # PIRATE COAST #
  nick_blackrock:0 "Black Rock"
@@ -470,6 +494,9 @@
  nick_the_resplendent_thawdar:0 "the Resplendent"
 
  # CHEVALIE #
+ nick_griffon_feed:0 "Griffon Feed"
+ nick_griffon_feed_desc:0 "Despite [CharYourHerHis(CHARACTER)] years of hunting, [CHARACTER.GetShortUINameNoTooltipNoFormat] would meet [CharYourHerHis(CHARACTER)] fate as supper for [griffons|E]."
+
  nick_the_black_bastard:0 "the Black Bastard"
  nick_the_black_bastard_desc:0 "All [CharYourHerHis(CHARACTER)] life [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] been marked by the dark hair of [CharYourHerHis(CHARACTER)] birth-mother."
 
@@ -546,6 +573,28 @@
  nick_the_gelded_gamalan:0 "the Gelded"
  nick_the_gelded_gamalan_desc:0 "Enslaved as a child, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] castrated by [CharYourHerHis(CHARACTER)] Kathuni masters to ensure [CharYourHerHis(CHARACTER)] loyalty and servility."
 
+ nick_thirdclaw:0 "Thirdclaw"
+ nick_thirdclaw_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has long served the Bronzeport ably as its Chief General, leading many to regard [CharYouHerHim(CHARACTER)] as the third dragon's claw that defends it from harm."
+
+ nick_naklan_golden:0 "the Golden"
+
+ nick_inklord:0 "the Inklord"
+
+ nick_naklan_returned:0 "the Returned"
+ nick_naklan_returned_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] widely believed to be the reincarnation of the legendary [naklan_the_golden|E], lord of all Dahangon."
+
+ nick_thorn_queen:0 "the Thorn Queen"
+ nick_thorn_queen_desc:0 "Finally achieving the centuries-long dream of [nari_daya|E], [CHARACTER.GetShortUINameNoTooltipNoFormat|U] now rule[_s(CHARACTER)] as the fearsome Thorn Queen of Vehangun."
+
+ nick_bronzesinger:0 "Bronze-Singer"
+ nick_bronzesinger_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] renowned for [CharYourHerHis(CHARACTER)] uncanny skill in working with bronze, and [CharAreIs(CHARACTER)] widely regarded to be the greatest bronzesmith of the age."
+
+ nick_sea_lion:0 "the Sea-Lion"
+ nick_sea_lion_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] by [CharYourHerHis(CHARACTER)] feats and actions proven [CharYourHerHimself(CHARACTER)] worthy of inheriting the title of the dread Sea-Lion of Sóc Long — the fiercest pirate lord of the eastern seas."
+
+ nick_the_maze:0 "the Maze"
+ nick_the_maze_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] bestowed this moniker both due to the numerous tattoos adorning [CharYourHerHis(CHARACTER)] body, and [CharYourHerHis(CHARACTER)] penchant of weaving layers upon layers of intrigue."
+
  # MISC #
  nick_the_rebuker:0 "the Rebuker"
 
@@ -556,13 +605,25 @@
  nick_the_onion_knight:0 "the Onion Knight"
 
  nick_the_glass_renseb:0 "the [CHARACTER.GetWomanMan|U] of Glass"
+ #Is definied both
+ #nick_custom_nickname:0 "Custom"
+
+ nick_the_flame_of_korlacu:0 "the Flame of Korlacu"
+
+ nick_the_golden_arrow:0 "the Golden Arrow"
+
+ nick_guardian_of_the_western_pass:0 "Guardian of the Western Pass"
+ nick_fist_of_the_twin_gods:0 "Fist of the Twin Gods"
+ nick_prophet_of_the_twin_gods:0 "Prophet of the Twin Gods"
+
+ nick_iyol_scion:0 "the Scion"
 
 
  ###################
  # EVENT NICKNAMES #
  ###################
  nick_slayer_of_liches:0 "Slayer of Undeath"
- nick_slayer_of_liches_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] has earned their name slaying a [lich|E] deep within their Necropolis."
+ nick_slayer_of_liches_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] has earned their name slaying a [Concept('liches','Lich')|E] deep within their Necropolis."
  nick_motherfather_of_iyrossi:0 "The [CHARACTER.GetMotherFather|U] of the Iyrossi"
  nick_motherfather_of_iyrossi_desc:0 ""
 
@@ -577,13 +638,16 @@
  nick_all_seeing_desc:0 "People whisper that [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] peered into the mists, and seen visions of what was and what is to come."
 
  nick_mistseeker:0 "Mist-Seeker"
- nick_mistseeker_desc:0 "Where many fear the [fog|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] instead embrace[_s(CHARACTER)] it, even disappearing for days on end within the lands now covered by its mists."
+ nick_mistseeker_desc:0 "Where many fear the [Concept('the_fog','Fog')|E], [CHARACTER.GetShortUINameNoTooltipNoFormat] instead embrace[_s(CHARACTER)] it, even disappearing for days on end within the lands now covered by its mists."
 
  nick_the_milehigh:0 "the Milehigh"
 
  nick_statuebreaker:0 "Statue-Breaker"
 
  nick_liso_inareberit_damotada:0 "liso Inareberit Damotada"
+
+ nick_far_flung:0 "Far-Flung"
+ nick_far_flung_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] travelled far across [aeras|E] from [CharYourHerHis(CHARACTER)] homeland seeking adventure"
 
  nick_the_redeemer:0 "the Redeemer"
 
@@ -607,8 +671,6 @@
 
  nick_homefinder:0 "the Homefinder"
 
- nick_the_pirate_king:0 "The Pirate King"
-
  nick_the_uniter:0 "the Uniter"
 
  nick_mountain_king:0 "Mountain-Keeper"
@@ -616,7 +678,7 @@
  nick_the_scourge_of_rovarska:0 "the Scourge of Rovarska"
 
  nick_the_waymaker:0 "the Waymaker"
- nick_the_waymaker_desc:0 "Through perserverance and determination, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] founded an Order dedicated to leading the peoples of the [Concept('sjalvolki_migrations','great migration')|E] into their new world."
+ nick_the_waymaker_desc:0 "Through perserverance and determination, [CHARACTER.GetShortUINameNoTooltipNoFormat] [CharHaveHas(CHARACTER)] founded an Order dedicated to leading the peoples of the [Concept('sjalvolki_migration','great migration')|E] into their new world."
 
  # REFORM AVERSARIA #
  nick_o_apokatastasis_ton_aversaria:0 "o Apokatastasis ton Aversaria"
@@ -1033,7 +1095,6 @@
  nick_the_crazy:0 "the Crazy"
  nick_the_mild:0 "the Mild"
  nick_the_lousy:0 "the Lousy"
- nick_the_incompetent:0 "the Incompetent"
  nick_the_skeleton:0 "the Skeleton"
  nick_the_luxurious:0 "the Luxurious"
  nick_the_good_for_nothing:0 "the Good-for-Nothing"
@@ -1065,7 +1126,7 @@
  nick_the_enchantress:0 "the Enchantress"
  nick_the_omniscient:0 "the Omniscient"
  nick_the_cold:0 "the Cold"
- nick_the_gullible:0 "the Gullible"
+ #nick_the_gullible:0 "the Gullible"
  nick_the_spineless:0 "the Spineless"
  nick_the_green_thumb:0 "the Green Thumb"
  nick_the_defiler:0 "the Defiler"
@@ -1205,6 +1266,14 @@
  nick_the_succubus:0 "the Succubus"
  nick_unlucky:0 "the Unlucky"
 
+ # AMSARI #
+ nick_bitterkin:89 "Bitterkin"
+ nick_chariotbreaker:89 "Chariot-Breaker"
+ nick_chariotbreaker_desc:89 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has faced overwhelming odds in the Kemsari desert and emerged victorious time and again."
+ nick_stormreaver:89 "Stormreaver"
+ nick_stormreaver_desc:89 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is known for timing [CharYourHerHis(CHARACTER)] attacks to coincide with fierce sea-storms."
+ 
+ 
  ###############
  # DEBUG / WIP #
  ###############

@@ -2,9 +2,9 @@
  #Ambush MAA
  fogbeasts_ambush:0 "a huge pack of [fogbeasts|E]"
  wodes_ambush:0 "a chittering horde of [fogeaters|E]"
- skeleton_ambush:0 "a roaming pack of skeletons, no doubt raised by a [lich|E],"
- skeleton_archers_ambush:0 "a roaming pack of skeletons armed with primitive bows, no doubt raised by a [lich|E],"
- undead_skirmishers_ambush:0 "a shambling horde of undead, no doubt raised by a [lich|E],"
+ skeleton_ambush:0 "a roaming pack of skeletons, no doubt raised by a [Concept('liches','Lich')|E],"
+ skeleton_archers_ambush:0 "a roaming pack of skeletons armed with primitive bows, no doubt raised by a [Concept('liches','Lich')|E],"
+ undead_skirmishers_ambush:0 "a shambling horde of undead, no doubt raised by a [Concept('liches','Lich')|E],"
  chasm_terrors_ambush:0 "a ravenous horde of bloody mutated hounds, scorpions, and human limbs" 
  lesser_voidspawns_ambush:0 "formless beings of void and shadow"
  redland_cultists_ambush:0 "an unholy congregation of bloody cultists"

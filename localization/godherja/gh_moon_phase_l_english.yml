@@ -58,9 +58,9 @@
  game_concept_aervalr_strength:0 "Aervalrian Strength"
  game_concept_aervalr_strength_desc:0 "Aervalrian Strength Desc"
  game_concept_moon_phase:0 "Moon Phase"
- game_concept_moon_phase_desc:0 "Moon Phase Desc"
+ game_concept_moon_phase_desc:0 "[aervalr|E] is known for having distinct phases that exert strong influence on [magi|E]. These phases range from the [new_moon|E] to [full_moon|E] and back, although rarely [Concept('special_phase','special phases')|E] have been known to occur."
  game_concept_special_phase:0 "Special Phase"
- game_concept_special_phase_desc:0 "Special Phase Desc"
+ game_concept_special_phase_desc:0 "Special phases refer to the unique and suprnatural phases of [aervalr|E] that can often have cataclysmic results. The most well known of these being the Blood Moons."
 
  game_concept_new_moon:0 "New Moon"
  game_concept_new_moon_desc:0 "Darkness has enveloped [aervalr|E], rendering it unseen even to the keenest eye."

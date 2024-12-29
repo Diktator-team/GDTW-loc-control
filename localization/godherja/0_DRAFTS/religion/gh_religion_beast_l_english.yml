@@ -2,7 +2,7 @@
 
  beast_religion:0 "Beast"
  beast_religion_adj:0 "Bestial"
- beast_religion_adjerent:0 "Beast"
+ beast_religion_adherent:0 "Beast"
  beast_religion_adherent_plural:0 "Beast"
  beast_religion_desc:0 "[aeras|E] is home to a number of unique and fantastical creatures. While some are mundane, and some have sapience exceeding even that of humanity, the children of Aeras all heed the call of the wild."
  beast_high_god_name:0 "[aeras|E]"
@@ -10,7 +10,9 @@
  beast_high_god_name_alternate:0 "The World"
  beast_high_god_name_alternate_possessive:0 "The World's"
  beast_devil_name:0 "Pollution"
+ beast_devil_name_alternate:0 "$beast_devil_name$"
  beast_devil_name_possessive:0 "Pollution's"
+ beast_devil_name_alternate_possessive:0 "$beast_devil_name_possessive$"
  beast_death_deity_name:0 "$beast_devil_name$"
  beast_death_deity_name_possessive:0 "$beast_devil_name_possessive$"
 

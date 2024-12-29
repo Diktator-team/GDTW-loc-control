@@ -11,7 +11,9 @@
  uakaklo_high_god_name_alternate:0 "The First One"
  uakaklo_high_god_name_alternate_possessive:0 "The First One's"
  uakaklo_devil_name:0 "Tekotlaketsuetspallok"
+ uakaklo_devil_name_alternate:0 "$uakaklo_devil_name$"
  uakaklo_devil_name_possessive:0 "Tekotlaketsuetspallok's"
+ uakaklo_devil_name_alternate_possessive:0 "$uakaklo_devil_name_possessive$"
  uakaklo_death_deity_name:0 "Maltecuhtla"
  uakaklo_death_deity_name_possessive:0 "Maltecuhtla's"
 

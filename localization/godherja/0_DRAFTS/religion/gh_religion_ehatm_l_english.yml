@@ -13,7 +13,9 @@
  ehatm_high_god_name_alternate:0 "$ehatm_high_god_name$"
  ehatm_high_god_name_alternate_possessive:0 "$ehatm_high_god_name$_possessive"
  ehatm_devil_name:0 "The Beast"
+ ehatm_devil_name_alternate:0 "$ehatm_devil_name$"
  ehatm_devil_name_possessive:0 "The Beast's"
+ ehatm_devil_name_alternate_possessive:0 "$ehatm_devil_name_possessive$"
  ehatm_death_deity_name:0 "$ehatm_high_god_name$"
  ehatm_death_deity_name_possessive:0 "$ehatm_high_god_name_possessive$"
 

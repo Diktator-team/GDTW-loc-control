@@ -143,7 +143,6 @@
  study_success_tt:0 "Your successfully grasp the study material"
  study_failure_tt:0 "Your studies go poorly"
  
- USE_PIETY:0 "Use [piety|E]"
  
  #####################
  # OPINION MODIFIERS #
@@ -263,7 +262,7 @@
  wardenite_high_court_legitimacy_very_high_doctrine_desc:0 ""
  
  special_doctrine_singular_mamur_hostility_name:0 "Recognizes One Mamur"
- special_doctrine_singular_mamur_hostility_desc:0 "Only one true [mamur|E] may guide [wardenism|E], and any others are mere radical pretenders." 
+ special_doctrine_singular_mamur_hostility_desc:0 "Only one true [Concept('mamuramat','Mamur')|E] may guide [wardenism|E], and any others are mere radical pretenders." 
  FAITH_TRADITIONS:0 "Legal Schools"
  FAITH_TRADITIONS_EXPLANATION:0 "Wardenism has a long and proud legalistic tradition dating back to the dawn of the faith and the First Warden. The fundamental Wardenite beliefs in Equality of Reason and the Right to Legal Redress has resulted in a wide array of different legal schools, diverging on various minutaie of Wardenite Religious Law."
  
@@ -310,9 +309,9 @@
  minbiri_name:0 "Minbiri'a"
  minbiri_desc:0 "The Minbiri'a, or the Permissiveness school, are among the oldest surviving radical sects. Emphasizing a holistic approach to textual sources - which is to say accepting almost all of them as having some manner of validity - the Minbiri'a have assembled a somewhat compelling challenge to the Wardenite Creed. In their legal practice, many Compulsory Prohibitions are downgraded to being merely Reccommended Conduct. The school has survived largely due to the occasional periods of popularity it has enjoyed amongst the rich and powerful in Wardenite society."
  keffali_name:0 "Keffali'a"
- keffali_desc:0 "A Sarradonization of the word "[chevalie|E]", the Keffali'a school originated as a series of ad-hoc and interim rulings seeking to normalize the growing presence of [marcher|E] merchants and mercenaries in Sarradonian society, but has since grown so specialized that it has developed into a legal school all of its own. While usually considered a radical school, it has largely been ignored by the rest of the Wardenite faith since the formal practice of the tradition has been kept localized to a handful of coastal cities in Western Sarradon, and seems unlikely to spread."
+ keffali_desc:0 "A Sarradonization of the word "[chevalie|E]", the Keffali'a school originated as a series of ad-hoc and interim rulings seeking to normalize the growing presence of [Concept('marchers','Marcher')|E] merchants and mercenaries in Sarradonian society, but has since grown so specialized that it has developed into a legal school all of its own. While usually considered a radical school, it has largely been ignored by the rest of the Wardenite faith since the formal practice of the tradition has been kept localized to a handful of coastal cities in Western Sarradon, and seems unlikely to spread."
  afazariani_name:0 "Afazariani"
- afazariani_desc:0 "Afazariani - a Sarradonization of the word '[aversarian|E]' - school enjoyed a brief period of mainstream acceptance during the early days of the [saints_war|E] as the Mamuramat pursued a policy of collaboration and alliance with the Agionist invaders who were still seen in those early days as valued allies against the resurgent Ritualist threat, and possible candidates for eventual integration within the Wardenite faith. Alas, this was not to be, and when the Agionists turned upon their erstwhile allies the Afazariani school's fall from grace happened almost overnight. It survives largely within lands controlled by the orders, and even there is not much liked."
+ afazariani_desc:0 "Afazariani - a Sarradonization of the word '[Concept('aversaria','Aversarian')|E]' - school enjoyed a brief period of mainstream acceptance during the early days of the [saints_war|E] as the Mamuramat pursued a policy of collaboration and alliance with the Agionist invaders who were still seen in those early days as valued allies against the resurgent Ritualist threat, and possible candidates for eventual integration within the Wardenite faith. Alas, this was not to be, and when the Agionists turned upon their erstwhile allies the Afazariani school's fall from grace happened almost overnight. It survives largely within lands controlled by the orders, and even there is not much liked."
  filosi_name:0 "Filosi'a"
  filosi_desc:0 "A legal school constructed to harmonize Wardenite religious law with Sjalvolki religious principles, the Filusi'a school is perhaps most remarkable for producing thousands upon thousands of pages pontificating over rules relating to hunting, hunters, and game preserves. Incidentally, it has also one of the most robust corpuses of Medical traditions found in the Wardenite world, synthesizing many of the more effective remedies pioneered by Sjalvolki shamans and medicine men throughout the centuries."
  zorani_name:0 "Qenrani'a"
@@ -453,7 +452,7 @@
  ALL_EDUCATIONS_HAVE_CHANCE_OF_JURIST_TRAIT:0 "Every [education_focus|E] has a chance of giving the [GetTrait('lifestyle_jurist').GetName( GetNullCharacter )] [trait|E]"
  LEARNING_EDUCATION_ALWAYS_GIVES_JURIST_TRAIT:0 "The [GetFocus('education_learning').GetName] [education_focus|E] is guaranteed to give the [GetTrait('lifestyle_jurist').GetName( GetNullCharacter )] [trait|E]"
  DYNASTY_MEMBERS_ON_COUNCIL_JOBS_EARN_JURIST_PROGRESS:0 "[dynasty|E] members with a [council|E] position will slowly accumulate @judicial_power_icon!#E Jurist Trait Progress#!"
- DYNASTY_MEMBERS_WITH_JURIST_TRAIT_PERFORM_COUNCIL_JOBS_BETTER:0 "[councillors|E] with a [GetTraitGroup('lifestyle_jurist').GetName] [trait|E] perform [councillor_tasks|E] better"
+ DYNASTY_MEMBERS_WITH_JURIST_TRAIT_PERFORM_COUNCIL_JOBS_BETTER:0 "[councillors|E] with the [GetTrait('lifestyle_jurist').GetName( GetNullCharacter )] [trait|E] perform [councillor_tasks|E] better"
  JUDICIAL_POWER_BONUS:0 "#E Judicial Power#!: @judicial_power_icon!#positive_value +25%#!"
  CAN_PAY_RENOWN_TO_GIVE_CHILD_JUST_TRAIT:0 "Can pay [dynasty_prestige|E] [dynasty_prestige_i] to give a child the [GetTrait('just').GetName( GetNullCharacter )] [trait|E]"
  

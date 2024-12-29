@@ -2,7 +2,7 @@
 
  orndaehz_religion:0 "Orn'daehz"
  orndaehz_religion_adj:0 "Orn'daehz"
- orndaehz_religion_adjerent:0 "Orn'daehza"
+ orndaehz_religion_adherent:0 "Orn'daehza"
  orndaehz_religion_adherent_plural:0 "Orn'daehza"
  orndaehz_religion_desc:0 "Adherents of this faith consider the Orn'daehz, or 'Goldkin', as their gods and masters, and believe it is their duty to free them from their exile in the lands beyond."
  orndaehz_high_god_name:0 "Orn'daehz"
@@ -10,7 +10,9 @@
  orndaehz_high_god_name_alternate:0 "the Goldkin"
  orndaehz_high_god_name_alternate_possessive:0 "the Goldkin's"
  orndaehz_devil_name:0 "Skywoman"
+ orndaehz_devil_name_alternate:0 "$orndaehz_devil_name$"
  orndaehz_devil_name_possessive:0 "Skywoman's"
+ orndaehz_devil_name_alternate_possessive:0 "$orndaehz_devil_name_possessive$"
  orndaehz_death_deity_name:0 "$orndaehz_devil_name$"
  orndaehz_death_deity_name_possessive:0 "$orndaehz_devil_name_possessive$"
 

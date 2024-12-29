@@ -23,7 +23,7 @@
  sjalvolki_decision.0001.f:0 "A swineherd in [location_option_greedy.GetNameNoTierNoTooltip] is selling their land for cheap."
  sjalvolki_decision.0001.g:0 "[location_option_arrogant.GetNameNoTierNoTooltip] has an expensive, but spectacular site!"
  sjalvolki_decision.0001.h:0 "[location_option_zealous.GetNameNoTierNoTooltip] is known holy land!"
- sjalvolki_decision.0001.k:0 "I can reuse the [aversarian|E] tomb at [location_option_cynical.GetNameNoTierNoTooltip]."
+ sjalvolki_decision.0001.k:0 "I can reuse the [Concept('aversaria','Aversarian')|E] tomb at [location_option_cynical.GetNameNoTierNoTooltip]."
  sjalvolki_decision.0001.l:0 "Actually, now may not be the time."
  will_build_at_location_1_tt:0 "You will construct the Barrow at [location_option_1.GetNameNoTierNoTooltip]"
  will_build_at_location_2_tt:0 "You will construct the Barrow at [location_option_2.GetNameNoTierNoTooltip]"

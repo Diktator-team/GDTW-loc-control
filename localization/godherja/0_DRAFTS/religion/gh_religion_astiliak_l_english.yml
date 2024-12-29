@@ -11,7 +11,9 @@
  astiliak_high_god_name_alternate:0 "Meskzak"
  astiliak_high_god_name_alternate_possessive:0 "Meskzak's"
  astiliak_devil_name:0 "Inkila"
+ astiliak_devil_name_alternate:0 "$astiliak_devil_name$"
  astiliak_devil_name_possessive:0 "Inkila's"
+ astiliak_devil_name_alternate_possessive:0 "$astiliak_devil_name_possessive$"
  astiliak_death_deity_name:0 "Athtalka"
  astiliak_death_deity_name_possessive:0 "Athtalka's"
 

@@ -41,8 +41,10 @@
  cn_tenovi:0 "Tenovi"
  cn_krinawalth:0 "Krinawalth"
  cn_krajnavolD:0 "Krajnavolð"
- cn_vorichifisk:0 "Vorichifisk"
- cn_voraivisk:0 "Voraivisk"
+ cn_harjadiga:0 "Harjadiga"
+ cn_herja_Ding:0 "Herjaðing"
+ cn_heria_Ding:0 "Heriaðing"
+ cn_ariadia:0 "Ariadia"
  cn_kloiburg:0 "Kloiburg"
  cn_kloborg:0 "Kloborg"
  cn_klutburg:0 "Klutburg"
@@ -98,7 +100,15 @@
  cn_elnigarD:0 "Elnigarð"
  cn_anigrathas:0 "Anigrathas"
  cn_saltorg:0 "Saltorg"
-    
+ cn_sotkalda:0 "Sotkalda"
+ cn_svuD_kelda:0 "Svuðkelda"
+ cn_suD_celde:0 "Suðcelde"
+ cn_hauheida:0 "Haudheida"
+ cn_horheiD_r:0 "Horheiðr"
+ cn_horheiD_e:0 "Horheiðe"
+ cn_trogena:0 "Trogena"
+ cn_dregna:0 "Dregna"
+ cn_dreina:0 "Dreina"
     ########################
     # e_etepezea           #
     ########################

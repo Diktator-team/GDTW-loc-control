@@ -3,7 +3,7 @@
 #xyz Loc
  xyz_religion:0 ""
  xyz_religion_adj:0 ""
- xyz_religion_adjerent:0 ""
+ xyz_religion_adherent:0 ""
  xyz_religion_adherent_plural:0 ""
  xyz_religion_desc:0 ""
  xyz_high_god_name:0 ""
@@ -11,7 +11,9 @@
  xyz_high_god_name_alternate:0 ""
  xyz_high_god_name_alternate_possessive:0 ""
  xyz_devil_name:0 ""
+ xyz_devil_name_alternate:0 "$xyz_devil_name$"
  xyz_devil_name_possessive:0 ""
+ xyz_devil_name_alternate_possessive:0 "$xyz_devil_name_possessive$"
  xyz_death_deity_name:0 ""
  xyz_death_deity_name_possessive:0 ""
 

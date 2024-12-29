@@ -17,7 +17,9 @@
  starvayrd_high_god_name_alternate:0 "the Heavens"
  starvayrd_high_god_name_alternate_possessive:0 "the Heavens'"
  starvayrd_devil_name:0 "the Misaligned"
+ starvayrd_devil_name_alternate:0 "$starvayrd_devil_name$"
  starvayrd_devil_name_possessive:0 "the Betrayed's"
+ starvayrd_devil_name_alternate_possessive:0 "$starvayrd_devil_name_possessive$"
  starvayrd_death_deity_name:0 "the One That Is North"
  starvayrd_death_deity_name_possessive:0 "the One That Is North's"
 

@@ -10,7 +10,9 @@
  kemsar_high_god_name_alternate:0 "the Dead Moon"
  kemsar_high_god_name_alternate_possessive:0 "Its"
  kemsar_devil_name:0 "Aphoph"
+ kemsar_devil_name_alternate:0 "$kemsar_devil_name$"
  kemsar_devil_name_possessive:0 "Aphoph"
+ kemsar_devil_name_alternate_possessive:0 "$kemsar_devil_name_possessive$"
  kemsar_death_deity_name:0 "Anoup"
  kemsar_death_deity_name_possessive:0 "Anoup"
 

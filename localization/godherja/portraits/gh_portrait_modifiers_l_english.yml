@@ -1,53 +1,52 @@
 ﻿l_english:
  ### Hair and Beard Variants mod ###
 
- PORTRAIT_MODIFIER_custom_hair_male_hair_frankish_01:89 "Longer Bowl"
- PORTRAIT_MODIFIER_custom_hair_epe_male_hair_steppe_01:89 "Shaved With Middle Lock"
- PORTRAIT_MODIFIER_custom_hair_male_hair_turkic_06:89 "Shaved With Long Braids"
- PORTRAIT_MODIFIER_custom_hair_epe_male_hair_steppe_02:89 "Shaved With Braids"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_frankish_01:89 "@godherja_logo! Longer Bowl"
+ PORTRAIT_MODIFIER_custom_hair_epe_male_hair_steppe_01:89 "@godherja_logo! Shaved With Middle Lock"
+ PORTRAIT_MODIFIER_custom_hair_male_hair_turkic_06:89 "@godherja_logo! Shaved With Long Braids"
+ PORTRAIT_MODIFIER_custom_hair_epe_male_hair_steppe_02:89 "@godherja_logo! Shaved With Braids"
  PORTRAIT_MODIFIER_custom_hair_bald:89 "Bald"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_01:89 "Wavy Sides (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_02:89 "Neck Braid (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_03:89 "Jeweled Bun (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_04:89 "Gilded Braids (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_05:89 "Long Curly (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_06:89 "Crown Curls (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_07:89 "Twin Braids With Ribbons (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_custom_08:89 "Rolled Up Braids (No Jewelery)"
- PORTRAIT_MODIFIER_custom_hair_female_hair_western_cover:89 "Swept Back"
- PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_03b:89 "Short Thin Braids With Jewelery"
- PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_child_01:89 "Short Afro"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_01:89 "Straight Medium Goatee"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_02:89 "Straight Medium Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_03:89 "Straight Medium Pointy"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_04:89 "Straight Medium Chinstrap"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_05:89 "Straight Medium Muttonchops"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_06:89 "Short Stylish Goatee"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_07:89 "Beaded Goatee"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_08:89 "Beaded Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_custom_09:89 "Beard of the Wizard King"
- PORTRAIT_MODIFIER_custom_beards_male_beard_mena_04b:89 "Parted Full Beard"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_1b:89 "Wavy Parted Full Beard"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_2b:89 "Wavy Goatee"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_9b:89 "Full Beard 2"
- PORTRAIT_MODIFIER_custom_beards_mena_curled_mustache_chinstrap_01:89 "Short Beard With Curly Mustache"
- PORTRAIT_MODIFIER_custom_beards_mena_islamic_pointed_beard:89 "Full Beard 4"
- PORTRAIT_MODIFIER_custom_beards_mena_islamic_pointed_beard_03:89 "Full Beard 5"
- PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:89 "Medium Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_03:89 "Long Mustachee"
- PORTRAIT_MODIFIER_custom_beards_epe_male_beard_indian_01:89 "Wavy Sideburns"
- PORTRAIT_MODIFIER_custom_beards_epe_male_beard_fp1_04:89 "Bushy Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_8b:89 "Curly Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_8c:89 "Curly Raised Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_8d:89 "Curly Long Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_8e:89 "Long Pointed Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_western_8f:89 "Curly Lowered Mustache"
- PORTRAIT_MODIFIER_custom_beards_male_beard_mena_05:89 "Big Curly Beard"
- PORTRAIT_MODIFIER_custom_beards_male_beard_mena_06:89 "Full Beard 6"
- PORTRAIT_MODIFIER_custom_beards_male_beard_mena_08:89 "Big Curly Beard With Loose Hairs"
- PORTRAIT_MODIFIER_custom_beards_male_beard_turkic_01:89 "Medium Mustache 2"
- PORTRAIT_MODIFIER_custom_beards_epe_male_beard_fp1_02:89 "Thin Handlebar"
- PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_01:89 "Long Pointed Mustache 2"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_01:89 "@godherja_logo! Wavy Sides (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_02:89 "@godherja_logo! Neck Braid (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_03:89 "@godherja_logo! Jeweled Bun (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_04:89 "@godherja_logo! Gilded Braids (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_05:89 "@godherja_logo! Long Curly (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_06:89 "@godherja_logo! Crown Curls (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_custom_08:89 "@godherja_logo! Rolled Up Braids (No Jewelery)"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_western_cover:89 "@godherja_logo! Swept Back"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_03b:89 "@godherja_logo! Short Thin Braids With Jewelery"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_child_01:89 "@godherja_logo! Short Afro"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_01:89 "@godherja_logo! Straight Medium Goatee"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_02:89 "@godherja_logo! Straight Medium Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_03:89 "@godherja_logo! Straight Medium Pointy"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_04:89 "@godherja_logo! Straight Medium Chinstrap"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_05:89 "@godherja_logo! Straight Medium Muttonchops"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_06:89 "@godherja_logo! Short Stylish Goatee"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_07:89 "@godherja_logo! Beaded Goatee"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_08:89 "@godherja_logo! Beaded Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_custom_09:89 "@godherja_logo! Beard of the Wizard King"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_04b:89 "@godherja_logo! Parted Full Beard"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_1b:89 "@godherja_logo! Wavy Parted Full Beard"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_2b:89 "@godherja_logo! Wavy Goatee"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_9b:89 "@godherja_logo! Full Beard 2"
+ PORTRAIT_MODIFIER_custom_beards_mena_curled_mustache_chinstrap_01:89 "@godherja_logo! Short Beard With Curly Mustache"
+ PORTRAIT_MODIFIER_custom_beards_mena_islamic_pointed_beard:89 "F@godherja_logo! ull Beard 4"
+ PORTRAIT_MODIFIER_custom_beards_mena_islamic_pointed_beard_03:89 "@godherja_logo! Full Beard 5"
+ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_02:89 "@godherja_logo! Medium Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_03:89 "@godherja_logo! Long Mustachee"
+ PORTRAIT_MODIFIER_custom_beards_epe_male_beard_indian_01:89 "@godherja_logo! Wavy Sideburns"
+ PORTRAIT_MODIFIER_custom_beards_epe_male_beard_fp1_04:89 "@godherja_logo! Bushy Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_8b:89 "@godherja_logo! Curly Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_8c:89 "@godherja_logo! Curly Raised Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_8d:89 "@godherja_logo! Curly Long Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_8e:89 "@godherja_logo! Long Pointed Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_western_8f:89 "@godherja_logo! Curly Lowered Mustache"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_05:89 "@godherja_logo! Big Curly Beard"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_06:89 "@godherja_logo! Full Beard 6"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_mena_08:89 "@godherja_logo! Big Curly Beard With Loose Hairs"
+ PORTRAIT_MODIFIER_custom_beards_male_beard_turkic_01:89 "@godherja_logo! Medium Mustache 2"
+ PORTRAIT_MODIFIER_custom_beards_epe_male_beard_fp1_02:89 "@godherja_logo! Thin Handlebar"
+ PORTRAIT_MODIFIER_custom_beards_male_long_mustache_indian_01:89 "@godherja_logo! Long Pointed Mustache 2"
 
  PORTRAIT_MODIFIER_special:89 "Special"
  PORTRAIT_MODIFIER_special_no_portrait:89 "No Portrait"
@@ -57,8 +56,9 @@
 
  PORTRAIT_MODIFIER_custom_gh_headgear:89 "GH Headgear"
  PORTRAIT_MODIFIER_gh_clothes:89 "GH Clothes"
- PORTRAIT_MODIFIER_custom_gh_hoods:89 "Hoods"
- PORTRAIT_MODIFIER_custom_gh_masks:89 "Masks"
+ PORTRAIT_MODIFIER_custom_gh_hoods:89 "GH Hoods"
+ PORTRAIT_MODIFIER_custom_gh_masks:89 "GH Masks"
+ PORTRAIT_MODIFIER_custom_gh_neck_accessories:89 "GH Neck"
 
  ### Aversarian ###
 
@@ -69,7 +69,6 @@
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_chainmail:89 "@godherja_logo! Bronze Helmet With Chain Coif"
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth:89 "@godherja_logo! Bronze Helmet With Cloth Band"
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth_chainmail:89 "@godherja_logo! Bronze Helmet With Chain Coif and Cloth Band"
- PORTRAIT_MODIFIER_gh_clothes_male_clothes_epe_byzantine_nobility_02_imperial:89 "@godherja_logo! Aversarian Noble's Garb"
 
  PORTRAIT_MODIFIER_custom_gh_headgear_aversarian_helmet_pointed_coif_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_aversarian_helmet_pointed_coif$"
  PORTRAIT_MODIFIER_custom_gh_headgear_aversarian_helmet_pointed_coif_female_tipped:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_aversarian_helmet_pointed_coif_tipped$"
@@ -78,14 +77,13 @@
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_chainmail_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_plain_chainmail$"
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth_chainmail_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth$"
  PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_plain_cloth_chainmail$"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_epe_byzantine_nobility_02_imperial:89 "$PORTRAIT_MODIFIER_gh_clothes_male_clothes_epe_byzantine_nobility_02_imperial$"
 
  PORTRAIT_MODIFIER_custom_gh_headgear_aversarian_helmet_pointed_coif_female_legan:89 "@godherja_logo! Aversarian Arch-Legan Helmet"
 
  PORTRAIT_MODIFIER_custom_special_male_aversarian_king_wreath:89 "@godherja_logo! Aversarian Wreath"
  PORTRAIT_MODIFIER_custom_special_male_aversarian_emperor_wreath:89 "@godherja_logo! Aversarian Imperial Wreath"
- PORTRAIT_MODIFIER_custom_special_female_aversarian_king_wreath:89 "$PORTRAIT_MODIFIER_custom_special_male_aversarian_king_wreath"
- PORTRAIT_MODIFIER_custom_special_female_aversarian_emperor_wreath:89 "$PORTRAIT_MODIFIER_custom_special_male_aversarian_emperor_wreath"
+ PORTRAIT_MODIFIER_custom_special_female_aversarian_king_wreath:89 "$PORTRAIT_MODIFIER_custom_special_male_aversarian_king_wreath$"
+ PORTRAIT_MODIFIER_custom_special_female_aversarian_emperor_wreath:89 "$PORTRAIT_MODIFIER_custom_special_male_aversarian_emperor_wreath$"
 
  PORTRAIT_MODIFIER_custom_special_aversarian_legon_crest:89 "@godherja_logo! Legon Helmet Crest"
  PORTRAIT_MODIFIER_custom_special_aversarian_arch_legon_crest:89 "@godherja_logo! Arch-Legon Helmet Crest"
@@ -109,7 +107,7 @@
 
  PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun:89 "@godherja_logo! Black Sun's Helmet"
  PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_no_mask:89 "@godherja_logo! Black Sun's Helmet (No Mask)"
- PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_female$"
+ PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_female:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun$"
  PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_female_no_mask:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_helmet_black_sun_no_mask$"
  PORTRAIT_MODIFIER_gh_clothes_black_sun_armor:89 "@godherja_logo! Black Sun's Armor"
  PORTRAIT_MODIFIER_gh_clothes_gh_special_black_sun_armor:89 "$PORTRAIT_MODIFIER_gh_clothes_black_sun_armor$"
@@ -183,11 +181,6 @@
  PORTRAIT_MODIFIER_custom_gh_hoods_hood_aversarian_black_liches_down:89 "@godherja_logo! Torn Black Practitioner Magi's Hood (Down)"
  PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_black_down:89 "@godherja_logo! Black Practitioner Magi's Hood (Down)"
  PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_black_liches_down:89 "@godherja_logo! Torn Black Practitioner Magi's Hood (Down)"
-
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_aversarian_battlemagi:89 "@godherja_logo! Battlemagi Hood"
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_battlemagi:89 "@godherja_logo! Battlemagi Hood"
- PORTRAIT_MODIFIER_custom_gh_hoods_hood_aversarian_battlemagi_down:89 "@godherja_logo! Battlemagi Hood (Down)"
- PORTRAIT_MODIFIER_custom_gh_hoods_female_hood_aversarian_battlemagi_down:89 "@godherja_logo! Battlemagi Hood (Down)"
 
  PORTRAIT_MODIFIER_custom_gh_headgear_hood_sarradon:89 "@godherja_logo! Sarradonian Magi's Hood Variant 1"
  PORTRAIT_MODIFIER_custom_gh_headgear_hood_sarradon_var1:89 "@godherja_logo! Sarradonian Magi's Hood Variant 2"
@@ -352,18 +345,17 @@
  PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_epe_mena_high_01:89 "@godherja_logo! Sarradonian Commoner Garb 2"
  PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_epe_iranian_high_01:89 "@godherja_logo! Sarradonian Commoner Garb 3"
  PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_epe_maghreb_high_01:89 "@godherja_logo! Sarradonian Commoner Garb 4"
- PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_low:89 "@godherja_logo! Sarradonian Robes Low"
+
  PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_common:89 "@godherja_logo! Sarradonian Robes Common"
- #PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_common:89 "@godherja_logo! Sarradonian Noble's Garb 3"
-
- PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_high:89 "@godherja_logo! Sarradonian Robes High"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_early_eastern_iranian_nobility_03_low:89 "@godherja_logo! Sarradonian Robes Low"
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_early_eastern_iranian_nobility_03_common:89 "@godherja_logo! Sarradonian Robes Common"
- #PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_early_eastern_iranian_nobility_03_common:89 "@godherja_logo! Sarradonian Noble's Garb 3"
-
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_low:89 "@godherja_logo! Sarradonian Robes Low"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_early_eastern_iranian_nobility_03_low:89 "@godherja_logo! Sarradonian Robes Low"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_early_eastern_iranian_nobility_03_high:89 "@godherja_logo! Sarradonian Robes High"
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_early_eastern_iranian_nobility_03_high:89 "@godherja_logo! Sarradonian Robes High"
+ 
  PORTRAIT_MODIFIER_gh_clothes_male_clothes_religious_dde_muslim_caliph_01_male:89 "@godherja_logo! Mamur's Clothes 1"
  PORTRAIT_MODIFIER_gh_clothes_male_clothes_epe_early_sunni_caliph_01:89 "@godherja_logo! Mamur's Clothes 2"
+
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_01_high:89 "@godherja_logo! Sarradonian Noble's Garb 1"
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_02_high:89 "@godherja_logo! Sarradonian Noble's Garb 2"
 
@@ -412,20 +404,21 @@
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_steppe_nobility_02_high:89 "$PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_steppe_nobility_02_high$"
  PORTRAIT_MODIFIER_gh_clothes_f_clothes_sec_byzantine_war_nob_01_lo:89 "$PORTRAIT_MODIFIER_gh_clothes_m_clothes_sec_byzantine_war_nob_01_lo$"
  PORTRAIT_MODIFIER_gh_clothes_female_clothes_religious_african_high_01_common:89 "$PORTRAIT_MODIFIER_gh_clothes_male_clothes_religious_african_high_01_common$"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_01_common:89 "@godherja_logo! Arabic Commoner Clothing 1"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_02_common:89 "@godherja_logo! Arabic Commoner Clothing 2"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_01_low:89 "@godherja_logo! Arabic Commoner Clothing 1"
- PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_02_low:89 "@godherja_logo! Arabic Commoner Clothing 2"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_01_common:89 "@godherja_logo! Sarradonian Commoner Clothing 1"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_02_common:89 "@godherja_logo! Sarradonian Commoner Clothing 2"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_01_low:89 "@godherja_logo! Sarradonian Commoner Clothing 1"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mena_nobility_02_low:89 "@godherja_logo! Sarradonian Commoner Clothing 2"
 
  PORTRAIT_MODIFIER_custom_special_male_empty:89 "No Headgear"
+ PORTRAIT_MODIFIER_custom_special_boy_empty:89 "No Headgear"
 
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_02:89 "@godherja_logo! Flower Crown 2"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_03:89 "@godherja_logo! Flower Crown 3"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_04:89 "@godherja_logo! Flower Crown 4"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_05:89 "@godherja_logo! Flower Crown 5"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_06:89 "@godherja_logo! Flower Crown 6"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_07:89 "@godherja_logo! Flower Crown 7"
- PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_08:89 "@godherja_logo! Flower Crown 8"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_02:89 "@godherja_logo! Flower Crown 1"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_03:89 "@godherja_logo! Flower Crown 2"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_04:89 "@godherja_logo! Flower Crown 3"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_05:89 "@godherja_logo! Flower Crown 4"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_06:89 "@godherja_logo! Flower Crown 5"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_07:89 "@godherja_logo! Flower Crown 6"
+ PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_08:89 "@godherja_logo! Flower Crown 7"
  PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_old_01:89 "@godherja_logo! Older Woman's Flower Crown"
  PORTRAIT_MODIFIER_custom_special_f_headgear_spec_ep2_western_wedding_old_02:89 "@godherja_logo! Older Woman's Flower Crown 2"
 
@@ -563,11 +556,13 @@
  PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_secular_mmjm_royalty_01:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_secular_mmjm_royalty_01$"
  PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_secular_mmjm_high_nobility_01:89 "@godherja_logo! Rovarskan Blangkon"
  PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_secular_mmjm_high_nobility_01:89 "@godherja_logo! Rovarskan Caping"
- PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_mmjm_royalty_01:89 "@godherja_logo! Rovarskan Royalty"
- PORTRAIT_MODIFIER_custom_gh_clothes_female_clothes_secular_mmjm_royalty_01:89 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_royalty_01$"
+ 
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mmjm_common_01:89 "@godherja_logo! Rovarskan Commoner"
  PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_mmjm_high_nobility_01:89 "@godherja_logo! Rovarskan Nobility"
- PORTRAIT_MODIFIER_custom_gh_clothes_female_clothes_secular_mmjm_high_nobility_01:89 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mmjm_high_nobility_01$"
- PORTRAIT_MODIFIER_custom_gh_clothes_female_clothes_secular_mmjm_common_01:89 "@godherja_logo! Rovarskan Commoner"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mmjm_high_nobility_01:89 "$PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_mmjm_high_nobility_01$"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_mmjm_royalty_01:89 "@godherja_logo! Rovarskan Royalty"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_secular_mmjm_royalty_01:89 "$PORTRAIT_MODIFIER_gh_clothes_male_clothes_secular_mmjm_royalty_01$"
+ 
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_common_01:1 "@godherja_logo! Rovarskan Commoner Legwear"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_high_nobility_01:1 "@godherja_logo! Rovarskan Noble Legwear"
  PORTRAIT_MODIFIER_custom_legwear_male_legwear_secular_mmjm_royalty_01:1 "@godherja_logo! Rovarskan Royal Legwear"
@@ -578,25 +573,24 @@
  PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_none:89 "none"
  PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_1:89 "Amsari 1"
  PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_2:89 "Amsari 2"
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_3:89 "Amsari 3
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_4:89 "Amsari 4
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_5:89 "Amsari 5
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_1:89 "Aversarian 1
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_2:89 "Aversarian 2
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_3:89 "Aversarian 3
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_4:89 "Aversarian 4
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_5:89 "Aversarian 5
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_1:89 "Kashiryan 1
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_2:89 "Kashiryan 2
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_3:89 "Kashiryan 3
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_4:89 "Kashiryan 4
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_5:89 "Kashiryan 5
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_1:89 "Chevalien 1
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_2:89 "Chevalien 2
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_3:89 "Chevalien 3
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_4:89 "Chevalien 4
- PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_5:89 "Chevalien 5
-
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_3:89 "Amsari 3"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_4:89 "Amsari 4"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_iranian_5:89 "Amsari 5"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_1:89 "Aversarian 1"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_2:89 "Aversarian 2"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_3:89 "Aversarian 3"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_4:89 "Aversarian 4"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_byzantine_5:89 "Aversarian 5"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_1:89 "Kashiryan 1"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_2:89 "Kashiryan 2"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_3:89 "Kashiryan 3"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_4:89 "Kashiryan 4"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_indian_5:89 "Kashiryan 5"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_1:89 "Chevalien 1"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_2:89 "Chevalien 2"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_3:89 "Chevalien 3"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_4:89 "Chevalien 4"
+ PORTRAIT_MODIFIER_cosmetics_eyeliner_eyeliner_european_5:89 "Chevalien 5"
  ### Cosmetic Eyeshadow ###
  PORTRAIT_MODIFIER_cosmetics_eyeshadow:89 "Eyeshadow"
  PORTRAIT_MODIFIER_cosmetics_eyeshadow_eyeshadow_none:89 "none"
@@ -681,7 +675,6 @@
 
 
   ### Neck Accessories ###
- PORTRAIT_MODIFIER_custom_gh_neck_accessories:89 "Neck"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty:89 "No Accessory"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_male_empty:89 "$PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty$"
  PORTRAIT_MODIFIER_custom_gh_neck_accessories_female_empty:89 "$PORTRAIT_MODIFIER_custom_gh_neck_accessories_empty$"
@@ -809,19 +802,17 @@
  PORTRAIT_MODIFIER_custom_cloaks_male_cloak_fantasy_wam_wizzard_cloak_02:89 "@godherja_logo! Alchemist Cloak"
  PORTRAIT_MODIFIER_custom_cloaks_female_cloak_fantasy_wam_wizzard_cloak_02:89 "@godherja_logo! Druidess Cloak"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_fantasy_wam_wizzard_robe_01:89 "@godherja_logo! Archaic Magi Robe"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_fantasy_wam_wizzard_robe_01:89 "@godherja_logo! Archaic Magi Dress"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_fantasy_wam_wizzard_robe_01:89 "@godherja_logo! Archaic Magi Robe"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_fantasy_wam_wizzard_robe_01:89 "@godherja_logo! Archaic Magi Dress"
+ PORTRAIT_MODIFIER_gh_clothes_male_clothes_fantasy_wam_wizzard_robe_02:89 "@godherja_logo! Alchemist Robe"
+ PORTRAIT_MODIFIER_gh_clothes_female_clothes_fantasy_wam_wizzard_robe_02:89 "@godherja_logo! Druidess Dress"
 
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_fantasy_wam_wizzard_robe_02:89 "@godherja_logo! Alchemist Robe"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_fantasy_wam_wizzard_robe_02:89 "@godherja_logo! Druidess Dress"
-
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_wam_wizzard_hat_01:89 "@godherja_logo! Alchemist Pointy Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_wam_witch_hat_01:89 "@godherja_logo! Archaic Magi Pointy Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_wam_witch_headscarf_01:89 "@godherja_logo! Druidess Headscarf"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_wam_druidess_01:89 "@godherja_logo! Druidess Circlet"
-
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_wam_enchanter_hat_01:89 "@godherja_logo! Horned Hat"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_fantasy_wam_enchanter_hat_01:89 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_fantasy_wam_enchanter_hat_01$"
+ PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_fantasy_wam_wizzard_hat_01:89 "@godherja_logo! Alchemist Pointy Hat"
+ PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_fantasy_wam_enchanter_hat_01:89 "@godherja_logo! Horned Hat"
+ PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_fantasy_wam_witch_hat_01:89 "@godherja_logo! Archaic Magi Pointy Hat"
+ PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_fantasy_wam_witch_headscarf_01:89 "@godherja_logo! Druidess Headscarf"
+ PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_fantasy_wam_druidess_01:89 "@godherja_logo! Druidess Circlet"
+ PORTRAIT_MODIFIER_custom_gh_headgear_female_headgear_fantasy_wam_enchanter_hat_01:89 "$PORTRAIT_MODIFIER_custom_gh_headgear_male_headgear_fantasy_wam_enchanter_hat_01$"
 
  ### ADamnSexyName ###
 
@@ -841,4 +832,29 @@
 
  horseback_archery_walk:90 "Mounted Archery, Walk"
  horseback_archery_aim:90 "Mounted Archery, Aim"
- menacing:90 "Menacing"
+
+ ## PRINCE OF DARKNESS ##
+ PORTRAIT_MODIFIER_visual_magic_damage:90 "@godherja_logo! Visual Magic Damage"
+ PORTRAIT_MODIFIER_visual_magic_damage_half_nosfed_face_right:90 "@godherja_logo! Half-Nosfed Face Right"
+ PORTRAIT_MODIFIER_visual_magic_damage_half_nosfed_face_left:90 "@godherja_logo! Half-Nosfed Face Left"
+ PORTRAIT_MODIFIER_visual_magic_damage_half_nosfed_face_bottom:90 "@godherja_logo! Nosfed Jaw"
+ PORTRAIT_MODIFIER_visual_magic_damage_full_nosfed_body:90 "@godherja_logo! Nosfed Body"
+ 
+ PORTRAIT_MODIFIER_fantasy_hair:90 "@godherja_logo! Fantasy Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_pure_black_hair:90 "@godherja_logo! Pure Black Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_light_blue_hair:90 "@godherja_logo! Light Blue Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_dark_blue_hair:90 "@godherja_logo! Dark Blue Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_light_green_hair:90 "@godherja_logo! Light Green Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_dark_green_hair:90 "@godherja_logo! Dark Green Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_purple_hair:90 "@godherja_logo! Purple Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_pure_white_hair:90 "@godherja_logo! Pure White Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_orange_hair:90 "@godherja_logo! Orange Hair"
+ PORTRAIT_MODIFIER_fantasy_hair_red_hair:90 "@godherja_logo! Red Hair"
+
+ PORTRAIT_MODIFIER_fantasy_skin:90 "@godherja_logo! Fantasy Skin"
+ PORTRAIT_MODIFIER_blue_skin:90 "@godherja_logo! Blue Skin"
+ PORTRAIT_MODIFIER_grey_skin:90 "@godherja_logo! Grey Skin"
+ PORTRAIT_MODIFIER_red_skin:90 "@godherja_logo! Red Skin"
+ PORTRAIT_MODIFIER_green_skin:90 "@godherja_logo! Green Skin"
+ PORTRAIT_MODIFIER_yellow_skin:90 "@godherja_logo! Yellow Skin"
+ PORTRAIT_MODIFIER_normal_skin:90 "@godherja_logo! Normal Skin"

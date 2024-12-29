@@ -1,6 +1,6 @@
 ﻿l_english:
- councillor_court_magi:0 "[ROOT.Char.Custom('GetActualCourtMagiTitle')]"
- councillor_court_magi_possessive:0 "[ROOT.Char.Custom('GetActualCourtMagiPossessive')]"
+ councillor_court_magi:0 "Court Magi"
+ councillor_court_magi_possessive:0 "Court Magi's"
  councillor_court_magi_desc:0 "[court_magi|E]"
  
  councillor_quartermaster:0 "Quartermaster"
@@ -23,6 +23,10 @@
  task_court_magi_defend_against_hostile_magic_effect_desc:0 "Magic Resistance: + #positive_value [SCOPE.ScriptValue('task_court_magi_defend_against_hostile_magic_resistance_value')|1]"
  task_court_magi_defend_against_hostile_magic_resistance_bonus_value_desc:0 "Disrupt Hostile Magic"
  
+ task_court_magi_research_magic:0 "Research Magic"
+ task_court_magi_research_magic_desc:0 "Will research spells known to their [cultures|E] [Concept('magic_type','Schools of Magic')|E]"
+ task_court_magi_research_magic_effect_desc:0 "Will learn new spells based on their [arcana|E] [skill|E]"
+
  IS_A_MAGI:0 "Is a [magi|E]"
  IS_NOT_A_MAGI:0 "Is not a [magi]"
  I_MUST_BE_A_MAGI:0 "I must be a [magi|E]"
@@ -46,6 +50,8 @@
  #Agionist
  
  #Wardenite
+ councillor_court_chaplain_wardenite_empire:0 "Grand Shawit"  # Grand Judge
+ councillor_court_chaplain_wardenite_kingdom:0 "Shawit" # Judge
  
  #Ritualist
  
@@ -94,13 +100,13 @@
  
  task_commerce_raid_desc:0 "Raid trade and commerce around your empire. Click on this task to see your current raiding area, then click on any county in that area to begin raiding them all."
  task_commerce_raid_effect_desc_1:0 "\nYou can currently earn @gold_icon!#P #tooltip:commerce_raiding_income_tooltip [GetPlayer.MakeScope.ScriptValue('quartermaster_commerce_raid_income')]#!#! [gold|E] per month from commerce raiding"
- task_commerce_raid_effect_desc_2:0 "\nYou can currently earn @gold_icon!#P [raiding_balance_cap|E]#! [gold|E] out of a possible @gold_icon!#P [raiding_balance_income|E]#! [gold|E] per month from commerce raiding. Establish more [shadow_ports|E] to raise your cap."
- task_commerce_raid_straits_income:0 "\n[GetScriptedGui('commerce_raiding_straits_income_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
- commerce_raiding_strait_income_intro_tt:0 "Extra income from major [straits|E]:"
- commerce_raiding_strait_income_tt:0 "[THIS.Var('strait_name').GetFlagName]: @gold_icon!#P [THIS.ScriptValue('total_income_from_strait_value')]#!"
+ task_commerce_raid_effect_desc_2:0 "\nYou can currently earn @gold_icon!#P [Concept('raiding_balance','Raiding Balance Cap')|E]#! [gold|E] out of a possible @gold_icon!#P [Concept('raiding_balance','Raiding Balance Income')|E]#! [gold|E] per month from commerce raiding. Establish more [Concept('shadow_port','Shadow Ports')|E] to raise your cap."
+ #task_commerce_raid_straits_income:0 "\n[GetScriptedGui('commerce_raiding_straits_income_scripted_gui').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+ #commerce_raiding_strait_income_intro_tt:0 "Extra income from major [Concept('straits_and_channels','Straits')|E]:"
+ #commerce_raiding_strait_income_tt:0 "[THIS.Var('strait_name').GetFlagName]: @gold_icon!#P [THIS.ScriptValue('total_income_from_strait_value')]#!"
  no_owned_straits:0 "You do not control any trade confluences"
  task_commerce_raid_tooltip:0 "From $task_commerce_raid$"
- commerce_raiding_income_tooltip:0 "#T Commerce Raiding Balance#!\n[GuiScope.SetRoot(GetPlayer.MakeScope).GetScriptValueDesc('quartermaster_commerce_raid_income')]\n\n#T [shadow_trade_capacity|E]#!\nTotal: [GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue('quartermaster_commerce_shadow_trade_cap')|V]\n[GuiScope.SetRoot(GetPlayer.MakeScope).GetScriptValueDesc('quartermaster_commerce_shadow_trade_cap')]"
+ commerce_raiding_income_tooltip:0 "#T Commerce Raiding Balance#!\n[GuiScope.SetRoot(GetPlayer.MakeScope).GetScriptValueDesc('quartermaster_commerce_raid_income')]\n\n#T [Concept('raiding_balance','Shadow Trade Capacity')|E]#!\nTotal: [GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue('quartermaster_commerce_shadow_trade_cap')|V]\n[GuiScope.SetRoot(GetPlayer.MakeScope).GetScriptValueDesc('quartermaster_commerce_shadow_trade_cap')]"
 
  testing_tooltip:0 "[THIS.ScriptValue('fingers_crossed')]"
 
@@ -112,14 +118,14 @@
  task_commerce_raid_anger_ruler:0 "\n$EFFECT_LIST_BULLET$#N Anger Rulers#!"
  
  task_establish_shadow_port:0 "Establish Shadow Port"
- task_establish_shadow_port_desc:0 "#S At #V 100%#!#!:\n$TAB$Opportunity to create a [shadow_port|E]"
+ task_establish_shadow_port_desc:0 "#S At #V 100%#!#!:\n$TAB$Opportunity to create a [Concept('shadow_port','Shadow Ports')|E]"
  task_establish_shadow_port_control_desc:0 "\nControl level of [county.GetNameNoTier]: [SCOPE.ScriptValue('quartermaster_county_control_level')]\nAdditional commerce raiding capacity: [SCOPE.ScriptValue('quartermaster_county_raid_cap')]"
  possible_side_effects:0 "\n#P Greedy Port Official#!\n#N Enraged Target#!\n#N Unbribable Inspector#!"
 
 
 
- world_ga_imperial_isle_income_tt:0 "[GetGeographicalRegion('world_ga_imperial_isle').GetName]: @gold_icon!#P [SCOPE.ScriptValue('world_ga_imperial_isle_value')]#!"
- world_ga_marcher_kingdoms_income_tt:0 "[GetGeographicalRegion('world_ga_marcher_kingdoms').GetName]: @gold_icon!#P [SCOPE.ScriptValue('world_ga_marcher_kingdoms_value')]#!"
+ #world_ga_imperial_isle_income_tt:0 "[GetGeographicalRegion('world_ga_imperial_isle').GetName]: @gold_icon!#P [SCOPE.ScriptValue('world_ga_imperial_isle_value')]#!"
+ #world_ga_marcher_kingdoms_income_tt:0 "[GetGeographicalRegion('world_ga_marcher_kingdoms').GetName]: @gold_icon!#P [SCOPE.ScriptValue('world_ga_marcher_kingdoms_value')]#!"
  trade_confluence_imperial_strait_income_tt:0 "[GetGeographicalRegion('trade_confluence_imperial_strait').GetName]: @gold_icon!#P [SCOPE.ScriptValue('trade_confluence_imperial_strait_value')]#!"
  trade_confluence_helvian_delta_income_tt:0 "[GetGeographicalRegion('trade_confluence_helvian_delta').GetName]: @gold_icon!#P [SCOPE.ScriptValue('trade_confluence_helvian_delta_value')]#!"
  trade_confluence_evimos_strait_income_tt:0 "[GetGeographicalRegion('trade_confluence_evimos_strait').GetName]: @gold_icon!#P [SCOPE.ScriptValue('trade_confluence_evimos_strait_value')]#!"

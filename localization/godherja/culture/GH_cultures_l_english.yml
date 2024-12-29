@@ -75,6 +75,10 @@
  skolix:90 "Skolix"
  skolix_collective_noun:90 "Skolixi"
 
+ # Kartharaddi
+ kartharaddi:90 "Kartharaddi"
+ kartharaddi_collective_noun:90 "Kartharaddi"
+
  # Sjalvolki
  adrakamp:90 "Adrakamp"
  adrakamp_collective_noun:90 "Adrakamp"
@@ -92,8 +96,18 @@
  greulokin_collective_noun:90 "Greulokins"
  irmionoth:90 "Irmionoth"
  irmionoth_collective_noun:90 "Irmionoths"
+ itnicavingi:90 "Itnicavingi"
+ itnicavingi_collective_noun:90 "Itnicavingi"
+ kaskader:90 "Kaskader"
+ kaskader_collective_noun:90 "Kaskaders"
  mastikigni:90 "Mastikigni"
  mastikigni_collective_noun:90 "Mastikigni"
+ radivolki:90 "Radivolki"
+ radivolki_collective_noun:90 "Radivolki"
+ rohfulka:0 "Rohfulka"
+ rohfulka_collective_noun:0 "Rohfulka"
+ svotsadi:90 "Svotsadi"
+ svotsadi_collective_noun:90 "Svotsadi"
  tribocicai:90 "Tribocicai"
  tribocicai_collective_noun:90 "Tribocicai"
  vrodkin:90 "Vrodkin"
@@ -149,18 +163,34 @@
  aygaen_collective_noun:90 "Aygaens"
 
  # Kherkeloi
- erkalgani:90 "Erkalgani"
- erkalgani_collective_noun:90 "Erkalgani"
- khodomi:90 "Khódomi"
- khodomi_collective_noun:90 "Khódomi"
- zelkavani:90 "Zelkavani"
- zelkavani_collective_noun:90 "Zelkavani"
+ sunakari:90 "Sunakari"
+ sunakari_collective_noun:90 "Sunakari"
+ luskos:90 "Luskos"
+ luskos_collective_noun:90 "Luskos"
+ kazuw:90 "Kazuw"
+ kazuw_collective_noun:90 "Kazuw"
+ khodomi:90 "Khodomi"
+ khodomi_collective_noun:90 "Khodomi"
  lattani:90 "Lattani"
  lattani_collective_noun:90 "Lattani"
- astilik:90 "Astilik"
- astilik_collective_noun:90 "Astiliks"
+ zelkavani:90 "Zelkavani"
+ zelkavani_collective_noun:90 "Zelkavani"
  jarakmar:90 "Ja'Rakmar"
  jarakmar_collective_noun:90 "Ja'Rakmari"
+ astilik:90 "Astilik"
+ astilik_collective_noun:90 "Astiliks"
+ erkalgani:90 "Erkalgani"
+ erkalgani_collective_noun:90 "Erkalgani"
+
+ # Urkarith
+ warma:90 "Warma"
+ warma_collective_noun:90 "Warma"
+ arashan:90 "Arashan"
+ arashan_collective_noun:90 "Arashani"
+ latti:90 "Latti"
+ latti_collective_noun:90 "Latti"
+ paerusik:90 "Paerusik"
+ paerusik_collective_noun:90 "Paerusik"
 
  # Abadelos
  gwenuyos:90 "Gwenuyos"
@@ -209,6 +239,10 @@
  vargenis_collective_noun:90 "Vargeni"
 
  # Kelthiunai
+ artuones:90 "Artuones"
+ artuones_collective_noun:90 "Artuones"
+ dailennir:90 "Dailennir"
+ dailennir_collective_noun:90 "Dailenni"
  dasulanoi:90 "Dasulanoi"
  dasulanoi_collective_noun:90 "Dasulanoi"
  theygundarope:90 "Theugundarope"
@@ -354,6 +388,8 @@
  darinic_collective_noun:90 "Darinics"
  ivernic:90 "Ivernic"
  ivernic_collective_noun:90 "Ivernic"
+ laodantines:90 "Laodantines"
+ laodantines_collective_noun:90 "Laodantines"
  mascatic:90 "Mascatic"
  mascatic_collective_noun:90 "Mascaticers"
  nagandines:90 "Nagandine"
@@ -420,8 +456,8 @@
  # Kathuni
  kathunian:90 "Kathuni"
  kathunian_collective_noun:90 "Kathuni"
- dainan:90 "Dáinān"
- dainan_collective_noun:90 "Dáināni"
+ lakoeng:90 "Lakoeng"
+ lakoeng_collective_noun:90 "Lakoeng"
 
  # Redlander
  redlander:90 "Redlander"
@@ -732,8 +768,15 @@
  # Nattanan
  nattanan:90 "Nattanan"
  nattanan_collective_noun:90 "Nattanan"
+ 
  kedari:90 "Kedari"
  kedari_collective_noun:90 "Kedari"
+
+ korlacan:90 "Korlacan"
+ korlacan_collective_noun:90 "Korlacan"
+
+ kyawkan:90 "Kyawkan"
+ kyawkan_collective_noun:90 "Kyawkan"
 
  # Dahangon 
  dathanites:90 "Dathanites"
@@ -748,6 +791,14 @@
  dayarka_collective_noun:90 "Dayarka"
  lihakan:90 "Lihakan"
  lihakan_collective_noun:90 "Lihakan"
+
+ # Azargi
+ azarg_kutahnuug:90 "Azarg Kutahnu͞ug"
+ azarg_kutahnuug_collective_noun:90 "Azarg Kutahnu͞ug"
+
+ # Talareg
+ talareg:90 "Talareg"
+ talareg_collective_noun:90 "Talareg"
 
  #Unsorted
  dergi:90 "Dergi"
@@ -844,3 +895,8 @@
  mezzodriacc:90 "Mezzodriacc"
  mezzodriacc_noun:90 "Mezzodrian"
  mezzodriacc_collective_noun:90 "Mezzodriani"
+ kathanouxiac_collective_noun:90 "Kathanouxians"
+ towerlander_aelfir_culture:90 "Towerlander Aelfir"
+ towerlander_aelfir_culture_collective_noun:90 "Towerlander Aelfir"
+ sarradonian_desert_aelfir_culture:90 "Desert Aelfir"
+ sarradonian_desert_aelfir_culture_collective_noun:90 "Desert Aelfir"

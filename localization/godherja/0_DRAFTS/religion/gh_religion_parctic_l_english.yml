@@ -3,15 +3,17 @@
 #parctic Loc
  partic_religion:0 "Partic"
  partic_religion_adj:0 "Partic"
- partic_religion_adjerent:0 "Partician"
+ partic_religion_adherent:0 "Partician"
  partic_religion_adherent_plural:0 "Particians"
  partic_religion_desc:0 "The Partic faith is less a traditional folk religion and more a system of belief permeated at every level with the study of [magic|E]. It believes in a mysterious being called "Serfli" in a forgotten tongue, usually translated into other languages as "the Great." All things, tangible and intangible, emanate from the Great, and to the Great all things shall return. There is also a pantheon of more traditional gods, believed to be absorbed from an older indigenous faith, but they are treated as mere emanations of the Great and lesser deities.\n\nExistence can be divided into two spheres: the known world of the body, and the felt world of the soul. The felt world coexists within and without the known world, and through careful meditation, one may peer through the body into the soul and draw on power from the felt world. This is what the Particians consider Magic."
  partic_high_god_name:0 "Serfli"
  partic_high_god_name_possessive:0 "Serfli's"
  partic_high_god_name_alternate:0 "an-Srebhlech"
  partic_high_god_name_alternate_possessive:0 "an-Srebhlech's"
- partic_devil_name:0 "Caghac" #Kagac
+ partic_devil_name:0 "Caghac"
+ partic_devil_name_alternate:0 "$partic_devil_name$" #Kagac
  partic_devil_name_possessive:0 "Caghac's"
+ partic_devil_name_alternate_possessive:0 "$partic_devil_name_possessive$"
  partic_death_deity_name:0 "$partic_devil_name$"
  partic_death_deity_name_possessive:0 "$partic_devil_name_possessive$"
 

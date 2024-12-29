@@ -71,7 +71,7 @@
  gethian_adj:0 "Gethian"
  gethian_adherent:0 "Gethian"
  gethian_adherent_plural:0 "Gethians"
- gethian_desc:0 "The Gethians entered the known world with the Sjalvolki coalition. Although they tended to be rather insular, they were told by the Sjalvolki of the great evils of the [aversarians|E] and their empire. They hope that by wiping out this despicable and destructive faith, they would be able to redeem themselves in the eyes of the Great Judge Atrākh-Admākh."
+ gethian_desc:0 "The Gethians entered the known world with the Sjalvolki coalition. Although they tended to be rather insular, they were told by the Sjalvolki of the great evils of the [Concept('aversaria','Aversarians')|E] and their empire. They hope that by wiping out this despicable and destructive faith, they would be able to redeem themselves in the eyes of the Great Judge Atrākh-Admākh."
  gethian_old:0 "Old Gethian"
  gethian_old_adj:0 "Old Gethian"
  gethian_old_adherent:0 "Old Gethian"

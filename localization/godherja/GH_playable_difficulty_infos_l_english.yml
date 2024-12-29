@@ -1,6 +1,6 @@
 ﻿l_english:
- pdi_imperrech_warpath:0 "At risk of conquest in the [sjalvolki_migrations|E]"
- pdi_last_stand:0 "At [war|E] against the [Concept('sjalvolki_migrations','Witch-Breaker')|E]"
+ pdi_imperrech_warpath:0 "At risk of conquest in the [Concept('sjalvolki_migration','Sjalvolki Migrations')|E]"
+ pdi_last_stand:0 "At [war|E] against the [Concept('sjalvolki_migration','Witch-Breaker')|E]"
  pdi_legacy_of_elysia:0 "[modifier|E]: [GetModifier('legacy_of_elysia').GetNameWithTooltip] until 1304 IS"
  pdi_legacy_of_icw:0 "[modifier|E]: [GetModifier('legacy_of_icw').GetNameWithTooltip] until 1286 IS"
  pdi_malcoisiac_anarchy:0 "[modifier|E]: [GetModifier('malcoisiac_anarchy').GetNameWithTooltip] until a [kingdom|E] or [empire|E] is formed"

@@ -41,7 +41,7 @@
  animal_type_owlbear:89 "owlbear"
  animal_type_damotan_elephant:89 "damotan elephant"
  animal_type_sarradon_elephant:89 "sarradon elephant"
- animal_type_kashiryan_elephant:89 "kashiryan elephant"
+ animal_type_kashiryan_elephant:89 "Kashiryan elephant"
  animal_type_emperor_cobra:89 "emperor cobra"
  animal_type_dire_mosquito:89 "dire mosquito"
  animal_type_sea_scorpion:89 "sea scorpion"
@@ -129,7 +129,7 @@
  animal_type_camel_plural:89 "camels"
  animal_type_monkey_plural:89 "monkeys"
  animal_type_mongoose_plural:89 "mongooses"
- animal_type_king_cobra_plural:89 "king_cobras"
+ animal_type_king_cobra_plural:89 "king cobras"
  animal_type_zebra_plural:89 "zebras"
  animal_type_warthog_plural:89 "warthogs"
  animal_type_jackal_plural:89 "jackals"
@@ -143,22 +143,22 @@
  animal_type_doyarchu_plural:89 "doyarchus"
  animal_type_emperor_peafowl_plural:89 "emperor peafowls"
  animal_type_rovarskan_dragon_plural:89 "rovarskan dragons"
- animal_type_giant_bee_plural:89 "giant_bees"
- animal_type_giant_spider_plural:89 "giant_spiders"
- animal_type_dire_crab_plural:89 "dire_crabs"
+ animal_type_giant_bee_plural:89 "giant bees"
+ animal_type_giant_spider_plural:89 "giant spiders"
+ animal_type_dire_crab_plural:89 "dire crabs"
  animal_type_spirit_plural:89 "spirits"
  animal_type_kursha_plural:89 "kurshas"
  animal_type_lymrill_plural:89 "lymrills"
- animal_type_snow_leopard_plural:89 "snow_leopards"
+ animal_type_snow_leopard_plural:89 "snow leopards"
  animal_type_panther_plural:89 "panthers"
  animal_type_hippopotamus_plural:89 "hippopotamuss"
  animal_type_rhinoceros_plural:89 "rhinoceross"
  animal_type_pegasus_plural:89 "pegasuss"
  animal_type_tinessian_lion_plural:89 "tinessian lions"
  animal_type_owlbear_plural:89 "owlbears"
- animal_type_damotan_elephant_plural:89 "damotan elephants"
- animal_type_sarradon_elephant_plural:89 "sarradon elephants"
- animal_type_kashiryan_elephant_plural:89 "kashiryan elephants"
+ animal_type_damotan_elephant_plural:89 "Damotan elephants"
+ animal_type_sarradon_elephant_plural:89 "Sarradonian elephants"
+ animal_type_kashiryan_elephant_plural:89 "Kashiryan elephants"
  animal_type_emperor_cobra_plural:89 "emperor cobras"
  animal_type_dire_mosquito_plural:89 "dire mosquitos"
  animal_type_sea_scorpion_plural:89 "sea scorpions"
@@ -427,15 +427,11 @@
  artifact_fellcharm_name:89 "Fell Charm"
  
  artifact_gift.1.desc:89 "Any one [GetPlayer.Custom('WomanManGirlBoy')] can only make use of so many artifacts at a time, so it's in the interest of my dynasty to ensure that our artifacts are put to good use.\n\nTo that end, I have decided to gift [recipient.GetTitledFirstName] an artifact."
- artifact_karthynskull_desc:89 "This skull belonged to the Aversarian warlord [Concept('karthyn_delenel','Delenel')|E]. Known for his terror campaigns in Opakhasia and Malcois with which he kept the east controlled for his liege Aautokratir Aeschraes during and after the [imperial_civil_war|E] (alongside his equally infamous counterpart [Concept('demetros_detheniax','Demetros Iron-Spike')|E]); this skull shows little of the horrifying visage recounted by the few survivors of his massacres.\n\nDelenel was mortally wounded by Legan Isacea of Legio XXI 'Axiaothea' during the Vilnian Assault, though he survived long enough to retreat east to his personal estates. While there, abandoned by his men and his allies, his pupil Gorassos entered under the signs of friendship. The events that transpired are unknown, but what is known is Gorassos would butcher his tutor, taking his head and raping and killing what remained of his family and servants before having the estate torched. The event is commonly believed to have been the moment Gorassos deserted the service of Aeschraes and ruled as an independent warlord."
- artifact_karthynskull_modifier:89 "Skull of Karthyn Delenel"
- artifact_karthynskull_modifier_desc:89 "Skull of the late Karthyn Delenel"
- artifact_karthynskull_name:89 "Skull of [delenel.GetFullName]"
  
- artifact_marias_blade_battle_desc:89 "#size:15 This blade, gilded in silver and with a beautiful inscription running down its edge, was wielded by [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] during the invasion of the [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]. Maria was the daughter of the well off Theydia noble dynasty, and was expected to accept the Way of Family at her Pathchoice in anticipation for her marriage to the Calmenson family.\n\nWhen hearing of the terror being brought to her homeland, however, she instead chose the Way of Nullification in a great scandal. Her father, distraught but desiring for his daughter's safety, comissioned this great blade to see to her survival, which legends say would later be plunged into the Lich's 'eye' at the end of her invasion."
- artifact_marias_blade_desc:89 "#size:15 This blade, gilded in silver and with a beautiful inscription running down its edge, was wielded by Maria den va Theydia during the invasion of the [lich|E] Dexas 'Deathrender'. Maria was the daughter of the well off Theydia noble dynasty, and was expected to accept the Way of Family at her Pathchoice in anticipation for her marriage to the Calmenson family.\n\nWhen hearing of the terror being brought to her homeland, however, she instead chose the Way of Nullification in a great scandal. Her father, distraught but desiring for his daughter's safety, comissioned this great blade to see to her survival, which legends say would later be plunged into the Lich's 'eye' at the end of her invasion."
+ artifact_marias_blade_battle_desc:89 "#size:15 This blade, gilded in silver and with a beautiful inscription running down its edge, was wielded by [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] during the invasion of the [Concept('liches','Lich')|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]. Maria was the daughter of the well off Theydia noble dynasty, and was expected to accept the Way of Family at her Pathchoice in anticipation for her marriage to the Calmenson family.\n\nWhen hearing of the terror being brought to her homeland, however, she instead chose the Way of Nullification in a great scandal. Her father, distraught but desiring for his daughter's safety, comissioned this great blade to see to her survival, which legends say would later be plunged into the Lich's 'eye' at the end of her invasion."
+ artifact_marias_blade_desc:89 "#size:15 This blade, gilded in silver and with a beautiful inscription running down its edge, was wielded by Maria den va Theydia during the invasion of the [Concept('liches','Lich')|E] Dexas 'Deathrender'. Maria was the daughter of the well off Theydia noble dynasty, and was expected to accept the Way of Family at her Pathchoice in anticipation for her marriage to the Calmenson family.\n\nWhen hearing of the terror being brought to her homeland, however, she instead chose the Way of Nullification in a great scandal. Her father, distraught but desiring for his daughter's safety, comissioned this great blade to see to her survival, which legends say would later be plunged into the Lich's 'eye' at the end of her invasion."
  artifact_marias_blade_modifier:89 "Maria den va Theydia's Blade"
- artifact_marias_blade_modifier_desc:89 "A silver sword said to have slain a [lich|E]"
+ artifact_marias_blade_modifier_desc:89 "A silver sword said to have slain a [Concept('liches','Lich')|E]"
  artifact_marias_blade_name:89 "Maria den va Theydia's Blade"
  
  artifact_ringofwaysaints_desc:89 "#size:15 A beautiful gilded ring said to have been comissioned for Waysaint Cathd den va Krecce by the Conclave of Raocourt shortly before his martyrdom. It was gifted to the young High King Remi Hadcourte-Vedron upon his coronation in 974 IS, and served as a powerful symbol of his faith and fealty to the Way."
@@ -454,9 +450,9 @@
  ##artifact_sackofsmokebombs_name:89 "Sack of Smoke Bombs"
  
 
- artifact_sirtheyvnsbreastplate_desc:89 "#size:15 Sir Theyvn 'The Martyr' is said to have been the first Marcher killed by a [lich|E]. Stories say that when [vilas_venslau|E] invaded south, he first approached the gates of the border fort of Methens and demanded the garrison open its gates for their new lord. Sir Theyvn, master of the garrison, stepped out alone and proclaimed that no living man could hold the Marchers in chains, much less a dead one. The blackened hole in the heart of the breastplate tells the rest of the tale, and the many songs and ballads dedicated to Theyvn tell of his legacy."
+ artifact_sirtheyvnsbreastplate_desc:89 "#size:15 Sir Theyvn 'The Martyr' is said to have been the first Marcher killed by a [Concept('liches','Lich')|E]. Stories say that when [vilas_venslau|E] invaded south, he first approached the gates of the border fort of Methens and demanded the garrison open its gates for their new lord. Sir Theyvn, master of the garrison, stepped out alone and proclaimed that no living man could hold the Marchers in chains, much less a dead one. The blackened hole in the heart of the breastplate tells the rest of the tale, and the many songs and ballads dedicated to Theyvn tell of his legacy."
  artifact_sirtheyvnsbreastplate_modifier:89 "Sir Theyvn's Breastplate"
- artifact_sirtheyvnsbreastplate_modifier_desc:89 "A broken breastplate said to belong to the first Marcher slain by a [lich|E]. Possibly a reproduction"
+ artifact_sirtheyvnsbreastplate_modifier_desc:89 "A broken breastplate said to belong to the first Marcher slain by a [Concept('liches','Lich')|E]. Possibly a reproduction"
  artifact_sirtheyvnsbreastplate_name:89 "Sir Theyvn's Breastplate"
 
  artifact_create.degrade.desc:89 "The quality of the artifact has decreased."
@@ -473,7 +469,7 @@
  
  artifact_adabyssianfirearbalest_desc:89 "#size:15 This strange device was forged in one of the massive manufactories in the Lavapits of the Mount Viryren'ägo or perhaps by one of the Emperor's own personal smiths from within the City of Golden Statues. The Fire Arbalest is a strange prototype that the Adabyssians have slowly been working to perfect for decades. While still experimental, the devastating crack of this weapon sends fear through enemy soldiers, and the strange pellet it fires pierces straight through armor. A marking on the handle proclaims it as [owner.MakeScope.Var('model_number').GetValue|0] of 50."
  artifact_adabyssianfirearbalest_modifier:89 "Adabyssian Fire Arbalest"
- artifact_adabyssianfirearbalest_modifier_desc:89 "Can be used in [monster_hunts|E]"
+ artifact_adabyssianfirearbalest_modifier_desc:89 "Can be used in [Concept('monster_hunt','Monster Hunts')|E]"
  artifact_adabyssianfirearbalest_name:89 "Adabyssian Fire Arbalest"
  
  artifact_aersanonstaff1_desc:89 "#size:15 This strange staff is made of a material utterly alien to all. The rigid black construction seems almost ethereal, perfect in its construction. Perhaps the oddest thing about its construction is that, despite clearly being an object of magical power, the sharp head of the staff seems to be actively sucking out magical power from everything around it at an astonishing rate. Who knows what Ancient Being once held it?"
@@ -511,19 +507,19 @@
  artifact_aversariacrown_modifier_desc:89 "artifact_ringofthelich_modifier_desc:89 "#E Magic#!:@magic_icon!#positive_value +1#!/month\n"
  artifact_aversariacrown_name:89 "Aversarian Crown"
  
- artifact_aversarian_crown_base_desc:89 "This dull gold headpiece was once the frame of the [aversarian|E] Crown. It is now a lusterless shell of its former self, stripped of its components and made bare."
+ artifact_aversarian_crown_base_desc:89 "This dull gold headpiece was once the frame of the [Concept('aversaria','Aversarian')|E] Crown. It is now a lusterless shell of its former self, stripped of its components and made bare."
  artifact_aversarian_crown_base_name:89 "Aversarian Crown Base"
  
- artifact_aversarian_crown_chain_desc:89 "This ornate chain once bound the [aversarian|E] Crown together. Now, its intricately carved incantations do little but shine in the light."
+ artifact_aversarian_crown_chain_desc:89 "This ornate chain once bound the [Concept('aversaria','Aversarian')|E] Crown together. Now, its intricately carved incantations do little but shine in the light."
  artifact_aversarian_crown_chain_name:89 "Aversarian Crown Chain"
  
- artifact_aversarian_crown_diamond_desc:89 "This massive diamond was once the centerpiece of the [aversarian|E] Crown. Its dazzling colors and size made all gaze upon its brilliance; now seperated from the crown, the diamond has lost its shine."
+ artifact_aversarian_crown_diamond_desc:89 "This massive diamond was once the centerpiece of the [Concept('aversaria','Aversarian')|E] Crown. Its dazzling colors and size made all gaze upon its brilliance; now seperated from the crown, the diamond has lost its shine."
  artifact_aversarian_crown_diamond_name:89 "Aversarian Crown Diamond"
  
- artifact_aversarian_crown_dragonveil_desc:89 "This fine, silvery veil once hung from the [aversarian|E] Crown, symbolizing the ancient connection of [aversaria|E] to [dragons|E]."
+ artifact_aversarian_crown_dragonveil_desc:89 "This fine, silvery veil once hung from the [Concept('aversaria','Aversarian')|E] Crown, symbolizing the ancient connection of [aversaria|E] to [dragons|E]."
  artifact_aversarian_crown_dragonveil_name:89 "Aversarian Crown Dragon Scale Veil"
  
- artifact_aversarian_crown_jewels_desc:89 "These glittering gems once adorned the [aversarian|E] Crown, but have been long since stripped from their sockets."
+ artifact_aversarian_crown_jewels_desc:89 "These glittering gems once adorned the [Concept('aversaria','Aversarian')|E] Crown, but have been long since stripped from their sockets."
  artifact_aversarian_crown_jewels_name:89 "Aversarian Crown Jewels"
  
  artifact_aversarianspear_desc:89 "#size:15 This spear is of Aversarian design and exceptionally well crafted. Most likely a piece forged in the late 12th century, it glimmers with bands of electrum around a polished iron shaft. The head is forged to resemble a blood drop, with a single shining ruby where it meets the base.\n\nSpears like this were common in the Aversarian legions, though the craftsmanship marks this out as the weapon of a high ranking officer or noble."
@@ -531,7 +527,7 @@
  artifact_aversarianspear_modifier_desc:89 "A spear with the blade shaped like a blood drop"
  artifact_aversarianspear_name:89 "Aversarian Spear"
  
- artifact_banner_wardenism_description:89 "Though there is no evidence to suggest that the [first_warden|E] only used one battle standard throughout the entirety of his life as often claimed, this banner is certainly the most famous — it was present at the landmark Battle of the Burning Key, which saw the decisive defeat of the Sarradonian Regent Ulathir by [wardenite|E] forces and the beginning of a thousand-year long dominance in the Sinhamiyah valley.\n\nDespite catching fire mid-battle and being the target of numerous enemy attempts of destruction, it would largely survive intact (likely due to the specific type of fabric used in its make, rather than a miracle as sometimes claimed) and serve as the rallying point for the outnumbered [wardenite|E] forces, and would subsequently give the battle its name."
+ artifact_banner_wardenism_description:89 "Though there is no evidence to suggest that the [Concept('the_first_warden','First Warden')|E] only used one battle standard throughout the entirety of his life as often claimed, this banner is certainly the most famous — it was present at the landmark Battle of the Burning Key, which saw the decisive defeat of the Sarradonian Regent Ulathir by [Concept('wardenism','Wardenite')|E] forces and the beginning of a thousand-year long dominance in the Sinhamiyah valley.\n\nDespite catching fire mid-battle and being the target of numerous enemy attempts of destruction, it would largely survive intact (likely due to the specific type of fabric used in its make, rather than a miracle as sometimes claimed) and serve as the rallying point for the outnumbered [Concept('wardenism','Wardenite')|E] forces, and would subsequently give the battle its name."
  artifact_banner_wardenism_name:89 "The Banner of the Burning Key"
  
  artifact_blackhorn_desc:89 "#size:15 The Black Horn is the legendary horn of the Sjalvolki God [velos|E], or at least it is claimed to be. The horn regularly appears in various culture's mythologies from all corners of the [aeras|E], always being used to, in some form, call forth spirits for war but killing the blower in the process. The horn makes distinction, the one who orders its use is to be killed, not the one who blows it."
@@ -618,7 +614,7 @@
  
  artifact_bone_amulet_magic_3_desc:89 "#size:15 This bone amulet provides its user with a significant source of Dead Magic power."
  artifact_bone_amulet_magic_3_modifier:89 "Greater Bone Amulet"
- artifact_bone_amulet_magic_3_modifier_desc:89 "This bone amulet provides its user with a significant source of Dead Magic power.\n\n#E Magic#!:@magic_icon!#positive_value; +0.75#!/month\n#E Magic#!:@dead_magic_icon!#positive_value; +0.2#! per level of [dead_magic|E]/month"
+ artifact_bone_amulet_magic_3_modifier_desc:89 "This bone amulet provides its user with a significant source of Dead Magic power.\n\n#E Magic#!:@magic_icon!#positive_value; +0.75#!/month\n#E Magic#!:#positive_value; +0.2#! per level of [dead_magic|E]/month"
  artifact_bone_amulet_magic_3_name:89 "Greater Bone Amulet"
  
  artifact_bone_amulet_magic_4_desc:89 "#size:15 This bone amulet provides its user with a great source of Dead Magic power."
@@ -807,7 +803,7 @@
  artifact_bone_staff_4_name:89 "Grand Bone Staff"
  
  artifact_bone_staff_description:89 "A bone staff of [SCOPE.Custom('ArtifactQuality')] craftsmanship, it is [newly_created_artifact.GetFeatureText( 'bone_staff_type' )]. The staff is [newly_created_artifact.GetFeatureText( 'staff_decoration' )] and [newly_created_artifact.Custom('ArtifactBoneStaffFocusCharacteristic')].\n\n$artifact_bone_staff_explanation$"
- artifact_bone_staff_explanation:89 "Some [dead_magi|E] are known to be able to form powerful staves from the skeletal remains of living things. These staves can range from a length no larger than a hand to powerful scepters taller than their user."
+ artifact_bone_staff_explanation:89 "Some [Concept('dead_magi','Earth Magi')|E] are known to be able to form powerful staves from the skeletal remains of living things. These staves can range from a length no larger than a hand to powerful scepters taller than their user."
  artifact_bone_staff_name:89 "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'staff_characteristic' )|U] [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Bone Staff"
  
  artifact_brokenavianautomata_desc:89 "#size:15 Still much sought after, Avian Automata were purportedly common sights in the houses of the fabulously wealthy, at least until the Aversarians conquered the Kartharadds and suppressed the art of automata crafting long enough to doom it entirely. Records indicate that some of these breathtakingly intricate machines were even enchanted during construction to mimic the behaviors of real birds, and the finest could even respond to simple instructions.\n\nThis particular example of the lost art can only sing and uselessly flail its one remaining wing, but it's nonetheless an impressive display item."
@@ -827,7 +823,7 @@
  artifact_crimsonseal_description:89 "Made of an unknown, pitch-black material with strange hypnotic patterns carved into it in glowing crimson, this royal seal has passed through the hands of several major Sarradonian empires. First appearing in the Irkalite Empire in the 12th century BI, it was subsequently held by the Gashtani, Asred, Akkaric, and finally Sarradon. The artifact's history ends in 1233 IS, when the final Regent of Sarradon cast it into the sea, proclaiming that "no realm of man shall ever be worthy of you again!""
  artifact_crimsonseal_name:89 "Crimson Seal"
  
- artifact_crown_wardenism_description:89 "Subject of one of the more famous episodes of the [first_warden|E]'s rise, this crown belonged to the infamous tyrant [arachas|E] before his demise at the conclusion of the very first [wardenite|E] uprising in Al-Ghazir. According to legend, after being recovered from the ashen remains of the late king's stronghold, it was immediately offered to the [wardenite|E] messiah — who rebuked the suggestion and instead ordered it sold for the purposes of charity.\n\nAlmost nothing remains of the headpiece's former glory but a corroded, broken skeleton. If one looks closely, they can still make out the twisted and damaged images of [ritualist|E] iconography, warped by the fire that took Arachas' own life."
+ artifact_crown_wardenism_description:89 "Subject of one of the more famous episodes of the [Concept('the_first_warden','First Warden')|E]'s rise, this crown belonged to the infamous tyrant [arachas|E] before his demise at the conclusion of the very first [Concept('wardenism','Wardenite')|E] uprising in Al-Ghazir. According to legend, after being recovered from the ashen remains of the late king's stronghold, it was immediately offered to the [Concept('wardenism','Wardenite')|E] messiah — who rebuked the suggestion and instead ordered it sold for the purposes of charity.\n\nAlmost nothing remains of the headpiece's former glory but a corroded, broken skeleton. If one looks closely, they can still make out the twisted and damaged images of [Concept('ritualism','Ritualist')|E] iconography, warped by the fire that took Arachas' own life."
  artifact_crown_wardenism_name:89 "Crown of Arachas"
  
  artifact_crownofprawladsyl_desc:89 "#size:15 The ancient Crown of Prawladsyl is the only surviving piece of regal attire remaining from any of the ancient Oejeynica kings, or at least the only surviving one not in the hands of the [liches|E] or long stolen away by others. The crown itself is simple, dented, and scuffed, but the weight of so much tragedy gives it a solemn and powerful aura."
@@ -838,7 +834,7 @@
  artifact_dagun_mask_fall_desc:89 "Forged out of black meteoric iron, this mask was worn by [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], a notorious Oltenic warlord that lived at the late 12th century. Alongside his nephew, Dagun conquered much of the eastern Aironoian Steppe and created one of the greatest Oltenic hordes in centuries.\n\nWhile [jajak_otroka|E] led his mighty horde at the forefront of battle, Dagun commanded the 'Ash Riders', an elite group of horsemen that struck enemy camps in the dead of night. Many of the Olteni grew to regard sighting the black mask as an ill omen, and few grieved when the feared raider finally met his end in battle."
  artifact_dagun_mask_name:89 "Mask of Dagun 'Blackmask'"
  
- artifact_deadlykartharaddimusicautomata_desc:89 "#size:15 A human shaped automata outfitted with what can be assumed to be high [kartharaddi|E] fashion from the era of the Imperium's downfall, this automata is designed to adequately play a Kartharaddi variant of the flute. As its performance winds down the devilish contraption lowers the instrument and launches a dart from a crossbow-like mechanism cleverly hidden behind one of its 'eyes', hitting whatever or whomever is unfortunate enough to be  directly in front of it. A clever, if likely difficult to pull off method of assassination."
+ artifact_deadlykartharaddimusicautomata_desc:89 "#size:15 A human shaped automata outfitted with what can be assumed to be high [Concept('kartharadd','Kartharaddi')|E] fashion from the era of the Imperium's downfall, this automata is designed to adequately play a Kartharaddi variant of the flute. As its performance winds down the devilish contraption lowers the instrument and launches a dart from a crossbow-like mechanism cleverly hidden behind one of its 'eyes', hitting whatever or whomever is unfortunate enough to be  directly in front of it. A clever, if likely difficult to pull off method of assassination."
  artifact_deadlykartharaddimusicautomata_modifier:89 "Deadly Kartharaddi Clockwork Musician"
  artifact_deadlykartharaddimusicautomata_modifier_desc:89 "A devilish way to kill someone."
  artifact_deadlykartharaddimusicautomata_name:89 "Deadly Kartharaddi Clockwork Musician"
@@ -848,21 +844,21 @@
  artifact_kartharaddidancingautomata_modifier_desc:0 "A little automata for those of dubious taste."
  artifact_kartharaddidancingautomata_name:0 "Kartharaddi Clockwork Dancer"
 
- artifact_kartharaddimanautomata_desc:0 "#size:15 A masterpiece of the lost clockwork art of the [kartharaddi|E], this humanoid automata stands two heads taller than an average man and is breathtakingly articulated, with delicate steel springs for tendons and disturbingly lifelike glass eyes which stare sightlessly. Before their downfall the Kartharadds went to great lengths to keep any information regarding these masterworks secret, and even today their intended purpose is a complete mystery hotly debated in Aversarian scholarly circles. Some claim that the Kartharadds were fabricating an army of fearless iron soldiers, others speculate that these were meant to house the human soul in an insane attempt at immortality. Whatever the true intentions behind this project, the deaths of their creators during the Night of the Bleeding Moon left it unfinished and inanimate. Despite this confusion, they are still objects of deep fascination and study. Six are known to have survived relatively intact into the modern day, and the Mayikprolollan boasts possession of two of these priceless artifacts."
+ artifact_kartharaddimanautomata_desc:0 "#size:15 A masterpiece of the lost clockwork art of the [Concept('kartharadd','Kartharaddi')|E], this humanoid automata stands two heads taller than an average man and is breathtakingly articulated, with delicate steel springs for tendons and disturbingly lifelike glass eyes which stare sightlessly. Before their downfall the Kartharadds went to great lengths to keep any information regarding these masterworks secret, and even today their intended purpose is a complete mystery hotly debated in Aversarian scholarly circles. Some claim that the Kartharadds were fabricating an army of fearless iron soldiers, others speculate that these were meant to house the human soul in an insane attempt at immortality. Whatever the true intentions behind this project, the deaths of their creators during the Night of the Bleeding Moon left it unfinished and inanimate. Despite this confusion, they are still objects of deep fascination and study. Six are known to have survived relatively intact into the modern day, and the Mayikprolollan boasts possession of two of these priceless artifacts."
  artifact_kartharaddimanautomata_modifier:0 "The kartharaddi Man"
  artifact_kartharaddimanautomata_modifier_desc:0 "An enigmatic example of the lost art."
  artifact_kartharaddimanautomata_name:0 "The Kartharaddi Man"
 
- artifact_kartharaddimusicautomata_desc:0 "#size:15 A human shaped automata outfitted with what can be assumed to be high [kartharaddi|E] fashion from the era of the Imperium's downfall, this automata is designed to adequately play a unique Kartharaddi string instrument known as the Zharra. More impressively, a series of pipes and bellows in its torso allows it to affect a crude facsimile of singing as well. The cheery tune it produces is all that remains of the musical culture of a dead civilization."
+ artifact_kartharaddimusicautomata_desc:0 "#size:15 A human shaped automata outfitted with what can be assumed to be high [Concept('kartharadd','Kartharaddi')|E] fashion from the era of the Imperium's downfall, this automata is designed to adequately play a unique Kartharaddi string instrument known as the Zharra. More impressively, a series of pipes and bellows in its torso allows it to affect a crude facsimile of singing as well. The cheery tune it produces is all that remains of the musical culture of a dead civilization."
  artifact_kartharaddimusicautomata_modifier:0 "Kartharaddi Clockwork Musician"
  artifact_kartharaddimusicautomata_modifier_desc:0 "A beautiful example of the lost art."
  artifact_kartharaddimusicautomata_name:0 "Kartharaddi Clockwork Musician"
 
 
  
- artifact_glass_sword_desc:89 "A masterpiece of Zelkavani glasswork, the Glassblade is a weapon that is at odds with the culture of its pacifistic creators, and a potent symbol of the [aversarian|E] influence inspiring them to belligerence."
+ artifact_glass_sword_desc:89 "A masterpiece of Zelkavani glasswork, the Glassblade is a weapon that is at odds with the culture of its pacifistic creators, and a potent symbol of the [Concept('aversaria','Aversarian')|E] influence inspiring them to belligerence."
  artifact_glass_sword_name:89 "Glassblade"
- artifact_glass_sword_xipheos_desc:89 "A masterpiece of Zelkavani glasswork, the Glassblade is a weapon that is at odds with the culture of its pacifistic creators, and is a potent symbol of the [aversarian|E] influence inspiring them to belligerence.\n\n The sword was forged and famously wielded by [newly_created_artifact.MakeScope.Var('prominent_creator').Char.GetFirstNameNicknamed], but was taken from its creator's corpse after his death during the [blue_robe_revolt|E]. Legon [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName] wielded the Glassblade to great effect for the remainder of the war, before being slain in the final battle by [jajak_otroka|E].\n\nThe surviving legionnaires of Legio XXXIX 'Protëmaxos' were able to retrieve the blade, with it becoming an heirloom of House [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName] ever since."
+ artifact_glass_sword_xipheos_desc:89 "A masterpiece of Zelkavani glasswork, the Glassblade is a weapon that is at odds with the culture of its pacifistic creators, and is a potent symbol of the [Concept('aversaria','Aversarian')|E] influence inspiring them to belligerence.\n\n The sword was forged and famously wielded by [newly_created_artifact.MakeScope.Var('prominent_creator').Char.GetFirstNameNicknamed], but was taken from its creator's corpse after his death during the [blue_robe_revolt|E]. Legon [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName] wielded the Glassblade to great effect for the remainder of the war, before being slain in the final battle by [jajak_otroka|E].\n\nThe surviving legionnaires of Legio XXXIX 'Protëmaxos' were able to retrieve the blade, with it becoming an heirloom of House [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName] ever since."
    
  artifact_greednecklace_desc:89 "This iron necklace was purportedly worn by Aversarian warlord [Concept('demetros_detheniax','Demetros Iron-Spike')|E] for the duration of his rule in Kalathipsomi and is often claimed to have been the biggest tool used to secure rule of the north.\n\nA simple black iron chain and pendant, the front of the jewelry contains a twisted visage trapped mid-scream, seemingly a natural formation solidified out of the melting iron. Staring into it, one can not help but imagine the depths within its grimacing mouth, and the great costs to feed it...\n\nSome have said that the necklace simply compels those who listen to its wearer to heed their commands, while others claim it exacts a terrible price for this service..."
  artifact_greednecklace_modifier:89 "Pendant of Greed"
@@ -936,12 +932,13 @@
  artifact_magical_infusion_whispers_1:89 "Most who come into contact with this item seem to hear whispers where there aren't any."
  artifact_magical_infusion_whispers_2:89 "All who come into contact with this item seem to hear distant howls."
  artifact_magical_infusion_whispers_3:89 "All who come into contact with this item seem to hear conversations from the item."
- artifact_magically_infusion_description:89 "[newly_created_artifact.GetDesc]\n\n[SCOPE.Custom('ArtifactMagicalInfusion')]"
+ artifact_magical_infusion_dreams_nature:89 "Many who come into contact with this item report having dreams set in a deep, otherwordly forest aftewards."
+ artifact_magically_infusion_description:89 "[newly_created_artifact.GetDesc] [newly_created_artifact.Custom('ArtifactMagicalInfusion')]"
  artifact_magically_infusion_name:89 "Magically Infused [newly_created_artifact.GetNameNoTooltip]"
  
  ## Unique Artifacts
  artifact_spear_thaxaon_desc:89 "An impressive ebony spear with a large inlaid [bloodcrystal|E], this weapon was a heirloom of the [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName], a major Western Aversarian noble house."
- artifact_spear_thaxaon_jaxor_desc:89 "An impressive ebony spear with a large inlaid [bloodcrystal|E], this weapon was a heirloom of the [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName], a major Western Aversarian noble house. Among its most prominent wielders is the pretender-Aautokratir [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], who led the large-scale [thaxaonic_blood_pact_revolt|E] against Aeschraes in the immediate aftermath of [frodbrokna|E]."
+ artifact_spear_thaxaon_jaxor_desc:89 "An impressive ebony spear with a large inlaid [bloodcrystal|E], this weapon was a heirloom of the [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetHouse.GetName], a major Western Aversarian noble house. Among its most prominent wielders is the pretender-Aautokratir [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed], who led the large-scale [Concept('thaxaonic_blood_pact','Thaxaonic Blood-Pact Revolt')|E] against Aeschraes in the immediate aftermath of [frodbrokna|E]."
  artifact_spear_thaxaon_name:89 "Thaxaon Spear"
  
  artifact_staff:89 "staff"
@@ -970,7 +967,7 @@
  artifact_strangetalkingskull_modifier:89 "Strange Talking Skull"
  artifact_strangetalkingskull_name:89 "Strange Talking Skull"
  
- artifact_sun_piercer_battle_desc:89 "The legendary spear of heroes and champions, Sun Piercer is forged out of an unknown black material that has the unusual property of absorbing both light and flame. The weapon's odd shape makes it difficult to wield for any but the most skilled warriors, but its nigh indestructibility makes it worth having in any fight.\n\nThis spear was famously wielded by the [chevalien|E] hero Sir [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed] of the Lakes, who used it to slay the dreaded [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]."
+ artifact_sun_piercer_battle_desc:89 "The legendary spear of heroes and champions, Sun Piercer is forged out of an unknown black material that has the unusual property of absorbing both light and flame. The weapon's odd shape makes it difficult to wield for any but the most skilled warriors, but its nigh indestructibility makes it worth having in any fight.\n\nThis spear was famously wielded by the [Concept('marchers','Chevalien')|E] hero Sir [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstNameNicknamed] of the Lakes, who used it to slay the dreaded [Concept('liches','Lich')|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFirstNameNicknamed]."
  artifact_sun_piercer_desc:89 "The legendary spear of heroes and champions, Sun Piercer is forged out of an unknown black material that has the unusual property of absorbing both light and flame. The weapon's odd shape makes it difficult to wield for any but the most skilled warriors, but its nigh indestructibility makes it worth having in any fight."
  artifact_sun_piercer_name:89 "Sun Piercer"
 
@@ -978,27 +975,27 @@
  artifact_black_legion_standard_desc:89 "This banner depicts the insignia of one of the Black Legions of Katraddia - famed for their black armaments and aptitude in battle."
  artifact_black_legion_standard_name:89 "Black Legion Standard"
 
- artifact_black_gold_standard_battle_desc:89 "This dusty piece of cloth depicts the combined insignias of House Monteaux and House Valadec — the leading houses of the infamous Black-Gold League, an alliance of eastern [chevalien|E] lords that banded together to install [newly_created_artifact.MakeScope.Var('teryn_valadec').Char.GetFirstNameNicknamed] to the throne of Chevalie after the mysterious death of High King [newly_created_artifact.MakeScope.Var('high_king_dendon').Char.GetFirstNameNicknamed]. The so-called [black_gold_war|E] ended in the League's utter defeat, leaving naught but regrets to those that beheld this once-proud banner."
+ artifact_black_gold_standard_battle_desc:89 "This dusty piece of cloth depicts the combined insignias of House Monteaux and House Valadec — the leading houses of the infamous Black-Gold League, an alliance of eastern [Concept('marchers','Chevalien')|E] lords that banded together to install [newly_created_artifact.MakeScope.Var('teryn_valadec').Char.GetFirstNameNicknamed] to the throne of Chevalie after the mysterious death of High King [newly_created_artifact.MakeScope.Var('high_king_dendon').Char.GetFirstNameNicknamed]. The so-called [black_gold_war|E] ended in the League's utter defeat, leaving naught but regrets to those that beheld this once-proud banner."
  artifact_black_gold_standard_desc:89 "This banner depicts the combined insignias of House Monteaux and House Valadec — the leading houses of the infamous Black-Gold League."
  artifact_black_gold_standard_name:89 "Black-Gold League Standard"
 
- artifact_staff_of_the_high_seer_desc:89 "Carved from a fallen branch of Draíogann Dtocht, the World Tree, this staff is passed down through several generations of Partic High Seers. Affixed to the staff is a crystal orb tinged with the blood-red sap of the World Tree, enhancing its wielder's aptitude in casting [aspect_nature] and [aspect_blood] spells. The advent of the [fog|E] and the clouding of the Will of the World had somewhat weakened the staff's power, yet curiously, also bestowed the stave with a new-found affinity for [aspect_ethereal] magic."
+ artifact_staff_of_the_high_seer_desc:89 "Carved from a fallen branch of Draíogann Dtocht, the World Tree, this staff is passed down through several generations of Partic High Seers. Affixed to the staff is a crystal orb tinged with the blood-red sap of the World Tree, enhancing its wielder's aptitude in casting [aspect_nature] and [aspect_blood] spells. The advent of the [Concept('the_fog','Fog')|E] and the clouding of the Will of the World had somewhat weakened the staff's power, yet curiously, also bestowed the stave with a new-found affinity for [aspect_ethereal] magic."
  artifact_staff_of_the_high_seer_name:89 "Staff of the High Seer"
 
  artifact_bane_star_ring_battle_desc:89 "Shaped from sturdy obsidian, this ring is so-named after its famed wearer, [newly_created_artifact.MakeScope.Var('ring_bearer').Char.GetFirstNameNicknamed]. The ring has as its gem a pale green shard of a [Concept('aervalr','star')|E] that fell during Eldradd's birth. While there are no tales of its bearer ever performing arcane feats with this ring, his subjects whisper that it radiates an aura of dread, and can bring forth great power when worn by the right hands."
  artifact_bane_star_ring_desc:89 "Shaped from sturdy obsidian, this ring is so-named after its famed wearer, Eldradd Bane-Star. The ring has as its gem a pale green shard of a [Concept('aervalr','star')|E] that fell during Eldradd's birth. While there are no tales of its bearer ever performing arcane feats with this ring, his subjects whisper that it radiates an aura of dread, and can bring forth great power when worn by the right hands."
  artifact_bane_star_ring_name:89 "Bane-Star Ring"
 
- artifact_swordofeos_battle_desc:89 "#size:15 The legendary sword of Saint [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName], an Agionist saint who rose up along with seven others to preach for a better Aversaria. Eos stole this sword from the Order Particular's armory, and used it to slay the [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName], with the blade being granted to him afterwards as a reward.\n\nEos' sword was thought lost upon his death at the Siege of Geca, but here it now sits. With every swing, flames arc out, and you can see the righteous fury within each ember."
+ artifact_swordofeos_battle_desc:89 "#size:15 The legendary sword of Saint [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName], an Agionist saint who rose up along with seven others to preach for a better Aversaria. Eos stole this sword from the Order Particular's armory, and used it to slay the [Concept('liches','Lich')|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName], with the blade being granted to him afterwards as a reward.\n\nEos' sword was thought lost upon his death at the Siege of Geca, but here it now sits. With every swing, flames arc out, and you can see the righteous fury within each ember."
  artifact_swordofeos_desc:89 "#size:15 The legendary sword of Saint Eos, an Agionist saint who rose up along with seven others to preach for a better Aversaria. Eos' sword was thought lost upon his death at the Siege of Geca, but here it now sits. With every swing, flames arc out, and you can see the righteous fury within each ember."
  artifact_swordofeos_modifier:89 "Sword of Eos"
  artifact_swordofeos_name:89 "Sword of Eos"
 
- artifact_theiyrossicrown_desc:89 "#size:15 The crown of King Pothacleas, last king of the Iyrossi peoples. While only one of many kings, his last stand and legendary guerilla war against the [aversarians|E] cemented him in history as 'the Last Iyrossi'."
+ artifact_theiyrossicrown_desc:89 "#size:15 The crown of King Pothacleas, last king of the Iyrossi peoples. While only one of many kings, his last stand and legendary guerilla war against the [Concept('aversaria','Aversarians')|E] cemented him in history as 'the Last Iyrossi'."
  artifact_theiyrossicrown_modifier:89 "The Iyrossi Crown"
  artifact_theiyrossicrown_name:89 "Crown of the Last Iyrossi"
 
- artifact_vorpal_blade_desc:89 "Vorpal Swords are ancient enchanted blades with the ability to pass through anything, including walls, armour, and even the world itself. The only thing stopping it from passing through the ground below is the guard upon which it is mounted.\n\nAn ancient cache of some six thousand swords was first discovered by the [marcher|E] adventurers in Kalathipsomi around 550 IS, immediately sparking a small war as numerous factions—including the first [aversarian|E] colonists in the region—fought over the control of these wondrous armaments. In the ensuing conflict, the adventurers that armed themselves with the blades were slain nearly to the last man, as it was revealed that the swords harmlessly pass through anything... including flesh.\n\nOver the centuries, vorpal blades have been distributed far and wide as little more than idle curiosities, only valued by theatre troupes and con artists, with more than a few idioms, bedtime tales, and jokes emerging around the phrase 'Cutting like vorpal.'"
+ artifact_vorpal_blade_desc:89 "Vorpal Swords are ancient enchanted blades with the ability to pass through anything, including walls, armour, and even the world itself. The only thing stopping it from passing through the ground below is the guard upon which it is mounted.\n\nAn ancient cache of some six thousand swords was first discovered by the [Concept('marchers','Marcher')|E] adventurers in Kalathipsomi around 550 IS, immediately sparking a small war as numerous factions—including the first [Concept('aversaria','Aversarian')|E] colonists in the region—fought over the control of these wondrous armaments. In the ensuing conflict, the adventurers that armed themselves with the blades were slain nearly to the last man, as it was revealed that the swords harmlessly pass through anything... including flesh.\n\nOver the centuries, vorpal blades have been distributed far and wide as little more than idle curiosities, only valued by theatre troupes and con artists, with more than a few idioms, bedtime tales, and jokes emerging around the phrase 'Cutting like vorpal.'"
  artifact_vorpal_blade_name:89 "Vorpal Blade"
  artifact_useless_sword:89 "Useless Sword"
 
@@ -1006,12 +1003,12 @@
  artifact_whisperingskull_modifier:89 "Whispering Skull"
  artifact_whisperingskull_name:89 "Whispering Skull"
  
- artifact_wall_sword_wardenism_description:89 "An elegant reliquary containing a holy relic: the sword of the [first_warden|E]."
+ artifact_wall_sword_wardenism_description:89 "An elegant reliquary containing a holy relic: the sword of the [Concept('the_first_warden','First Warden')|E]."
  artifact_wall_sword_wardenism_name:89 "Sword of the First Warden"
   
  artifact_manswelbestiarium_desc:89 "#size:15 Ragambald Manswel was a remarkably well traveled Marcher adventurer who purportedly sailed as far east as the borders of Kathun Kai. Upon his return to [chevalie|E] Ragambald began the laborious process of scribing his numerous journals and sketches into written form. The accounts contained within are an unparalelled and surprisingly accurate guide to the various fauna, magical and otherwise, which stalk the remote regions of [aeras|E]. Ragambald's own biography - supposedly recorded in a separate volume - has sadly been almost completely lost to history, but from his surviving work he must have been a remarkable and well educated man. Some have even suggested that Manswel may have been a pen name but this, as with everything else about Manswel's life is heavily disputed among Chevalien literati."
  artifact_manswelbestiarium_modifier:89 "Ragambald Manswel's Bestiarium"
- artifact_manswelbestiarium_modifier_desc:89 "A fantastically well written bestiary.\nGives a small bonus in [monster_hunts|E]"
+ artifact_manswelbestiarium_modifier_desc:89 "A fantastically well written bestiary.\nGives a small bonus in [Concept('monster_hunt','Monster Hunts')|E]"
  artifact_manswelbestiarium_name:89 "Ragambald Manswel's Bestiarium"
  
  artifact_maskofforgottensaint_desc:89 "#size:15 The legendary mask of the Forgotten Saint, an Agioninst saint who rose up along with seven others to preach for a better Aversaria. The Forgotten Saint's simple metal mask seems much heavier than you would expect, and the inside of it seems to have several glowing wards carefully inscribed upon the surface."
@@ -1022,13 +1019,13 @@
  artifact_panickedeye_modifier:89 "Panicked Eye Amulet"
  artifact_panickedeye_name:89 "Panicked Eye Amulet"
  
- artifact_peytonsbonecracker_battle_desc:89 "#size:15 Wayfather [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] of the Way of Harvests declared that no harvest could be safely done while the undead yet still 'lived', and that bonemeal did wonders for the crop, and thus declared that the best way to perfect his path would be in the destruction of the undead. Peyton became legendary for his excursions into the [the_lichdoms|E], even slaying the [lich|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName] in an assault on his citadel with only 566 losses in his party of 570. His mace still has slight grooves no doubt brought on from four decades of hitting skeletons over the head."
- artifact_peytonsbonecracker_desc:89 "#size:15 Wayfather Peyton of the Way of Harvests declared that no harvest could be safely done while the undead yet still 'lived', and that bonemeal did wonders for the crop, and thus declared that the best way to perfect his path would be in the destruction of the undead. Peyton became legendary for his excursions into the [the_lichdoms|E], even slaying the [lich|E] Crasmer Crasvir in an assault on his citadel with only 566 losses in his party of 570. His mace still has slight grooves no doubt brought on from four decades of hitting skeletons over the head."
+ artifact_peytonsbonecracker_battle_desc:89 "#size:15 Wayfather [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFullName] of the Way of Harvests declared that no harvest could be safely done while the undead yet still 'lived', and that bonemeal did wonders for the crop, and thus declared that the best way to perfect his path would be in the destruction of the undead. Peyton became legendary for his excursions into the [the_lichdoms|E], even slaying the [Concept('liches','Lich')|E] [newly_created_artifact.MakeScope.Var('prominent_foe').Char.GetFullName] in an assault on his citadel with only 566 losses in his party of 570. His mace still has slight grooves no doubt brought on from four decades of hitting skeletons over the head."
+ artifact_peytonsbonecracker_desc:89 "#size:15 Wayfather Peyton of the Way of Harvests declared that no harvest could be safely done while the undead yet still 'lived', and that bonemeal did wonders for the crop, and thus declared that the best way to perfect his path would be in the destruction of the undead. Peyton became legendary for his excursions into the [the_lichdoms|E], even slaying the [Concept('liches','Lich')|E] Crasmer Crasvir in an assault on his citadel with only 566 losses in his party of 570. His mace still has slight grooves no doubt brought on from four decades of hitting skeletons over the head."
  artifact_peytonsbonecracker_modifier:89 "Wayfather Peyton's Bone Cracker"
  artifact_peytonsbonecracker_modifier_desc:89 "A simple mace used to slay many undead"
  artifact_peytonsbonecracker_name:89 "Wayfather Peyton's Bone Cracker"
 
- artifact_rehdyia_uddayir_spear_description:89 "Though now rusted, missing its handle and long bereft of its magic, this is the speartip which the legendary spellsword — and later, Queen of [sarradon|E] — Rehdyia Uddayir plunged into the [worldeater|E]'s colossal black eye, finally delivering the killing blow to the monstrous beast that had very nearly brought about the end of all civilization on the continent and beyond."
+ artifact_rehdyia_uddayir_spear_description:89 "Though now rusted, missing its handle and long bereft of its magic, this is the speartip which the legendary spellsword — and later, Queen of [sarradon|E] — Rehdyia Uddayir plunged into the [Concept('the_worldeater','Worldeater')|E]'s colossal black eye, finally delivering the killing blow to the monstrous beast that had very nearly brought about the end of all civilization on the continent and beyond."
  artifact_rehdyia_uddayir_spear_name:89 "Spear of Rehdyia Uddayir"
  
  artifact_ringofthelich_desc:89 "#size:15 Oozing with dark magic, this ring has been worn on the bony finger of many Arch Liches throughout history. [vilas_venslau|E], [stavro|E], Wwenslawyv Wisleyx. How it ever ended up in your lands is a mystery you doubt you'll ever solve."
@@ -1038,9 +1035,8 @@
  artifact_ringofthelich_name:89 "Ring of the Lich Kings"
 
  artifact_sacrifical_dagger_age:89 "This piece was likely made around the year [owner.MakeScope.Var('dagger_age').GetValue|0]."
- artifact_sacrifical_dagger_description:89 "A [newly_created_artifact.GetFeatureText( 'blade_metal' )] dagger of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactDaggerDecoration')] The blade itself is [newly_created_artifact.GetFeatureText( 'sacrifical_decoration' )].\n\n$artifact_sacrifical_dagger_explanation$ $artifact_sacrifical_dagger_age$"
- artifact_sacrifical_dagger_explanation:89 "Sacrifical daggers were long used in [aversaria|E] for both religious and magical purposes. Countless rituals involve a sacrifice to be offered, and in Aversaria, nothing was considered stronger than blood."
- artifact_sacrifical_dagger_name:89 "[owner.GetTitledFirstNamePossessiveNoTooltip] Aversarian Sacrifical Dagger"
+ artifact_sacrifical_dagger_description:89 "A [newly_created_artifact.GetFeatureText( 'blade_metal' )] dagger of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactDaggerDecoration')] The blade itself is [newly_created_artifact.GetFeatureText( 'sacrifical_decoration' )].\n\n$artifact_sacrifical_dagger_age$"
+ artifact_sacrifical_dagger_name:89 "[owner.GetTitledFirstNamePossessiveNoTooltip] Sacrificial Dagger"
  
  artifact_sandals_amsari_description:89 "An elegant reliquary containing a holy relic: the humble sandals upon which the Prophet spoke the Words."
  artifact_sandals_amsari_name:89 "Sandals of the Prophet"
@@ -1048,12 +1044,12 @@
  artifact_sculpture_mask_of_ankepy_ix_description:89 "The famously decadent and ostentatious Kemsarian king Ankepy IX certainly left behind a burial mask befitting of his title and personality. Not content with mere gold, Ankepy had his mask painstakingly casted from several magically-potent meteorites — a process that required the combined efforts of some of the greatest Sarradonian [magi|E] and metalsmiths of the time. This base was then encrusted with precious gems beyond count, with seemingly every variety that exists on [aeras|E] being present, while the mask's two mortal eyes are made of particularly large and impressive bloodcrystals.\n\nMost noteworthy, however, is the mask's "third eye". Like most Kemsarian sovereigns, Ankepy went to the afterlife accompanied by servants, however their sheer amount and rank — his high officials, consort, concubines, household staff, personal guard, [magi|E] cabal and tens of thousands of slaves - surpasses the excesses of even the vast majority of his predecessors and successors. All of these were ritually slain and their souls interred into a black gemstone of unknown origin that makes up the mask's third eye, so that they may continue to serve their master into eternity."
  artifact_sculpture_mask_of_ankepy_ix_name:89 "Burial Mask of Ankepy IX"
  
- artifact_seal_wardenism_description:89 "A plain clay seal bearing the image of a key surrounded by text too heavily weathered to make out. Though at a glance nothing more than the worn-out accessory of a minor [wardenite|E] judge, reliable sources trace this specific object to the [first_warden|E] himself — this was the very seal with which the stamp of legitimacy was given to practically all of [wardenism|E]'s earliest, most foundational texts and the rulings that inspired them."
+ artifact_seal_wardenism_description:89 "A plain clay seal bearing the image of a key surrounded by text too heavily weathered to make out. Though at a glance nothing more than the worn-out accessory of a minor [Concept('wardenism','Wardenite')|E] judge, reliable sources trace this specific object to the [Concept('the_first_warden','First Warden')|E] himself — this was the very seal with which the stamp of legitimacy was given to practically all of [wardenism|E]'s earliest, most foundational texts and the rulings that inspired them."
  artifact_seal_wardenism_name:89 "Seal of the First Warden"
  
  artifact_seignonsword_desc:89 "#size:15 The family blade of the Den va Seignon family has seen use in hundreds of battles over four centuries. Initially discovered by the (self-styled) King Credon den va Seignon shortly before the [red_river_war|E], in an ancient crypt of unknown make, its glimmering black blade seemingly fades in and out of vision as it cuts through the air with a sickening hiss. The metal and style of the blade are a mystery to all who have seen it, as is its ability to cut through sight itself."
  artifact_seignonsword_modifier:89 "Den va Seignon Family Sword"
- artifact_seignonsword_modifier_desc:89 "The family sword of the Den va Seignon family, of [aelfir_alien|E] creation"
+ artifact_seignonsword_modifier_desc:89 "The family sword of the Den va Seignon family, of [Concept('aelfir','Alien')|E] creation" 
  artifact_seignonsword_name:89 "Den va Seignon Family Sword"
  
  artifact_skull_title:89 "[killed.GetTitledFirstNamePossessive] [newly_created_artifact.GetFeatureText( 'bone_constitution' )] Skull"
@@ -1066,13 +1062,115 @@
  artifact_skullofaxiaothea_modifier:89 "Skull of Axiaothea"
  artifact_skullofaxiaothea_name:89 "Skull of [axiaothea.GetFirstName]"
  
- artifact_skullofduvaken_desc:89 "#size:15 The skull of Duvaken 'Silver Speaker', a Karzarad chief who led a force of his tribesmen and Sjalvolki volunteers to carve out a realm in northern Opakhasia. While initially successful, partially on account of Duvaken's powerful [magical|E] ability, he was eventually slain by Gorassos 'Skull-Taker' in a duel."
+ artifact_skullofduvaken_desc:89 "#size:15 The skull of [duvaken.GetFirstNameNicknamed], a Karzarad chief who led a force of his tribesmen and Sjalvolki volunteers to carve out a realm in northern Opakhasia. While initially successful, partially on account of Duvaken's powerful [Concept('magic','Magical')|E] ability, he was eventually slain by Gorassos 'Skull-Taker' in a duel."
  artifact_skullofduvaken_modifier:89 "Skull of Duvaken 'Silver Speaker'"
- artifact_skullofduvaken_name:89 "Skull of Duvaken 'Silver Speaker'"
+ artifact_skullofduvaken_name:89 "Skull of [duvaken.GetFirstNameNicknamed]"
  
- artifact_skullofpridni_desc:89 "#size:15 The skull of Pridni 'the Younger', an [aversarian|E] warlord and child of the steward to Anesimasios, last Aautokratir of Aversaria. Pridni carved out a large realm across much of Etepezea, Malcois and Opakhasia before being killed in battle by Gorassos 'Skull-Taker'. The death of Pridni brought upon a great civil war in his realm, one which was ended by the Sjalvolki taking advantage and sweeping into his lands."
+ artifact_skullofpridni_desc:89 "#size:15 The skull of [pridni.GetFirstNameNicknamed], an [Concept('aversaria','Aversarian')|E] warlord and child of the steward to Anesimasios, last Aautokratir of Aversaria. Pridni carved out a large realm across much of Etepezea, Malcois and Opakhasia before being killed in battle by Gorassos 'Skull-Taker'. The death of Pridni brought upon a great civil war in his realm, one which was ended by the Sjalvolki taking advantage and sweeping into his lands."
  artifact_skullofpridni_modifier:89 "Skull of Pridni 'the Younger'"
- artifact_skullofpridni_name:89 "Skull of Pridni 'the Younger'"
+ artifact_skullofpridni_name:89 "Skull of [pridni.GetFirstNameNicknamed]"
+ 
+ artifact_karthynskull_desc:89 "This skull belonged to the Aversarian warlord [Concept('karthyn_delenel','Delenel')|E]. Known for his terror campaigns in Opakhasia and Malcois with which he kept the east controlled for his liege Aautokratir Aeschraes during and after the [imperial_civil_war|E] (alongside his equally infamous counterpart [Concept('demetros_detheniax','Demetros Iron-Spike')|E]); this skull shows little of the horrifying visage recounted by the few survivors of his massacres.\n\nDelenel was mortally wounded by Legan Isacea of Legio XXI 'Axiaothea' during the Vilnian Assault, though he survived long enough to retreat east to his personal estates. While there, abandoned by his men and his allies, his pupil Gorassos entered under the signs of friendship. The events that transpired are unknown, but what is known is Gorassos would butcher his tutor, taking his head and raping and killing what remained of his family and servants before having the estate torched. The event is commonly believed to have been the moment Gorassos deserted the service of Aeschraes and ruled as an independent warlord."
+ artifact_karthynskull_modifier:89 "Skull of Karthyn Delenel"
+ artifact_karthynskull_modifier_desc:89 "Skull of the late Karthyn Delenel"
+ artifact_karthynskull_name:89 "Skull of [karthyn_delenel]"
+
+ artifact_gh_tarfals_staff_name:89 "Staff of Tarfal"
+ artifact_gh_tarfals_staff_description:89 "The Staff of Tarfal is the holiest relic in the Sepattan religion and can only be wielded by the head of the Priesthood. Crafted by Tarfal, the staff grants its wielder a longer life and imbues them with magical power, enabling them to enact the Twin Gods' will by protecting the Nattanan from all who would threaten their existence."
+
+
+ artifact_gh_jerniems_bow_name:89 "Jerniem's Bow"
+ artifact_gh_jerniems_bow_description:89 "The bow of the hunting god Jerniem is a weapon of incredible power that grants the wielder the speed and stealth of the hunting god himself. Jerniem's bow can only be wielded by the fiercest and worthiest of the Nattanan warriors. Over the ages, Nattanan warchiefs have used the bow to turn the tide of battle against Oltenic raiding parties and other enemies who would seek the destruction of the Nattanan way of life."
+
+
+ artifact_gh_spear_of_korlacu_name:89 "Spear of Korlacu"
+ artifact_gh_spear_of_korlacu_description:89 "The Spear of Korlacu is a powerful artifact that is said to pulse with a vibrant, irridescent light so bright that looking directly into the ruby stone embedded just below the tip of the spear is strongly discouraged as it has been known to blind those who look to closely. The spear itself is said to be hot to the touch, and is rumored to possess the destructive energy of a thousand suns, thereby rendering the spear capable of setting any material on [aeras|E] ablaze."
+
+ artifact_adekaday_battle_desc:89 "Forged by the legendary blacksmith [newly_created_artifact.MakeScope.Var('blade_forger').Char.GetFirstNameNicknamed], Adekaday, or Deathward, is the famed sword of the Banwagul warlord [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName|E]. While not enchanted itself, the blade is crafted from a rare alloy of bronze and [zhaen|E], giving it a supernatural sharpness, as well as the curious property of granting vitality to its wielder. Nalaykan bore the sword until his death during the [ratarakaw|E] after which the sword passed into the hands of [newly_created_artifact.MakeScope.Var('current_bearer').Char.GetTitledFirstName], the sole survivor of the catastrophe."
+ artifact_adekaday_desc:89 "Forged by the legendary blacksmith Dahasay 'Bronzesinger', Adekaday is the famed sword of the Banwagul warlord Nalaykan. While not enchanted itself, the blade is crafted from a rare alloy of bronze and [zhaen|E], giving it a supernatural sharpness, as well as a curious property of granting vitality to its wielder."
+ artifact_adekaday_name:89 "Adekaday"
+
+ artifact_kenaranek_battle_desc:89 "The legendary spear of [nari_daya|E], Kenaranek, or 'Blackthorn', is regarded to be one of the main symbols of authority for the rulers of Vehangun. Its blade, composed of an alien black metal, is attached to a shaft forged of pure reinforced bronze, making the weapon too heavy for anyone to wield without sufficient strength.\n\nThe spear also has an unusual property of turning impossibly heavy when not being held by a woman, an enchantment allegedly placed upon it by [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetTitledFirstName] herself. Those who manage to use the weapon, however, report that the spear’s sharpness and strength are unmatched, and a single thrust is said to be able to pierce even the thickest castle walls."
+ artifact_kenaranek_desc:89 "The legendary spear of [nari_daya|E], Kenaranek, or 'Blackthorn', is regarded to be one of the main symbols of authority for the rulers of Vehangun. Its blade, composed of an alien black metal, is attached to a shaft forged of pure reinforced bronze, making the weapon too heavy for anyone to wield without sufficient strength.\n\nThe spear also has an unusual property of turning impossibly heavy when not being held by a woman, an enchantment allegedly placed upon it by Nari Daya herself. Those who manage to use the weapon, however, report that the spear’s sharpness and strength are unmatched, and a single thrust is said to be able to pierce even the thickest castle walls."
+ artifact_kenaranek_name:89 "Kenaranek"
+
+ artifact_kedatals_talon_battle_desc:89 "An oddly shaped implement of jade and ebony, this blade is used not for combat, but for applying the enchanted inks of the Kedari to skin. Created by the famed [magi|E] [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName|E], tattoos created using the talon are claimed to be not only more vivid, but also more powerful."
+ artifact_kedatals_talon_desc:89 "An oddly shaped implement of jade and ebony, this blade is used not for combat, but for applying the enchanted inks of the Kedari to skin. Created by the famed [magi|E] Habwi, tattoos created using the talon are claimed to be not only more vivid, but also more powerful."
+ artifact_kedatals_talon_name:89 "Kedatal's Talon"
+
+ artifact_wave_breaker_battle_desc:89 "Forged entirely of [zhaen|E], Wave Breaker is the first of the Sānzhên Jītiān (Three Bronze Miracles) created by the legendary blacksmith Zi Auyang. Enchanted with the aspect of [aspect_water], the weapon glows with a mystical blue light, and its blade is surprisingly cool to the touch.\n\nThe sword is famously wielded by the influential Ziajao clan, particularly its famed high elder, Ziajao [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName]. Legend says that it is with this blade that Xangli cut the enormous tidal wave summoned by Rai Anji to destroy the coalition fleet during the Verdigris Affair, and in so doing, heralded the beginning of Lakoeng rule over the [Concept('bureau_bronzeport','Bronzeport')|E]."
+ artifact_wave_breaker_desc:89 "Forged entirely of [zhaen|E], Wave Breaker is the first of the Sānzhên Jītiān (Three Bronze Miracles) created by the legendary blacksmith Zi Auyang. Enchanted with the aspect of [aspect_water], the weapon glows with a mystical blue light, and its blade is surprisingly cool to the touch."
+ artifact_wave_breaker_name:89 "Wave Breaker"
+
+ artifact_thunderhoofs_roar_battle_desc:89 "The third and final piece of the Sānzhên Jītiān (Three Bronze Miracles) forged by Zi Auyang, Thunderhoof's Roar is a magnificent snake spear constructed entirely—blade and shaft—of [zhaen|E]. Despite being made of pure metal, the spear is surprisingly light, and its strikes are preceded by a crackling sound reminiscent of thunder.\n\nOriginally belonging to the Ziajao clan, the spear would be stolen by pirates during the infamous Sack of the Bronzeport, with its wielder, High Minister Ziajao [newly_created_artifact.MakeScope.Var('original_wielder').Char.GetFirstName], being impaled with his own weapon. Thunderhoof's Roar would eventually be won after a legendary duel with the Pirate Lord of Singda by the great admiral Lihejin [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName], who would thereafter use it to put forward—and enforce—his claim to rule the [Concept('bureau_bronzeport','Bronzeport')|E]."
+ artifact_thunderhoofs_roar_desc:89 "The third and final piece of the Sānzhên Jītiān (Three Bronze Miracles) forged by Zi Auyang, Thunderhoof's Roar is a magnificent snake spear constructed entirely—blade and shaft—of [zhaen|E]. Despite being made of pure metal, the spear is surprisingly light, and its strikes are preceded by a crackling sound reminiscent of thunder."
+ artifact_thunderhoofs_roar_name:89 "Thunderhoof's Roar" 
+
+ artifact_fireclaw_battle_desc:89 "The second of the Sānzhên Jītiān (Three Bronze Miracles) forged by Zi Auyang, Fireclaw is a set of [zhaen|E] gauntlets inlaid with bloodrubies. Imbued with [aspect_fire], the gauntlets burn everything they strike, yet leave their wielder unaffected by the heat.\n\nPassing to the Ziajao clan, Fireclaw was gifted by High Minister Ziajao [newly_created_artifact.MakeScope.Var('bestower').Char.GetFirstName] to the warrior Shifazi [newly_created_artifact.MakeScope.Var('prominent_wielder').Char.GetFirstName] for his service in subduing the Pirate Queen of Wellatola. The gauntlets would remain to be an heirloom of the Shifazi and constantly used in service of the [Concept('bureau_bronzeport','Bronzeport')|E], most famously by the famed warrior [newly_created_artifact.MakeScope.Var('second_wielder').Char.GetFirstNameNicknamed]."
+ artifact_fireclaw_desc:89 "The second of the Sānzhên Jītiān (Three Bronze Miracles) forged by Zi Auyang, Fireclaw is a set of [zhaen|E] gauntlets inlaid with bloodrubies. Imbued with [aspect_fire], the gauntlets burn everything they strike, yet leave their wielder unaffected by the heat."
+ artifact_fireclaw_name:89 "Fireclaw"
+
+ artifact_myrnish_map_battle_desc:89 "Created by the famed cartographer Ollos of Myrn, this enchanted map depicts the region known as the [Concept('aversaria','Aversarian')|E] Homelands. Mountains, rivers, castles, and even the very people in the area are depicted in extreme detail, making the artifact an invaluable tool for scouting."
+ artifact_myrnish_map_desc:89 "Created by the famed cartographer Ollos of Myrn, this enchanted map depicts the region known as the [Concept('aversaria','Aversarian')|E] Homelands. Mountains, rivers, castles, and even the very people in the area are shown in extreme detail, making the artifact an invaluable tool for scouting."
+ artifact_myrnish_map_name:89 "Myrnish Map No. 5"
+
+ artifact_acolytes_confidant_battle_desc:89 "Made of pure Theyssian silver with an inlaid gem of bloodcrystal, the Acolyte's Confidant is a ring customarily given to all new acolytes of the [mayikrata|E].\n\nWhile it primarily serves as a mark of prestige and identity, the ring is also enchanted with a magical ward that is invaluable against arcane fallout due to an experiment gone awry — or perhaps hostile spells cast by rival acolytes.\n\nThe ensuing shortage of Theyssian silver has led to the ring becoming increasingly more rare, and by the Twelfth Century IS, it is solely reserved for the top ten [magi|E]-Acolytes in the rankings."
+ artifact_acolytes_confidant_desc:89 "Made of pure Theyssian silver with an inlaid gem of bloodcrystal, the Acolyte's Confidant is a ring customarily given to all new acolytes of the [mayikrata|E].\n\nWhile it primarily serves as a mark of prestige and identity, the ring is also enchanted with a magical ward that is invaluable against arcane fallout due to an experiment gone awry — or perhaps hostile spells cast by rival acolytes.\n\nThe ensuing shortage of Theyssian silver has led to the ring becoming increasingly more rare, and by the Twelfth Century IS, it is solely reserved for the top ten [magi|E]-Acolytes in the rankings."
+ artifact_acolytes_confidant_name:89 "The Acolyte's Confidant"
+
+ # REGIONAL: KALATHIPSOMI
+ 
+ artifact_tarthailar_sceptre_name: "Tarthaílár Sceptre"
+ artifact_tarthailar_sceptre_desc: "[SCOPE.Custom('ArtifactArticleWealth')] gilded applewood sceptre of [SCOPE.Custom('ArtifactQuality')] craftsmanship, tipped with a golden peach. It is notable for being successively used by the ancient queens of [GetTitleByKey('k_cornucopia').GetBaseNameNoTier], the Etrandexi kings of Bastonport, and early Aversarian governors of Megos Kalathipsomi."
+ artifact_honey_orb_name: "Honey Orb"
+ artifact_honey_orb_desc: "A highly unorthodox divining orb of disputed origin; this sticky golden sphere is seemingly only capable of providing optimistic and happy visions of the future, often to misleading effect."
+ artifact_beekeepers_wand_name: "Beekeeper's Wand"
+ artifact_beekeepers_wand_desc: "A wand of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is inlaid with glowing, runic incantations and is without any focus at its tip. It is able to attract and control swarms of bees, useful for both agricultural and combat purposes. All who come into contact with this item notice a sweet flavor that coats the teeth."
+ artifact_maethroxian_water_mirror_name: "Maethroxian Water Mirror"
+ artifact_maethroxian_water_mirror_desc: "A mirror of [SCOPE.Custom('ArtifactQuality')] craftsmanship that uses a thin film of magically-suspended water as its reflective surface. Its frame is constructed from oak wood. The wood has been sanded to a smooth finish. Any who look into it see a more beautiful reflection of themself."
+ artifact_fur_tuft_old_cubozoid_name: "Tuft of [Glossary( 'Old Cubozoid', 'OLD_CUBOZOID_GLOSS' )] Fur"
+ artifact_fur_tuft_old_cubozoid_desc: "An invisible, fluffy tuft of fur of the legendary [Glossary( 'Old Cubozoid', 'OLD_CUBOZOID_GLOSS' )]."
+ artifact_cloak_wilderking_shedding_name: "[Glossary( 'Wilderking', 'WILDERKING_GLOSS' )] Shedding Cloak ([Localize(newly_created_artifact.MakeScope.Var('wilderking_shedding_type').GetFlagName)|U])"
+ artifact_cloak_wilderking_shedding_desc: "A cloak made of a [Localize(newly_created_artifact.MakeScope.Var('wilderking_shedding_type').GetFlagName)]-shedding of the legendary [Glossary( 'Wilderking', 'WILDERKING_GLOSS' )]."
+ artifact_cloak_wilderking_true_name: "True Cloak of the [Glossary( 'Wilderking', 'WILDERKING_GLOSS' )]"
+ artifact_cloak_wilderking_true_desc: "A dreamlike, shifting cloak made of the true skin of the [Glossary( 'Wilderking', 'WILDERKING_GLOSS' )] that confers a fraction of the being's former power."
+ artifact_fairyqueen_lantern_extinguished_name: "Extinguished [Glossary( 'Fairyqueen', 'FAIRYQUEEN_GLOSS' )] Lantern"
+ artifact_fairyqueen_lantern_extinguished_desc: "A lantern-like arcane device that once housed the [Glossary( 'Fairyqueen', 'FAIRYQUEEN_GLOSS' )]. The spirit's raw [magic|E] power still roils within, though tainted by corrupting magic and the sapience behind it long since deceased."
+ artifact_rose_of_themetea_name: "Rose of Themetea"
+ artifact_rose_of_themetea_desc: "Everything in the proximity of this mesmerizingly beautiful flower wilts, and it infamously led to the demise of a governess of Kalathipsomi after years of gracing her hair."
+ artifact_aedean_amulet_name: "Amulet of Aedean 'Evil-Eye'"
+ artifact_aedean_amulet_desc: "An intricate, yet delicate necklace of masterful craftsmanship. The necklace is forged from an unknown metal and features a runic pendant. It once belonged to the infamous sorcerer known as [Glossary( 'Aedean', 'AEDEAN_GLOSS' )], and still holds a menacing power."
+ artifact_sword_pathos_name: "Sword of Aautokratir Pathos"
+ artifact_sword_pathos_desc: "A Magi Steel sword of masterful craftsmanship. The pommel is shaped in a series of rounded lobes and inlaid with dragonbone. This was the sword that Aautokratir Pathos carried with himself throughout the conquest of Kalathipsomi, before losing it in a brook during the Battle of the Old Mill, a fact that he lamented numerous times for the rest of his life."
+ artifact_sword_marcomer_name: "Sword of High King Marcomer"
+ artifact_sword_marcomer_desc: "A folded iron sword of masterful craftsmanship. The blade is inscribed with arcane runes and has a shifting, wavelike texture akin to being underwater. This was the sword of High King Marcomer of the Reach, though it had long been a heirloom in his dynasty before him. Its origins are disputed, though according to most legends it was granted to one of Marcomer's ancestors by a water nymph, though some tales also claim that it was stolen."
+
+ 
+ metal_magi_steel:0 "Magi Steel"
+ feature_blade_metal_magi_steel:0 "$metal_magi_steel$"
+ feature_head_metal_magi_steel:0 "$metal_magi_steel$"
+ feature_handle_metal_magi_steel:0 "$metal_magi_steel$"
+
+ # GH ADDITION: Extra decoration patterns
+ # GH URGENT: Convert these to regular decoration patterns
+ #feature_vase_decoration_magical_runes:0 "decorated with magical runes on all sides"
+ #feature_vase_decoration_magical_geometric_shapes:0 "decorated with magically-attuned geometric shapes"
+ #feature_vase_decoration_the_purest:0 "decorated with an elaborate rendition of the Purest and First Men"
+ #feature_vase_decoration_the_sea_tower:0 "decorated with an elaborate rendition of the Sea Tower"
+ #feature_vase_decoration_mountain_sun_iconography:0 "decorated with iconography of the old Mountain-Sun Temple"
+ #feature_vase_decoration_cups:0 "decorated with images of cups"
+ #feature_vase_decoration_moons:0 "decorated with images of [aervalr|E]"
+ #feature_vase_decoration_battle:0 "decorated with scenes of battle"
+ 
+ feature_decoration_pattern_dragon:0 "dragons"
+ feature_decoration_pattern_blood_drops:0 "blood drops"
+ 
+ feature_blade_magi_steel:0 "magi steel"
+
+ artifact_gauntlet:0 "Gauntlet"
+
+ artifact_terroxian_manifesto_desc:89 "Nearly two hundred pages in length, the following manifesto is a magically-created copy of Arch-Magi Terrox of the [mayikrata|E]'s [Concept('terroxian_imperial_edict_manifesto','Imperial Edict-Manifesto')|E]. Contained herein are his increasingly incoherent ramblings about purity and a [magi|E]'s place in the world, punctuated here and there by declarations of admiration for a certain 'Axiaothea', before finally finishing with a poorly punctuated exhortation on the Mayikrata's much-deserved independence."
+ artifact_terroxian_manifesto_name:89 "Terroxian Manifesto"
  
  # Misc Adjectives
  mystery_mysteries:89 "mysteries"
@@ -1158,10 +1256,10 @@
  spell_magic:89 "magic"
  spell_sorcery:89 "sorcery"
  
- artifact_dragonskull_desc:89 "An ancient yellowed bone from the beast once called the '[worldeater|E]'. At one time in history, the [worldeater|E] devoured entire [sarradonian|E] cities, depopulating entire regions due to its insatiable hunger. After consuming the ruler of [sarradon|E] herself, the beast was slain by Rehdyia Uddayir, who was then declared the rightful Queen."
+ artifact_dragonskull_desc:89 "An ancient yellowed bone from the beast once called the '[Concept('the_worldeater','Worldeater')|E]'. At one time in history, the [Concept('the_worldeater','Worldeater')|E] devoured entire [Concept('sarradon','Sarradonian')|E] cities, depopulating entire regions due to its insatiable hunger. After consuming the ruler of [sarradon|E] herself, the beast was slain by Rehdyia Uddayir, who was then declared the rightful Queen."
  artifact_dragonskull_name:89 "Skull of a Dragon"
  
- artifact_boneoftheworldeater_desc:89 "An ancient yellowed bone from the beast once called the '[worldeater|E]'. At one time in history, the [worldeater|E] devoured entire [sarradonian|E] cities, depopulating entire regions due to its insatiable hunger. After consuming the ruler of [sarradon|E] herself, the beast was slain by Rehdyia Uddayir, who was then declared the rightful Queen."
+ artifact_boneoftheworldeater_desc:89 "An ancient yellowed bone from the beast once called the '[Concept('the_worldeater','Worldeater')|E]'. At one time in history, the [Concept('the_worldeater','Worldeater')|E] devoured entire [Concept('sarradon','Sarradonian')|E] cities, depopulating entire regions due to its insatiable hunger. After consuming the ruler of [sarradon|E] herself, the beast was slain by Rehdyia Uddayir, who was then declared the rightful Queen."
  artifact_boneoftheworldeater_modifier:89 "Bone of the Worldeater"
  artifact_boneoftheworldeater_name:89 "Bone of the Worldeater"
  
@@ -1378,7 +1476,7 @@
 
  feature_oltenic_mask_visage_human_plain:89 "a [Artifact.GetFeatureText('oltenic_mask_expression')] [Artifact.GetFeatureText('oltenic_mask_gender')] face."
  feature_oltenic_mask_visage_human_kathuni:89 "a vaguely [Concept('oltenic_kathuni_wars', 'Kathuni')|E] [Artifact.GetFeatureText('oltenic_mask_gender')] face."
- feature_oltenic_mask_visage_human_aversarin:89 "a vaguely [aversarian|E] [Artifact.GetFeatureText('oltenic_mask_gender')] face."
+ feature_oltenic_mask_visage_human_aversarin:89 "a vaguely [Concept('aversaria','Aversarian')|E] [Artifact.GetFeatureText('oltenic_mask_gender')] face."
  feature_oltenic_mask_visage_human_parent:89 "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetFullNameRegnal] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.Custom('GetDaughterSon')], [Artifact.GetOwner.GetTitledFirstName]."
  feature_oltenic_mask_visage_human_child:89 "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.GetMotherFather], [Artifact.GetOwner.GetFullNameRegnal]."
  feature_oltenic_mask_visage_human_sibling:89 "the late [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetTitledFirstName] for [Artifact.MakeScope.Var('mask_likeness').GetCharacter.GetHerHis] grieving [Artifact.GetOwner.Custom('SisterBrother')], [Artifact.GetOwner.GetFullNameRegnal]."
@@ -1583,8 +1681,7 @@
  awakened_mask_name_vitiated:89 "Vitiated Mask"
  awakened_mask_desc_1:89 "[defiled_nadir_mask.GetDesc]\n\nEver since [defiled_nadir_mask.GetOwner.GetNamePossessive] passing, it feels slightly warm to the touch."
  awakened_mask_desc_2:89 "[defiled_nadir_mask.GetDesc]\n\nAfter the death of [defiled_nadir_mask.GetOwner.GetName], distant whispers can be heard in the vicinity of the mask."
- awakened_mask_desc_3:89 "[defiled_nadir_mask.GetDesc]\n\nOnce worn by the late [defiled_nadir_mask.GetOwner.GetName], it has seemingly taken on a life of its own."
- awakened_mask_desc_4:89 "[defiled_nadir_mask.GetDesc]\n\n#XBAnd now, the mask is ice-cold and the spirits inside are screaming.#!"
+ awakened_mask_desc_3:89 "[defiled_nadir_mask.GetDesc]\n\n#XB And now, the mask is ice-cold and the spirits inside are screaming.#!"
  awakened_mask_reclaimed.tt:89 "You have reclaimed your bound mask"
 
  artifact_spiritshard:89 "Shard"
@@ -1602,6 +1699,7 @@
  
  fund_inspiration.5011.f:89 "A magnificent staff that can further my magic."
  fund_inspiration.5011.g:89 "A pristine bone, thrumming with magic, to craft with."
+ fund_inspiration.5011.h:89 "A book of arcane lore, to further my knowledge."
  gain_griffon_familiar.tt:89 "A [GetTrait('gh_griffon_trait').GetName(GetNullCharacter)] joins your [court|E] as #E Familiar#!"
  gave_artifacts_opinion:89 "Gave Artifacts"
 
@@ -1688,10 +1786,10 @@
  #artifact_belar_seal_description:89 "This gemstone-encrusted silver seal bears the emblem of the [boqqarut_damotada|E], surrounded by an artistic depiction of a wall. It was used during the [belar_dynasty|E], its mark placed upon orders such as the construction of the Irōchi Damotada, and was kept by the dynasty's descendants even after their fall from power."
  #artifact_belar_seal_name:89 "Seal of the Belars"
 
- artifact_mesir_seal_description:89 "This bronze seal bears a skull, along with the inscription "One Ruler and One Mission". It was used by the [mesir_dynasty|E], potentially adorning such orders as the [karururi_chorus|E] and the formation of the [boqqarut|E] itself."
+ artifact_mesir_seal_description:89 "This bronze seal bears a skull, along with the inscription "One Ruler and One Mission". It was used by the [mesir_dynasty|E], potentially adorning such orders as the [karururi_chorus|E] and the formation of the [Concept('boqqarut_damotada','Boqqarut')|E] itself."
  artifact_mesir_seal_name:89 "Seal of the Mesirs"
 
- #artifact_mesir_seal_description:89 "This bronze seal bears a skull, along with the inscription "One Ruler and One Mission". It was used by the [mesir_dynasty|E], potentially adorning such orders as the [karururi_chorus|E] and the formation of the [boqqarut|E] itself."
+ #artifact_mesir_seal_description:89 "This bronze seal bears a skull, along with the inscription "One Ruler and One Mission". It was used by the [mesir_dynasty|E], potentially adorning such orders as the [karururi_chorus|E] and the formation of the [Concept('boqqarut_damotada','Boqqarut')|E] itself."
  #artifact_mesir_seal_name:89 "Seal of the Mesirs"
 
 
@@ -1705,16 +1803,16 @@
  
 
 
- artifact_olani_seal_description:89 "This golden seal bears the emblem of the [boqqarut_damotada|E], along with the inscription "As Boqqar and Kihinet". It was used during the [olani_dynasty|E], and its mark was placed upon such momentous orders as the creation of the [rayakuux_orders|E] and the formalization of the Golkawīs."
+ artifact_olani_seal_description:89 "This golden seal bears the emblem of the [boqqarut_damotada|E], along with the inscription "As Boqqar and Kihinet". It was used during the [olani_dynasty|E], and its mark was placed upon such momentous orders as the creation of the [Concept('lodges','Rayakuux Orders')|E] and the formalization of the Golkawīs."
  artifact_olani_seal_name:89 "Seal of the Olanis"
 
- #artifact_olani_seal_description:89 "This golden seal bears the emblem of the [boqqarut_damotada|E], along with the inscription "As Boqqar and Kihinet". It was used during the [olani_dynasty|E], and its mark was placed upon such momentous orders as the creation of the [rayakuux_orders|E] and the formalization of the Golkawīs."
+ #artifact_olani_seal_description:89 "This golden seal bears the emblem of the [boqqarut_damotada|E], along with the inscription "As Boqqar and Kihinet". It was used during the [olani_dynasty|E], and its mark was placed upon such momentous orders as the creation of the [Concept('lodges','Rayakuux Orders')|E] and the formalization of the Golkawīs."
  #artifact_olani_seal_name:89 "Seal of the Olanis"
  
 
- artifact_skull_of_kayoba_description:89 "This unadorned skull supposedly belonged to Boqqar Kayoba, the final ruler of the [zalreb_dynasty|E], and of the [boqqarut|E] itself. As with every other Boqqar, his skull was magically preserved after his death, eventually to be displayed in the [GetBuilding('01_tabik_betemisit').GetName]. Before this could happen however, the skull disappeared, with the Battle of Zahali and the beginning of the [etami_tetenik|E] rendering all attempts to search for it futile."
+ artifact_skull_of_kayoba_description:89 "This unadorned skull supposedly belonged to Boqqar Kayoba, the final ruler of the [zalreb_dynasty|E], and of the [Concept('boqqarut_damotada','Boqqarut')|E] itself. As with every other Boqqar, his skull was magically preserved after his death, eventually to be displayed in the [GetBuilding('01_tabik_betemisit').GetName]. Before this could happen however, the skull disappeared, with the Battle of Zahali and the beginning of the [etami_tetenik|E] rendering all attempts to search for it futile."
  artifact_skull_of_kayoba_name:89 "Skull of Kayoba" #RIP. Dies powerless and certain of civil war, and doesn't even get a proper burial.
- #artifact_skull_of_kayoba_description:89 "This unadorned skull supposedly belonged to Boqqar Kayoba, the final ruler of the [zalreb_dynasty|E], and of the [boqqarut|E] itself. As with every other Boqqar, his skull was magically preserved after his death, eventually to be displayed in the [GetBuilding('01_tabik_betemisit').GetName]. Before this could happen however, the skull disappeared, with the Battle of Zahali and the beginning of the [etami_tetenik|E] rendering all attempts to search for it futile."
+ #artifact_skull_of_kayoba_description:89 "This unadorned skull supposedly belonged to Boqqar Kayoba, the final ruler of the [zalreb_dynasty|E], and of the [Concept('boqqarut_damotada','Boqqarut')|E] itself. As with every other Boqqar, his skull was magically preserved after his death, eventually to be displayed in the [GetBuilding('01_tabik_betemisit').GetName]. Before this could happen however, the skull disappeared, with the Battle of Zahali and the beginning of the [etami_tetenik|E] rendering all attempts to search for it futile."
  #artifact_skull_of_kayoba_name:89 "Skull of Kayoba" #RIP. Dies powerless and certain of civil war, and doesn't even get a proper burial.
 
  artifact_spear_of_eshwo_description:89 "This spearhead, with a great emerald inlaid in its head, was wielded by Eshwo during the [war_of_songs|E]. Though most likely never directly used in battle, the weapon is a powerful symbol, depicted in countless works of Damotan art honoring their legendary founder."
@@ -1752,3 +1850,12 @@
  feature_shard_quality_glowing:89 "This one glows in the light as if lit from the inside."
  aervalr_shard:89 "[aervalr|E] Shard"
  artifact_aervalr_shard:89 "[aervalr|E] Shard"
+
+ HAS_KNOWLEDGE_OF_PARTIC_SECRETS:89 "Has knowledge of Partic secrets"
+ 
+ # GH ADDITION: Extra wood types
+ feature_GH_generic_material_wood_beech: "beech"
+ 
+ # GH ADDITION: Historical trees (for wooden artifacts)
+ fidhasil_name: "[Glossary( 'Fidhàsil', 'FIDHASIL_TREE_GLOSS' )]"
+ 

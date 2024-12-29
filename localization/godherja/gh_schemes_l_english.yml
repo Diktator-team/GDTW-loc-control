@@ -1,37 +1,46 @@
 ﻿l_english:
  # Learn magic school Scheme
  learn_magic_school_scheme:89 "Learn Magic School"
- learn_magic_school_scheme_action:89 "Learn a new [magic_school|E] with the help of"
- learn_magic_school_scheme_desc:89 "I will attempt to learn a new [magic_school|E]"
- scheme_interaction_tt_learn_magic_school_willing:89 "Attempt to learn a [magic_school|E] known by [recipient.GetShortUINameNoTooltip]"
- learn_magic_school_scheme_success_message:89 "Learned new [magic_school|E]"
- learn_magic_school_scheme_failed_message:89 "Failed to learn new [magic_school|E]"
+ learn_magic_school_scheme_action:89 "Learn a School of Magic from"
+ learn_magic_school_scheme_desc:89 "I will attempt to learn a new [Concept('magic_type','School of Magic')|E]"
+ scheme_interaction_tt_learn_magic_school_willing:89 "Attempt to learn a [Concept('magic_type','School of Magic')|E] known by [recipient.GetShortUINameNoTooltip]"
+ learn_magic_school_scheme_success_message:89 "Learned new [Concept('magic_type','School of Magic')|E]"
+ learn_magic_school_scheme_failed_message:89 "Failed to learn new [Concept('magic_type','School of Magic')|E]"
  learn_magic_school_scheme_invalidated:89 "$learn_magic_school_scheme$ Invalidated"
  learn_magic_school_scheme_dead_desc:89 "[target.GetShortUIName|U] has passed away. You can no longer use the $learn_magic_school_scheme$ on [target.GetHerHim]."
- SCHEME_TARGET_ARCANA_MODIFIER:89 "Teacher's [arcana|E]: @skill_arcana_icon!$VALUE|+0=$"
- SCHEME_ARCANA_MODIFIER:89 "Your [arcana|E]: @skill_arcana_icon!$VALUE|+0=$"
- LEARN_MAGIC_SCHEME_CULTURAL_SCHOOL_MODIFIER:89 "This magic school is known by your [culture|E]: $VALUE|+0=$"
- LEARN_MAGIC_SCHOOL_SCHEME_SUCCESS_DESC:89 "You learn a magic school known by [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+ START_SCHEME_LEARN_MAGIC_SCHOOL:90 "Start Scheme"
+ SCHEME_ARCANA_SKILL_MODIFIER: "[arcana_i][arcana|E] Skill: $VALUE|=+0$"
+ SCHEME_TARGET_ARCANA_MODIFIER: "Teacher's [arcana|E]: @skill_arcana_icon!$VALUE|+0=$"
+ SCHEME_PHYSICIAN_XP_MODIFIER: "Physician XP: $VALUE|+0=$"
+ SCHEME_MYSTIC_XP_MODIFIER: "Mystic XP: $VALUE|+0=$"
+ SCHEME_KNOWLEDGE_ENTRY_DIFFICULTY_MODIFIER: "Knowledge Entry Difficulty: $VALUE|+0=$"
+ LEARN_MAGIC_SCHEME_CULTURAL_SCHOOL_MODIFIER: "This magic school is known by your [culture|E]: $VALUE|+0=$"
+ LEARN_MAGIC_SCHOOL_SCHEME_SUCCESS_DESC: "You learn a [Concept('magic_type','School of Magic')|E] known by [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+ 
+ scheme_odds.character_arcana_baseline_value.owner: "Your [arcana|E]"
+ scheme_odds.character_arcana_baseline_value.target: "[target.GetFirstNamePossessive] [arcana|E]"
+
 
  learn_magic_school_scheme_interaction:89 "Learn Magic School #weak (Scheme)#!"
  learn_magic_school_scheme_interaction_notification:89 "Learn Magic School"
  
  target_does_not_know_unknown_school_loc:89 "[TARGET_CHARACTER.GetShortUIName] cannot teach any magic schools you do not already know."
+ owner_must_be_able_to_learn_more_magic_schools_loc:90 "You cannot learn more than [TARGET_CHARACTER.MakeScope.ScriptValue('character_maximum_magic_school_value')|0] [Concept('magic_type','School of Magic')|E]"
  target_does_not_have_reason_to_teach_magic_school_loc:89 "[TARGET_CHARACTER.GetShortUIName] is not your #E Friend#!, #E Lover#!, #E Close Family Member#!, #E Court Magi#! or #E Courtier#!."
  TARGET_DOES_NOT_KNOW_SPELL_UNKNOWN_TO_ME:89 "[TARGET_CHARACTER.GetShortUIName] cannot teach any spells you do not already know."
  
  
  # Learn magic spell Scheme
  learn_magic_spell_scheme:89 "Learn Magic Spell"
- learn_magic_spell_scheme_action:89 "Learn a new [ritual|E] with the help of"
+ learn_magic_spell_scheme_action:89 "Learn a new Ritual with the help of"
  learn_magic_spell_scheme_desc:89 "I will attempt to learn a new spell"
- START_SCHEME_LEARN_MAGIC_SPELL:89 "Start Scheme "
+ START_SCHEME_LEARN_MAGIC_SPELL:89 "Begin Learning"
  scheme_interaction_tt_learn_magic_spell_willing:89 "Attempt to learn a spell known by [recipient.GetShortUIName]"
  learn_magic_spell_scheme_success_message:89 "Learned new spell"
  learn_magic_spell_scheme_failed_message:89 "Failed to learn new spell"
  learn_magic_spell_scheme_invalidated:89 "$learn_magic_spell_scheme$ Invalidated"
  learn_magic_spell_scheme_dead_desc:89 "[target.GetShortUIName|U] has passed away. You can no longer use the $learn_magic_school_scheme$ on [target.GetHerHim]."
- LEARN_MAGIC_SCHOOL_SCHEME:89 "Start Scheme "
+ LEARN_MAGIC_SCHOOL_SCHEME:89 "Start Scheme Teach"
  LEARN_MAGIC_SPELL_SCHEME_SCHOOL_SPELL_MODIFIER:89 "This magic spell is known by your Magic School: $VALUE|+0=$"
  LEARN_MAGIC_SPELL_SCHEME_SUCCESS_DESC:89 "You learn the #underline [CHARACTER.MakeScope.Var('spell_to_learn_from_character').Story.Custom('SpellName')]#! [ritual|E]."
  
@@ -41,6 +50,21 @@
  ANSWER_CANT_ACCEPT:89 "#N Will #bold not#! accept#!"
  learn_magic_spell_decline_summary:89 "@warning_icon! #X If [recipient.GetShortUINameNoTooltip] declines your request, you will still be able to attempt to steal the [ritual|E] in question, but it will be slightly more difficult than normal due to [recipient.GetShortUINameNoTooltip] being aware of your interest.#!"
  
+ # Teach magic spell Scheme
+ teach_magic_spell_scheme:89 "Teach Magic Spell"
+ teach_magic_spell_scheme_action:89 "Teach a Ritual to the student"
+ teach_magic_spell_scheme_desc:0 "I will attempt to teach a spell"
+ START_SCHEME_TEACH_MAGIC_SPELL:89 "Begin Teaching"
+ scheme_interaction_tt_teach_magic_spell_willing:89 "Attempt to teach [recipient.GetShortUIName] a spell"
+ teach_magic_spell_scheme_success_message:89 "Taught a new spell"
+ teach_magic_spell_scheme_failed_message:89 "Failed to teach a new spell"
+ teach_magic_spell_scheme_invalidated:89 "$teach_magic_spell_scheme$ Invalidated"
+ teach_magic_spell_scheme_dead:89 "[target.GetShortUIName|U] has passed away. You can no longer teach them"
+
+ teach_magic_spell_scheme_interaction:89 "Teach Magic Spell #weak (Scheme)#!"
+ REQUEST_TEACH_MAGIC_SPELL_NOTIFICATION_TEXT:89 "I am greatly interested in teaching the secrets of #underline [spell_to_learn_scope.Custom('SpellName')]#!, if you believe you are up to the task."
+ teach_magic_spell_decline_summary:89 "@warning_icon! #X If [recipient.GetShortUINameNoTooltip] declines your request, you will still be able to teach them in the future."
+
  # Medical Experiment Scheme
  medical_experiment_scheme:89 "Perform Medical Experiments"
  medical_experiment_scheme_action:89 "Perform Medical Experiments on"
@@ -119,5 +143,10 @@
 
  widows_harder_to_seduce:89 "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
  widows_struggle_at_seducing:89 "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
- 
-   
+
+ SCHEME_YOUR_DIPLOMACY_AND_ARCANA: "Average of your [diplomacy|E] and [arcana|E]: $VALUE|+=0$"
+ SCHEME_YOUR_MARTIAL_AND_ARCANA: "Average of your [martial|E] and [arcana|E]: $VALUE|+=0$"
+ SCHEME_YOUR_STEWARDSHIP_AND_ARCANA: "Average of your [stewardship|E] and [arcana|E]: $VALUE|+=0$"
+ SCHEME_YOUR_INTRIGUE_AND_ARCANA: "Average of your [intrigue|E] and [arcana|E]: $VALUE|+=0$"
+ SCHEME_YOUR_LEARNING_AND_ARCANA: "Average of your [learning|E] and [arcana|E]: $VALUE|+=0$"
+ SCHEME_YOUR_PROWESS_AND_ARCANA: "Average of your [prowess|E] and [arcana|E]: $VALUE|+=0$"

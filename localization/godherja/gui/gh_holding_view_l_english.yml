@@ -26,8 +26,8 @@
 
  HOLDING_TT_EMPTY_WASTELAND:90 "No Holding"
  CREATE_NEW_HOLDING_RUIN_BUTTON:90 "Settle Ruin Holding"
- CREATE_NEW_HOLDING_RUIN_BUTTON_TOOLTIP:90 "#T Settle [ruin|E] [holding|E]#!\nSettle the [ruins|E] in this [barony|E]\n[GetScriptedGui('settle_ruin_scripted_gui').BuildTooltip(GuiScope.SetRoot(Province.MakeScope).AddScope('actor', GetPlayer.MakeScope).End)]"
- CREATE_NEW_HOLDING_RUIN_HEADING:90 "Settle [ruin|E] [holding|E]"
+ CREATE_NEW_HOLDING_RUIN_BUTTON_TOOLTIP:90 "#T Settle [Concept('ruin_holding','Ruin')|E] [holding|E]#!\nSettle the [Concept('ruin_holding','Ruins')|E] in this [barony|E]\n[GetScriptedGui('settle_ruin_scripted_gui').BuildTooltip(GuiScope.SetRoot(Province.MakeScope).AddScope('actor', GetPlayer.MakeScope).End)]"
+ CREATE_NEW_HOLDING_RUIN_HEADING:90 "Settle [Concept('ruin_holding','Ruin')|E] [holding|E]"
  CREATE_NEW_HOLDING_STILL_COLONIZING:90 "\n@warning_icon! #X This [county|E] is still undergoing [colonization|E]#!"
  SETTLE_RUIN_NOT_TRIBAL:90 "Your [government|E] type is [GetGovernment('tribal_government').GetName]"
  SETTLE_RUIN_TRIBAL_CAPITAL:90 "[Province.GetCounty.GetTitle.GetName] has a [tribal|E] holding"

@@ -3,7 +3,7 @@
 #namejisht Loc
  namejisht_religion:0 "Namëjishta"
  namejisht_religion_adj:0 "Namëjisht"
- namejisht_religion_adjerent:0 "Namëjisht"
+ namejisht_religion_adherent:0 "Namëjisht"
  namejisht_religion_adherent_plural:0 "Namëjishts"
  namejisht_religion_desc:0 "Changed drastically by existing for millenia as only a secret society among Malcoisiac slaves, the Namëjisht faith is now a faith largely focused on worshipping the idea of freedom, or Namëj. In free Namëjisht communities, freedom is treated almost deifically, with regular festivals celebrating it, and taking another's freedom through slavery seen as sacrilege. There is some indication that Namëjishta originates from another faith prior to its followers enslavement, with some festivals dedicated to \"Namëj\" having seemingly nothing to do with freedom, but little can be determined about the tenets of this original faith."
  namejisht_high_god_name:0 "Namëj"
@@ -11,7 +11,9 @@
  namejisht_high_god_name_alternate:0 "Freedom"
  namejisht_high_god_name_alternate_possessive:0 "Freedom's"
  namejisht_devil_name:0 "The Enslavers"
+ namejisht_devil_name_alternate:0 "$namejisht_devil_name$"
  namejisht_devil_name_possessive:0 "The Enslavers'"
+ namejisht_devil_name_alternate_possessive:0 "$namejisht_devil_name_possessive$"
  namejisht_death_deity_name:0 "$namejisht_high_god_name$"
  namejisht_death_deity_name_possessive:0 "$namejisht_high_god_name_possessive$"
 
@@ -62,5 +64,5 @@
  
  namejisht:0 "Namëjishta"
  namejisht_adj:0 "Namëjisht"
- namejisht_adjerent:0 "Namëjisht"
+ namejisht_adherent:0 "Namëjisht"
  namejisht_adherent_plural:0 "Namëjishts"

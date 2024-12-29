@@ -23,7 +23,7 @@
  aversaria.0001.s:0 "the Chosen of the Gods."
   
  aversaria.0002.t:0 "[aversaria|E] United!"
- aversaria.0002.desc:0 "Out of the chaos of near-perpetual war and anarchy, [aversaria|E] has been reunified for the first time since the [imperial_civil_war|E]. Surviving both [frodbrokna|E] and the [sjalvolki_migrations|E], Aversaria is battered and beatened, but not defeated. Though it will never reclaim its old glory, it still poses a substantial threat to all in what remains of the former empire."
+ aversaria.0002.desc:0 "Out of the chaos of near-perpetual war and anarchy, [aversaria|E] has been reunified for the first time since the [imperial_civil_war|E]. Surviving both [frodbrokna|E] and the [sjalvolki_migration|E], Aversaria is battered and beatened, but not defeated. Though it will never reclaim its old glory, it still poses a substantial threat to all in what remains of the former empire."
  aversaria.0002.a:0 "An interesting development."
  
  aversaria.0003.t:0 "[aversaria|E] United!"
@@ -33,3 +33,11 @@
  aversaria.1101.t:0 "The Last Aautokrata"
  aversaria.1101.desc:0 "[aversaria|E] lies in ruins, its ancient cities filled either with barbarians or with corpses, mirroring the fates of the two capitals. Only in Krehejad has Aversaria survived. Despite the long years of anarchy and civil war, we have pulled ourselves from the fire, and now gaze outwards upon a new world.\n\nAnd in this new world, we are the last Aversarians, the only ones uncorrupted by barbarism. From Stellios, then, will Aversaria now reign, and preserve on these islands the last realm of humanity."
  aversaria.1101.a:0 "Long live Aversaria!"
+
+
+ aversaria.1110.t: "The End is a New Beginning"
+ aversaria.1110.desc: "The years have been harsh in the wake of the [imperial_civil_war|E]; our empire is in shambles, and our blood and culture have begun to mingle with those of our neighbors along [kasiryat_biozone|E]. A great debate has erupted among my people, and it falls to me as their leader to decide: shall we cling to the tatters of the [Concept('aversaria', 'Aautokrata')|E] and keep our bloodlines pure, or has the time come to forsake the past and embrace a new destiny?"
+ aversaria.1110.a: "Let two peoples become one under the Purest!"
+ aversaria.1110.b: "The light of the Purest shines for us alone!"
+ aversaria.1110.a.tt: "You will no longer be able to reform [GetTitleByKey('e_aversarinas_aautokrata').GetNameNoTier]"
+ aversaria.1110.b.tt: "You will still be able to reform [GetTitleByKey('e_aversarinas_aautokrata').GetNameNoTier]"

@@ -16,7 +16,9 @@
  cumani_high_god_name_alternate:0 "The Magnificent Sky"
  cumani_high_god_name_alternate_possessive:0 "The Magnificent Sky's"
  cumani_devil_name:0 "Szelanya"
+ cumani_devil_name_alternate:0 "$cumani_devil_name$"
  cumani_devil_name_possessive:0 "Szelanya's"
+ cumani_devil_name_alternate_possessive:0 "$cumani_devil_name_possessive$"
  cumani_death_deity_name:0 "Szelanya"
  cumani_death_deity_name_possessive:0 "Szelanya's"
 

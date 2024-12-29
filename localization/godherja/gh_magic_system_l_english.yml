@@ -123,7 +123,7 @@
  domination_name:0 "Dominate"
  thinning_name:0 "Thinning"
  sundeath_name:0 "Sundeath"
- spawn_entropic_host_name:0 "Entropic Host"
+ spawn_army_lesser_voidspawns_name:0 "Entropic Host"
  weavers_descent_name:0 "Weaver's Descent"
  awaken_fleshmaw_name:0 "Awaken Fleshmaw"
 
@@ -146,7 +146,9 @@
 
  #natural_power_gain_stats_tt:0 "Might gain some [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"
  #natural_power_maximum_insight_tt:0 "Has already learned all possible [GetPerk('livingmagic_perk3_tree2').GetName(GetPlayer)]"
- 
+ hex_succesfully_created_tt: "A Hex afflicting [THIS.Char.GetFirstName] been successfully created"
+ hexes_can_only_be_cast_on_a_specific_char_tt: "Hexes can only be cast on a specific [character|E]"
+ ritual_effect_will_only_activate_tt: "The [ritual|E]'s effects will only activate once I have fulfilled the relevant conditions"
  summon_fogbeast.tt:0 "[GetPlayer.GetFirstName] summons a Fogbeast"
  summon_fogbeast2.tt:0 "Target receives a Fogbeast"
  # craft_greater_golem.tt:0 "[GetPlayer.GetFirstName] crafts a Greater Golem"
@@ -258,7 +260,7 @@
  lm3_perk4.tt:0 "Gain the Purification spell"
  lm3_perk5_tt:0 "Gain the Healing Waters spell\nHealing Waters is a beneficial, character-targeting spell, which heals the target's wounds and grants a Health bonus for 5 years\nMore severe wounds requires higher levels of Healing Waters to heal"
  lm3_perk7_tt:0 "[extended_magic_baseline|E]@magic_icon!per [title|E] tier: #positive_value +25#!"
- lm3_perk8_tt:0 "[extended_magic_baseline|E]@magic_icon! #positive_value +100#! if [realm_capital|E] lies on [wayline|E] or #E Wayline Intersection#!"
+ lm3_perk8_tt:0 "[extended_magic_baseline|E]@magic_icon! #positive_value +100#! if [realm_capital|E] lies on [Concept('waylines','Wayline')|E] or #E Wayline Intersection#!"
  plant_growth_perk_tt:0 "Grants the Verdant Growth spell\nVerdant growth is a benenficial, county-affecting spell which grants a large bonus to Development Growth and Taxes for 1 year"
 
  dm_perk3.tt:0 "Generate [magic_power|E] through bone crafting"
@@ -288,7 +290,7 @@
  dm3_perk9.tt:0 "Gain the Earthquake spell\nEarthquake is a hostile, county-targeting spell, which applies a significant debuff to the county, and, at higher levels, decreases development of the affected counties.\nWhen cast at level 1 or above, all neighbouring counties are affected by earthquake at one level lower. \n When cast at level 2 or 3, the spell has a small chance to kill or wound every character in the affected county, and, if development is decreased to 0, destroy all buildings in the county"
 
 
- mm_perk1.tt:0 "Siphon [magic_power|E] from the [rift|E]"
+ mm_perk1.tt:0 "Siphon [magic_power|E] from the [Concept('the_rift','Rift')|E]"
  mm_perk2.tt:0 "Gain the Riftmark spell"
  mm_perk3.tt:0 "Gain -10% [stress|E]"
  mm_perk4.tt:0 "Gain the Riftwalk spell"
@@ -314,7 +316,7 @@
  magic_court_bonus_value_desc:0 "Spellcasting Ability (modified by Spellcaster's [GetCourtType('court_magic').GetName]"
 
  arcana_actuation_focus_value_desc:0 "[GetFocus('arcana_actuation_focus').GetName]"
- arcana_actuation_perk4_value_desc:0 "[GetPerk('arcana_actuation_perk4_tree1').GetName(GetPlayer)] [perk|E]"
+ arcana_actuation_perk3_value_desc:0 "[GetPerk('arcana_actuation_perk3_tree1').GetName(GetPlayer)] [perk|E]"
 
  #misc
  test.tt:0 "test effect"
@@ -330,7 +332,7 @@
  thralled_minor:0 "Charmed"
  thralled_mid:0 "Profoundly Charmed"
  thralled_major:0 "Enamoured"
- leshen_summoned_troops:0 "Leshens"
+ leshens_summoned_troops:0 "Leshens"
  night_gaunt_summoned_troops:0 "Nightgaunts"
  woodland_hydra_summoned_troops:0 "Woodland Hydra"
  seraph_melacham_summoned_troops:0 "Melacham"
@@ -354,6 +356,9 @@
  mountain_spirit_elementals_summoned_troops:0 "Mountain Spirit Elementals"
  desert_mirage_elementals_summoned_troops:0 "Desert Mirage Elementals"
  dune_reaper_elementals_summoned_troops:0 "Dune Reaper Elementals"
+ vine_elementals_summoned_troops:0 "Vine Elementals"
+ archonarachs_summoned_troops:0 "Archonarachs"
+ bronze_golems_summoned_troops:0 "Bronze Golems"
 
 
 
@@ -409,7 +414,7 @@
  kemsar_water_spell_toast:0 "Cast Generate Water"
  unraveling_toast:0 "Cast Unraveling"
  
- magic_prowess_duel_tt:0 "[magic_prowess_i][magic_prowess|E] Challenge against [opponent.GetTitledFirstName]"
+ magic_prowess_duel_tt:0 "[magic_prowess_i][Concept('magic_prowess_skill','Magic Prowess')|E] Challenge against [opponent.GetTitledFirstName]"
  
  ###########
  # POTIONS #
@@ -466,6 +471,7 @@
  defiled_nadir_setup_effect_extant_mask_tooltip:0 "[extant_mask_artifact.GetName] will become your Bound Mask"
  defiled_nadir_warning_tt:0 "Separating oneself from the Bound Mask will have #N severe#! consequences"
  aspect_increased_tt:90 "Aspect Increased"
+ does_not_know_selected_spell_tt:90 "[caster.GetName] does not know [spell_name_spell.Custom('SpellName')]"
  
  #########
  # HOOKS #
@@ -473,9 +479,8 @@
  
  charm_hook_weak:0 "Minor Charm"
  charm_hook_strong:0 "Powerful Charm"
- domination_hook_weak:0 "Weak Domination"
- domination_hook_strong_short:0 "Moderate Domination"
- domination_hook_strong_long:0 "Powerful Domination"
+ domination_hook_weak:0 "Domination"
+ domination_hook_strong:0 "Domination"
  
  ##############
  # ARMY NAMES #
@@ -574,7 +579,6 @@
  GLOBAL_GOT_A_FAMILIAR:0 "Got [TARGET_CHARACTER.GetShortUIName] as a Familiar"
 
  ## ARCANA
-
- TRAIT_FLAG_DESC_arcana_add:0 "[arcana|E]: [arcana_i][SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value ')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]#!"
+ TRAIT_FLAG_DESC_arcana_add:0 "[arcana|E]: [arcana_i][SelectLocalization(GreaterThan_CFixedPoint(GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value')),'(CFixedPoint)0'),'#positive_value +','#negative_value -')][GuiScope.SetRoot(GetPlayer.MakeScope).ScriptValue(Concatenate(Trait.GetKey, '_character_arcana_value'))]#!"
  arcana_base_value_desc:0 "Base"
  

@@ -11,7 +11,9 @@
  anaanides_high_god_name_alternate:0 "The Final Arbiter"
  anaanides_high_god_name_alternate_possessive:0 "The Final Arbiter's"
  anaanides_devil_name:0 "Oblivion"
+ anaanides_devil_name_alternate:0 "$anaanides_devil_name$"
  anaanides_devil_name_possessive:0 "Oblivion's"
+ anaanides_devil_name_alternate_possessive:0 "$anaanides_devil_name_possessive$"
  anaanides_death_deity_name:0 "$anaanides_high_god_name$"
  anaanides_death_deity_name_possessive:0 "$anaanides_high_god_name_possessive$"
 

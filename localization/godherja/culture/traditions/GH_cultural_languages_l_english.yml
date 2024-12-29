@@ -1,5 +1,6 @@
 ﻿l_english:
  language_aversarian_name:90 "Aversarian"
+ language_azargi_name:90 "Azargi"
  language_bestial_name:90 "Bestial"
  language_kholmvolki_name:90 "Kholmvolki"
  language_rekvolki_name:90 "Rekvolki"
@@ -66,7 +67,6 @@
  language_rivarisian_name:90 "Rivarspad"
  language_sunakari_name:90 "Sunakari"
  language_astilik_name:90 "Astilik"
- language_kaledonic_name:90 "Kaledonic"
  language_luskosvai_name:90 "Luskos'Vai"
  language_aygaeri_name:90 "Aygaeri"
  language_tsetnera_name:90 "Tsetnera"
@@ -113,6 +113,9 @@
  language_saielaien_name:90 "Saielaien"
  language_gh_dragon_name:90 "Dragon Tongue"
  language_dakari_name:90 "Dakari"
+ language_warmic_name:90 "Warmic"
+ language_lattic_name:90 "Lattic"
+ language_talareg_name:90 "Talareg"
  
  ###################
  # RUNIC LANGUAGES #

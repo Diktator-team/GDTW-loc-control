@@ -8,7 +8,7 @@
  JARA_FOG_MAP:90 "@fogbeasts_icon! $game_concept_the_fog$"
  JARA_FOG_MAP_TOOLTIP:90 "#T $JARA_FOG_MAP$\n#!Shows [the_fog|E] on the map."
  MAPMODE_BIOZONES_NAME:90 "Biozones"
- MAPMODE_BIOZONES:90 "#T $Biozones$\n#!Shows [biozones|E] on the map."
+ MAPMODE_BIOZONES:90 "#T $Biozones$\n#!Shows [Concept('biozone','Biozones')|E] on the map."
  JARA_ARTIFACT_MAP:90 "Artifacts"
  JARA_ARTIFACT_MAP_TOOLTIP:90 "#T $Artifacts$\n#!Shows Artifacts on the Map"
  JARA_AVERSARIA_MAP:90 "Aversaria"
@@ -33,7 +33,7 @@
  mapmode_custom_terrain_map_label:90 "Terrain 2.0"
  mapmode_custom_terrain_map:90 "#T $Terrain$\n#!Shows the Province Terrain with Overrides on the map."
  mapmode_terrain_override_map_label:90 "Terrain Override"
- mapmode_terrain_override_map:90 "#T $Terrain Overide$\n#!Shows the only Overriden Province Terrain on the map."
+ mapmode_terrain_override_map:90 "#T $Terrain Overide$\n#!Shows the only Overridden Province Terrain on the map."
 
 
  SPECIAL_BUILD_DSC:90 "[Localize(Concatenate('building_type_', ROOT.GetProvince.MakeScope.Var('special_build').GetFlagName))]"
@@ -118,4 +118,6 @@ BIOZONE_MAP_lichdoms:90 "#T [Localize(Concatenate('lichdoms', '_name'))] #![Loca
 BIOZONE_MAP_whisperveil:90 "#T [Localize(Concatenate('whisperveil', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate('whisperveil', '_encyclopedia_desc'))]"
 BIOZONE_MAP_red_waste:90 "#T [Localize(Concatenate('red_waste', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate('red_waste', '_encyclopedia_desc'))]"
 BIOZONE_MAP_lonely_light:90 "#T [Localize(Concatenate('lonely_light', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate('lonely_light', '_encyclopedia_desc'))]"
+BIOZONE_MAP_nattanan_highlands:90 "#T [Localize(Concatenate('nattanan_highlands', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate('nattanan_highlands', '_encyclopedia_desc'))]"
+BIOZONE_MAP_dahangon_lowlands:90 ""#T [Localize(Concatenate('dahangon_lowlands', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate('dahangon_lowlands', '_encyclopedia_desc'))]""
 BIOZONE_MAP_:90 "#T [Localize(Concatenate(' ', '_name'))] #![Localize('LINE_BREAK')][Localize(Concatenate(' ', '_encyclopedia_desc'))]"

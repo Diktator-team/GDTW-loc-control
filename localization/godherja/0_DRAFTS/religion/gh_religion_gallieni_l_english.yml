@@ -3,7 +3,7 @@
 #gallieni Loc
  gallieni_religion:0 "Gallieni"
  gallieni_religion_adj:0 "Gallieni"
- gallieni_religion_adjerent:0 "Gallieni"
+ gallieni_religion_adherent:0 "Gallieni"
  gallieni_religion_adherent_plural:0 "Gallieni"
  gallieni_religion_desc:0 "The Gallieni Faiths, less a single faith and more a loose collection of local religions that are united by culture more than any particular religious belief. The one tenet they all have in common is the belief that mankind is not the master of its own destiny, but rather buffeted about by capricious or callous supernatural forces."
  gallicader_high_god_name:0 "Moon and Stars"
@@ -11,7 +11,9 @@
  gallicader_high_god_name_alternate:0 "The Heavens"
  gallicader_high_god_name_alternate_possessive:0 "The Heavens'"
  gallicader_devil_name:0 "Tempters of Fate"
+ gallicader_devil_name_alternate:0 "$gallicader_devil_name$"
  gallicader_devil_name_possessive:0 "The Betrayer's"
+ gallicader_devil_name_alternate_possessive:0 "$gallicader_devil_name_possessive$"
  gallicader_death_deity_name:0 "Naustramo, the Northern Light"
  gallicader_death_deity_name_possessive:0 "Naustramo's"
 

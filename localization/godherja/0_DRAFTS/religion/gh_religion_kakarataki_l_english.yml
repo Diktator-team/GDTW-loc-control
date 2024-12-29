@@ -3,7 +3,7 @@
 #kakarataki Loc
  kakarataki_religion:0 "Kakarataki"
  kakarataki_religion_adj:0 "Kakarataki"
- kakarataki_religion_adjerent:0 "Kakarataki"
+ kakarataki_religion_adherent:0 "Kakarataki"
  kakarataki_religion_adherent_plural:0 "Kakarataki"
  kakarataki_religion_desc:0 "To the Kakarataki, originally an agrarian people, the Sun is the bringer of all things good. They consider it to be the avatar of the god Koru, creator of mankind. However, they consider the Moon, creator of all creatures of the night, to be the Sun's sworn enemy. The two are locked into a dualistic battle for control over the cosmos, and beneath, their creations fight for control of the world."
  kakarataki_high_god_name:0 "The Sun"
@@ -11,7 +11,9 @@
  kakarataki_high_god_name_alternate:0 "Koru"
  kakarataki_high_god_name_alternate_possessive:0 "Koru's"
  kakarataki_devil_name:0 "The Moon"
+ kakarataki_devil_name_alternate:0 "$kakarataki_devil_name$"
  kakarataki_devil_name_possessive:0 "The Moon's"
+ kakarataki_devil_name_alternate_possessive:0 "$kakarataki_devil_name_possessive$"
  kakarataki_death_deity_name:0 "$kakarataki_devil_name$"
  kakarataki_death_deity_name_possessive:0 "$kakarataki_devil_name_possessive$"
 
@@ -59,14 +61,14 @@
  kakarataki_night_god_name:0 "$kakarataki_devil_name$"
  kakarataki_night_god_name_possessive:0 "$kakarataki_devil_name_possessive$"
  kakarataki_water_god_name:0 "$kakarataki_devil_name$"
- kakarataki_water_god_name_possessive:0 "$$kakarataki_devil_name_possessive$"
+ kakarataki_water_god_name_possessive:0 "$kakarataki_devil_name_possessive$"
  kakarataki_witch_god_name:0 "$kakarataki_devil_name$"
  kakarataki_witch_god_name_possessive:0 "$kakarataki_devil_name_possessive$"
  
  #kakarataki loc
  kakarataki:0 "Kakarataki"
  kakarataki_adj:0 "Kakarataki"
- kakarataki_adjerent:0 "Kakarataki"
+ kakarataki_adherent:0 "Kakarataki"
  kakarataki_adherent_plural:0 "Kakarataki"
  kakarataki_desc:0 "The Kakarataki entered the known world with the Sjalvolki coalition. Due to the belief that the Sun and Moon are two gods locked into eternal struggle, they must favor the Sun and fight the Moon. Priests tend to gardens of sacred plants grown by the Sun's life-giving light, nocturnal creatures are to be hunted but never eaten, and animal sacrifices must frequently be performed to the Sun in order to sustain its strength in its eternal battle."
  kakarataki_old:0 "Old Kakarataki"
@@ -77,6 +79,6 @@
  #akrolenaki loc
  akrolenaki:0 "Akrolenaki"
  akrolenaki_adj:0 "Akrolenaki"
- akrolenaki_adjerent:0 "Akrolenaki"
+ akrolenaki_adherent:0 "Akrolenaki"
  akrolenaki_adherent_plural:0 "Akrolenaki"
  akrolenaki_desc:0 "The Akrolenaki believe that the war between the Sun and Moon will be unending, and that the victory of one over the other will mean the end of [aeras|E] forever, something that they strive to avoid. As a result, they follow a stricter creed than most, their warrior-priesthood unfalteringly devoting itself to the defense of Koru. The Akrolenaki are often rumoured to take joy in the sacrifice of Koru's 'enemies', dedicating much of their time to hunting the unfaithful. Their extremism has never truly become a driving force, but their ranks have never relented to the whims of the mortal world, and neither will they: it is their divine duty to keep the balance."

@@ -3,7 +3,7 @@
 #adabyssian Loc
  adabyssian_religion:0 "Dgudi"
  adabyssian_religion_adj:0 "Dgudi"
- adabyssian_religion_adjerent:0 "Dgudi"
+ adabyssian_religion_adherent:0 "Dgudi"
  adabyssian_religion_adherent_plural:0 "Dgudis"
  adabyssian_religion_desc:0 "Dgudi, or "vessel-prayer," is the Abadyssian world for reverence toward the beautiful gilded sculptures that inhabit a place simply called the City of Golden Statues. When their forefathers first came to the city, they saw the wonderful, gleaming works towering far over their head, and asked themselves: how could these be anything but vessels of gods? These were not the traditional nature spirits they worshiped, but Great Spirits, those more worthy of respect than any other. It was the Great Spirits who created the world, and it was the Great Spirits who charged the Abadyssians with controlling it."
  adabyssian_high_god_name:0 "Great Spirit Merasagog "
@@ -11,7 +11,9 @@
  adabyssian_high_god_name_alternate:0 "Greatest Spirit"
  adabyssian_high_god_name_alternate_possessive:0 "Greatest Spirit's"
  adabyssian_devil_name:0 "Dgoghega"
+ adabyssian_devil_name_alternate:0 "$adabyssian_devil_name$"
  adabyssian_devil_name_possessive:0 "Dgoghega's"
+ adabyssian_devil_name_alternate_possessive:0 "$adabyssian_devil_name_possessive$"
  adabyssian_death_deity_name:0 "Spirit Cxag"
  adabyssian_death_deity_name_possessive:0 "Spirit Cxag's"
 

@@ -14,8 +14,8 @@
  feudal_default_no_tooltip_lowercase_adjective:0 "noble"
 
   #Game Concept versions
- feudal_marcher:0 "[Concept( 'feudal', '$feudal_marcher_no_tooltip$' )|E]"
- feudal_marcher_adjective:0 "[Concept( 'feudal', '$feudal_marcher_no_tooltip_adjective$' )|E]"
+ feudal_marcher:0 "[Concept( 'feudal', '$feudal_marcher_no_tooltip|q$' )|E]"
+ feudal_marcher_adjective:0 "[Concept( 'feudal', '$feudal_marcher_no_tooltip_adjective|q$' )|E]"
 
- feudal_default:0 "[Concept( 'feudal', '$feudal_default_no_tooltip$' )|E]"
- feudal_default_adjective:0 "[Concept( 'feudal', '$feudal_default_no_tooltip_adjective$' )|E]"
+ feudal_default:0 "[Concept( 'feudal', '$feudal_default_no_tooltip|q$' )|E]"
+ feudal_default_adjective:0 "[Concept( 'feudal', '$feudal_default_no_tooltip_adjective|q$' )|E]"

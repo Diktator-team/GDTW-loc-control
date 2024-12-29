@@ -11,7 +11,9 @@
  quwazaw_high_god_name_alternate:0 "The Stone Titan"
  quwazaw_high_god_name_alternate_possessive:0 "The Stone Titan"
  quwazaw_devil_name:0 "Baalak"
+ quwazaw_devil_name_alternate:0 "$quwazaw_devil_name$"
  quwazaw_devil_name_possessive:0 "Baalak's"
+ quwazaw_devil_name_alternate_possessive:0 "$quwazaw_devil_name_possessive$"
  quwazaw_death_deity_name:0 "Ba'alalt Gebak"
  quwazaw_death_deity_name_possessive:0 "Ba'alalt Gebak's"
 

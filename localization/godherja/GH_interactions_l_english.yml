@@ -15,3 +15,11 @@
  culture_does_not_use_steppe_queen_mechanics:90 "Hair is not a status symbol for [recipient.GetCulture.GetCollectiveNoun]"
  searing_claim_loss_tooltip:90 "Loses all [title|E] [claims|E]"
  clan_unity_searing.desc:90 "seared [unity_target.GetName]"
+ 
+ refill_maa_interaction_pirates_desc: "[Concept('pirate','Pirates')|E] lack the reliable manpower that other [landed|E] [rulers|E] can muster, and must [reinforce_soldiers|E] to fill [men_at_arms|E] [regiments|E] and replace losses."
+ refill_maa_interaction_liches_desc: "[liches|E] lack the reliable manpower that other [landed|E] [rulers|E] can muster, and must [reinforce_soldiers|E] to fill [men_at_arms|E] [regiments|E] and replace losses."
+ refill_maa_interaction_fallback_desc: "You lack the reliable manpower sources of [landed|E] [rulers|E], and must [reinforce_soldiers|E] to fill [men_at_arms|E] [regiments|E] and replace losses."
+ 
+ GH_PIRATES_MAINTENANCE_INFO: "[Concept('pirate','Pirates')|E] can only reinforce [men_at_arms|E] by using #V $refill_maa_interaction$#!, #V $reinforce_soldiers_interaction$#!, or via [adventurer_siege_replenishment|E] during [war|E]" 
+ GH_LICHES_MAINTENANCE_INFO: "[liches|E] can only reinforce [men_at_arms|E] by using #V $refill_maa_interaction$#!, #V $reinforce_soldiers_interaction$#!, or via [adventurer_siege_replenishment|E] during [war|E]" 
+ 

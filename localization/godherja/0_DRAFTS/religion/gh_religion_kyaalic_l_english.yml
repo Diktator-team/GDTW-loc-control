@@ -9,7 +9,9 @@
  kyaalic_high_god_name_alternate:0 "The Divine Realm"
  kyaalic_high_god_name_alternate_possessive:0 "The Divine Realm's"
  kyaalic_devil_name:0 "Xibal"
+ kyaalic_devil_name_alternate:0 "$kyaalic_devil_name$"
  kyaalic_devil_name_possessive:0 "Xibal's"
+ kyaalic_devil_name_alternate_possessive:0 "$kyaalic_devil_name_possessive$"
  kyaalic_death_deity_name:0 "$kyaalic_high_god_name$"
  kyaalic_death_deity_name_possessive:0 "$kyaalic_high_god_name_possessive$"
 

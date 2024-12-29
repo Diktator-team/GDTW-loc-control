@@ -10,7 +10,9 @@
   nolosaanyo_high_god_name_alternate:0 "The World Tide"
   nolosaanyo_high_god_name_alternate_possessive:0 "The World Tide"
   nolosaanyo_devil_name:0 "The Mother"
+ nolosaanyo_devil_name_alternate:0 "$nolosaanyo_devil_name$"
   nolosaanyo_devil_name_possessive:0 "The Mother's"
+ nolosaanyo_devil_name_alternate_possessive:0 "$nolosaanyo_devil_name_possessive$"
   nolosaanyo_death_deity_name:0 "Ba'alalt Gebak"
   nolosaanyo_death_deity_name_possessive:0 "Ba'alalt Gebak's"
 

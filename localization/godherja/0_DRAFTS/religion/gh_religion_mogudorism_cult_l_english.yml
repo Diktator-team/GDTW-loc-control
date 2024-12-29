@@ -3,7 +3,7 @@
 #Mogudorism Loc
  mogudorism_religion:0 "Mogudorism"
  mogudorism_religion_adj:0 "Mogudorist"
- mogudorism_religion_adjerent:0 "Member"
+ mogudorism_religion_adherent:0 "Member"
  mogudorism_religion_adherent_plural:0 "Members"
  mogudorism_religion_desc:0 "An oft-persecuted magi cult originating from the border garrison towns of Kathun-Kai, Mogudorism grew out of the practices of a sect of war-[magi|E] who perfected the art of binding a variety of temperamental and vile spirits to use as weapons. While the faith has been permanently proscribed by the Kathuni state due to their involvement in a coup attempt in the eighth century IS, every attempt to burn their teachings has proven ultimately futile; copies of the Chaining Manual and its supplemental volumes have a way of reappearing under mysterious circumstances."
  mogudorism_high_god_name:0 ""
@@ -11,7 +11,9 @@
  mogudorism_high_god_name_alternate:0 ""
  mogudorism_high_god_name_alternate_possessive:0 ""
  mogudorism_devil_name:0 ""
+ mogudorism_devil_name_alternate:0 "$mogudorism_devil_name$"
  mogudorism_devil_name_possessive:0 ""
+ mogudorism_devil_name_alternate_possessive:0 "$mogudorism_devil_name_possessive$"
  mogudorism_death_deity_name:0 ""
  mogudorism_death_deity_name_possessive:0 ""
 

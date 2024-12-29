@@ -32,9 +32,12 @@
  GH_double_synergy_arcana_martial_bonus_value_desc:0 "[GetModifier('GH_double_synergy_arcana_martial_modifier').GetNameWithTooltip]"
  GH_double_synergy_arcana_stewardship_bonus_value_desc:0 "[GetModifier('GH_double_synergy_arcana_stewardship_modifier').GetNameWithTooltip]"
  GH_double_synergy_arcana_intrigue_bonus_value_desc:0 "[GetModifier('GH_double_synergy_arcana_intrigue_modifier').GetNameWithTooltip]"
+ GH_single_synergy_arcana_bonus_value_desc:0 "[GetModifier('GH_single_synergy_arcana_modifier').GetNameWithTooltip]"
  studying_arcana_bonus_value_desc:0 "[GetModifier('studying_arcana').GetNameWithTooltip]"
  caster_spell_faith_piety_level_desc:0 "[caster.GetTitledFirstNamePossessive] [piety_level|E]"
  caster_not_spell_faith_desc:0 "[caster.GetTitledFirstName] is not a [GetPlayer.MakeScope.Var('selected_spell').Var('spell_faith').Faith.GetAdherentName]"
+ artifact_bane_star_ring_bonus_value_desc: "[GetModifier('artifact_bane_star_ring_modifier').GetNameWithTooltip]"
+ artifact_staff_of_the_high_seer_bonus_value_desc: "[GetModifier('artifact_staff_of_the_high_seer_modifier').GetNameWithTooltip]"
  
 
 
@@ -46,7 +49,7 @@
  court_magic_spellcasting_opinion_bribe_desc:0 "Offered [gold_i][gold|E]"
  court_magic_spellcasting_opinion_hook_desc:0 "Offered [hook|E]"
  court_magi_spellcasting_opinion_of_target_value_desc:0 "Opinion of Targets"
- court_magic_spellcasting_arcana_realm_power_perk_desc:0 "Elocution Bonus"
+ court_magic_spellcasting_arcana_realm_power_perk_desc:0 "Eye for Talent Bonus"
  # Value Descs
 
  spellcasting_ability_value_desc:0 "Spellcasting Ability"
@@ -116,6 +119,7 @@
  intellect_bad_2_value_desc:0 "[GetTrait('intellect_bad_2').GetName( GetNullCharacter )]"
  intellect_bad_3_value_desc:0 "[GetTrait('intellect_bad_3').GetName( GetNullCharacter )]"
  gh_transmuturgist_value_desc:0 "[GetTrait('gh_transmuturgist').GetName( GetNullCharacter )]"
+ gh_one_handed_value_desc:0 "[GetTrait('gh_one_handed').GetName( GetNullCharacter )]"
  gh_sage_value_desc:0 "[GetTrait('gh_sage').GetName( GetNullCharacter )]"
  gh_arcanist_value_desc:0 "[GetTrait('gh_arcanist').GetName( GetNullCharacter )]"
  arcana_lifestyle_bonus_base_value_desc:0 "[arcana_lifestyle|E]"
@@ -175,6 +179,7 @@
  arcana_cognition_lifestyle_perk7_value_desc:0 "[GetPerk('arcana_cognition_perk7_tree2').GetName(GetPlayer)]"
  arcana_actuation_magic_prowess_value_desc:0 "[GetPerk('arcana_actuation_perk1_tree1').GetName(GetPlayer)]"
  arcana_actuation_perk2_value_desc:0 "[GetPerk('arcana_actuation_perk2_tree1').GetName(GetPlayer)]"
+ arcana_erudition_perk7_tree3_value_desc:0 "[GetPerk('arcana_erudition_perk7_tree3').GetName(GetPlayer)]"
  education_lich_1_value_desc:0 "[GetTrait('education_lich_1').GetName( GetNullCharacter )]"
  education_lich_2_value_desc:0 "[GetTrait('education_lich_2').GetName( GetNullCharacter )]"
  education_lich_3_value_desc:0 "[GetTrait('education_lich_3').GetName( GetNullCharacter )]"
@@ -205,6 +210,7 @@
  tradition_legacy_of_aversaria_value_desc:0 "[GetCultureTradition('tradition_legacy_of_aversaria').GetName]"
  tradition_legacy_of_aversaria_lesser_value_desc:0 "[GetCultureTradition('tradition_legacy_of_aversaria_lesser').GetName]"
  tradition_mystical_midwives_value_desc:0 "[GetCultureTradition('tradition_mystical_midwives').GetName]"
+ tradition_kedari_marked_value_desc:0 "[GetCultureTradition('tradition_kedari_marked').GetName]"
  bone_artifact_1_value_desc:0 "Bone Artifact"
  bone_artifact_2_value_desc:0 "Bone Artifact"
  bone_artifact_3_value_desc:0 "Bone Artifact"
@@ -305,8 +311,15 @@
  01_eternal_grove_value_desc:0 "[GetBuilding('01_eternal_grove').GetName]"
  00_eternal_grove_value_desc:0 "[GetBuilding('00_eternal_grove').GetName]"
  00_lich_eternal_grove_value_desc:0 "[GetBuilding('00_lich_eternal_grove').GetName]"
+ 01_forsaken_fortress_value_desc:0 "[GetBuilding('01_forsaken_fortress').GetName]"
+ 01_restored_fortress_value_desc:0 "[GetBuilding('01_restored_fortress').GetName]"
+ 01_renewed_fortress_value_desc:0 "[GetBuilding('01_renewed_fortress').GetName]"
+ 02_korlacan_mines_value_desc:0 "[GetBuilding('02_korlacan_mines').GetName]"
+ 03_korlacan_mines_value_desc:0 "[GetBuilding('03_korlacan_mines').GetName]"
+ 04_korlacan_mines_value_desc:0 "[GetBuilding('04_korlacan_mines').GetName]"
+ 05_korlacan_mines_value_desc:0 "[GetBuilding('05_korlacan_mines').GetName]"
  cyrat_hell_modifier_value_desc:0 "[GetModifier('cyrat_hell_modifier').GetName]"
-
+ places_of_power_value_desc:0 "[GetPerk('arcana_cognition_perk2_tree2').GetName]"
  arcana_lifestyle_actuation_bonus_base_value_desc:0 "[GetFocus('arcana_actuation_focus').GetName]"
  arcana_lifestyle_erudition_bonus_base_value_desc:0 "[GetFocus('arcana_erudition_focus').GetName]"
  arcana_lifestyle_cognition_bonus_base_value_desc:0 "[GetFocus('arcana_cognition_focus').GetName]"
@@ -315,10 +328,19 @@
  spell_riftsight_discovery_value_desc:0 "[GetTrait('gh_riftsight_1').GetName( GetNullCharacter )]"
  spell_level_value_desc:0 "Spell Level"
  spell_organizer_intrigue_skill_value_desc:0 "[spell_organizer.GetTitledFirstNamePossessive] [intrigue|E]"
+ spell_defender_arcane_secrets_perk_value_desc:0 "[GetPerk('arcana_erudition_perk8_tree3').GetName]"
+ # Spell Weighting
+ death_chance_value_desc:90 "Chance of dying"
+ pregnancy_birth_boon_ai_value_desc:90 "Wants to benefit child"
+ add_aspect_positive_knows_school_ai_value_desc:90 "Would increase an [aspect|E] relevant to a [magic_school|E] that they practice"
+ add_aspect_positive_not_knows_school_ai_value_desc:90 "Would increase an [aspect|E] not relevant to them"
+ dominate_character_would_receive_hook_value_desc:90 "Value of gained [hook|E]"
+ dominate_character_would_give_hook_value_desc:90 "Value of given [hook|E]"
+ magic_significantly_drained_modifier_value_desc:90 "Would become [GetModifier('magic_significantly_drained_modifier').GetNameWithTooltip]"
  
  # Extended Magic Baseline
  character_extended_magic_baseline_base_desc:0 "Base"
- power_from_unwashed_masses_per_tier_desc:0 "[GetPerk('arcana_actuation_perk5_tree1').GetName(GetPlayer)]"
+ power_from_unwashed_masses_per_tier_desc:0 "[GetPerk('arcana_actuation_perk3_tree1').GetName(GetPlayer)]"
  
  # Magic Regeneration
  character_mana_regeneration_ratio_base_desc:0 "Base"
@@ -369,12 +391,12 @@
  SAGE_PERK_ACCEPTANCE: "[GetTrait('gh_sage').GetName( GetNullCharacter )]: $VALUE|=+20$"
  
  # Trait Flags
- TRAIT_FLAG_DESC_can_learn_second_school: "Can learn an additional [magic_school|E]" 
+ TRAIT_FLAG_DESC_can_learn_second_school: "Can learn an additional [Concept('magic_type','School of Magic')|E]" 
  
  # Other
  nearby_counties_value_desc:0 "Nearby [counties|E]"
  trade_confluences_value_desc:0 "Trade Confluences"
- shadow_ports_value_desc:0 "[shadow_ports|E]"
+ shadow_ports_value_desc:0 "[Concept('shadow_port','Shadow Ports')|E]"
  shadow_trade_controlled_territory_value_desc:0 "Controlled [counties|E]"
  
  
@@ -388,6 +410,7 @@
  pristine_paradise_modifier_value_desc:90 "[GetModifier('pristine_paradise_modifier').GetName]"
  habitability_ambient_magic_value_desc:90 "[ambient_magic|E]"
  coastal_value_desc:90 "Coastal"
+ kadtarak_modifier_value_desc:90 "[GetModifier('kadtarak_modifier').GetName]"
 
  colonization_hill_dwellers_desc:90 "[GetCultureTradition('tradition_hill_dwellers').GetName]"
  colonization_forest_folk_desc:90 "[GetCultureTradition('tradition_forest_folk').GetName]"

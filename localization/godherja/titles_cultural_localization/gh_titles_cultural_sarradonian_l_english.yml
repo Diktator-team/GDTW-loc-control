@@ -42,6 +42,10 @@
          cn_bahara_ashmish:1 "Bahara Ashmish"
          cn_niqqa:1 "Niqqa"
          cn_kharijun:1 "Kharijun"
+         cn_qaleada_haradar:1 "Qaleada Haradar"
      ## k_thaliteia ##
          cn_manqisha:1 "Manqisha"
          cn_imawuda:1 "Imawuda"
+     ## k_uraghad ##
+        # Counties
+        cn_umloj:1 "Umloj"

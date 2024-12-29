@@ -3,7 +3,7 @@
 #marcher Loc
  lifepath_religion:0 "Life Path"
  lifepath_religion_adj:0 "Life Path"
- lifepath_religion_adjerent:0 "Pathtreader"
+ lifepath_religion_adherent:0 "Pathtreader"
  lifepath_religion_adherent_plural:0 "Pathtreaders"
  lifepath_religion_desc:0 "Unlike other religions, adherents of the Life Path care more about the journey through life than they do about the destination in the afterlife. They believe in a "clockmaker's universe," where all of existence is a perfect machine, but it may only function if certain roles are properly fulfilled by mankind. As the first and greatest of Wayfathers Sir Ranos laid out for the Marcher people, there are a multitude of different ways in life that people may follow, but within certain guidelines. All harmony comes from people following these ways as intended, and all chaos is caused by the refusal to do so.\n\nWhile [clerical_control_of_chevalie|E] has always been fairly heavy-handed, the [GetTitleByKey('d_lifepath_rel').GetNameNoTier] became the undisputed leader of the Lifepaths after the [war_of_the_heretic_princes|E], declaring schismaticism to be arch-heresy in the 1011 IS Council of Ex. Since Raocourt's victory, most Lifepath faithful have followed a version of the faith in which orthodoxy is tightly controlled by the reigning Council there."
  marcher_high_god_name:0 "Wayfather Sir Ranos"
@@ -11,7 +11,9 @@
  marcher_high_god_name_alternate:0 "High Wayfather Ranos"
  marcher_high_god_name_alternate_possessive:0 "High Wayfather Ranos'"
  marcher_devil_name:0 "Katarnoax"
+ marcher_devil_name_alternate:0 "$marcher_devil_name$"
  marcher_devil_name_possessive:0 "Katarnoax's"
+ marcher_devil_name_alternate_possessive:0 "$marcher_devil_name_possessive$"
  marcher_death_deity_name:0 "Waymother Naustra"
  marcher_death_deity_name_possessive:0 "Waymother Naustra's"
 
@@ -89,7 +91,7 @@
  arderism_adj:0 "Arderian"
  arderism_adherent:0 "Arderist"
  arderism_adherent_plural:0 "Arderists"
- arderism_desc:0 "The iconoclastic Arderists (from the [chevalien|E] word for 'burning') see the idolization of spiritual entities (such as gods and waysaints) as the source of all [magic|E] (and [liches|E]). Led during the [war_of_the_heretic_princes|E] by the enigmatic '[black_monk|E]', the burning of dozens of churches and hundreds of religious artifacts and its adoption by many warlords hoping to seize church lands is often credited for collapsing Raocourt's power in northern [chevalie|E]."
+ arderism_desc:0 "The iconoclastic Arderists (from the [Concept('marchers','Chevalien')|E] word for 'burning') see the idolization of spiritual entities (such as gods and waysaints) as the source of all [magic|E] (and [liches|E]). Led during the [war_of_the_heretic_princes|E] by the enigmatic '[Concept('the_black_monk','Black Monk')|E]', the burning of dozens of churches and hundreds of religious artifacts and its adoption by many warlords hoping to seize church lands is often credited for collapsing Raocourt's power in northern [chevalie|E]."
 
  saintsmarch:0 "Saintsmarch"
  saintsmarch_adj:0 "Saintsmarcher"

@@ -16,3 +16,5 @@
 
  minor_magic_cost_tooltip:0 "You will lose #negative_value; 10#!@magic_icon![magic|E]"
  small_magic_gain_tooltip:0 "You will gain #positive_value; 25#!@magic_icon![magic|E]"
+
+ large_magic_cost_tooltip:0 "You will lose #negative_value; 100#!@magic_icon![magic|E]"

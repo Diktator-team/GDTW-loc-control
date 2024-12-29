@@ -12,6 +12,7 @@
  xaxbaxakanax_high_god_name_alternate_possessive:0 "Xabam'kabax's"
  xaxbaxakanax_devil_name:0 "Xabam'kabax"
  xaxbaxakanax_devil_name_possessive:0 "Xabam'kabax's"
+ xaxbaxakanax_devil_name_alternate_possessive:0 "$xaxbaxakanax_devil_name_possessive$"
  xaxbaxakanax_death_deity_name:0 "Xabam'kabax"
  xaxbaxakanax_death_deity_name_possessive:0 "Xabam'kabax's"
 

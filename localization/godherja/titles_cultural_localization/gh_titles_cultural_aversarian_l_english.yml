@@ -73,7 +73,7 @@
  cn_gazeselis:0 "Gazeselis"
  cn_eretreos:0 "Eretreos"
  cn_arginia:0 "Arginia"
- cn_delphasa:0 "Delphasa"
+ cn_drakaenos:0 "Drakaenos"
  cn_elytos:0 "Elytos"
  cn_eresesus:0 "Eresesus"
  cn_salini:0 "Salini"
@@ -387,7 +387,7 @@
  cn_petsias:0 "Petsias"
  cn_ioustinosopol:0 "Ioustinosopol"
  cn_paistos:0 "Paistos"
- cn_dimodosia:0 "Dimodosia"
+ cn_protoshliti:0 "Protoshliti"
  cn_gorgesia:0 "Gorgesia"
  cn_thesporion:0 "Thesporion"
  cn_gythorus:0 "Gythorus"
@@ -4959,8 +4959,15 @@ cn_tylissigus:0 "Tylissigus"
           cn_tegina:0 "Tegina"
           #d_karthos_isles1
           cn_vilianovrisi:0 "Vilianovrisi"
+          cn_thyxattac_isles:0 "Thyxattac Isles"
+          # Counties
+          cn_soteriopol:0 "Soteriopol"
+          # Baronies
+          cn_edidaphos:0 "Edidaphos"
         #k_eve#
         k_arsidos:1 "Arsidos"
+            # Counties
+            cn_phanapetra:0 "Phanapetra"
         #k_Morn#
         k_decateia:1 "Decateia"
         #k_suncourt#
@@ -4969,6 +4976,7 @@ cn_tylissigus:0 "Tylissigus"
           cn_vathopus:0 "Vathopus"
           # d_sanctum
           cn_naos:0 "Naos"
+          # Counties
     ################
     # e_sarradon   #
     ################
@@ -5002,12 +5010,13 @@ cn_tylissigus:0 "Tylissigus"
         ## k_southeastern_isles ##
         cn_imperial_isles:0 "Imperial Isles"
           # Duchies
-          cn_imperial_isle:0 "Imperial Isle"
+          cn_outaradeikos:0 "Outaradeikós"
 
 
     #################
     # e_aironoi #
     #################
-
+        # Counties
+        cn_korkivo:0 "Korkivo"
         ## e_asiupoliox ##
         cn_asiupoliox:0 "Asiupoliox"

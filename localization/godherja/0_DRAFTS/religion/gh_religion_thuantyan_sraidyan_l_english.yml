@@ -3,7 +3,7 @@
 #thuantyan_sraidyan Loc
  thuantyan_sraidyan_religion:0 "Thuatyan Sraidyan"
  thuantyan_sraidyan_religion_adj:0 "Thuatyan Sraidyanian"
- thuantyan_sraidyan_religion_adjerent:0 "Sraidyan"
+ thuantyan_sraidyan_religion_adherent:0 "Sraidyan"
  thuantyan_sraidyan_religion_adherent_plural:0 "Sraidyans"
  thuantyan_sraidyan_religion_desc:0 "Originating from the Syaidan valleys, the northeastern borderland of Kathun-Kai, the Thuantyan Sraidyan — or Eternal Commune — teaches that the universe was built by the efforts of a half dozen Eternal Stewards, each of whom were once mortal men and women who ascended from Aeras to leave their mark upon the heavens. By emulating a Steward in life, a suitably virtuous and attentive worshipper may achieve immortality by literally becoming that Steward in death.\n\nAs the faith's missionaries have followed along the trade routes southwest into Kathun-Kai, the faith has taken root in that great empire, thriving in spite of periods of persecution at the hands of the government."
  thuantyan_sraidyan_high_god_name:0 "Great Steward"
@@ -12,7 +12,9 @@
  thuantyan_sraidyan_high_god_name_alternate:0 ""
  thuantyan_sraidyan_high_god_name_alternate_possessive:0 ""
  thuantyan_sraidyan_devil_name:0 ""
+ thuantyan_sraidyan_devil_name_alternate:0 "$thuantyan_sraidyan_devil_name$"
  thuantyan_sraidyan_devil_name_possessive:0 ""
+ thuantyan_sraidyan_devil_name_alternate_possessive:0 "$thuantyan_sraidyan_devil_name_possessive$"
  thuantyan_sraidyan_death_deity_name:0 ""
  thuantyan_sraidyan_death_deity_name_possessive:0 ""
 
